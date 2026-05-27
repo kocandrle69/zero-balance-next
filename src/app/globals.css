@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&family=Cinzel:wght@400;500;600;700&family=DM+Sans:wght@300;400;500&display=swap');
+
+:root {
+  --bg:            #F7F3EC;
+  --bg2:           #F0EBE1;
+  --surface:       #FFFFFF;
+  --gold:          #B8922A;
+  --gold-mid:      rgba(184,146,42,0.5);
+  --gold-trace:    rgba(184,146,42,0.1);
+  --warm:          #C4713A;
+  --ink:           #1C1810;
+  --ink2:          #2E2618;
+  --muted:         rgba(28,24,16,0.5);
+  --faint:         rgba(28,24,16,0.2);
+  --glass:         rgba(255,255,255,0.55);
+  --glass-b:       rgba(255,255,255,0.8);
+  --glass-border:  rgba(255,255,255,0.7);
+  --glass-gold:    rgba(184,146,42,0.07);
+  --glass-gold-b:  rgba(184,146,42,0.18);
+  --shadow:        0 8px 40px rgba(28,24,16,0.08);
+  --shadow-lg:     0 24px 80px rgba(28,24,16,0.12);
+}
+
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+img { display: block; }
+html { scroll-behavior: smooth; }
+
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: 'DM Sans', sans-serif;
+  overflow-x: hidden;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* subtle grain overlay */
+body::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4'/%3E%3C/filter%3E%3Crect width='300' height='300' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");
+  pointer-events: none;
+  z-index: 9000;
+  opacity: 0.5;
+}
+
+::-webkit-scrollbar { width: 3px; }
+::-webkit-scrollbar-track { background: var(--bg); }
+::-webkit-scrollbar-thumb { background: var(--gold); border-radius: 2px; }
+
+/* Scroll reveal */
+.r {
+  opacity: 0;
+  transform: translateY(34px);
+  transition: opacity 0.85s ease, transform 0.85s ease;
+}
+.r.on {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Global accent classes used inside dangerouslySetInnerHTML */
+.acc { color: var(--gold); font-style: italic; }
+.dot { color: var(--gold); }
+
+@keyframes up {
+  from { opacity: 0; transform: translateY(26px); }
+  to   { opacity: 1; transform: translateY(0); }
+}

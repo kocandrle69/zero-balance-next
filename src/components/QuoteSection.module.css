@@ -1,0 +1,46 @@
+.quote {
+  padding: 110px 80px;
+  background: var(--bg2); text-align: center;
+  border-top: 1px solid rgba(184,146,42,0.1);
+  border-bottom: 1px solid rgba(184,146,42,0.1);
+  position: relative; overflow: hidden;
+}
+.quote::before {
+  content: '\201C';
+  position: absolute; top: -60px; left: 50%;
+  transform: translateX(-50%);
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 360px; font-weight: 300;
+  color: rgba(184,146,42,0.05); line-height: 1;
+  pointer-events: none;
+}
+
+.quote blockquote {
+  position: relative; z-index: 1;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(20px, 2.3vw, 34px);
+  font-weight: 300; font-style: italic;
+  line-height: 1.65; color: rgba(28,24,16,0.72);
+  max-width: 820px; margin: 0 auto 24px;
+}
+.quote :global(blockquote strong) {
+  font-style: normal; font-weight: 500; color: var(--gold);
+}
+
+.quoteAttr {
+  font-family: 'Cinzel', serif; font-size: 10px;
+  letter-spacing: 0.28em; color: var(--faint); text-transform: uppercase;
+  position: relative; z-index: 1;
+}
+
+@media (max-width: 600px) {
+  .quote { padding: 52px 20px;
+}
+@media (max-width: 480px) {
+  .quote { padding: 48px 20px; }
+  .quote blockquote { font-size: 18px; } }
+}
+
+@media (max-width: 480px) {
+  /* small phones */
+}

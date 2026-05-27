@@ -1,0 +1,81 @@
+.events { padding: 140px 80px; background: var(--surface); overflow: hidden; }
+
+.evHeader { max-width: 1200px; margin: 0 auto 56px; }
+
+.sectionLabel {
+  font-family: 'Cinzel', serif; font-size: 10px;
+  letter-spacing: 0.32em; color: var(--gold);
+  text-transform: uppercase; margin-bottom: 20px;
+  display: flex; align-items: center; gap: 14px;
+}
+.sectionLabel::before {
+  content: ''; display: block; width: 26px; height: 1px; background: var(--gold);
+}
+
+.sectionTitle {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(28px, 3vw, 46px); font-weight: 300;
+  line-height: 1.1; color: var(--ink2);
+}
+.sectionTitle :global(.acc) { color: var(--gold); font-style: italic; }
+
+.eventsGrid {
+  display: grid; grid-template-columns: repeat(3,1fr);
+  gap: 20px; max-width: 1200px; margin: 0 auto;
+}
+
+.eventCard {
+  padding: 36px 32px;
+  background: var(--bg);
+  border: 1px solid rgba(184,146,42,0.1);
+  border-radius: 22px; transition: all 0.4s;
+  position: relative; overflow: hidden;
+}
+.eventCard::before {
+  content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px;
+  background: linear-gradient(90deg, transparent, var(--gold), transparent);
+  opacity: 0; transition: opacity 0.4s;
+}
+.eventCard:hover {
+  background: var(--glass-gold);
+  border-color: var(--glass-gold-b);
+  transform: translateY(-6px);
+  box-shadow: var(--shadow-lg);
+}
+.eventCard:hover::before { opacity: 1; }
+
+.eventDate {
+  font-family: 'Cinzel', serif; font-size: 9.5px;
+  letter-spacing: 0.22em; color: var(--gold);
+  text-transform: uppercase; margin-bottom: 14px; display: block;
+}
+
+.eventTitle {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 22px; font-weight: 400;
+  color: var(--ink2); line-height: 1.25; margin-bottom: 12px;
+}
+
+.eventDesc { font-size: 14px; color: var(--muted); line-height: 1.7; margin-bottom: 24px; }
+
+.eventLink {
+  font-family: 'Cinzel', serif; font-size: 9.5px;
+  letter-spacing: 0.2em; color: var(--gold-mid);
+  text-transform: uppercase; text-decoration: none;
+  display: flex; align-items: center; gap: 8px; transition: color 0.3s;
+}
+.eventLink:hover { color: var(--gold); }
+.eventLink::after { content: '→'; transition: transform 0.3s; }
+.eventLink:hover::after { transform: translateX(4px); }
+
+@media (max-width: 900px) {
+  .eventsGrid { grid-template-columns: 1fr; }
+  .events { padding: 80px 28px;
+}
+@media (max-width: 480px) {
+  .events { padding: 52px 20px; } }
+}
+
+@media (max-width: 480px) {
+  /* small phones */
+}

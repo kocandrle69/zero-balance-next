@@ -1,0 +1,107 @@
+.activities {
+  padding: 140px 80px;
+  background: var(--surface); overflow: hidden;
+}
+
+.activitiesHeader {
+  display: grid; grid-template-columns: 1fr 1fr;
+  gap: 60px; align-items: end;
+  max-width: 1200px; margin: 0 auto 56px;
+}
+.activitiesHeader p {
+  font-size: 17px; font-weight: 300;
+  line-height: 1.9; color: var(--muted);
+}
+
+.sectionLabel {
+  font-family: 'Cinzel', serif; font-size: 10px;
+  letter-spacing: 0.32em; color: var(--gold);
+  text-transform: uppercase; margin-bottom: 20px;
+  display: flex; align-items: center; gap: 14px;
+}
+.sectionLabel::before {
+  content: ''; display: block; width: 26px; height: 1px; background: var(--gold);
+}
+
+.sectionTitle {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(28px, 3vw, 46px); font-weight: 300;
+  line-height: 1.1; color: var(--ink2);
+}
+.sectionTitle :global(.acc) { color: var(--gold); font-style: italic; }
+
+/* Grid */
+.actGrid {
+  display: grid; grid-template-columns: repeat(3,1fr);
+  gap: 18px; max-width: 1200px; margin: 0 auto;
+}
+
+.actCard {
+  position: relative; border-radius: 22px; overflow: hidden;
+  cursor: pointer; aspect-ratio: 3/4;
+  background: var(--bg2);
+}
+.actCard.large {
+  grid-row: span 2; aspect-ratio: auto; min-height: 500px;
+}
+
+.actCard img {
+  position: absolute;
+  top: -1px; left: -1px; right: -1px; bottom: -1px;
+  width: calc(100% + 2px); height: calc(100% + 2px);
+  object-fit: cover; object-position: center;
+  filter: saturate(0.55) brightness(0.88);
+  transition: all 0.7s ease;
+  display: block;
+}
+.actCard:hover img { filter: saturate(0.75) brightness(0.95); transform: scale(1.04); }
+
+.actCardOverlay {
+  position: absolute; inset: 0;
+  background: linear-gradient(to top,
+    rgba(28,24,16,0.72) 0%, rgba(28,24,16,0.15) 50%, transparent 100%);
+}
+
+.actCardContent {
+  position: absolute; bottom: 0; left: 0; right: 0;
+  padding: 28px 26px; z-index: 1;
+}
+
+.actTag {
+  display: inline-block; padding: 4px 12px;
+  border: 1px solid rgba(255,255,255,0.3);
+  background: rgba(255,255,255,0.15);
+  backdrop-filter: blur(10px);
+  border-radius: 100px;
+  font-family: 'Cinzel', serif; font-size: 8.5px;
+  letter-spacing: 0.2em; color: #fff;
+  text-transform: uppercase; margin-bottom: 10px;
+}
+
+.actTitle {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 22px; font-weight: 400;
+  color: #fff; line-height: 1.2; margin-bottom: 6px;
+}
+
+.actDesc { font-size: 13px; color: rgba(255,255,255,0.65); line-height: 1.6; }
+
+@media (max-width: 900px) {
+  .actGrid { grid-template-columns: 1fr 1fr; }
+  .actCard.large { grid-column: span 2; grid-row: span 1; min-height: 300px; aspect-ratio: 16/9; }
+  .activities { padding: 80px 28px;
+}
+@media (max-width: 480px) {
+  .activities { padding: 52px 20px; }
+  .actGrid { grid-template-columns: 1fr; gap: 12px; }
+  .actCard.large { min-height: 240px; } }
+  .activitiesHeader { grid-template-columns: 1fr; gap: 24px; }
+}
+@media (max-width: 560px) {
+  .actGrid { grid-template-columns: 1fr; }
+  .actCard.large { grid-column: span 1; }
+}
+
+@media (max-width: 480px) {
+  /* small phones */
+}

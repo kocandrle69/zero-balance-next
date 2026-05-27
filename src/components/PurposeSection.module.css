@@ -1,0 +1,77 @@
+.purpose {
+  padding: 100px 80px;
+  background: var(--surface);
+  border-top: 1px solid rgba(184,146,42,0.1);
+  border-bottom: 1px solid rgba(184,146,42,0.1);
+  text-align: center; overflow: hidden; position: relative;
+}
+.purpose::before {
+  content: ''; position: absolute; top: 50%; left: 50%;
+  transform: translate(-50%,-50%);
+  width: 600px; height: 600px;
+  background: radial-gradient(circle, rgba(184,146,42,0.04) 0%, transparent 65%);
+  pointer-events: none;
+}
+
+.purposeLabel {
+  font-family: 'Cinzel', serif; font-size: 10px;
+  letter-spacing: 0.38em; color: var(--gold);
+  text-transform: uppercase; margin-bottom: 26px;
+}
+
+.purpose :global(h2) {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(30px, 3.2vw, 52px); font-weight: 300;
+  line-height: 1.15; margin-bottom: 24px; color: var(--ink2);
+}
+.purpose :global(h2 em) { font-style: italic; color: var(--gold); }
+
+.purposeDesc {
+  font-size: 17px; font-weight: 300; color: var(--muted);
+  max-width: 540px; margin: 0 auto 60px; line-height: 1.85;
+}
+
+.pillars {
+  display: grid; grid-template-columns: repeat(5,1fr);
+  gap: 16px; max-width: 1060px; margin: 0 auto;
+}
+
+.pillar {
+  padding: 32px 20px;
+  background: var(--bg);
+  border: 1px solid rgba(184,146,42,0.1);
+  border-radius: 18px; text-align: center;
+  transition: all 0.35s;
+}
+.pillar:hover {
+  background: var(--glass-gold);
+  border-color: var(--glass-gold-b);
+  transform: translateY(-4px);
+  box-shadow: var(--shadow);
+}
+
+.pillarIconWrap { width: 46px; height: 46px; margin: 0 auto 18px; }
+
+.pillarName {
+  font-family: 'Cinzel', serif; font-size: 9.5px;
+  letter-spacing: 0.25em; color: var(--gold);
+  text-transform: uppercase; display: block; margin-bottom: 10px;
+}
+
+.pillarText { font-size: 13px; color: var(--muted); line-height: 1.65; }
+
+@media (max-width: 800px) {
+  .pillars { grid-template-columns: repeat(3,1fr); }
+  .purpose { padding: 72px 28px;
+}
+@media (max-width: 480px) {
+  .purpose { padding: 52px 20px; }
+  .pillars { grid-template-columns: 1fr 1fr; gap: 10px; } }
+}
+@media (max-width: 520px) {
+  .pillars { grid-template-columns: repeat(2,1fr); }
+}
+
+@media (max-width: 480px) {
+  /* small phones */
+}
