@@ -49,9 +49,9 @@ export const T = {
 
     india_label: 'The Source',
     india_title: 'India —<br>Our Deepest<br><span class="acc">Inspiration</span>',
-    india_s1: 'Since', india_s2: 'Years active',
+    india_s1: 'First journey to India', india_s2: 'Years of practice',
     india_s3: 'Source of inspiration', india_s4: 'Daily practice',
-    india_v1: '2021', india_v2: '5+',
+    india_v1: '2021', india_v2: '15+',
     india_v3: 'India', india_v4: 'Sadhana',
     india_p1: 'India is not merely a destination for us — it is the living source of our inspiration. The ancient traditions of contemplation, the depth of its culture, and the warmth of its people have shaped everything Zero Ballance Society stands for.',
     india_p2: 'Each year we organise group journeys to India — connecting our members to these traditions through direct experience, not only theory.',
@@ -130,9 +130,9 @@ export const T = {
 
     india_label: 'Zdroj inspirace',
     india_title: 'Indie —<br>Naše nejhlubší<br><span class="acc">inspirace</span>',
-    india_s1: 'Od roku', india_s2: 'Let aktivně',
+    india_s1: 'První cesta do Indie', india_s2: 'Let praxe',
     india_s3: 'Zdroj inspirace', india_s4: 'Každodenní praxe',
-    india_v1: '2021', india_v2: '5+',
+    india_v1: '2021', india_v2: '15+',
     india_v3: 'Indie', india_v4: 'Sadhana',
     india_p1: 'Indie pro nás není jen destinací — je živým zdrojem naší inspirace. Starobylé meditační tradice, hloubka kultury a vřelost jejích lidí formovaly vše, za čím Zero Ballance Society stojí.',
     india_p2: 'Každý rok organizujeme skupinové cesty do Indie — propojujeme naše členy s těmito tradicemi skrze přímou zkušenost, nejen teorii.',
