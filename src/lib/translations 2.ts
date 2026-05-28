@@ -74,8 +74,6 @@ export const T = {
     foot_nl:      'Subscribe to our newsletter and be part of our journey toward balance and conscious community.',
     foot_email:   'Your email address',
     foot_sub:     'Subscribe',
-    foot_sub_ok:    'You are subscribed — welcome to the journey.',
-    foot_email_invalid: 'Please enter a valid e-mail address.',
     foot_copy:    '© 2025 Zero Balance Society · All rights reserved · Czech Republic',
   },
 
@@ -152,8 +150,6 @@ export const T = {
     foot_nl:      'Přihlaste se k newsletteru a staňte se součástí naší cesty k rovnováze a vědomé komunitě.',
     foot_email:   'Vaše e-mailová adresa',
     foot_sub:     'Přihlásit',
-    foot_sub_ok:    'Jste přihlášeni — vítejte na naší cestě.',
-    foot_email_invalid: 'Zadejte prosím platnou e-mailovou adresu.',
     foot_copy:    '© 2025 Zero Balance Society · Všechna práva vyhrazena · Česká republika',
   },
 } as const
