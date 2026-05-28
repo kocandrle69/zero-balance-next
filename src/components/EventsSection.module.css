@@ -79,3 +79,19 @@
 @media (max-width: 480px) {
   /* small phones */
 }
+
+.eventTop {
+  display: flex; justify-content: space-between;
+  align-items: center; margin-bottom: 12px;
+}
+.eventTag {
+  font-family: 'Cinzel', serif; font-size: 8.5px;
+  letter-spacing: 0.2em; color: var(--gold);
+  background: rgba(184,146,42,0.08);
+  border: 1px solid rgba(184,146,42,0.2);
+  border-radius: 100px; padding: 3px 10px;
+  text-transform: uppercase;
+}
+.eventIcon {
+  font-size: 16px; color: rgba(184,146,42,0.35);
+}
