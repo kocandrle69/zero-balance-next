@@ -110,6 +110,7 @@
   flex-direction: column; gap: 5px;
   background: none; border: none; cursor: pointer; padding: 8px;
   margin-left: 8px; flex-shrink: 0;
+  position: relative; z-index: 1000;
 }
 .hamburger span {
   display: block; width: 24px; height: 1.5px;
@@ -123,13 +124,13 @@
 /* ── Mobile overlay menu ── */
 .mobileMenu {
   position: fixed; inset: 0;
-  z-index: 700;
-  background: rgba(247,243,236,0.92);
+  z-index: 900;
+  background: rgba(247,243,236,0.96);
   backdrop-filter: blur(32px); -webkit-backdrop-filter: blur(32px);
   display: flex; align-items: center; justify-content: center;
   opacity: 0; pointer-events: none;
-  transform: translateY(-16px);
-  transition: opacity 0.35s ease, transform 0.35s ease;
+  transform: translateY(-100%);
+  transition: opacity 0.3s ease, transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 }
 .mobileMenuOpen {
   opacity: 1; pointer-events: auto; transform: translateY(0);

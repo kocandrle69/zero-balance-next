@@ -342,10 +342,12 @@
 /* ── Small mobile ── */
 @media (max-width: 480px) {
   .hero { height: auto; min-height: 100svh; min-height: 100vh; }
-  .heroBottom { padding: 0 16px 28px; padding-bottom: max(28px, env(safe-area-inset-bottom, 28px)); }
-  .heroGlassCard { padding: 24px 18px; }
-  .heroTitle { font-size: clamp(30px, 8.5vw, 44px); }
-  .heroBtns { flex-direction: column; align-items: flex-start; gap: 12px; }
+  .heroBottom { padding: 0 16px 24px; padding-bottom: max(24px, env(safe-area-inset-bottom, 24px)); }
+  .heroGlassCard { padding: 22px 26px; }
+  .heroLabel { margin-bottom: 14px; }
+  .heroTitle { font-size: clamp(28px, 8vw, 40px); margin-bottom: 18px; }
+  .heroLine { margin-bottom: 14px; }
+  .heroBtns { flex-direction: column; align-items: flex-start; gap: 10px; }
   .heroDescSide { display: none; }
   .slideDots { display: none; }
 }
