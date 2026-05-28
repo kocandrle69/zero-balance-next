@@ -4,6 +4,7 @@ import { useEffect, useState, useRef } from 'react'
 import styles from './Navbar.module.css'
 import { useLang } from '../contexts/LangContext'
 import type { Lang } from '../lib/translations'
+import Link from 'next/link'
 
 const LANGUAGES = [
   { code: 'en' as Lang, flag: '🇬🇧', name: 'English',   soon: false },
@@ -47,11 +48,11 @@ export default function Navbar() {
   }, [menuOpen])
 
   const navLinks = [
-    { href: '#about',      key: 'nav_about'      },
-    { href: '#philosophy', key: 'nav_philosophy'  },
-    { href: '#activities', key: 'nav_activities'  },
-    { href: '#india',      key: 'nav_india'       },
-    { href: '#events',     key: 'nav_events'      },
+    { href: '/#about',      key: 'nav_about'      },
+    { href: '/#philosophy', key: 'nav_philosophy'  },
+    { href: '/#activities', key: 'nav_activities'  },
+    { href: '/#india',      key: 'nav_india'       },
+    { href: '/#events',     key: 'nav_events'      },
     { href: '/media',      key: 'nav_media'       },
     { href: '#',           key: 'nav_journal'     },
   ] as const
@@ -61,7 +62,7 @@ export default function Navbar() {
       <nav className={`${styles.nav} ${scrolled ? styles.scrolled : ''}`} id="nav">
 
         {/* Logo */}
-        <a href="#" className={styles.logo}>
+        <Link href="/" className={styles.logo}>
           <div className={styles.logoMark}>
             <svg viewBox="0 0 60 60" fill="none" width="40" height="40">
               <circle cx="30" cy="30" r="27" stroke="rgba(184,146,42,0.45)" strokeWidth="1"/>
@@ -76,7 +77,7 @@ export default function Navbar() {
             <span className={styles.logoName}>Zero Balance</span>
             <span className={styles.logoSub}>Society</span>
           </div>
-        </a>
+        </Link> 
 
         {/* Desktop nav links */}
         <ul className={styles.navLinks}>
