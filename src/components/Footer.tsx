@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import Link from 'next/link'
 import styles from './Footer.module.css'
 import { useLang } from '../contexts/LangContext'
 
@@ -73,7 +74,7 @@ export default function Footer() {
 
         {/* Brand */}
         <div className={styles.footerBrand}>
-          <a href="/" className={styles.footerLogo}>
+          <Link href="/" className={styles.footerLogo}>
             <svg viewBox="0 0 60 60" fill="none" width="44" height="44">
               <circle cx="30" cy="30" r="27" stroke="rgba(184,146,42,0.5)"  strokeWidth="1"/>
               <circle cx="30" cy="30" r="18" stroke="rgba(184,146,42,0.3)"  strokeWidth=".75"/>
@@ -86,7 +87,7 @@ export default function Footer() {
               <span className={styles.logoName}>Zero Balance</span>
               <span className={styles.logoSub}>Society</span>
             </div>
-          </a>
+          </Link>
           <p>{t('foot_desc')}</p>
         </div>
 
@@ -99,8 +100,7 @@ export default function Footer() {
             <li><a href="#activities">{t('foot_act')}</a></li>
             <li><a href="#india">{t('foot_india')}</a></li>
             <li><a href="#events">{t('foot_events')}</a></li>
-            {/* Journal page does not exist yet — placeholder */}
-            <li><a href="#" aria-disabled="true" style={{ opacity: 0.45, pointerEvents: 'none' }}>{t('foot_journal')}</a></li>
+            <li><a href="/journal">{t('foot_journal')}</a></li>
           </ul>
         </div>
 
