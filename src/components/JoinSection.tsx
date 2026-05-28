@@ -6,6 +6,9 @@ import { useLang } from '../contexts/LangContext'
 import { useScrollRevealAll } from '../hooks/useScrollReveal'
 import IMG from '../lib/images'
 
+const CONTACT_MAILTO =
+  'mailto:filous@senior.cz?cc=kocandrle@email.cz,jirikocandrle@gmail.com&subject=Zero%20Balance%20Society'
+
 export default function JoinSection() {
   const { t, tHTML } = useLang()
   const ref = useRef<HTMLElement>(null)
@@ -30,7 +33,7 @@ export default function JoinSection() {
           <div className={styles.joinBtns}>
             <a href="#" className={styles.btnGold}>{t('join_btn1')}</a>
             <a href="#" className={styles.btnOutline}>{t('join_btn2')}</a>
-            <a href="#" className={styles.btnOutline}>{t('join_btn3')}</a>
+            <a href={CONTACT_MAILTO} className={styles.btnOutline}>{t('join_btn3')}</a>
           </div>
         </div>
       </div>

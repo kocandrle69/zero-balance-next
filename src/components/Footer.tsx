@@ -1,10 +1,68 @@
 'use client'
 
+import { useState } from 'react'
 import styles from './Footer.module.css'
 import { useLang } from '../contexts/LangContext'
 
+// ─── Brevo newsletter config ───────────────────────────────────────────────
+// TODO: replace with real values from Brevo dashboard
+const BREVO_API_KEY  = process.env.NEXT_PUBLIC_BREVO_API_KEY  ?? ''
+const BREVO_LIST_ID  = Number(process.env.NEXT_PUBLIC_BREVO_LIST_ID ?? 0)
+// ──────────────────────────────────────────────────────────────────────────
+
+const CONTACT_MAILTO =
+  'mailto:filous@senior.cz?cc=kocandrle@email.cz,jirikocandrle@gmail.com&subject=Zero%20Balance%20Society'
+
 export default function Footer() {
   const { t } = useLang()
+
+  // newsletter state
+  const [email,   setEmail]   = useState('')
+  const [status,  setStatus]  = useState<'idle' | 'loading' | 'ok' | 'err'>('idle')
+  const [errMsg,  setErrMsg]  = useState('')
+
+  async function handleSubscribe() {
+    if (!email || !/\S+@\S+\.\S+/.test(email)) {
+      setErrMsg(t('foot_email_invalid') ?? 'Please enter a valid e-mail.')
+      setStatus('err')
+      return
+    }
+    setStatus('loading')
+    setErrMsg('')
+
+    // If no API key yet → just show success (dev / staging)
+    if (!BREVO_API_KEY || !BREVO_LIST_ID) {
+      setTimeout(() => { setStatus('ok'); setEmail('') }, 600)
+      return
+    }
+
+    try {
+      const res = await fetch('https://api.brevo.com/v3/contacts', {
+        method:  'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'api-key':      BREVO_API_KEY,
+        },
+        body: JSON.stringify({
+          email,
+          listIds:    [BREVO_LIST_ID],
+          updateEnabled: true,
+        }),
+      })
+
+      if (res.ok || res.status === 204) {
+        setStatus('ok')
+        setEmail('')
+      } else {
+        const data = await res.json().catch(() => ({}))
+        throw new Error(data?.message ?? `Error ${res.status}`)
+      }
+    } catch (err: unknown) {
+      const msg = err instanceof Error ? err.message : 'Something went wrong.'
+      setErrMsg(msg)
+      setStatus('err')
+    }
+  }
 
   return (
     <footer className={styles.footer}>
@@ -46,7 +104,7 @@ export default function Footer() {
         <div className={styles.footerCol}>
           <h5>{t('foot_conn')}</h5>
           <ul>
-            <li><a href="#">{t('foot_contact')}</a></li>
+            <li><a href={CONTACT_MAILTO}>{t('foot_contact')}</a></li>
             <li><a href="#join">{t('foot_join')}</a></li>
             <li><a href="#">{t('foot_donate')}</a></li>
             <li><a href="#">{t('foot_media')}</a></li>
@@ -57,10 +115,31 @@ export default function Footer() {
         <div className={styles.footerNewsletter}>
           <h5>{t('foot_stay')}</h5>
           <p>{t('foot_nl')}</p>
-          <div className={styles.subForm}>
-            <input type="email" placeholder={t('foot_email')} />
-            <button type="button">{t('foot_sub')}</button>
-          </div>
+
+          {status === 'ok' ? (
+            <p className={styles.subSuccess}>{t('foot_sub_ok') ?? '✓ You\'re subscribed!'}</p>
+          ) : (
+            <>
+              <div className={styles.subForm}>
+                <input
+                  type="email"
+                  placeholder={t('foot_email')}
+                  value={email}
+                  onChange={e => { setEmail(e.target.value); setStatus('idle'); setErrMsg('') }}
+                  onKeyDown={e => e.key === 'Enter' && handleSubscribe()}
+                  disabled={status === 'loading'}
+                />
+                <button
+                  type="button"
+                  onClick={handleSubscribe}
+                  disabled={status === 'loading'}
+                >
+                  {status === 'loading' ? '…' : t('foot_sub')}
+                </button>
+              </div>
+              {status === 'err' && <p className={styles.subError}>{errMsg}</p>}
+            </>
+          )}
         </div>
 
       </div>
@@ -71,7 +150,7 @@ export default function Footer() {
           <a href="#" title="Instagram">◉</a>
           <a href="#" title="YouTube">▶</a>
           <a href="#" title="Facebook">f</a>
-          <a href="#" title="Email">✉</a>
+          <a href={CONTACT_MAILTO} title="Email">✉</a>
         </div>
       </div>
     </footer>
