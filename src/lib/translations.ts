@@ -15,7 +15,7 @@ export const T = {
     hero_title: 'Meditation<span class="dot">.</span><br><em>Culture.</em><br>Community<span class="dot">.</span>',
     hero_btn1:  'Discover More',
     hero_btn2:  'Watch Intro',
-    hero_desc:  'Zero Balance Society is a non-profit association inspired by Indian traditions. We create space for meditation, education, cultural exchange and conscious connection.',
+    hero_desc:  'Zero Ballance Society is a non-profit association inspired by Indian traditions. We create space for meditation, education, cultural exchange and conscious connection.',
     scroll:     'Scroll',
 
     purpose_label: 'Our Purpose',
@@ -31,7 +31,7 @@ export const T = {
     about_tag:   'Based in Czech Republic',
     about_label: 'Who We Are',
     about_title: 'A Society.<br>A Movement.<br><span class="acc">A Way of Being.</span>',
-    about_p1:    'Zero Balance Society is a non-profit cultural association inspired by Indian traditions. We are dedicated to personal development, education, conscious connection and the support of projects that create a positive impact.',
+    about_p1:    'Zero Ballance Society is a non-profit cultural association inspired by Indian traditions. We are dedicated to personal development, education, conscious connection and the support of projects that create a positive impact.',
     about_p2:    'We believe that true balance begins within — and from that inner stillness, we can transform the world around us.',
     about_v1:    'Non-profit association based in Czech Republic, open to all',
     about_v2:    'Inspired by Indian contemplative traditions adapted for modern life',
@@ -51,20 +51,20 @@ export const T = {
     india_title: 'India —<br>Our Deepest<br><span class="acc">Inspiration</span>',
     india_s1: 'Annual journeys', india_s2: 'Years active',
     india_s3: 'Members',         india_s4: 'Languages',
-    india_p1: 'India is not merely a destination for us — it is the living source of our inspiration. The ancient traditions of contemplation, the depth of its culture, and the warmth of its people have shaped everything Zero Balance Society stands for.',
+    india_p1: 'India is not merely a destination for us — it is the living source of our inspiration. The ancient traditions of contemplation, the depth of its culture, and the warmth of its people have shaped everything Zero Ballance Society stands for.',
     india_p2: 'Each year we organise group journeys to India — connecting our members to these traditions through direct experience, not only theory.',
 
     quote: '"In the stillness of the void,<br>the vibration begins.<br>In the vibration, <strong>balance</strong>.<br>In balance, we come together."',
 
     ev_label: 'Upcoming',
     ev_title: 'Events &amp;<br><span class="acc">Gatherings</span>',
-    ev1_date: 'June 21–23, 2025 · Czech Republic', ev1_title: 'Zero Balance Gathering',  ev1_desc: 'A three-day immersive experience of meditation, connection, inspiration and collective growth. Open to all members and friends.', ev_more1: 'View Details',
+    ev1_date: 'June 21–23, 2025 · Czech Republic', ev1_title: 'Zero Ballance Gathering',  ev1_desc: 'A three-day immersive experience of meditation, connection, inspiration and collective growth. Open to all members and friends.', ev_more1: 'View Details',
     ev2_date: 'September 2025 · India',            ev2_title: 'Autumn India Journey',     ev2_desc: 'An organised group pilgrimage and cultural immersion exploring the living traditions that inspire our society. Limited places.',    ev_more2: 'Learn More',
     ev3_date: 'Monthly · Prague',                  ev3_title: 'Satsang Evenings',         ev3_desc: 'Regular evenings of shared meditation, discussion and community — held monthly in Prague and online for remote members.',           ev_more3: 'Join Us',
 
     join_label: 'Your Invitation',
     join_title: 'Join the<br><em>Society.</em>',
-    join_desc:  'Zero Balance Society is an open community — for those who seek stillness, cultural depth, and genuine human connection. Whether you are new to meditation or have walked this path for years, there is a place for you here.',
+    join_desc:  'Zero Ballance Society is an open community — for those who seek stillness, cultural depth, and genuine human connection. Whether you are new to meditation or have walked this path for years, there is a place for you here.',
     join_btn1: 'Become a Member', join_btn2: 'Explore Activities', join_btn3: 'Contact Us',
 
     foot_desc:    'A non-profit cultural association inspired by Indian traditions. Based in Czech Republic, open to the world.',
@@ -77,7 +77,7 @@ export const T = {
     foot_sub:     'Subscribe',
     foot_sub_ok:    'You are subscribed — welcome to the journey.',
     foot_email_invalid: 'Please enter a valid e-mail address.',
-    foot_copy:    '© 2025 Zero Balance Society · All rights reserved · Czech Republic',
+    foot_copy:    '© 2025 Zero Ballance Society · All rights reserved · Czech Republic',
   },
 
   cs: {
@@ -94,7 +94,7 @@ export const T = {
     hero_title: 'Meditaci<span class="dot">.</span><br><em>Kulturu.</em><br>Komunitu<span class="dot">.</span>',
     hero_btn1:  'Zjistit více',
     hero_btn2:  'Sledovat intro',
-    hero_desc:  'Zero Balance Society je nezisková asociace inspirovaná indickými tradicemi. Vytváříme prostor pro meditaci, vzdělávání, kulturní výměnu a vědomé propojení.',
+    hero_desc:  'Zero Ballance Society je nezisková asociace inspirovaná indickými tradicemi. Vytváříme prostor pro meditaci, vzdělávání, kulturní výměnu a vědomé propojení.',
     scroll:     'Scrollovat',
 
     purpose_label: 'Naše poslání',
@@ -110,7 +110,7 @@ export const T = {
     about_tag:   'Sídlíme v České republice',
     about_label: 'Kdo jsme',
     about_title: 'Komunita.<br>Hnutí.<br><span class="acc">Cesta.</span>',
-    about_p1:    'Zero Balance Society je nezisková kulturní asociace inspirovaná indickými tradicemi. Věnujeme se osobnímu rozvoji, vzdělávání, vědomému propojení a podpoře projektů, které mají pozitivní dopad.',
+    about_p1:    'Zero Ballance Society je nezisková kulturní asociace inspirovaná indickými tradicemi. Věnujeme se osobnímu rozvoji, vzdělávání, vědomému propojení a podpoře projektů, které mají pozitivní dopad.',
     about_p2:    'Věříme, že skutečná rovnováha začíná uvnitř — a z tohoto vnitřního ticha lze proměnit svět kolem nás.',
     about_v1:    'Nezisková asociace se sídlem v České republice, otevřená všem',
     about_v2:    'Inspirovaná indickými meditačními tradicemi přizpůsobenými modernímu životu',
@@ -130,20 +130,20 @@ export const T = {
     india_title: 'Indie —<br>Naše nejhlubší<br><span class="acc">inspirace</span>',
     india_s1: 'Ročních cest', india_s2: 'Let aktivně',
     india_s3: 'Členů',        india_s4: 'Jazyků',
-    india_p1: 'Indie pro nás není jen destinací — je živým zdrojem naší inspirace. Starobylé meditační tradice, hloubka kultury a vřelost jejích lidí formovaly vše, za čím Zero Balance Society stojí.',
+    india_p1: 'Indie pro nás není jen destinací — je živým zdrojem naší inspirace. Starobylé meditační tradice, hloubka kultury a vřelost jejích lidí formovaly vše, za čím Zero Ballance Society stojí.',
     india_p2: 'Každý rok organizujeme skupinové cesty do Indie — propojujeme naše členy s těmito tradicemi skrze přímou zkušenost, nejen teorii.',
 
     quote: '„V tichu prázdnoty<br>začíná vibrace.<br>Ve vibraci <strong>rovnováha</strong>.<br>V rovnováze se setkáváme."',
 
     ev_label: 'Nadcházející',
     ev_title: 'Události &amp;<br><span class="acc">setkání</span>',
-    ev1_date: '21.–23. června 2025 · Česká republika', ev1_title: 'Zero Balance Gathering', ev1_desc: 'Třídenní ponoření do meditace, propojení, inspirace a společného růstu. Otevřeno všem členům a přátelům.',                       ev_more1: 'Zobrazit detaily',
+    ev1_date: '21.–23. června 2025 · Česká republika', ev1_title: 'Zero Ballance Gathering', ev1_desc: 'Třídenní ponoření do meditace, propojení, inspirace a společného růstu. Otevřeno všem členům a přátelům.',                       ev_more1: 'Zobrazit detaily',
     ev2_date: 'Září 2025 · Indie',                     ev2_title: 'Podzimní cesta do Indie', ev2_desc: 'Organizovaná skupinová pouť a kulturní ponoření do živých tradic, které naši společnost inspirují. Omezený počet míst.',        ev_more2: 'Zjistit více',
     ev3_date: 'Měsíčně · Praha',                       ev3_title: 'Satsangové večery',       ev3_desc: 'Pravidelné večery sdílené meditace, dialogu a komunity — každý měsíc v Praze a online pro vzdálené členy.',                      ev_more3: 'Přidat se',
 
     join_label: 'Vaše pozvání',
     join_title: 'Přidejte se<br><em>k nám.</em>',
-    join_desc:  'Zero Balance Society je otevřená komunita — pro ty, kdo hledají klid, kulturní hloubku a skutečné lidské propojení. Ať jste v meditaci noví, nebo na této cestě jdete léta — je tu pro vás místo.',
+    join_desc:  'Zero Ballance Society je otevřená komunita — pro ty, kdo hledají klid, kulturní hloubku a skutečné lidské propojení. Ať jste v meditaci noví, nebo na této cestě jdete léta — je tu pro vás místo.',
     join_btn1: 'Stát se členem', join_btn2: 'Prozkoumat aktivity', join_btn3: 'Kontaktovat nás',
 
     foot_desc:    'Nezisková kulturní asociace inspirovaná indickými tradicemi. Sídlíme v České republice, otevřeni světu.',
@@ -156,7 +156,7 @@ export const T = {
     foot_sub:     'Přihlásit',
     foot_sub_ok:    'Jste přihlášeni — vítejte na naší cestě.',
     foot_email_invalid: 'Zadejte prosím platnou e-mailovou adresu.',
-    foot_copy:    '© 2025 Zero Balance Society · Všechna práva vyhrazena · Česká republika',
+    foot_copy:    '© 2025 Zero Ballance Society · Všechna práva vyhrazena · Česká republika',
   },
 } as const
 

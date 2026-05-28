@@ -84,7 +84,7 @@ export default function Footer() {
               <circle cx="30" cy="30" r="1.8" fill="#B8922A"/>
             </svg>
             <div className={styles.logoText}>
-              <span className={styles.logoName}>Zero Balance</span>
+              <span className={styles.logoName}>Zero Ballance</span>
               <span className={styles.logoSub}>Society</span>
             </div>
           </Link>

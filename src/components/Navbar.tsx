@@ -74,7 +74,7 @@ export default function Navbar() {
             </svg>
           </div>
           <div className={styles.logoText}>
-            <span className={styles.logoName}>Zero Balance</span>
+            <span className={styles.logoName}>Zero Ballance</span>
             <span className={styles.logoSub}>Society</span>
           </div>
         </Link> 
