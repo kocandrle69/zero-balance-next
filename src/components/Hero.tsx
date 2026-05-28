@@ -104,7 +104,7 @@ export default function Hero() {
       </div>
 
       <div className={styles.heroScroll}>
-        <span>{t('scroll')}</span>
+       
         <div className={styles.scrollBar} />
       </div>
 

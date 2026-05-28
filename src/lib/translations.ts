@@ -95,7 +95,7 @@ export const T = {
 
     purpose_label: 'Naše poslání',
     purpose_title: 'Zakořeněni v tradici.<br><em>Otevřeni světu.</em>',
-    purpose_desc:  'Podporujeme kontemplativní praxi, osobní rozvoj a kulturní porozumění prostřednictvím komunity, sdílených znalostí a živé zkušenosti.',
+    purpose_desc:  'Podporujeme meditační praxi, osobní rozvoj a kulturní porozumění prostřednictvím komunity, sdílených znalostí a živé zkušenosti.',
 
     p1_name: 'Klid',       p1_text: 'Kultivace vnitřního ticha a vědomí.',
     p2_name: 'Praxe',      p2_text: 'Každodenní meditace, mantra a sadhana.',
@@ -109,7 +109,7 @@ export const T = {
     about_p1:    'Zero Balance Society je nezisková kulturní asociace inspirovaná indickými tradicemi. Věnujeme se osobnímu rozvoji, vzdělávání, vědomému propojení a podpoře projektů, které mají pozitivní dopad.',
     about_p2:    'Věříme, že skutečná rovnováha začíná uvnitř — a z tohoto vnitřního ticha lze proměnit svět kolem nás.',
     about_v1:    'Nezisková asociace se sídlem v České republice, otevřená všem',
-    about_v2:    'Inspirovaná indickými kontemplativními tradicemi přizpůsobenými modernímu životu',
+    about_v2:    'Inspirovaná indickými meditačními tradicemi přizpůsobenými modernímu životu',
     about_v3:    'Budování mostů mezi kulturami skrze sdílenou zkušenost',
     about_v4:    'Vytváření prostoru pro růst, reflexi a vědomou komunitu',
 
@@ -126,7 +126,7 @@ export const T = {
     india_title: 'Indie —<br>Naše nejhlubší<br><span class="acc">inspirace</span>',
     india_s1: 'Ročních cest', india_s2: 'Let aktivně',
     india_s3: 'Členů',        india_s4: 'Jazyků',
-    india_p1: 'Indie pro nás není jen destinací — je živým zdrojem naší inspirace. Starobylé kontemplativní tradice, hloubka kultury a vřelost jejích lidí formovaly vše, za čím Zero Balance Society stojí.',
+    india_p1: 'Indie pro nás není jen destinací — je živým zdrojem naší inspirace. Starobylé meditační tradice, hloubka kultury a vřelost jejích lidí formovaly vše, za čím Zero Balance Society stojí.',
     india_p2: 'Každý rok organizujeme skupinové cesty do Indie — propojujeme naše členy s těmito tradicemi skrze přímou zkušenost, nejen teorii.',
 
     quote: '„V tichu prázdnoty<br>začíná vibrace.<br>Ve vibraci <strong>rovnováha</strong>.<br>V rovnováze se setkáváme."',
