@@ -24,10 +24,10 @@ export default function IndiaSection() {
           <div className={styles.sectionLabel}>{t('india_label')}</div>
           <h2 className={styles.sectionTitle} dangerouslySetInnerHTML={tHTML('india_title')} />
           <div className={styles.indiaStats}>
-            <div className={styles.indiaStat}><span className={styles.num}>3×</span><span className={styles.lbl}>{t('india_s1')}</span></div>
-            <div className={styles.indiaStat}><span className={styles.num}>5+</span><span className={styles.lbl}>{t('india_s2')}</span></div>
-            <div className={styles.indiaStat}><span className={styles.num}>200+</span><span className={styles.lbl}>{t('india_s3')}</span></div>
-            <div className={styles.indiaStat}><span className={styles.num}>6</span><span className={styles.lbl}>{t('india_s4')}</span></div>
+            <div className={styles.indiaStat}><span className={styles.num}>{t('india_v1')}</span><span className={styles.lbl}>{t('india_s1')}</span></div>
+            <div className={styles.indiaStat}><span className={styles.num}>{t('india_v2')}</span><span className={styles.lbl}>{t('india_s2')}</span></div>
+            <div className={styles.indiaStat}><span className={styles.num}>{t('india_v3')}</span><span className={styles.lbl}>{t('india_s3')}</span></div>
+            <div className={styles.indiaStat}><span className={styles.num}>{t('india_v4')}</span><span className={styles.lbl}>{t('india_s4')}</span></div>
           </div>
         </div>
 
