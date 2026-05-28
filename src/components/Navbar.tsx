@@ -84,9 +84,6 @@ export default function Navbar() {
           {navLinks.map(l => (
             <li key={l.key}><a href={l.href}>{t(l.key)}</a></li>
           ))}
-          <li className={styles.joinItem}>
-            <a href="#join" className={styles.joinLink}>{t('nav_join')}</a>
-          </li>
         </ul>
 
         {/* Desktop lang dropdown */}
@@ -141,9 +138,6 @@ export default function Navbar() {
               </li>
             ))}
           </ul>
-          <a href="#join" className={styles.mobileJoin} onClick={() => setMenuOpen(false)}>
-            {t('nav_join')}
-          </a>
           {/* Lang switcher in mobile */}
           <div className={styles.mobileLang}>
             {LANGUAGES.filter(l => !l.soon).map(l => (

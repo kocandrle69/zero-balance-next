@@ -1,43 +1,74 @@
-.quote {
-  padding: 110px 80px;
-  background: var(--bg2); text-align: center;
-  border-top: 1px solid rgba(184,146,42,0.1);
-  border-bottom: 1px solid rgba(184,146,42,0.1);
-  position: relative; overflow: hidden;
-}
-.quote::before {
-  content: '\201C';
-  position: absolute; top: -60px; left: 50%;
-  transform: translateX(-50%);
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 360px; font-weight: 300;
-  color: rgba(184,146,42,0.05); line-height: 1;
-  pointer-events: none;
+/* ── Photo-banner divider ─────────────────────────────────────────── */
+.quoteBanner {
+  position: relative;
+  height: clamp(260px, 35vw, 420px);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.quote blockquote {
-  position: relative; z-index: 1;
-  font-family: 'Cormorant Garamond', serif;
-  font-size: clamp(20px, 2.3vw, 34px);
-  font-weight: 300; font-style: italic;
-  line-height: 1.65; color: rgba(28,24,16,0.72);
-  max-width: 820px; margin: 0 auto 24px;
+/* Background photo — web-banner panoramic crowd shot */
+.quoteBannerBg {
+  position: absolute;
+  inset: 0;
+  background-image: url('/images/web-banner-1920x375-1.jpg');
+  background-size: cover;
+  background-position: center 30%;
+  transform: scale(1.04);
+  transition: transform 0.6s ease;
 }
-.quote :global(blockquote strong) {
-  font-style: normal; font-weight: 500; color: var(--gold);
+.quoteBanner:hover .quoteBannerBg {
+  transform: scale(1.07);
+}
+
+/* Dark gradient overlay for text legibility */
+.quoteBannerOverlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(10, 8, 4, 0.52) 0%,
+    rgba(10, 8, 4, 0.68) 50%,
+    rgba(10, 8, 4, 0.52) 100%
+  );
+}
+
+/* Content */
+.quoteBannerContent {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  padding: 0 clamp(24px, 6vw, 120px);
+  max-width: 900px;
+}
+
+.quoteBannerContent blockquote {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(22px, 2.8vw, 40px);
+  font-weight: 300;
+  font-style: italic;
+  line-height: 1.55;
+  color: rgba(255, 255, 255, 0.92);
+  margin: 0 0 20px;
+  letter-spacing: 0.01em;
+}
+
+.quoteBannerContent blockquote :global(strong) {
+  font-style: normal;
+  font-weight: 500;
+  color: var(--gold);
 }
 
 .quoteAttr {
-  font-family: 'Cinzel', serif; font-size: 10px;
-  letter-spacing: 0.28em; color: var(--faint); text-transform: uppercase;
-  position: relative; z-index: 1;
+  font-family: 'Cinzel', serif;
+  font-size: 10px;
+  letter-spacing: 0.3em;
+  color: rgba(255, 255, 255, 0.5);
+  text-transform: uppercase;
 }
 
 @media (max-width: 600px) {
-  .quote { padding: 64px 24px; }
-}
-
-@media (max-width: 480px) {
-  .quote { padding: 52px 20px; }
-  .quote blockquote { font-size: 18px; line-height: 1.7; }
+  .quoteBanner { height: clamp(200px, 55vw, 280px); }
+  .quoteBannerContent blockquote { font-size: 20px; line-height: 1.6; }
 }

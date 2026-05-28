@@ -87,7 +87,7 @@ export default function Hero() {
           <div className={styles.heroLine} />
           <div className={styles.heroBtns}>
             <a href="#about" className={styles.btnGold}>{t('hero_btn1')}</a>
-            <a href="#india" className={styles.btnText}>
+            <a href="https://www.youtube.com/@HariharOm" target="_blank" rel="noopener noreferrer" className={styles.btnText}>
               <div className={styles.playRing}>
                 <svg width="10" height="12" viewBox="0 0 10 12" fill="none">
                   <path d="M1 1L9 6L1 11V1Z" fill="currentColor"/>

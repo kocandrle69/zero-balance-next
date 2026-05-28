@@ -77,24 +77,33 @@
   line-height: 1.9; color: var(--muted); margin-bottom: 16px;
 }
 
-.aboutValues { display: flex; flex-direction: column; gap: 12px; margin-top: 32px; }
+.aboutValues {
+  display: flex; flex-direction: column;
+  margin-top: 36px;
+  border-top: 1px solid rgba(184,146,42,0.15);
+}
 
 .valueRow {
-  display: flex; align-items: center; gap: 16px;
-  padding: 16px 20px;
-  background: var(--glass-b);
-  backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px);
-  border: 1px solid rgba(255,255,255,0.7);
-  border-radius: 14px; box-shadow: var(--shadow);
-  transition: all 0.3s;
+  display: flex; align-items: baseline; gap: 20px;
+  padding: 18px 0;
+  border-bottom: 1px solid rgba(184,146,42,0.1);
+  transition: all 0.25s;
 }
-.valueRow:hover { background: var(--glass-gold); border-color: var(--glass-gold-b); }
+.valueRow:hover .valueNum { color: var(--gold); }
+.valueRow:hover span:last-child { color: var(--ink2); }
 
-.valueDot {
-  width: 7px; height: 7px; border-radius: 50%;
-  background: var(--gold); flex-shrink: 0;
+.valueNum {
+  font-family: 'Cinzel', serif;
+  font-size: 10px; letter-spacing: 0.18em;
+  color: rgba(184,146,42,0.45);
+  flex-shrink: 0; width: 24px;
+  transition: color 0.25s;
 }
-.valueRow span { font-size: 14px; color: var(--muted); line-height: 1.6; }
+.valueRow span:last-child {
+  font-size: 14px; font-weight: 300;
+  color: var(--muted); line-height: 1.6;
+  transition: color 0.25s;
+}
 
 @media (max-width: 900px) {
   .about { padding: 90px 28px; }

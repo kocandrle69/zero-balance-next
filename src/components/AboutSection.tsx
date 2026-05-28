@@ -31,9 +31,9 @@ export default function AboutSection() {
           <p className={styles.aboutText}>{t('about_p1')}</p>
           <p className={styles.aboutText}>{t('about_p2')}</p>
           <div className={styles.aboutValues}>
-            {(['about_v1','about_v2','about_v3','about_v4'] as const).map((key) => (
+            {(['about_v1','about_v2','about_v3','about_v4'] as const).map((key, i) => (
               <div key={key} className={styles.valueRow}>
-                <div className={styles.valueDot} />
+                <span className={styles.valueNum}>0{i + 1}</span>
                 <span>{t(key)}</span>
               </div>
             ))}

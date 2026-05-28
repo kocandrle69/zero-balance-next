@@ -9,6 +9,11 @@ import IMG from '../lib/images'
 const CONTACT_MAILTO =
   'mailto:filous@senior.cz?cc=kocandrle@email.cz,jirikocandrle@gmail.com&subject=Zero%20Balance%20Society'
 
+// "Stát se členem" — zatím mailto s předmětem Členství
+// TODO: nahradit za /join nebo Google Form, jakmile bude hotov
+const MEMBERSHIP_MAILTO =
+  'mailto:filous@senior.cz?cc=kocandrle@email.cz,jirikocandrle@gmail.com&subject=Z%C3%A1jem%20o%20%C4%8Dlenstv%C3%AD%20%E2%80%93%20Zero%20Balance%20Society'
+
 export default function JoinSection() {
   const { t, tHTML } = useLang()
   const ref = useRef<HTMLElement>(null)
@@ -31,8 +36,9 @@ export default function JoinSection() {
         <div className={`${styles.joinRight} r`} style={{ transitionDelay: '0.15s' }}>
           <p>{t('join_desc')}</p>
           <div className={styles.joinBtns}>
-            <a href="#" className={styles.btnGold}>{t('join_btn1')}</a>
-            <a href="#" className={styles.btnOutline}>{t('join_btn2')}</a>
+            {/* btn1: Stát se členem → mailto s předmětem Členství */}
+            <a href={MEMBERSHIP_MAILTO} className={styles.btnGold}>{t('join_btn1')}</a>
+            {/* btn2: Kontaktovat nás → obecný kontaktní mailto */}
             <a href={CONTACT_MAILTO} className={styles.btnOutline}>{t('join_btn3')}</a>
           </div>
         </div>

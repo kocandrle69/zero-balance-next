@@ -4,11 +4,22 @@ import styles from './QuoteSection.module.css'
 import { useLang } from '../contexts/LangContext'
 
 export default function QuoteSection() {
-  const { tHTML } = useLang()
+  const { lang } = useLang()
+  const cs = lang === 'cs'
+
   return (
-    <div className={styles.quote}>
-      <blockquote dangerouslySetInnerHTML={tHTML('quote')} />
-      <p className={styles.quoteAttr}>— Zero Balance Society</p>
+    <div className={styles.quoteBanner}>
+      <div className={styles.quoteBannerBg} />
+      <div className={styles.quoteBannerOverlay} />
+      <div className={styles.quoteBannerContent}>
+        <blockquote>
+          {cs
+            ? <span dangerouslySetInnerHTML={{ __html: '„V tichu mysli<br/>zazáří <strong>Já</strong> vlastním světlem."' }} />
+            : <span dangerouslySetInnerHTML={{ __html: '"When the mind becomes still,<br/>the <strong>Self</strong> shines of its own accord."' }} />
+          }
+        </blockquote>
+        <p className={styles.quoteAttr}>— Mandukya Upanishad</p>
+      </div>
     </div>
   )
 }

@@ -98,7 +98,7 @@ export const T = {
     scroll:     'Scrollovat',
 
     purpose_label: 'Naše poslání',
-    purpose_title: 'Zakořeněni v tradici.<br><em>Otevřeni světu.</em>',
+    purpose_title: 'Kořeny v tradici.<br><em>Otevřenost světu.</em>',
     purpose_desc:  'Podporujeme meditační praxi, osobní rozvoj a kulturní porozumění prostřednictvím komunity, sdílených znalostí a živé zkušenosti.',
 
     p1_name: 'Klid',       p1_text: 'Kultivace vnitřního ticha a vědomí.',
@@ -109,7 +109,7 @@ export const T = {
 
     about_tag:   'Sídlíme v České republice',
     about_label: 'Kdo jsme',
-    about_title: 'Společnost.<br>Hnutí.<br><span class="acc">Způsob bytí.</span>',
+    about_title: 'Komunita.<br>Hnutí.<br><span class="acc">Cesta.</span>',
     about_p1:    'Zero Balance Society je nezisková kulturní asociace inspirovaná indickými tradicemi. Věnujeme se osobnímu rozvoji, vzdělávání, vědomému propojení a podpoře projektů, které mají pozitivní dopad.',
     about_p2:    'Věříme, že skutečná rovnováha začíná uvnitř — a z tohoto vnitřního ticha lze proměnit svět kolem nás.',
     about_v1:    'Nezisková asociace se sídlem v České republice, otevřená všem',

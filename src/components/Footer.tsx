@@ -13,6 +13,9 @@ const BREVO_LIST_ID  = Number(process.env.NEXT_PUBLIC_BREVO_LIST_ID ?? 0)
 const CONTACT_MAILTO =
   'mailto:filous@senior.cz?cc=kocandrle@email.cz,jirikocandrle@gmail.com&subject=Zero%20Balance%20Society'
 
+const MEMBERSHIP_MAILTO =
+  'mailto:filous@senior.cz?cc=kocandrle@email.cz,jirikocandrle@gmail.com&subject=Z%C3%A1jem%20o%20%C4%8Dlenstv%C3%AD%20%E2%80%93%20Zero%20Balance%20Society'
+
 export default function Footer() {
   const { t } = useLang()
 
@@ -70,7 +73,7 @@ export default function Footer() {
 
         {/* Brand */}
         <div className={styles.footerBrand}>
-          <a href="#" className={styles.footerLogo}>
+          <a href="/" className={styles.footerLogo}>
             <svg viewBox="0 0 60 60" fill="none" width="44" height="44">
               <circle cx="30" cy="30" r="27" stroke="rgba(184,146,42,0.5)"  strokeWidth="1"/>
               <circle cx="30" cy="30" r="18" stroke="rgba(184,146,42,0.3)"  strokeWidth=".75"/>
@@ -96,7 +99,8 @@ export default function Footer() {
             <li><a href="#activities">{t('foot_act')}</a></li>
             <li><a href="#india">{t('foot_india')}</a></li>
             <li><a href="#events">{t('foot_events')}</a></li>
-            <li><a href="#">{t('foot_journal')}</a></li>
+            {/* Journal page does not exist yet — placeholder */}
+            <li><a href="#" aria-disabled="true" style={{ opacity: 0.45, pointerEvents: 'none' }}>{t('foot_journal')}</a></li>
           </ul>
         </div>
 
@@ -105,9 +109,10 @@ export default function Footer() {
           <h5>{t('foot_conn')}</h5>
           <ul>
             <li><a href={CONTACT_MAILTO}>{t('foot_contact')}</a></li>
-            <li><a href="#join">{t('foot_join')}</a></li>
-            <li><a href="#">{t('foot_donate')}</a></li>
-            <li><a href="#">{t('foot_media')}</a></li>
+            <li><a href={MEMBERSHIP_MAILTO}>{t('foot_join')}</a></li>
+            {/* Donate page does not exist yet — placeholder */}
+            <li><a href="#" aria-disabled="true" style={{ opacity: 0.45, pointerEvents: 'none' }}>{t('foot_donate')}</a></li>
+            <li><a href="https://www.youtube.com/@HariharOm" target="_blank" rel="noopener noreferrer">{t('foot_media')}</a></li>
           </ul>
         </div>
 
@@ -147,9 +152,8 @@ export default function Footer() {
       <div className={styles.footerBottom}>
         <p>{t('foot_copy')}</p>
         <div className={styles.socials}>
-          <a href="#" title="Instagram">◉</a>
-          <a href="#" title="YouTube">▶</a>
-          <a href="#" title="Facebook">f</a>
+          {/* Sociální sítě — zatím pouze YouTube a Email */}
+          <a href="https://www.youtube.com/@HariharOm" target="_blank" rel="noopener noreferrer" title="YouTube">▶</a>
           <a href={CONTACT_MAILTO} title="Email">✉</a>
         </div>
       </div>

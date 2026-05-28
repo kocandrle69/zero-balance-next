@@ -39,11 +39,6 @@ body {
   -webkit-tap-highlight-color: transparent;
 }
 
-/* Prevent horizontal scroll without breaking position:fixed — overflow on main is safe */
-main {
-  overflow-x: hidden;
-}
-
 /* Anchor links: offset for fixed navbar (~70px) */
 section[id] {
   scroll-margin-top: 70px;
