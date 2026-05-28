@@ -104,10 +104,12 @@
 }
 
 @media (max-width: 900px) {
-  .joinInner { grid-template-columns: 1fr; padding: 60px 20px; gap: 32px; }
+  .join { min-height: auto; }
+  .joinInner { grid-template-columns: 1fr; padding: 72px 28px; gap: 32px; }
   .joinNumber { display: none; }
 }
 
 @media (max-width: 480px) {
-  /* small phones */
+  .joinInner { padding: 56px 20px; gap: 28px; }
+  .joinRight p { font-size: 15px; margin-bottom: 32px; }
 }

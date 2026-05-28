@@ -61,17 +61,18 @@
 .pillarText { font-size: 13px; color: var(--muted); line-height: 1.65; }
 
 @media (max-width: 800px) {
+  .purpose { padding: 72px 28px; }
   .pillars { grid-template-columns: repeat(3,1fr); }
-  .purpose { padding: 72px 28px;
+  .purposeDesc { margin-bottom: 44px; }
 }
-@media (max-width: 480px) {
-  .purpose { padding: 52px 20px; }
-  .pillars { grid-template-columns: 1fr 1fr; gap: 10px; } }
-}
+
 @media (max-width: 520px) {
-  .pillars { grid-template-columns: repeat(2,1fr); }
+  .purpose { padding: 56px 20px; }
+  .pillars { grid-template-columns: repeat(2,1fr); gap: 10px; }
+  .purposeDesc { font-size: 15px; }
 }
 
 @media (max-width: 480px) {
-  /* small phones */
+  .purpose { padding: 48px 20px; }
+  .purposeLabel { margin-bottom: 18px; }
 }

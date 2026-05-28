@@ -87,21 +87,22 @@
 .actDesc { font-size: 13px; color: rgba(255,255,255,0.65); line-height: 1.6; }
 
 @media (max-width: 900px) {
+  .activities { padding: 90px 28px; }
+  .activitiesHeader { grid-template-columns: 1fr; gap: 24px; margin-bottom: 40px; }
   .actGrid { grid-template-columns: 1fr 1fr; }
   .actCard.large { grid-column: span 2; grid-row: span 1; min-height: 300px; aspect-ratio: 16/9; }
-  .activities { padding: 80px 28px;
 }
-@media (max-width: 480px) {
-  .activities { padding: 52px 20px; }
-  .actGrid { grid-template-columns: 1fr; gap: 12px; }
-  .actCard.large { min-height: 240px; } }
-  .activitiesHeader { grid-template-columns: 1fr; gap: 24px; }
+
+@media (max-width: 640px) {
+  .activities { padding: 68px 20px; }
 }
+
 @media (max-width: 560px) {
-  .actGrid { grid-template-columns: 1fr; }
-  .actCard.large { grid-column: span 1; }
+  .actGrid { grid-template-columns: 1fr; gap: 12px; }
+  .actCard.large { grid-column: span 1; min-height: 240px; }
 }
 
 @media (max-width: 480px) {
-  /* small phones */
+  .activities { padding: 52px 20px; }
+  .activitiesHeader p { font-size: 15px; }
 }

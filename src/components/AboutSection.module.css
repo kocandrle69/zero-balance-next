@@ -97,16 +97,19 @@
 .valueRow span { font-size: 14px; color: var(--muted); line-height: 1.6; }
 
 @media (max-width: 900px) {
+  .about { padding: 90px 28px; }
   .aboutGrid { grid-template-columns: 1fr; gap: 48px; }
-  .about { padding: 80px 28px;
+  .aboutImgCluster { height: 340px; }
 }
-@media (max-width: 480px) {
-  .about { padding: 56px 20px; }
-  .aboutImgCluster { height: 240px; }
-  .heading { font-size: 32px; } }
+
+@media (max-width: 640px) {
+  .about { padding: 68px 20px; }
   .aboutImgCluster { height: 280px; }
 }
 
 @media (max-width: 480px) {
-  /* small phones */
+  .about { padding: 52px 20px; }
+  .aboutImgCluster { height: 240px; }
+  .sectionTitle { font-size: 28px; }
+  .aboutText { font-size: 15px; }
 }
