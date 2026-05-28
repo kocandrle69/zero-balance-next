@@ -3,6 +3,7 @@
 import { useRef, useState } from 'react'
 import styles from './MediaSection.module.css'
 import { useScrollRevealAll } from '../hooks/useScrollReveal'
+import { useLang } from '../contexts/LangContext'
 
 // ─── Video data — nejnovější první ───────────────────────────────────────────
 export const VIDEOS = [
@@ -68,6 +69,8 @@ export default function MediaSection() {
   const ref = useRef<HTMLElement>(null)
   useScrollRevealAll(ref)
   const [playing, setPlaying] = useState(false)
+  const { lang } = useLang()
+  const cs = lang === 'cs'
 
   const featured = VIDEOS[0]
   const preview  = VIDEOS.slice(1, 3)
@@ -76,13 +79,15 @@ export default function MediaSection() {
     <section className={styles.media} id="media" ref={ref}>
       {/* Header */}
       <div className={`${styles.mediaHeader} r`}>
-        <div className={styles.sectionLabel}>Média</div>
+        <div className={styles.sectionLabel}>{cs ? 'Média' : 'Media'}</div>
         <h2 className={styles.sectionTitle}>
-          Z naší<br />
-          <span className={styles.acc}>cesty do Indie</span>
+          {cs ? 'Z naší' : 'From our'}<br />
+          <span className={styles.acc}>{cs ? 'cesty do Indie' : 'journey to India'}</span>
         </h2>
         <p className={styles.headerDesc}>
-          Záznamy z ášrámu, obřadů a poutí — autentické okamžiky ze srdce naší praxe.
+          {cs
+            ? 'Záznamy z ášrámu, obřadů a poutí — autentické okamžiky ze srdce naší praxe.'
+            : 'Recordings from the ashram, ceremonies and pilgrimages — authentic moments from the heart of our practice.'}
         </p>
       </div>
 
@@ -92,22 +97,22 @@ export default function MediaSection() {
           {!playing ? (
             <div className={styles.thumbnail} onClick={() => setPlaying(true)}>
               <img
-                src={`https://img.youtube.com/vi/${featured.id}/maxresdefault.jpg`}
-                alt={featured.titleCS}
+                src={`https://img.youtube.com/vi/${featured.id}/hqdefault.jpg`}
+                alt={cs ? featured.titleCS : featured.titleEN}
                 className={styles.thumbImg}
               />
               <div className={styles.thumbOverlay} />
-              <button className={styles.playBtn} aria-label="Přehrát video">
+              <button className={styles.playBtn} aria-label={cs ? 'Přehrát video' : 'Play video'}>
                 <svg viewBox="0 0 24 24" fill="currentColor" width="28" height="28">
                   <path d="M8 5v14l11-7z" />
                 </svg>
               </button>
-              <div className={styles.featuredTag}>{featured.tag}</div>
+              <div className={styles.featuredTag}>{cs ? featured.tag : featured.tagEN}</div>
             </div>
           ) : (
             <iframe
               src={`https://www.youtube-nocookie.com/embed/${featured.id}?autoplay=1&rel=0`}
-              title={featured.titleCS}
+              title={cs ? featured.titleCS : featured.titleEN}
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
               className={styles.iframe}
@@ -116,16 +121,16 @@ export default function MediaSection() {
         </div>
 
         <div className={styles.featuredMeta}>
-          <span className={styles.featuredDate}>{featured.date}</span>
-          <h3 className={styles.featuredTitle}>{featured.titleCS}</h3>
-          <p className={styles.featuredDesc}>{featured.descCS}</p>
+          <span className={styles.featuredDate}>{cs ? featured.date : featured.dateEN}</span>
+          <h3 className={styles.featuredTitle}>{cs ? featured.titleCS : featured.titleEN}</h3>
+          <p className={styles.featuredDesc}>{cs ? featured.descCS : featured.descEN}</p>
           <a
             href={`https://www.youtube.com/watch?v=${featured.id}`}
             target="_blank"
             rel="noopener noreferrer"
             className={styles.watchLink}
           >
-            Sledovat na YouTube
+            {cs ? 'Sledovat na YouTube' : 'Watch on YouTube'}
           </a>
         </div>
       </div>
@@ -133,14 +138,14 @@ export default function MediaSection() {
       {/* Preview cards */}
       <div className={styles.previewGrid}>
         {preview.map((v, i) => (
-          <VideoCard key={v.id} video={v} delay={`${(i + 1) * 0.1}s`} />
+          <VideoCard key={v.id} video={v} delay={`${(i + 1) * 0.1}s`} cs={cs} />
         ))}
       </div>
 
       {/* CTA to /media */}
       <div className={`${styles.mediaCta} r`} style={{ transitionDelay: '0.3s' }}>
         <a href="/media" className={styles.ctaBtn}>
-          Všechna videa
+          {cs ? 'Všechna videa' : 'All videos'}
         </a>
         <a
           href="https://www.youtube.com/@HariharOm"
@@ -156,7 +161,7 @@ export default function MediaSection() {
 }
 
 // ─── Reusable card ─────────────────────────────────────────────────────────
-function VideoCard({ video, delay }: { video: typeof VIDEOS[0]; delay: string }) {
+function VideoCard({ video, delay, cs }: { video: typeof VIDEOS[0]; delay: string; cs: boolean }) {
   const [playing, setPlaying] = useState(false)
 
   return (
@@ -165,22 +170,22 @@ function VideoCard({ video, delay }: { video: typeof VIDEOS[0]; delay: string })
         {!playing ? (
           <div className={styles.cardThumb} onClick={() => setPlaying(true)}>
             <img
-              src={`https://img.youtube.com/vi/${video.id}/mqdefault.jpg`}
-              alt={video.titleCS}
+              src={`https://img.youtube.com/vi/${video.id}/hqdefault.jpg`}
+              alt={cs ? video.titleCS : video.titleEN}
               className={styles.thumbImg}
             />
             <div className={styles.thumbOverlay} />
-            <button className={styles.cardPlayBtn} aria-label="Přehrát">
+            <button className={styles.cardPlayBtn} aria-label={cs ? 'Přehrát' : 'Play'}>
               <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20">
                 <path d="M8 5v14l11-7z" />
               </svg>
             </button>
-            <span className={styles.cardTag}>{video.tag}</span>
+            <span className={styles.cardTag}>{cs ? video.tag : video.tagEN}</span>
           </div>
         ) : (
           <iframe
             src={`https://www.youtube-nocookie.com/embed/${video.id}?autoplay=1&rel=0`}
-            title={video.titleCS}
+            title={cs ? video.titleCS : video.titleEN}
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
             className={styles.iframe}
@@ -188,8 +193,8 @@ function VideoCard({ video, delay }: { video: typeof VIDEOS[0]; delay: string })
         )}
       </div>
       <div className={styles.cardMeta}>
-        <span className={styles.cardDate}>{video.date}</span>
-        <div className={styles.cardTitle}>{video.titleCS}</div>
+        <span className={styles.cardDate}>{cs ? video.date : video.dateEN}</span>
+        <div className={styles.cardTitle}>{cs ? video.titleCS : video.titleEN}</div>
       </div>
     </div>
   )
