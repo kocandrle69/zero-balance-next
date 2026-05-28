@@ -1,6 +1,7 @@
 .join {
   position: relative; overflow: hidden;
   min-height: 92vh;
+  min-height: 92svh;
   display: flex; align-items: center;
 }
 

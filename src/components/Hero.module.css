@@ -1,6 +1,7 @@
 /* ── Hero wrapper ── */
 .hero {
   height: 100vh;
+  height: 100svh;
   position: relative;
   overflow: hidden;
   display: flex;
@@ -104,6 +105,7 @@
   z-index: 4;
   width: 100%;
   padding: 0 80px 64px;
+  padding-bottom: max(64px, env(safe-area-inset-bottom, 64px));
   display: flex;
   align-items: flex-end;
   gap: 48px;
@@ -315,6 +317,7 @@
   .heroBottom {
     flex-direction: column;
     padding: 0 20px 40px;
+    padding-bottom: max(40px, env(safe-area-inset-bottom, 40px));
     gap: 16px;
     align-items: flex-start;
   }
@@ -332,17 +335,17 @@
 
 /* ── Mobile height ── */
 @media (max-width: 860px) {
-  .hero { height: 82vh; min-height: 560px; }
+  .hero { height: 82vh; height: 82svh; min-height: 580px; }
   .heroScroll { display: none; }
 }
 
 /* ── Small mobile ── */
 @media (max-width: 480px) {
-  .hero { height: 78vh; min-height: 500px; }
-  .heroBottom { padding: 0 16px 28px; }
-  .heroGlassCard { padding: 28px 22px; }
-  .heroTitle { font-size: clamp(34px, 9vw, 50px); }
+  .hero { height: auto; min-height: 100svh; min-height: 100vh; }
+  .heroBottom { padding: 0 16px 28px; padding-bottom: max(28px, env(safe-area-inset-bottom, 28px)); }
+  .heroGlassCard { padding: 24px 18px; }
+  .heroTitle { font-size: clamp(30px, 8.5vw, 44px); }
   .heroBtns { flex-direction: column; align-items: flex-start; gap: 12px; }
-  .heroDescSide p { font-size: 14px; }
+  .heroDescSide { display: none; }
   .slideDots { display: none; }
 }

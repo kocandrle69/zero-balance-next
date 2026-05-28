@@ -117,6 +117,11 @@
   transform: translate(-50%,-50%) scale(1.1);
 }
 
+/* Always show play button on touch devices */
+@media (hover: none) {
+  .cardPlayBtn { opacity: 1; }
+}
+
 .featuredTag, .cardTag {
   position: absolute; top: 16px; left: 16px;
   font-family: 'Cinzel', serif; font-size: 8px;
