@@ -52,6 +52,7 @@ export default function Navbar() {
     { href: '#activities', key: 'nav_activities'  },
     { href: '#india',      key: 'nav_india'       },
     { href: '#events',     key: 'nav_events'      },
+    { href: '/media',      key: 'nav_media'       },
     { href: '#',           key: 'nav_journal'     },
   ] as const
 

@@ -6,6 +6,7 @@ import ActivitiesSection from '../components/ActivitiesSection'
 import IndiaSection      from '../components/IndiaSection'
 import QuoteSection      from '../components/QuoteSection'
 import EventsSection     from '../components/EventsSection'
+import MediaSection from '../components/MediaSection'
 import JoinSection       from '../components/JoinSection'
 import Footer            from '../components/Footer'
 
@@ -20,6 +21,7 @@ export default function HomePage() {
       <IndiaSection />
       <QuoteSection />
       <EventsSection />
+      <MediaSection />
       <JoinSection />
       <Footer />
     </main>

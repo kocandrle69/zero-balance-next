@@ -7,6 +7,7 @@ export const T = {
     nav_activities: 'Activities',
     nav_india:      'India',
     nav_events:     'Events',
+    nav_media: 'Media',
     nav_journal:    'Journal',
     nav_join:       'Join the Society',
 
@@ -85,6 +86,7 @@ export const T = {
     nav_activities: 'Aktivity',
     nav_india:      'Indie',
     nav_events:     'Události',
+    nav_media: 'Média',
     nav_journal:    'Časopis',
     nav_join:       'Přidat se',
 
