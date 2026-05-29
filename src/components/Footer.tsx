@@ -76,15 +76,11 @@ export default function Footer() {
         <div className={styles.footerBrand}>
           <Link href="/" className={styles.footerLogo}>
             <svg viewBox="0 0 60 60" fill="none" width="44" height="44">
-              <circle cx="30" cy="30" r="27" stroke="rgba(184,146,42,0.5)"  strokeWidth="1"/>
-              <circle cx="30" cy="30" r="18" stroke="rgba(184,146,42,0.3)"  strokeWidth=".75"/>
-              <line x1="30" y1="3"  x2="30" y2="57" stroke="rgba(184,146,42,0.22)" strokeWidth=".75"/>
-              <line x1="3"  y1="30" x2="57" y2="30" stroke="rgba(184,146,42,0.22)" strokeWidth=".75"/>
-              <circle cx="30" cy="30" r="4"   fill="rgba(184,146,42,0.9)"/>
-              <circle cx="30" cy="30" r="1.8" fill="#B8922A"/>
+              <circle cx="30" cy="30" r="26" stroke="rgba(255,255,255,0.9)" strokeWidth="1.5"/>
+              <circle cx="30" cy="30" r="5"  fill="rgba(255,255,255,0.9)"/>
             </svg>
             <div className={styles.logoText}>
-              <span className={styles.logoName}>Zero Ballance</span>
+              <span className={styles.logoName}>Zero Balance</span>
               <span className={styles.logoSub}>Society</span>
             </div>
           </Link>

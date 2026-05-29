@@ -7,7 +7,7 @@ import { useScrollRevealAll } from '../hooks/useScrollReveal'
 import IMG from '../lib/images'
 
 const CONTACT_MAILTO =
-  'mailto:filous@senior.cz?cc=kocandrle@email.cz,jirikocandrle@gmail.com&subject=Zero%20Balance%20Society'
+  'mailto:kocandrle@email.cz?cc=jirikocandrle@gmail.com,filous@senior.cz&subject=Zero%20Balance%20Society'
 
 // "Stát se členem" — zatím mailto s předmětem Členství
 // TODO: nahradit za /join nebo Google Form, jakmile bude hotov
