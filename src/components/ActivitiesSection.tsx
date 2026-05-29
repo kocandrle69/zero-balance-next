@@ -14,6 +14,11 @@ const CARDS = [
   { imgKey: 'act5' as const, tagKey: 'act5_tag', titleKey: 'act5_title', descKey: 'act5_desc', large: false, delay: '0.16s' },
 ] as const
 
+const CARD_LINKS: Record<string, string> = {
+  act1: 'https://www.youtube.com/watch?v=hlnSuJFnywA',
+  act3: 'https://www.youtube.com/watch?v=ubhUjMcCi14',
+}
+
 export default function ActivitiesSection() {
   const { t, tHTML } = useLang()
   const ref = useRef<HTMLElement>(null)
@@ -30,21 +35,40 @@ export default function ActivitiesSection() {
       </div>
 
       <div className={styles.actGrid}>
-        {CARDS.map((card) => (
-          <div
-            key={card.imgKey}
-            className={`${styles.actCard} ${card.large ? styles.large : ''} r`}
-            style={{ transitionDelay: card.delay }}
-          >
-            <img src={IMG[card.imgKey]} alt={t(card.titleKey)} />
-            <div className={styles.actCardOverlay} />
-            <div className={styles.actCardContent}>
-              <span className={styles.actTag}>{t(card.tagKey)}</span>
-              <div className={styles.actTitle} dangerouslySetInnerHTML={tHTML(card.titleKey)} />
-              <p className={styles.actDesc}>{t(card.descKey)}</p>
+        {CARDS.map((card) => {
+          const link = CARD_LINKS[card.imgKey]
+          const inner = (
+            <>
+              <img src={IMG[card.imgKey]} alt={t(card.titleKey)} />
+              <div className={styles.actCardOverlay} />
+              <div className={styles.actCardContent}>
+                <span className={styles.actTag}>{t(card.tagKey)}</span>
+                <div className={styles.actTitle} dangerouslySetInnerHTML={tHTML(card.titleKey)} />
+                <p className={styles.actDesc}>{t(card.descKey)}</p>
+              </div>
+            </>
+          )
+          return link ? (
+            <a
+              key={card.imgKey}
+              href={link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className={`${styles.actCard} ${card.large ? styles.large : ''} r`}
+              style={{ transitionDelay: card.delay, textDecoration: 'none', display: 'block' }}
+            >
+              {inner}
+            </a>
+          ) : (
+            <div
+              key={card.imgKey}
+              className={`${styles.actCard} ${card.large ? styles.large : ''} r`}
+              style={{ transitionDelay: card.delay }}
+            >
+              {inner}
             </div>
-          </div>
-        ))}
+          )
+        })}
       </div>
     </section>
   )

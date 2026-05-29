@@ -42,7 +42,13 @@ export default function PurposeSection() {
           <p className={styles.pillarText}>{t('p1_text')}</p>
         </div>
 
-        <div className={styles.pillar}>
+        <a
+          className={styles.pillar}
+          href="https://www.youtube.com/watch?v=hlnSuJFnywA"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ textDecoration: 'none', color: 'inherit', cursor: 'pointer' }}
+        >
           <div className={styles.pillarIconWrap}>
             <svg viewBox="0 0 48 48" fill="none">
               <path d="M4 24 Q12 10 24 24 Q36 38 44 24" stroke="rgba(184,146,42,0.55)" strokeWidth="1" fill="none"/>
@@ -51,9 +57,15 @@ export default function PurposeSection() {
           </div>
           <span className={styles.pillarName}>{t('p2_name')}</span>
           <p className={styles.pillarText}>{t('p2_text')}</p>
-        </div>
+        </a>
 
-        <div className={styles.pillar}>
+        <a
+          className={styles.pillar}
+          href="https://www.youtube.com/playlist?list=PLbSkKUU_gWXoI_cvvvZpsI7aztpenPOUf"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ textDecoration: 'none', color: 'inherit', cursor: 'pointer' }}
+        >
           <div className={styles.pillarIconWrap}>
             <svg viewBox="0 0 48 48" fill="none">
               <circle cx="24" cy="24" r="20" stroke="rgba(184,146,42,0.25)" strokeWidth=".75"/>
@@ -68,7 +80,7 @@ export default function PurposeSection() {
           </div>
           <span className={styles.pillarName}>{t('p3_name')}</span>
           <p className={styles.pillarText}>{t('p3_text')}</p>
-        </div>
+        </a>
 
         <div className={styles.pillar}>
           <div className={styles.pillarIconWrap}>
