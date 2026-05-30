@@ -18,7 +18,7 @@ const MEMBERSHIP_MAILTO =
   'mailto:jan.kocandrle@zero-balance.org?cc=frantisek@zero-balance.org,jiri.kocandrle@zero-balance.org&subject=Z%C3%A1jem%20o%20%C4%8Dlenstv%C3%AD%20%E2%80%93%20Zero%20Balance%20Society'
 
 export default function Footer() {
-  const { t } = useLang()
+  const { t, lang } = useLang()
 
   // newsletter state
   const [email,   setEmail]   = useState('')
@@ -49,8 +49,9 @@ export default function Footer() {
         },
         body: JSON.stringify({
           email,
-          listIds:    [BREVO_LIST_ID],
+          listIds:       [BREVO_LIST_ID],
           updateEnabled: true,
+          attributes:    { LANGUAGE: lang },
         }),
       })
 
