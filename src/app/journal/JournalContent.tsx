@@ -61,7 +61,7 @@ const CONTENT = {
     s4Head: 'Sídlo a registrace',
     s4p1: <>Spolek je registrován v České republice jako zapsaný spolek (z.s.)
       podle zákona č. 89/2012 Sb., občanského zákoníku.
-      Sídlo spolku: <strong>Okružní 433, 471 23 Zákupy, Česká republika.</strong></>,
+      Sídlo spolku: <strong>Krakovany 352, 281 27 Krakovany, Česká republika.</strong></>,
     s4p2: 'Spolek byl založen na dobu neurčitou a může působit v České republice i v zahraničí.',
 
     footerLabel: 'Zero Ballance Society, z.s. · Vydání I · 2026',
@@ -124,7 +124,7 @@ const CONTENT = {
     s4Head: 'Registered Office',
     s4p1: <>The association is registered in the Czech Republic as a registered
       non-profit association (z.s.) under Act No. 89/2012 Coll., the Civil Code.
-      Registered office: <strong>Okružní 433, 471 23 Zákupy, Czech Republic.</strong></>,
+      Registered office: <strong>Krakovany 352, 281 27 Krakovany, Czech Republic.</strong></>,
     s4p2: 'The association is established for an indefinite period and may operate in the Czech Republic and abroad.',
 
     footerLabel: 'Zero Ballance Society, z.s. · Issue I · 2026',
