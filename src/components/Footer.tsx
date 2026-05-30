@@ -12,10 +12,10 @@ const BREVO_LIST_ID  = Number(process.env.NEXT_PUBLIC_BREVO_LIST_ID ?? 0)
 // ──────────────────────────────────────────────────────────────────────────
 
 const CONTACT_MAILTO =
-  'mailto:kocandrle@email.cz?cc=filous@senior.cz,jirikocandrle@gmail.com&subject=Zero%20Balance%20Society'
+  'mailto:jan.kocandrle@zero-balance.org?cc=frantisek@zero-balance.org,jiri.kocandrle@zero-balance.org&subject=Zero%20Balance%20Society'
 
 const MEMBERSHIP_MAILTO =
-  'mailto:kocandrle@email.cz?cc=filous@senior.cz,jirikocandrle@gmail.com&subject=Z%C3%A1jem%20o%20%C4%8Dlenstv%C3%AD%20%E2%80%93%20Zero%20Balance%20Society'
+  'mailto:jan.kocandrle@zero-balance.org?cc=frantisek@zero-balance.org,jiri.kocandrle@zero-balance.org&subject=Z%C3%A1jem%20o%20%C4%8Dlenstv%C3%AD%20%E2%80%93%20Zero%20Balance%20Society'
 
 export default function Footer() {
   const { t } = useLang()
