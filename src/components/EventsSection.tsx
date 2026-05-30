@@ -1,9 +1,12 @@
 'use client'
 
-import { useRef } from 'react'
+import { useRef, useState } from 'react'
 import styles from './EventsSection.module.css'
 import { useLang } from '../contexts/LangContext'
 import { useScrollRevealAll } from '../hooks/useScrollReveal'
+
+const BREVO_API_KEY = process.env.NEXT_PUBLIC_BREVO_API_KEY ?? ''
+const GURUDEV_LIST_ID = 8 // "Zájem o návštěvu Gurudeva 2027"
 
 const EVENTS = [
   {
@@ -18,6 +21,7 @@ const EVENTS = [
     url:     'https://www.youtube.com/@karaulisarkarofficial',
     tag:     'WEEKLY',
     icon:    '◉',
+    type:    'link' as const,
   },
   {
     dateEN: 'Every Sunday · Morning',
@@ -31,6 +35,7 @@ const EVENTS = [
     url:     'https://www.youtube.com/@PoornaGuru',
     tag:     'WEEKLY',
     icon:    '◎',
+    type:    'link' as const,
   },
   {
     dateEN: 'Jul 25 – Aug 10, 2026 · India',
@@ -44,8 +49,95 @@ const EVENTS = [
     url:     '#india',
     tag:     'JOURNEY',
     icon:    '✦',
+    type:    'link' as const,
   },
 ]
+
+function GurudevCard({ cs }: { cs: boolean }) {
+  const [email, setEmail] = useState('')
+  const [status, setStatus] = useState<'idle' | 'loading' | 'ok' | 'err'>('idle')
+
+  async function handleSubmit() {
+    if (!email || !/\S+@\S+\.\S+/.test(email)) {
+      setStatus('err')
+      return
+    }
+    setStatus('loading')
+
+    if (!BREVO_API_KEY) {
+      setTimeout(() => { setStatus('ok'); setEmail('') }, 600)
+      return
+    }
+
+    try {
+      const res = await fetch('https://api.brevo.com/v3/contacts', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', 'api-key': BREVO_API_KEY },
+        body: JSON.stringify({ email, listIds: [GURUDEV_LIST_ID], updateEnabled: true, 
+  attributes: { LANGUAGE: cs ? 'cs' : 'en' }  }),
+      })
+      if (res.ok || res.status === 204) {
+        setStatus('ok')
+        setEmail('')
+      } else {
+        setStatus('err')
+      }
+    } catch {
+      setStatus('err')
+    }
+  }
+
+  return (
+    <div className={`${styles.eventCard} ${styles.eventCardGurudev} r`} style={{ transitionDelay: '0.32s' }}>
+      <div className={styles.eventTop}>
+        <span className={styles.eventTag}>2027</span>
+        <span className={styles.eventIcon}>☸</span>
+      </div>
+      <span className={styles.eventDate}>
+        {cs ? 'Česká republika · 2027' : 'Czech Republic · 2027'}
+      </span>
+      <div className={styles.eventTitle}>
+        {cs ? 'Příjezd Gurudeva do ČR' : 'Gurudev Visits Czech Republic'}
+      </div>
+      <p className={styles.eventDesc}>
+        {cs
+          ? 'Připravujeme výjimečnou návštěvu Gurudeva v České republice. Jakmile budou k dispozici přesnější informace, dáme vám okamžitě vědět.'
+          : 'We are preparing an extraordinary visit of Gurudev to the Czech Republic. As soon as more details are available, we will let you know immediately.'}
+      </p>
+
+      {status === 'ok' ? (
+        <p className={styles.gurudevSuccess}>
+          {cs ? '✦ Zaregistrováno — budeme vás informovat' : '✦ Registered — we will keep you informed'}
+        </p>
+      ) : (
+        <div className={styles.gurudevForm}>
+          <input
+            type="email"
+            placeholder={cs ? 'Váš e-mail' : 'Your email'}
+            value={email}
+            onChange={e => { setEmail(e.target.value); setStatus('idle') }}
+            onKeyDown={e => e.key === 'Enter' && handleSubmit()}
+            disabled={status === 'loading'}
+            className={styles.gurudevInput}
+          />
+          <button
+            type="button"
+            onClick={handleSubmit}
+            disabled={status === 'loading'}
+            className={styles.gurudevBtn}
+          >
+            {status === 'loading' ? '…' : cs ? 'Mám zájem' : 'Notify me'}
+          </button>
+          {status === 'err' && (
+            <p className={styles.gurudevError}>
+              {cs ? 'Zadejte platný e-mail.' : 'Please enter a valid email.'}
+            </p>
+          )}
+        </div>
+      )}
+    </div>
+  )
+}
 
 export default function EventsSection() {
   const { lang } = useLang()
@@ -64,6 +156,7 @@ export default function EventsSection() {
       </div>
 
       <div className={styles.eventsGrid}>
+        <GurudevCard cs={cs} />
         {EVENTS.map((ev, i) => (
           <div
             key={i}

@@ -44,7 +44,8 @@ section[id] {
   scroll-margin-top: 70px;
 }
 
-/* subtle grain overlay */
+/* subtle grain overlay — transform:translateZ(0) forces a GPU compositing layer so
+   Safari rasterises the SVG feTurbulence once instead of every repaint */
 body::after {
   content: '';
   position: fixed;
@@ -53,6 +54,8 @@ body::after {
   pointer-events: none;
   z-index: 9000;
   opacity: 0.5;
+  transform: translateZ(0);
+  will-change: transform;
 }
 
 ::-webkit-scrollbar { width: 3px; }

@@ -98,3 +98,49 @@
   .events { padding: 52px 20px; }
   .eventCard { padding: 28px 24px; }
 }
+
+/* ── Gurudev 2027 card ─────────────────────────────────────────── */
+.eventCardGurudev {
+  border-color: rgba(184,146,42,0.25);
+  background: linear-gradient(135deg, var(--bg) 0%, rgba(184,146,42,0.04) 100%);
+}
+
+.gurudevForm {
+  display: flex; flex-direction: column; gap: 8px;
+}
+
+.gurudevInput {
+  width: 100%; padding: 10px 16px;
+  background: rgba(184,146,42,0.06);
+  border: 1px solid rgba(184,146,42,0.2);
+  border-radius: 100px; color: var(--ink2);
+  font-size: 13px; font-weight: 300;
+  font-family: 'DM Sans', sans-serif;
+  outline: none; transition: border-color 0.3s;
+  box-sizing: border-box;
+}
+.gurudevInput::placeholder { color: var(--muted); }
+.gurudevInput:focus { border-color: rgba(184,146,42,0.5); }
+
+.gurudevBtn {
+  width: 100%; padding: 10px 16px;
+  background: var(--gold);
+  border: none; border-radius: 100px;
+  color: #fff; font-family: 'Cinzel', serif;
+  font-size: 9px; font-weight: 600;
+  letter-spacing: 0.2em; text-transform: uppercase;
+  cursor: pointer; transition: background 0.3s;
+}
+.gurudevBtn:hover { background: #C9A84C; }
+.gurudevBtn:disabled { opacity: 0.6; cursor: not-allowed; }
+
+.gurudevSuccess {
+  font-family: 'Cinzel', serif; font-size: 9.5px;
+  letter-spacing: 0.15em; color: var(--gold);
+  text-transform: uppercase; padding: 8px 0;
+}
+
+.gurudevError {
+  font-size: 12px; color: rgba(220,80,80,0.85);
+  padding-left: 4px; margin: 0;
+}
