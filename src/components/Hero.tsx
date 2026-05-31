@@ -99,7 +99,9 @@ export default function Hero() {
         </div>
 
         <div className={styles.heroDescSide}>
-          <p>{t('hero_desc')}</p>
+          <a href="#events" style={{ textDecoration: 'none', color: 'inherit' }}>
+            <p style={{ cursor: 'pointer' }}>{t('hero_desc')}</p>
+          </a>
         </div>
       </div>
 

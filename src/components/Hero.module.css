@@ -158,7 +158,26 @@
               inset 0 1px 0 rgba(255,255,255,0.95);
   opacity: 0;
   animation: up 0.9s 0.8s forwards;
+  transition: transform 0.35s ease, box-shadow 0.35s ease, border-color 0.35s ease;
+  position: relative;
+  overflow: hidden;
 }
+.heroDescSide::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--gold), transparent);
+  opacity: 0;
+  transition: opacity 0.35s;
+}
+.heroDescSide:hover {
+  transform: translateY(-4px) scale(1.015);
+  box-shadow: 0 16px 48px rgba(28,24,16,0.14),
+              inset 0 1px 0 rgba(255,255,255,0.95);
+  border-color: rgba(184,146,42,0.3);
+}
+.heroDescSide:hover::before { opacity: 1; }
 .heroDescSide p {
   font-size: 15.5px;
   font-weight: 400;
