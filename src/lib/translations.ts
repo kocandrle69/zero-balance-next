@@ -15,7 +15,7 @@ export const T = {
     hero_title: 'Meditation<span class="dot">.</span><br><em>Culture.</em><br>Community<span class="dot">.</span>',
     hero_btn1:  'Discover More',
     hero_btn2:  'Watch Intro',
-    hero_desc:  'We are preparing an extraordinary visit of Gurudev Shri Karauli Shankar Mahadeva Ji to the Czech Republic in 2027. Register your interest and be among the first to receive details.',
+    hero_desc:  'We are preparing an extraordinary visit of Gurudev Shri Karauli Shankar Mahadev Ji to the Czech Republic in 2027. Register your interest and be among the first to receive details.',
     scroll:     'Scroll',
 
     purpose_label: 'Our Purpose',
