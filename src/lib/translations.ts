@@ -8,8 +8,8 @@ export const T = {
     nav_india:      'India',
     nav_events:     'Events',
     nav_media: 'Media',
-    nav_journal:    'Journal',
-    nav_join:       'Join the Society today',
+    nav_journal:    'Journal-',
+    nav_join:       'Join the Society',
 
     hero_label: 'A space for',
     hero_title: 'Meditation<span class="dot">.</span><br><em>Culture.</em><br>Community<span class="dot">.</span>',
