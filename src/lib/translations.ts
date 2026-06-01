@@ -15,7 +15,7 @@ export const T = {
     hero_title: 'Meditation<span class="dot">.</span><br><em>Culture.</em><br>Community<span class="dot">.</span>',
     hero_btn1:  'Discover More',
     hero_btn2:  'Watch Intro',
-    hero_desc:  'We are preparing an extraordinary visit of Gurudev Shri Karauli Shankar Mahadev Ji to the Czech Republic in 2027. Register your interest and be among the first to receive details.',
+    hero_desc:  'We are preparing an extraordinary visit of <strong>Gurudev Shri Karauli Shankar Mahadev Ji</strong> to the Czech Republic in 2027. Register your interest and be among the first to receive details.',
     scroll:     'Scroll',
 
     purpose_label: 'Our Purpose',
@@ -23,10 +23,10 @@ export const T = {
     purpose_desc:  'We support contemplative practice, personal growth and cultural understanding through community, shared knowledge and lived experience.',
 
     p1_name: 'Stillness',   p1_text: 'Cultivating inner silence and awareness.',
-    p2_name: 'Practice',    p2_text: 'Daily sadhana, meditation and mantra.',
-    p3_name: 'Wisdom',      p3_text: 'Learning from timeless teachings.',
+    p2_name: 'Practice',    p2_text: 'Daily sadhana and meditation with Gurudev',
+    p3_name: 'Wisdom',      p3_text: 'Learning directly from masters.',
     p4_name: 'Community',   p4_text: 'Connecting people on a shared path.',
-    p5_name: 'Ceremonies',  p5_text: 'Rituals, havans and aarti from the Karauli Shankar ashram.',
+    p5_name: 'Ceremonies',  p5_text: 'Rituals, havans and aarti at the ashram.',
 
     about_tag:   'Based in Czech Republic',
     about_label: 'Who We Are',
@@ -42,7 +42,7 @@ export const T = {
     act_title: 'Activities &amp;<br><span class="acc">Offerings</span>',
     act_desc:  'We organise a variety of activities that support body, mind and spirit — inspired by Indian traditions and adapted to our time and context in Central Europe.',
     act1_tag: 'Core Practice', act1_title: 'Meditation',         act1_desc: 'Regular group practices, guided sessions and deep silence retreats',
-    act2_tag: 'Culture',       act2_title: 'Cultural Events',    act2_desc: 'Lectures, music, dialogue and celebration',
+    act2_tag: 'Community',       act2_title: 'Community Gatherings',    act2_desc: 'Satsang with Gurudev',
     act3_tag: 'Pilgrimage',    act3_title: 'India Journeys',     act3_desc: 'Transformative retreats and cultural immersions',
     act4_tag: 'Knowledge',     act4_title: 'Study &amp; Discussion', act4_desc: 'Exploring wisdom traditions together in an open and curious setting',
     act5_tag: 'Sacred Practice', act5_title: 'Ceremonies',        act5_desc: 'Rituals, havans and aarti from the Karauli Shankar ashram',
@@ -96,7 +96,7 @@ export const T = {
     hero_title: 'Meditaci<span class="dot">.</span><br><em>Kulturu.</em><br>Komunitu<span class="dot">.</span>',
     hero_btn1:  'Zjistit více',
     hero_btn2:  'Sledovat intro',
-    hero_desc:  'Připravujeme výjimečnou návštěvu Gurudeva Shri Karauli Shankar Mahadeva Ji v České republice v roce 2027. Zaregistrujte svůj zájem a buďte mezi prvními, kdo obdrží podrobnosti.',
+    hero_desc:  'Připravujeme výjimečnou návštěvu <strong>Gurudeva Shri Karauli Shankar Mahadev Ji</strong> v České republice v roce 2027. Zaregistrujte svůj zájem a buďte mezi prvními, kdo obdrží podrobnosti.',
     scroll:     'Scrollovat',
 
     purpose_label: 'Naše poslání',
@@ -104,8 +104,8 @@ export const T = {
     purpose_desc:  'Podporujeme meditační praxi, osobní rozvoj a kulturní porozumění prostřednictvím komunity, sdílených znalostí a živé zkušenosti.',
 
     p1_name: 'Klid',       p1_text: 'Kultivace vnitřního ticha a vědomí.',
-    p2_name: 'Praxe',      p2_text: 'Každodenní meditace, mantra a sadhana.',
-    p3_name: 'Moudrost',   p3_text: 'Učení z nadčasových tradic.',
+    p2_name: 'Praxe',      p2_text: 'Každodenní sádhana a meditace s Gurudévem.',
+    p3_name: 'Moudrost',   p3_text: 'Poznání předávané přímo mistry.',
     p4_name: 'Komunita',   p4_text: 'Propojování lidí na společné cestě.',
     p5_name: 'Obřady',     p5_text: 'Rituály, havany a aarti z ášrámu Karauli Shankar.',
 
@@ -123,7 +123,7 @@ export const T = {
     act_title: 'Aktivity &amp;<br><span class="acc">nabídka</span>',
     act_desc:  'Organizujeme různé aktivity podporující tělo, mysl i ducha — inspirované indickými tradicemi a přizpůsobené naší době a prostředí ve střední Evropě.',
     act1_tag: 'Základní praxe', act1_title: 'Meditace',              act1_desc: 'Pravidelné skupinové praxe, vedené sezení a retreaty v tichu',
-    act2_tag: 'Kultura',        act2_title: 'Kulturní akce',         act2_desc: 'Přednášky, hudba, dialog a oslavy',
+    act2_tag: 'Komunita',        act2_title: 'Komunitní setkání',         act2_desc: 'Satsang s Gurudévem',
     act3_tag: 'Pouť',           act3_title: 'Cesty do Indie',        act3_desc: 'Transformační retreaty a kulturní ponoření',
     act4_tag: 'Poznání',        act4_title: 'Studium &amp; diskuse', act4_desc: 'Společné prozkoumávání moudrých tradic v otevřeném prostředí',
     act5_tag: 'Posvátná praxe',  act5_title: 'Obřady',                act5_desc: 'Rituály, havany a aarti z ášrámu Karauli Shankar',
