@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import { useSearchParams } from 'next/navigation'
 import { useLang } from '../../contexts/LangContext'
 import Navbar from '../../components/Navbar'
 import Footer from '../../components/Footer'
@@ -10,7 +11,13 @@ import styles from './media.module.css'
 export default function MediaContent() {
   const { lang } = useLang()
   const cs = lang === 'cs'
-  const [active, setActive] = useState<VideoCategory | 'all'>('all')
+  const searchParams = useSearchParams()
+  const categoryParam = searchParams.get('category') as VideoCategory | null
+  const validCategory = categoryParam && CATEGORIES.some(c => c.id === categoryParam)
+    ? categoryParam
+    : null
+
+  const [active, setActive] = useState<VideoCategory | 'all'>(validCategory ?? 'all')
 
   type VideoWithCategories = typeof VIDEOS[0] & { categories?: VideoCategory[] }
 

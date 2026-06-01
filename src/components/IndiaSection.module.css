@@ -21,7 +21,7 @@
   position: relative; z-index: 2;
   padding: 120px 80px;
   display: grid; grid-template-columns: 1fr 1fr;
-  gap: 80px; align-items: center;
+  gap: 80px; align-items: end;
   max-width: 1200px; margin: 0 auto; width: 100%;
 }
 
@@ -45,6 +45,11 @@
 /* Stats — glassmorphism */
 .indiaStats { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-top: 40px; }
 
+.indiaStatLink {
+  text-decoration: none;
+  display: block;
+}
+
 .indiaStat {
   padding: 26px 22px;
   background: rgba(255,255,255,0.08);
@@ -53,11 +58,13 @@
   border-radius: 18px;
   box-shadow: 0 8px 32px rgba(0,0,0,0.18);
   transition: all 0.3s;
+  cursor: pointer;
 }
-.indiaStat:hover {
+.indiaStatLink:hover .indiaStat {
   background: rgba(255,255,255,0.14);
-  border-color: rgba(184,146,42,0.45);
+  border-color: rgba(184,146,42,0.55);
   transform: translateY(-4px);
+  box-shadow: 0 12px 40px rgba(0,0,0,0.28), 0 0 0 1px rgba(184,146,42,0.2);
 }
 
 .num {
