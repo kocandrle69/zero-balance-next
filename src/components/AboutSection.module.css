@@ -119,17 +119,30 @@
 @media (max-width: 900px) {
   .about { padding: 90px 28px; }
   .aboutGrid { grid-template-columns: 1fr; gap: 48px; }
-  .aboutImgCluster { height: 340px; }
+  .aboutImgCluster { height: 340px; overflow: hidden; }
 }
 
 @media (max-width: 640px) {
   .about { padding: 68px 20px; }
-  .aboutImgCluster { height: 280px; }
+  .aboutImgCluster { height: 280px; overflow: hidden; }
 }
 
 @media (max-width: 480px) {
   .about { padding: 52px 20px; }
-  .aboutImgCluster { height: 240px; }
+  /* Na malém mobilu: skryjeme cluster a ukážeme jen hlavní obrázek přes celou šířku */
+  .aboutImgCluster {
+    height: 260px;
+    overflow: hidden;
+  }
+  .aboutImgMain {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: auto; left: auto;
+    border-radius: 18px;
+  }
+  .aboutImgAux { display: none; }
+  .aboutGlassTag { display: none; }
   .sectionTitle { font-size: 28px; }
   .aboutText { font-size: 15px; }
 }

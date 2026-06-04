@@ -68,13 +68,23 @@
 
 @media (max-width: 520px) {
   .purpose { padding: 56px 20px; }
-  .pillars { grid-template-columns: repeat(2,1fr); gap: 10px; }
   .purposeDesc { font-size: 15px; }
-}
-
-@media (max-width: 380px) {
-  .pillars { grid-template-columns: 1fr; }
-  .pillar { padding: 22px 16px; }
+  /* 5 pilířů: 2+2+1 vypadá špatně — použijeme 1 sloupec */
+  .pillars {
+    grid-template-columns: 1fr;
+    gap: 10px;
+    max-width: 360px;
+  }
+  .pillar {
+    display: grid;
+    grid-template-columns: 46px 1fr;
+    gap: 0 16px;
+    align-items: center;
+    text-align: left;
+    padding: 16px 18px;
+  }
+  .pillarIconWrap { margin: 0; }
+  .pillarName { margin-bottom: 4px; }
 }
 
 @media (max-width: 480px) {
