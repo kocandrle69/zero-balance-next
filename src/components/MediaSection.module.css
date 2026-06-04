@@ -243,7 +243,7 @@
 
 /* ─── Responsive ───────────────────────────────────────────────────────────── */
 @media (max-width: 1024px) {
-  .mediaHeader { grid-template-columns: 1fr; }
+  .mediaHeader { grid-template-columns: 1fr; gap: 12px 0; margin-bottom: 40px; }
   .headerDesc { grid-column: 1; max-width: 100%; }
   .featuredWrap { grid-template-columns: 1fr; }
   .featuredMeta { padding: 0; }

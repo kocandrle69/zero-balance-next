@@ -72,6 +72,11 @@
   .purposeDesc { font-size: 15px; }
 }
 
+@media (max-width: 380px) {
+  .pillars { grid-template-columns: 1fr; }
+  .pillar { padding: 22px 16px; }
+}
+
 @media (max-width: 480px) {
   .purpose { padding: 48px 20px; }
   .purposeLabel { margin-bottom: 18px; }

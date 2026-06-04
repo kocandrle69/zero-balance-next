@@ -333,6 +333,7 @@
 
 /* ── Tablet ── */
 @media (max-width: 900px) {
+  .hero { height: auto; min-height: 100svh; min-height: 100vh; }
   .heroBottom {
     flex-direction: column;
     padding: 0 20px 40px;
@@ -347,26 +348,33 @@
     padding: 36px 28px;
   }
   .heroDescSide { max-width: 100%; width: 100%; }
-  .heroTitle { font-size: clamp(44px, 10vw, 64px); }
+  .heroTitle { font-size: clamp(36px, 8vw, 56px); }
   .heroScroll { left: 24px; }
   .slideDots { right: 20px; bottom: 20px; }
-}
-
-/* ── Mobile height ── */
-@media (max-width: 860px) {
-  .hero { height: 82vh; height: 82svh; min-height: 580px; }
-  .heroScroll { display: none; }
 }
 
 /* ── Small mobile ── */
 @media (max-width: 480px) {
   .hero { height: auto; min-height: 100svh; min-height: 100vh; }
-  .heroBottom { padding: 0 16px 24px; padding-bottom: max(24px, env(safe-area-inset-bottom, 24px)); }
-  .heroGlassCard { padding: 22px 26px; }
-  .heroLabel { margin-bottom: 14px; }
-  .heroTitle { font-size: clamp(28px, 8vw, 40px); margin-bottom: 18px; }
-  .heroLine { margin-bottom: 14px; }
+  .heroBottom {
+    padding: 0 16px 28px;
+    padding-bottom: max(28px, env(safe-area-inset-bottom, 28px));
+    gap: 12px;
+  }
+  .heroGlassCard { padding: 22px 22px; }
+  .heroLabel { margin-bottom: 12px; }
+  .heroTitle { font-size: clamp(28px, 8vw, 40px); margin-bottom: 16px; }
+  .heroLine { margin-bottom: 12px; }
   .heroBtns { flex-direction: column; align-items: flex-start; gap: 10px; }
-  .heroDescSide { display: none; }
+
+  /* Druhá karta — kompaktní verze na mobilu, nezobrazuje se skrytá */
+  .heroDescSide {
+    padding: 16px 18px;
+    border-radius: 14px;
+    max-width: 100%;
+    width: 100%;
+  }
+  .heroDescSide p { font-size: 13.5px; line-height: 1.7; }
+
   .slideDots { display: none; }
 }
