@@ -13,7 +13,7 @@
 
 .aboutImgMain {
   position: absolute; top: 0; left: 0;
-  width: 68%; height: 68%;
+  width: 62%; height: 62%;
   border-radius: 24px; overflow: hidden;
   box-shadow: var(--shadow-lg);
 }
@@ -27,7 +27,7 @@
 
 .aboutImgAux {
   position: absolute; bottom: 0; right: 0;
-  width: 52%; height: 48%;
+  width: 58%; height: 54%;
   border-radius: 20px; overflow: hidden;
   border: 1px solid rgba(255,255,255,0.8);
   box-shadow: var(--shadow);
@@ -119,17 +119,20 @@
 @media (max-width: 900px) {
   .about { padding: 90px 28px; }
   .aboutGrid { grid-template-columns: 1fr; gap: 48px; }
-  .aboutImgCluster { height: 340px; }
+  .aboutImgCluster { height: 340px; overflow: hidden; }
 }
 
 @media (max-width: 640px) {
   .about { padding: 68px 20px; }
-  .aboutImgCluster { height: 280px; }
+  .aboutImgCluster { height: 260px; overflow: hidden; }
 }
 
 @media (max-width: 480px) {
   .about { padding: 52px 20px; }
-  .aboutImgCluster { height: 240px; }
+  .aboutImgCluster { height: 220px; overflow: hidden; }
+  .aboutImgAux { display: none; }
+  .aboutGlassTag { display: none; }
+  .aboutImgMain { width: 100%; height: 100%; position: relative; top: auto; left: auto; }
   .sectionTitle { font-size: 28px; }
   .aboutText { font-size: 15px; }
 }
