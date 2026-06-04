@@ -69,22 +69,16 @@
 @media (max-width: 520px) {
   .purpose { padding: 56px 20px; }
   .purposeDesc { font-size: 15px; }
-  /* 5 pilířů: 2+2+1 vypadá špatně — použijeme 1 sloupec */
   .pillars {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr);
     gap: 10px;
-    max-width: 360px;
   }
-  .pillar {
-    display: grid;
-    grid-template-columns: 46px 1fr;
-    gap: 0 16px;
-    align-items: center;
-    text-align: left;
-    padding: 16px 18px;
+  /* 5. pilíř — vycentrovat přes oba sloupce */
+  .pillar:last-child {
+    grid-column: 1 / -1;
+    max-width: calc(50% - 5px);
+    margin: 0 auto;
   }
-  .pillarIconWrap { margin: 0; }
-  .pillarName { margin-bottom: 4px; }
 }
 
 @media (max-width: 480px) {

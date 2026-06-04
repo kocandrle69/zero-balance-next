@@ -34,6 +34,7 @@
 .actGrid {
   display: grid; grid-template-columns: repeat(3,1fr);
   gap: 18px; max-width: 1200px; margin: 0 auto;
+  overflow: hidden;
 }
 
 .actCard {
@@ -100,6 +101,7 @@
 @media (max-width: 560px) {
   .actGrid { grid-template-columns: 1fr; gap: 12px; }
   .actCard.large { grid-column: span 1; min-height: 240px; }
+  .actCard { width: 100%; max-width: 100%; }
 }
 
 @media (max-width: 480px) {
