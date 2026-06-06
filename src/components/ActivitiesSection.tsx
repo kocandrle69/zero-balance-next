@@ -16,10 +16,10 @@ const CARDS = [
 
 const CARD_LINKS: Record<string, string> = {
   act1: 'https://www.youtube.com/watch?v=hlnSuJFnywA',
-  act2: 'https://www.youtube.com/playlist?list=PLbSkKUU_gWXoesDkJrHp3XhtvykYAtRWW',
-  act3: 'https://www.youtube.com/watch?v=gkmYHOGHdBg&list=PLbSkKUU_gWXog39Gsf3gArRq34jGPE1P1',
-  act4: 'https://www.youtube.com/watch?v=rOTNqc8BbHw&list=PLbSkKUU_gWXoI_cvvvZpsI7aztpenPOUf',
-  act5: 'https://www.youtube.com/playlist?list=PLbSkKUU_gWXr2BRjhIroL5AryEqX77hUU',
+  act2: '/media?category=gurudev',
+  act3: '/media?category=journeys',
+  act4: '/media?category=wisdom',
+  act5: '/media?category=rituals',
 }
 
 export default function ActivitiesSection() {
@@ -51,12 +51,12 @@ export default function ActivitiesSection() {
               </div>
             </>
           )
+          const isExternal = link.startsWith('http')
           return link ? (
             <a
               key={card.imgKey}
               href={link}
-              target="_blank"
-              rel="noopener noreferrer"
+              {...(isExternal ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
               className={`${styles.actCard} ${card.large ? styles.large : ''} r`}
               style={{ transitionDelay: card.delay, textDecoration: 'none', display: 'block' }}
             >

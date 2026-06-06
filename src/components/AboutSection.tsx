@@ -15,14 +15,8 @@ export default function AboutSection() {
     <section className={styles.about} id="about" ref={ref}>
       <div className={styles.aboutGrid}>
 
-        <div className={`${styles.aboutImgCluster} r`}>
-          <div className={styles.aboutImgMain}>
-            <img src={IMG.aboutMain} alt="Meditation" />
-          </div>
-          <div className={styles.aboutImgAux}>
-            <img src={IMG.aboutAux} alt="Gathering" />
-          </div>
-          <div className={styles.aboutGlassTag}>{t('about_tag')}</div>
+        <div className={`${styles.aboutImgStrip} r`}>
+          <img src={IMG.aboutMain} alt="Meditation" />
         </div>
 
         <div className="r" style={{ transitionDelay: '0.18s' }}>
@@ -30,20 +24,14 @@ export default function AboutSection() {
           <h2 className={styles.sectionTitle} dangerouslySetInnerHTML={tHTML('about_title')} />
           <p className={styles.aboutText}>{t('about_p1')}</p>
           <p className={styles.aboutText}>{t('about_p2')}</p>
+          <p className={styles.aboutText}>{t('about_p3')}</p>
+          <p className={styles.aboutText}>{t('about_p4')}</p>
           <a
             href="mailto:info@zero-balance.org"
             className={styles.aboutContact}
           >
             info@zero-balance.org
           </a>
-          <div className={styles.aboutValues}>
-            {(['about_v1','about_v2','about_v3','about_v4'] as const).map((key, i) => (
-              <div key={key} className={styles.valueRow}>
-                <span className={styles.valueNum}>0{i + 1}</span>
-                <span>{t(key)}</span>
-              </div>
-            ))}
-          </div>
         </div>
 
       </div>

@@ -7,7 +7,7 @@ const IMG = {
   heroBg:    '/images/anand-darbar-e-2.jpg',
 
   // About — Gurudev portrét + dav v hale
-  aboutMain: '/images/gurudev-scaled.jpg',
+  aboutMain: '/images/Gurudev.jpeg',
   aboutAux:  '/images/A002C0066_250323_004Z.00_03_44_29.Still013-scaled.jpg',
 
 

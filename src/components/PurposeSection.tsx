@@ -61,9 +61,7 @@ export default function PurposeSection() {
 
         <a
           className={styles.pillar}
-          href="https://www.youtube.com/playlist?list=PLbSkKUU_gWXoI_cvvvZpsI7aztpenPOUf"
-          target="_blank"
-          rel="noopener noreferrer"
+          href="/media?category=wisdom"
           style={{ textDecoration: 'none', color: 'inherit', cursor: 'pointer' }}
         >
           <div className={styles.pillarIconWrap}>
@@ -82,7 +80,11 @@ export default function PurposeSection() {
           <p className={styles.pillarText}>{t('p3_text')}</p>
         </a>
 
-        <div className={styles.pillar}>
+        <a
+          className={styles.pillar}
+          href="/media?category=gurudev"
+          style={{ textDecoration: 'none', color: 'inherit', cursor: 'pointer' }}
+        >
           <div className={styles.pillarIconWrap}>
             <svg viewBox="0 0 48 48" fill="none">
               <circle cx="24" cy="12" r="5" stroke="rgba(184,146,42,0.5)" strokeWidth=".75"/>
@@ -95,13 +97,11 @@ export default function PurposeSection() {
           </div>
           <span className={styles.pillarName}>{t('p4_name')}</span>
           <p className={styles.pillarText}>{t('p4_text')}</p>
-        </div>
+        </a>
 
         <a
           className={styles.pillar}
-          href="https://www.youtube.com/playlist?list=PLbSkKUU_gWXr2BRjhIroL5AryEqX77hUU"
-          target="_blank"
-          rel="noopener noreferrer"
+          href="/media?category=rituals"
           style={{ textDecoration: 'none', color: 'inherit', cursor: 'pointer' }}
         >
           <div className={styles.pillarIconWrap}>
