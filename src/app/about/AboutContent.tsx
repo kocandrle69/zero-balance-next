@@ -74,7 +74,7 @@ export default function AboutContent() {
       <main className={styles.page}>
 
         <div className={styles.hero}>
-          <div className={styles.heroBg} style={{ backgroundImage: `url(${IMG.purposeAbout})`, backgroundPosition: 'center 40%' }} />
+          <div className={styles.heroBg} style={{ backgroundImage: `url(${IMG.purposeAbout})`, backgroundPosition: 'center 12%' }} />
           <div className={styles.heroOverlay} />
           <BackLink />
           <div className={styles.heroContent}>
