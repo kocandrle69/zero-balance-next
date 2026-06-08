@@ -76,7 +76,7 @@ export default function LineageContent() {
 
   return (
     <>
-      <Navbar />
+      <Navbar translucent />
       <main className={styles.page}>
 
         <div className={styles.hero}>

@@ -15,7 +15,7 @@ const LANGUAGES = [
   { code: 'de' as Lang, flag: '🇩🇪', name: 'Deutsch',   soon: true  },
 ]
 
-export default function Navbar() {
+export default function Navbar({ translucent = false }: { translucent?: boolean }) {
   const { lang, t, setLang } = useLang()
   const [scrolled,   setScrolled]   = useState(false)
   const [langOpen,   setLangOpen]   = useState(false)
@@ -59,7 +59,7 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className={`${styles.nav} ${scrolled ? styles.scrolled : ''}`} id="nav">
+      <nav className={`${styles.nav} ${scrolled ? styles.scrolled : (translucent ? styles.translucent : '')}`} id="nav">
 
         {/* Logo */}
         <Link href="/" className={styles.logo}>

@@ -68,7 +68,7 @@ export default function ServeContent() {
 
   return (
     <>
-      <Navbar />
+      <Navbar translucent />
       <main className={styles.page}>
 
         <div className={styles.hero}>

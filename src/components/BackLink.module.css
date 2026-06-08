@@ -1,6 +1,6 @@
 .back {
   position: absolute;
-  top: 28px;
+  top: 108px;
   left: 80px;
   z-index: 5;
   display: inline-flex;
@@ -22,5 +22,5 @@
 }
 .back:hover .arrow { transform: translateX(-3px); }
 
-@media (max-width: 860px) { .back { left: 40px; top: 24px; } }
-@media (max-width: 600px) { .back { left: 24px; top: 20px; } }
+@media (max-width: 860px) { .back { left: 40px; top: 104px; } }
+@media (max-width: 600px) { .back { left: 24px; top: 100px; } }
