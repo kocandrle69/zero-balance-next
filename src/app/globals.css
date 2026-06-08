@@ -22,6 +22,7 @@
 }
 
 *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+@media (hover: hover) { * { cursor: none !important; } }
 img { display: block; }
 html {
   scroll-behavior: smooth;

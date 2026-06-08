@@ -2,6 +2,7 @@
 
 import Navbar from '../../components/Navbar'
 import Footer from '../../components/Footer'
+import BackLink from '../../components/BackLink'
 import { useLang } from '../../contexts/LangContext'
 import styles from '../../components/subpage.module.css'
 import IMG from '../../lib/images'
@@ -81,6 +82,7 @@ export default function LineageContent() {
         <div className={styles.hero}>
           <div className={styles.heroBg} style={{ backgroundImage: `url(${IMG.purposeLineage})` }} />
           <div className={styles.heroOverlay} />
+          <BackLink />
           <div className={styles.heroContent}>
             <p className={styles.heroLabel}>{c.label}</p>
             <h1 className={styles.heroTitle}>

@@ -1,0 +1,26 @@
+.back {
+  position: absolute;
+  top: 28px;
+  left: 80px;
+  z-index: 5;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-family: 'Cinzel', serif;
+  font-size: 10px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: rgba(247,243,236,0.65);
+  text-decoration: none;
+  transition: color 0.25s ease;
+}
+.back:hover { color: var(--gold); }
+
+.arrow {
+  display: inline-block;
+  transition: transform 0.25s ease;
+}
+.back:hover .arrow { transform: translateX(-3px); }
+
+@media (max-width: 860px) { .back { left: 40px; top: 24px; } }
+@media (max-width: 600px) { .back { left: 24px; top: 20px; } }
