@@ -1,7 +1,7 @@
 /* ── Section wrapper ──────────────────────────────────────────────── */
 .purpose {
   padding: 100px 80px;
-  background: var(--surface);
+  background: var(--bg2);
   border-top: 1px solid rgba(184,146,42,0.1);
   border-bottom: 1px solid rgba(184,146,42,0.1);
   text-align: center;
