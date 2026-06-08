@@ -25,6 +25,13 @@ const IMG = {
 
   // Join — Gurudev se zdviženýma rukama
   joinBg:    '/images/YOG-DAND-2.jpg',
+
+  // Purpose pillars — 5 karet
+  purposePreserve: '/images/purpose-preserve.jpg',
+  purposeLineage:  '/images/purpose-lineage.jpg',
+  purposeCreate:   '/images/purpose-create.jpg',
+  purposeServe:    '/images/purpose-serve.jpg',
+  purposeAbout:    '/images/purpose-about.png',
 } as const
 
 export default IMG

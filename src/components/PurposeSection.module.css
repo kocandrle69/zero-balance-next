@@ -1,28 +1,35 @@
+/* ── Section wrapper ──────────────────────────────────────────────── */
 .purpose {
   padding: 100px 80px;
   background: var(--surface);
   border-top: 1px solid rgba(184,146,42,0.1);
   border-bottom: 1px solid rgba(184,146,42,0.1);
-  text-align: center; overflow: hidden; position: relative;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
 }
 .purpose::before {
-  content: ''; position: absolute; top: 50%; left: 50%;
-  transform: translate(-50%,-50%);
+  content: '';
+  position: absolute; top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
   width: 600px; height: 600px;
   background: radial-gradient(circle, rgba(184,146,42,0.04) 0%, transparent 65%);
   pointer-events: none;
 }
 
+/* ── Header ───────────────────────────────────────────────────────── */
 .purposeLabel {
-  font-family: 'Cinzel', serif; font-size: 10px;
-  letter-spacing: 0.38em; color: var(--gold);
-  text-transform: uppercase; margin-bottom: 26px;
+  font-family: 'Cinzel', serif;
+  font-size: 10px; letter-spacing: 0.38em;
+  color: var(--gold); text-transform: uppercase;
+  margin-bottom: 26px;
 }
 
 .purpose :global(h2) {
   font-family: 'Cormorant Garamond', serif;
-  font-size: clamp(30px, 3.2vw, 52px); font-weight: 300;
-  line-height: 1.15; margin-bottom: 24px; color: var(--ink2);
+  font-size: clamp(30px, 3.2vw, 52px);
+  font-weight: 300; line-height: 1.15;
+  margin-bottom: 24px; color: var(--ink2);
 }
 .purpose :global(h2 em) { font-style: italic; color: var(--gold); }
 
@@ -31,57 +38,187 @@
   max-width: 540px; margin: 0 auto 60px; line-height: 1.85;
 }
 
+/* ── 5-card grid ──────────────────────────────────────────────────── */
 .pillars {
-  display: grid; grid-template-columns: repeat(5,1fr);
-  gap: 16px; max-width: 1060px; margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-.pillar {
-  padding: 32px 20px;
-  background: var(--bg);
-  border: 1px solid rgba(184,146,42,0.1);
-  border-radius: 18px; text-align: center;
-  transition: all 0.35s;
+/* ── Single card ──────────────────────────────────────────────────── */
+.card {
+  position: relative;
+  height: 380px;
+  border-radius: 6px;
+  overflow: hidden;
+  display: block;
+  text-decoration: none;
+  cursor: pointer;
 }
-.pillar:hover {
-  background: var(--glass-gold);
-  border-color: var(--glass-gold-b);
+
+/* Foto pozadí */
+.cardImg {
+  position: absolute; inset: 0;
+  background-size: cover;
+  background-position: center 30%;
+  transition: transform 0.6s ease, filter 0.4s ease;
+  filter: brightness(0.85);
+}
+.card:hover .cardImg {
+  transform: scale(1.05);
+  filter: brightness(0.72);
+}
+
+/* Tmavý overlay — gradient zdola */
+.cardOverlay {
+  position: absolute; inset: 0;
+  background: linear-gradient(
+    to top,
+    rgba(14,10,4,0.93) 0%,
+    rgba(14,10,4,0.52) 44%,
+    rgba(14,10,4,0.12) 100%
+  );
+  transition: background 0.4s ease;
+}
+.card:hover .cardOverlay {
+  background: linear-gradient(
+    to top,
+    rgba(14,10,4,0.97) 0%,
+    rgba(14,10,4,0.65) 52%,
+    rgba(14,10,4,0.22) 100%
+  );
+}
+
+/* Top řada: keyword vlevo, šipka vpravo */
+.cardTop {
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  padding: 20px 18px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  z-index: 2;
+}
+
+.keyword {
+  font-family: 'Cinzel', serif;
+  font-size: 8.5px; letter-spacing: 0.3em;
+  color: rgba(184,146,42,0.85);
+  text-transform: uppercase;
+  line-height: 1;
+  padding-top: 2px;
+}
+
+.arrow {
+  width: 22px; height: 22px;
+  border: 1px solid rgba(184,146,42,0.35);
+  border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  color: var(--gold);
+  opacity: 0;
   transform: translateY(-4px);
-  box-shadow: var(--shadow);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  flex-shrink: 0;
+}
+.card:hover .arrow { opacity: 1; transform: translateY(0); }
+.arrow svg { width: 9px; height: 9px; }
+
+/* SVG symbol — vždy ve střední výšce karty */
+.cardSymbol {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 42px; height: 42px;
+  opacity: 0.28;
+  transition: opacity 0.4s ease;
+  z-index: 2;
+  pointer-events: none;
+}
+.card:hover .cardSymbol { opacity: 0.55; }
+
+/* Spodní obsah */
+.cardBottom {
+  position: absolute;
+  bottom: 0; left: 0; right: 0;
+  padding: 0 18px 22px;
+  z-index: 2;
+  transition: transform 0.4s ease;
+}
+.card:hover .cardBottom { transform: translateY(-5px); }
+
+/* Název — fixní min-height zajistí zarovnání dole u všech karet */
+.cardTitle {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 19px; font-weight: 300;
+  color: #F7F3EC; line-height: 1.25;
+  margin-bottom: 9px;
+  min-height: 48px;
+  display: flex; flex-direction: column; justify-content: flex-end;
 }
 
-.pillarIconWrap { width: 46px; height: 46px; margin: 0 auto 18px; }
-
-.pillarName {
-  font-family: 'Cinzel', serif; font-size: 9.5px;
-  letter-spacing: 0.25em; color: var(--gold);
-  text-transform: uppercase; display: block; margin-bottom: 10px;
+.cardSub {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 11.5px; font-weight: 300;
+  color: rgba(247,243,236,0.55);
+  line-height: 1.55;
+  min-height: 34px;
 }
 
-.pillarText { font-size: 13px; color: var(--muted); line-height: 1.65; }
+/* Zlatá linka zdola — hover animace */
+.cardLine {
+  position: absolute;
+  bottom: 0; left: 0;
+  width: 0; height: 2px;
+  background: var(--gold);
+  transition: width 0.45s ease;
+  z-index: 3;
+}
+.card:hover .cardLine { width: 100%; }
 
-@media (max-width: 800px) {
+/* ── Responsive ───────────────────────────────────────────────────── */
+@media (max-width: 1100px) {
+  .purpose { padding: 80px 40px; }
+  .pillars { gap: 8px; }
+  .card { height: 340px; }
+  .cardTitle { font-size: 17px; }
+}
+
+@media (max-width: 860px) {
   .purpose { padding: 72px 28px; }
-  .pillars { grid-template-columns: repeat(3,1fr); }
+  .pillars {
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 700px;
+  }
+  /* 4. a 5. karta — dvě vedle sebe centrované */
+  .card:nth-child(4),
+  .card:nth-child(5) {
+    grid-column: auto;
+  }
+  .card { height: 300px; }
   .purposeDesc { margin-bottom: 44px; }
 }
 
-@media (max-width: 520px) {
-  .purpose { padding: 56px 20px; }
-  .purposeDesc { font-size: 15px; }
+@media (max-width: 600px) {
+  .purpose { padding: 56px 16px; }
   .pillars {
     grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
+    gap: 8px;
   }
-  /* 5. pilíř — vycentrovat přes oba sloupce */
-  .pillar:last-child {
+  /* 5. karta přes celou šířku */
+  .card:nth-child(5) {
     grid-column: 1 / -1;
-    max-width: calc(50% - 5px);
-    margin: 0 auto;
   }
+  .card { height: 260px; }
+  .purposeDesc { font-size: 15px; margin-bottom: 36px; }
+  .cardTitle { font-size: 16px; min-height: 40px; }
+  .cardSub { font-size: 11px; }
+  .cardSymbol { width: 34px; height: 34px; }
 }
 
-@media (max-width: 480px) {
-  .purpose { padding: 48px 20px; }
-  .purposeLabel { margin-bottom: 18px; }
+@media (max-width: 400px) {
+  .purpose { padding: 48px 12px; }
+  .card { height: 240px; }
 }

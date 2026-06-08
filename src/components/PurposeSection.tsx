@@ -1,9 +1,87 @@
 'use client'
 
 import { useRef } from 'react'
+import Link from 'next/link'
 import styles from './PurposeSection.module.css'
 import { useLang } from '../contexts/LangContext'
 import { useScrollRevealAll } from '../hooks/useScrollReveal'
+import IMG from '../lib/images'
+
+const PILLARS = [
+  {
+    keywordKey: 'pill1_keyword' as const,
+    titleKey:   'pill1_title'  as const,
+    subKey:     'pill1_sub'    as const,
+    href:       '/preserve',
+    img:        IMG.purposePreserve,
+    icon: (
+      <svg viewBox="0 0 40 40" fill="none" aria-hidden="true">
+        <circle cx="20" cy="20" r="17" stroke="rgba(184,146,42,0.9)"  strokeWidth="0.75"/>
+        <circle cx="20" cy="20" r="10" stroke="rgba(184,146,42,0.65)" strokeWidth="0.75"/>
+        <circle cx="20" cy="20" r="2.5" fill="rgba(184,146,42,1)"/>
+      </svg>
+    ),
+  },
+  {
+    keywordKey: 'pill2_keyword' as const,
+    titleKey:   'pill2_title'  as const,
+    subKey:     'pill2_sub'    as const,
+    href:       '/lineage',
+    img:        IMG.purposeLineage,
+    icon: (
+      <svg viewBox="0 0 40 40" fill="none" aria-hidden="true">
+        <path d="M20 3C24 11 24 29 20 37C16 29 16 11 20 3Z"   stroke="rgba(184,146,42,0.9)"  strokeWidth="0.75" fill="none"/>
+        <path d="M3 20C11 24 29 24 37 20C29 16 11 16 3 20Z"   stroke="rgba(184,146,42,0.55)" strokeWidth="0.75" fill="none"/>
+        <circle cx="20" cy="20" r="2.5" stroke="rgba(184,146,42,1)" strokeWidth="0.75" fill="none"/>
+      </svg>
+    ),
+  },
+  {
+    keywordKey: 'pill3_keyword' as const,
+    titleKey:   'pill3_title'  as const,
+    subKey:     'pill3_sub'    as const,
+    href:       '/community',
+    img:        IMG.purposeCreate,
+    icon: (
+      <svg viewBox="0 0 40 40" fill="none" aria-hidden="true">
+        <circle cx="20" cy="10" r="4.5" stroke="rgba(184,146,42,0.9)"  strokeWidth="0.75"/>
+        <circle cx="8"  cy="30" r="4.5" stroke="rgba(184,146,42,0.9)"  strokeWidth="0.75"/>
+        <circle cx="32" cy="30" r="4.5" stroke="rgba(184,146,42,0.9)"  strokeWidth="0.75"/>
+        <line x1="20" y1="14.5" x2="10" y2="25.5" stroke="rgba(184,146,42,0.4)" strokeWidth="0.75"/>
+        <line x1="20" y1="14.5" x2="30" y2="25.5" stroke="rgba(184,146,42,0.4)" strokeWidth="0.75"/>
+        <line x1="12.5" y1="30" x2="27.5" y2="30" stroke="rgba(184,146,42,0.4)" strokeWidth="0.75"/>
+      </svg>
+    ),
+  },
+  {
+    keywordKey: 'pill4_keyword' as const,
+    titleKey:   'pill4_title'  as const,
+    subKey:     'pill4_sub'    as const,
+    href:       '/serve',
+    img:        IMG.purposeServe,
+    icon: (
+      <svg viewBox="0 0 40 40" fill="none" aria-hidden="true">
+        <circle cx="20" cy="20" r="15" stroke="rgba(184,146,42,0.9)" strokeWidth="0.75"/>
+        <path d="M12 20C12 15.58 15.58 12 20 12C24.42 12 28 15.58 28 20"
+              stroke="rgba(184,146,42,0.9)" strokeWidth="0.75" fill="none"/>
+        <circle cx="20" cy="27" r="2" fill="rgba(184,146,42,0.9)"/>
+      </svg>
+    ),
+  },
+  {
+    keywordKey: 'pill5_keyword' as const,
+    titleKey:   'pill5_title'  as const,
+    subKey:     'pill5_sub'    as const,
+    href:       '/about',
+    img:        IMG.purposeAbout,
+    icon: (
+      <svg viewBox="0 0 40 40" fill="none" aria-hidden="true">
+        <circle cx="20" cy="20" r="17" stroke="rgba(184,146,42,0.9)" strokeWidth="0.75"/>
+        <circle cx="20" cy="20" r="5"  fill="rgba(184,146,42,0.9)"/>
+      </svg>
+    ),
+  },
+]
 
 export default function PurposeSection() {
   const { t, tHTML } = useLang()
@@ -12,6 +90,7 @@ export default function PurposeSection() {
 
   return (
     <section className={styles.purpose} id="philosophy" ref={ref}>
+
       <p className={`${styles.purposeLabel} r`}>{t('purpose_label')}</p>
 
       <h2
@@ -28,94 +107,57 @@ export default function PurposeSection() {
       </p>
 
       <div className={`${styles.pillars} r`} style={{ transitionDelay: '0.24s' }}>
+        {PILLARS.map((p) => {
+          const titleLines = t(p.titleKey).split('\n')
+          return (
+            <Link key={p.href} href={p.href} className={styles.card}>
 
-        <div className={styles.pillar}>
-          <div className={styles.pillarIconWrap}>
-            <svg viewBox="0 0 48 48" fill="none">
-              <circle cx="24" cy="24" r="22" stroke="rgba(184,146,42,0.3)"  strokeWidth="1"/>
-              <circle cx="24" cy="24" r="14" stroke="rgba(184,146,42,0.4)"  strokeWidth=".75"/>
-              <circle cx="24" cy="24" r="6"  stroke="rgba(184,146,42,0.55)" strokeWidth=".75"/>
-              <circle cx="24" cy="24" r="2.5" fill="rgba(184,146,42,0.8)"/>
-            </svg>
-          </div>
-          <span className={styles.pillarName}>{t('p1_name')}</span>
-          <p className={styles.pillarText}>{t('p1_text')}</p>
-        </div>
+              {/* Fotka pozadí */}
+              <div
+                className={styles.cardImg}
+                style={{ backgroundImage: `url(${p.img})` }}
+              />
 
-        <a
-          className={styles.pillar}
-          href="https://www.youtube.com/watch?v=hlnSuJFnywA"
-          target="_blank"
-          rel="noopener noreferrer"
-          style={{ textDecoration: 'none', color: 'inherit', cursor: 'pointer' }}
-        >
-          <div className={styles.pillarIconWrap}>
-            <svg viewBox="0 0 48 48" fill="none">
-              <path d="M4 24 Q12 10 24 24 Q36 38 44 24" stroke="rgba(184,146,42,0.55)" strokeWidth="1" fill="none"/>
-              <path d="M4 24 Q12 17 24 24 Q36 31 44 24" stroke="rgba(184,146,42,0.3)"  strokeWidth=".75" fill="none"/>
-            </svg>
-          </div>
-          <span className={styles.pillarName}>{t('p2_name')}</span>
-          <p className={styles.pillarText}>{t('p2_text')}</p>
-        </a>
+              {/* Tmavý overlay */}
+              <div className={styles.cardOverlay} />
 
-        <a
-          className={styles.pillar}
-          href="/media?category=wisdom"
-          style={{ textDecoration: 'none', color: 'inherit', cursor: 'pointer' }}
-        >
-          <div className={styles.pillarIconWrap}>
-            <svg viewBox="0 0 48 48" fill="none">
-              <circle cx="24" cy="24" r="20" stroke="rgba(184,146,42,0.25)" strokeWidth=".75"/>
-              <line x1="24" y1="4"  x2="24" y2="44" stroke="rgba(184,146,42,0.2)" strokeWidth=".75"/>
-              <line x1="4"  y1="24" x2="44" y2="24" stroke="rgba(184,146,42,0.2)" strokeWidth=".75"/>
-              <circle cx="24" cy="24" r="3"  fill="rgba(184,146,42,0.85)"/>
-              <circle cx="24" cy="4"  r="2"  fill="rgba(184,146,42,0.45)"/>
-              <circle cx="24" cy="44" r="2"  fill="rgba(184,146,42,0.45)"/>
-              <circle cx="4"  cy="24" r="2"  fill="rgba(184,146,42,0.45)"/>
-              <circle cx="44" cy="24" r="2"  fill="rgba(184,146,42,0.45)"/>
-            </svg>
-          </div>
-          <span className={styles.pillarName}>{t('p3_name')}</span>
-          <p className={styles.pillarText}>{t('p3_text')}</p>
-        </a>
+              {/* Nahoře: keyword + šipka */}
+              <div className={styles.cardTop}>
+                <span className={styles.keyword}>{t(p.keywordKey)}</span>
+                <span className={styles.arrow} aria-hidden="true">
+                  <svg viewBox="0 0 10 10" fill="none">
+                    <path d="M2 8L8 2M8 2H4M8 2V6"
+                          stroke="currentColor" strokeWidth="1.2" strokeLinecap="round"/>
+                  </svg>
+                </span>
+              </div>
 
-        <a
-          className={styles.pillar}
-          href="/media?category=gurudev"
-          style={{ textDecoration: 'none', color: 'inherit', cursor: 'pointer' }}
-        >
-          <div className={styles.pillarIconWrap}>
-            <svg viewBox="0 0 48 48" fill="none">
-              <circle cx="24" cy="12" r="5" stroke="rgba(184,146,42,0.5)" strokeWidth=".75"/>
-              <circle cx="10" cy="34" r="5" stroke="rgba(184,146,42,0.5)" strokeWidth=".75"/>
-              <circle cx="38" cy="34" r="5" stroke="rgba(184,146,42,0.5)" strokeWidth=".75"/>
-              <line x1="24" y1="17" x2="13" y2="29" stroke="rgba(184,146,42,0.25)" strokeWidth=".75"/>
-              <line x1="24" y1="17" x2="35" y2="29" stroke="rgba(184,146,42,0.25)" strokeWidth=".75"/>
-              <line x1="15" y1="34" x2="33" y2="34" stroke="rgba(184,146,42,0.25)" strokeWidth=".75"/>
-            </svg>
-          </div>
-          <span className={styles.pillarName}>{t('p4_name')}</span>
-          <p className={styles.pillarText}>{t('p4_text')}</p>
-        </a>
+              {/* SVG symbol uprostřed */}
+              <div className={styles.cardSymbol}>
+                {p.icon}
+              </div>
 
-        <a
-          className={styles.pillar}
-          href="/media?category=rituals"
-          style={{ textDecoration: 'none', color: 'inherit', cursor: 'pointer' }}
-        >
-          <div className={styles.pillarIconWrap}>
-            <svg viewBox="0 0 48 48" fill="none">
-              <path d="M24 4C30 14 30 34 24 44C18 34 18 14 24 4Z" stroke="rgba(184,146,42,0.4)"  strokeWidth=".75" fill="none"/>
-              <path d="M4 24C14 30 34 30 44 24C34 18 14 18 4 24Z"  stroke="rgba(184,146,42,0.28)" strokeWidth=".75" fill="none"/>
-              <circle cx="24" cy="24" r="3.5" stroke="rgba(184,146,42,0.65)" strokeWidth=".75" fill="none"/>
-            </svg>
-          </div>
-          <span className={styles.pillarName}>{t('p5_name')}</span>
-          <p className={styles.pillarText}>{t('p5_text')}</p>
-        </a>
+              {/* Dole: název + popis */}
+              <div className={styles.cardBottom}>
+                <h3 className={styles.cardTitle}>
+                  {titleLines.map((line, i) => (
+                    <span key={i}>
+                      {line}
+                      {i < titleLines.length - 1 && <br />}
+                    </span>
+                  ))}
+                </h3>
+                <p className={styles.cardSub}>{t(p.subKey)}</p>
+              </div>
 
+              {/* Zlatá linka zdola — animace při hoveru */}
+              <div className={styles.cardLine} />
+
+            </Link>
+          )
+        })}
       </div>
+
     </section>
   )
 }
