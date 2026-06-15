@@ -1,12 +1,4 @@
-.events {
-  padding: 140px 80px;
-  background:
-    radial-gradient(ellipse 80% 55% at 50% 0%, rgba(184,146,42,0.07) 0%, transparent 65%),
-    #1A1610;
-  overflow: hidden;
-  border-top: 1px solid rgba(184,146,42,0.18);
-  border-bottom: 1px solid rgba(184,146,42,0.18);
-}
+.events { padding: 140px 80px; background: var(--bg); overflow: hidden; }
 
 .evHeader { max-width: 1200px; margin: 0 auto 56px; }
 
@@ -23,7 +15,7 @@
 .sectionTitle {
   font-family: 'Cormorant Garamond', serif;
   font-size: clamp(28px, 3vw, 46px); font-weight: 300;
-  line-height: 1.1; color: rgba(247,243,236,0.95);
+  line-height: 1.1; color: var(--ink2);
 }
 .sectionTitle :global(.acc) { color: var(--gold); font-style: italic; }
 
@@ -32,14 +24,12 @@
   gap: 20px; max-width: 1200px; margin: 0 auto;
 }
 
-/* ── Cards: white on dark ── */
 .eventCard {
   padding: 36px 32px;
-  background: rgba(247,243,236,0.96);
-  border: none;
+  background: var(--bg);
+  border: 1px solid rgba(184,146,42,0.1);
   border-radius: 22px; transition: all 0.4s;
   position: relative; overflow: hidden;
-  box-shadow: 0 8px 40px rgba(0,0,0,0.30), 0 2px 8px rgba(0,0,0,0.18);
 }
 .eventCard::before {
   content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px;
@@ -47,9 +37,10 @@
   opacity: 0; transition: opacity 0.4s;
 }
 .eventCard:hover {
-  background: #FFFFFF;
+  background: var(--glass-gold);
+  border-color: var(--glass-gold-b);
   transform: translateY(-6px);
-  box-shadow: 0 20px 60px rgba(0,0,0,0.38), 0 4px 16px rgba(0,0,0,0.22);
+  box-shadow: var(--shadow-lg);
 }
 .eventCard:hover::before { opacity: 1; }
 
@@ -84,13 +75,13 @@
 .eventTag {
   font-family: 'Cinzel', serif; font-size: 8.5px;
   letter-spacing: 0.2em; color: var(--gold);
-  background: rgba(184,146,42,0.1);
-  border: 1px solid rgba(184,146,42,0.25);
+  background: rgba(184,146,42,0.08);
+  border: 1px solid rgba(184,146,42,0.2);
   border-radius: 100px; padding: 3px 10px;
   text-transform: uppercase;
 }
 .eventIcon {
-  font-size: 16px; color: rgba(184,146,42,0.4);
+  font-size: 16px; color: rgba(184,146,42,0.35);
 }
 
 @media (max-width: 900px) {
@@ -110,11 +101,8 @@
 
 /* ── Gurudev 2027 card ─────────────────────────────────────────── */
 .eventCardGurudev {
-  border: 1px solid rgba(184,146,42,0.2);
-  box-shadow:
-    0 8px 40px rgba(0,0,0,0.30),
-    0 2px 8px rgba(0,0,0,0.18),
-    inset 0 0 0 1px rgba(184,146,42,0.12);
+  border-color: rgba(184,146,42,0.25);
+  background: linear-gradient(135deg, var(--bg) 0%, rgba(184,146,42,0.04) 100%);
 }
 
 .gurudevForm {
@@ -123,8 +111,8 @@
 
 .gurudevInput {
   width: 100%; padding: 10px 16px;
-  background: rgba(14,10,4,0.06);
-  border: 1px solid rgba(184,146,42,0.25);
+  background: rgba(184,146,42,0.06);
+  border: 1px solid rgba(184,146,42,0.2);
   border-radius: 100px; color: var(--ink2);
   font-size: 13px; font-weight: 300;
   font-family: 'DM Sans', sans-serif;
