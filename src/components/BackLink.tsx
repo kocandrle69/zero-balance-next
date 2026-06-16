@@ -10,7 +10,7 @@ export default function BackLink() {
   return (
     <Link href="/" className={styles.back}>
       <span className={styles.arrow}>←</span>
-      {lang === 'cs' ? 'Zpět' : 'Back'}
+      {lang === 'hi' ? 'वापस' : lang === 'cs' ? 'Zpět' : 'Back'}
     </Link>
   )
 }

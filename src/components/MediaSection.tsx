@@ -10,17 +10,17 @@ export type VideoCategory =
   | 'sadhana' | 'wisdom' | 'ashram' | 'place'
   | 'deeksha' | 'gurudev' | 'aarti' | 'journeys' | 'meditation' | 'rituals'
 
-export const CATEGORIES: { id: VideoCategory; labelCS: string; labelEN: string }[] = [
-  { id: 'sadhana',    labelCS: 'Sadhana',           labelEN: 'Sadhana' },
-  { id: 'wisdom',     labelCS: 'Moudrost Indie',     labelEN: 'Wisdom of India' },
-  { id: 'ashram',     labelCS: 'Život v ášrámu',     labelEN: 'Ashram life' },
-  { id: 'place',      labelCS: 'Okolí ášrámu',       labelEN: 'Around the ashram' },
-  { id: 'deeksha',    labelCS: 'Deeksha',            labelEN: 'Deeksha' },
-  { id: 'gurudev',    labelCS: 'Gurudev',            labelEN: 'Gurudev' },
-  { id: 'aarti',      labelCS: 'Aarti',              labelEN: 'Aarti' },
-  { id: 'journeys',   labelCS: 'Cesty do Indie',     labelEN: 'Journeys to India' },
-  { id: 'meditation', labelCS: 'Meditace',           labelEN: 'Meditation' },
-  { id: 'rituals',    labelCS: 'Rituály & havany',   labelEN: 'Rituals & havans' },
+export const CATEGORIES: { id: VideoCategory; labelCS: string; labelEN: string; labelHI: string }[] = [
+  { id: 'sadhana',    labelCS: 'Sadhana',           labelEN: 'Sadhana',              labelHI: 'साधना' },
+  { id: 'wisdom',     labelCS: 'Moudrost Indie',     labelEN: 'Wisdom of India',      labelHI: 'भारत की बुद्धि' },
+  { id: 'ashram',     labelCS: 'Život v ášrámu',     labelEN: 'Ashram life',          labelHI: 'आश्रम जीवन' },
+  { id: 'place',      labelCS: 'Okolí ášrámu',       labelEN: 'Around the ashram',    labelHI: 'आश्रम के आसपास' },
+  { id: 'deeksha',    labelCS: 'Deeksha',            labelEN: 'Deeksha',              labelHI: 'दीक्षा' },
+  { id: 'gurudev',    labelCS: 'Gurudev',            labelEN: 'Gurudev',              labelHI: 'गुरुदेव' },
+  { id: 'aarti',      labelCS: 'Aarti',              labelEN: 'Aarti',                labelHI: 'आरती' },
+  { id: 'journeys',   labelCS: 'Cesty do Indie',     labelEN: 'Journeys to India',    labelHI: 'भारत यात्राएं' },
+  { id: 'meditation', labelCS: 'Meditace',           labelEN: 'Meditation',           labelHI: 'ध्यान' },
+  { id: 'rituals',    labelCS: 'Rituály & havany',   labelEN: 'Rituals & havans',     labelHI: 'अनुष्ठान व हवन' },
 ]
 
 // ─── Video data ───────────────────────────────────────────────────────────────
@@ -39,6 +39,9 @@ export const VIDEOS = [
     categories: ['sadhana', 'meditation'] as VideoCategory[],
     tag:     'SADHANA',
     tagEN:   'SADHANA',
+    titleHI: 'गुरुदेव के मार्गदर्शन में साधना — चेक डबिंग के साथ',
+    descHI:  'गुरुदेव के प्रत्यक्ष प्रसारण के साथ निर्देशित साधना — हमारी समुदाय के लिए चेक डबिंग के साथ।',
+    tagHI:   'साधना',
   },
   // 2. PREVIEW — Moudrost Indie: Úvod (lekce 1)
   {
@@ -52,6 +55,9 @@ export const VIDEOS = [
     category: 'wisdom' as const,
     tag:     'MOUDROST',
     tagEN:   'WISDOM',
+    titleHI: 'भारत की बुद्धि — सेंसेई राजीव सिन्हा के साथ — परिचय',
+    descHI:  'भारत की बुद्धि श्रृंखला का पहला पाठ। सेंसेई राजीव सिन्हा भारतीय दर्शन और आध्यात्मिक अभ्यास की गहराई का परिचय देते हैं।',
+    tagHI:   'बुद्धि',
   },
   // 3. PREVIEW — Ášrám
   {
@@ -65,6 +71,9 @@ export const VIDEOS = [
     category: 'ashram' as const,
     tag:     'ÁŠRAM',
     tagEN:   'ASHRAM',
+    titleHI: 'काराउली शंकर महादेव धाम आश्रम में एक सप्ताह',
+    descHI:  'आश्रम की दैनिक लय की झलक — सुबह की साधना, पूजा, सत्संग और शांत क्षण।',
+    tagHI:   'आश्रम',
   },
   // ─── Všechna videa (/media) ────────────────────────────────────────────────
   // Sekce: Moudrost Indie
@@ -79,6 +88,9 @@ export const VIDEOS = [
     category: 'wisdom' as const,
     tag:     'MOUDROST',
     tagEN:   'WISDOM',
+    titleHI: 'भारत की बुद्धि — एक सच्चे गुरु को खोजना',
+    descHI:  'दूसरा पाठ: आध्यात्मिक मार्ग पर सच्चे गुरु को खोजने का अर्थ।',
+    tagHI:   'बुद्धि',
   },
   {
     id: 'OxrFgXqKYFg',
@@ -91,6 +103,9 @@ export const VIDEOS = [
     category: 'wisdom' as const,
     tag:     'MOUDROST',
     tagEN:   'WISDOM',
+    titleHI: 'भारत की बुद्धि — प्रकृति के तत्वों पर नियंत्रण',
+    descHI:  'तीसरा पाठ: कैसे योगी और तांत्रिक प्रकृति की शक्तियों के साथ कार्य करते हैं।',
+    tagHI:   'बुद्धि',
   },
   {
     id: 'L17tfQvwT_I',
@@ -103,6 +118,9 @@ export const VIDEOS = [
     category: 'wisdom' as const,
     tag:     'MOUDROST',
     tagEN:   'WISDOM',
+    titleHI: 'भारत की बुद्धि — पाठ 4',
+    descHI:  'सेंसेई राजीव सिन्हा के साथ श्रृंखला का चौथा भाग।',
+    tagHI:   'बुद्धि',
   },
   {
     id: '3zmenJyvr7o',
@@ -115,6 +133,9 @@ export const VIDEOS = [
     category: 'wisdom' as const,
     tag:     'MOUDROST',
     tagEN:   'WISDOM',
+    titleHI: 'भारत की बुद्धि — धर्म एक कूटबद्ध मानव अभिव्यक्ति है',
+    descHI:  'पांचवां पाठ: चेतना की कूटबद्ध मानव अभिव्यक्ति के रूप में धर्म।',
+    tagHI:   'बुद्धि',
   },
   {
     id: '_Yt0UzvmfG8',
@@ -127,6 +148,9 @@ export const VIDEOS = [
     category: 'wisdom' as const,
     tag:     'MOUDROST',
     tagEN:   'WISDOM',
+    titleHI: 'भारत की बुद्धि — विज्ञान प्रकृति का नियम है',
+    descHI:  'छठा पाठ: भारतीय दार्शनिक दृष्टिकोण से विज्ञान प्रकृति के नियम के रूप में।',
+    tagHI:   'बुद्धि',
   },
   {
     id: 'b4RmE7bxkJ4',
@@ -139,6 +163,9 @@ export const VIDEOS = [
     category: 'wisdom' as const,
     tag:     'MOUDROST',
     tagEN:   'WISDOM',
+    titleHI: 'भारत की बुद्धि — साधना में प्रगति के सर्वोत्तम तरीके',
+    descHI:  'सातवां पाठ: साधना के मार्ग पर आगे बढ़ने के लिए व्यावहारिक मार्गदर्शन।',
+    tagHI:   'बुद्धि',
   },
   {
     id: 'x4bmLRMA1oI',
@@ -151,6 +178,9 @@ export const VIDEOS = [
     category: 'wisdom' as const,
     tag:     'MOUDROST',
     tagEN:   'WISDOM',
+    titleHI: 'भारत की बुद्धि — योगतंत्र की शक्ति को उजागर करना',
+    descHI:  'आठवां पाठ: योगतंत्र की शक्ति और इसे अभ्यास में कैसे सक्रिय करें।',
+    tagHI:   'बुद्धि',
   },
   // Sekce: Sadhana
   {
@@ -165,6 +195,9 @@ export const VIDEOS = [
     categories: ['sadhana', 'meditation'] as VideoCategory[],
     tag:     'SADHANA',
     tagEN:   'SADHANA',
+    titleHI: 'ध्यानसाधना — @PoornaGuru चैनल पर साप्ताहिक अभ्यास',
+    descHI:  'Poorna Guru चैनल पर हिंदी में साप्ताहिक ध्यान साधना।',
+    tagHI:   'साधना',
   },
   // Sekce: Ášrám
   {
@@ -178,6 +211,9 @@ export const VIDEOS = [
     category: 'ashram' as const,
     tag:     'ÁŠRAM',
     tagEN:   'ASHRAM',
+    titleHI: 'काराउली शंकर महादेव धाम आश्रम — रिकॉर्डिंग',
+    descHI:  'आश्रम जीवन की रिकॉर्डिंग — अनुष्ठान, अभ्यास और स्थान का आध्यात्मिक वातावरण।',
+    tagHI:   'आश्रम',
   },
 
   {
@@ -191,6 +227,9 @@ export const VIDEOS = [
     category: 'ashram' as const,
     tag:     'ÁŠRAM',
     tagEN:   'ASHRAM',
+    titleHI: 'जनवरी 2026 — काराउली शंकर महादेव धाम',
+    descHI:  'जनवरी 2026 में आश्रम प्रवास की रिकॉर्डिंग। काराउली में वातावरण, अभ्यास और दैनिक जीवन।',
+    tagHI:   'आश्रम',
   },
   {
     id: 'Lgz_pjQ8mok',
@@ -203,6 +242,9 @@ export const VIDEOS = [
     category: 'deeksha' as const,
     tag:     'DEEKSHA',
     tagEN:   'DEEKSHA',
+    titleHI: 'काराउली शंकर आश्रम में दीक्षा समारोह',
+    descHI:  'तंत्र योग के उच्च स्तर में दीक्षा — गुरुदेव की उपस्थिति में एक दुर्लभ समारोह।',
+    tagHI:   'दीक्षा',
   },
   // Sekce: Okolí ášrámu
   {
@@ -216,6 +258,9 @@ export const VIDEOS = [
     category: 'place' as const,
     tag:     'MÍSTO',
     tagEN:   'PLACE',
+    titleHI: 'काराउली शंकर महादेव धाम आश्रम के आसपास',
+    descHI:  'आश्रम के आसपास की सैर — परिदृश्य, मंदिर और काराउली में दैनिक जीवन।',
+    tagHI:   'स्थान',
   },
 
   // ── Meditace žáků ─────────────────────────────────────────────────────────
@@ -227,6 +272,9 @@ export const VIDEOS = [
     descCS:  'Závěrečná noční meditace žáků v ášrámu Karauli Shankar — dokončení úrovně ve dvě ráno.',
     descEN:  'Final night meditation of disciples at Karauli Shankar ashram — completing a level at 2 AM.',
     date: '2025', dateEN: '2025', tag: 'MEDITACE', tagEN: 'MEDITATION',
+    titleHI: 'AUM ध्यान — आश्रम में शिष्यों का रात्रि अभ्यास',
+    descHI:  'काराउली शंकर आश्रम में शिष्यों का अंतिम रात्रि ध्यान — रात 2 बजे एक स्तर का समापन।',
+    tagHI:   'ध्यान',
   },
   {
     id: '882UtPlnSXE',
@@ -236,6 +284,9 @@ export const VIDEOS = [
     descCS:  'Zahraniční žáci Karauli Sarkar dokončují svou duchovní praxi před slavností Guru Purnima.',
     descEN:  'Foreign disciples of Karauli Sarkar completing their spiritual practice before Guru Purnima.',
     date: '2025', dateEN: '2025', tag: 'MEDITACE', tagEN: 'MEDITATION',
+    titleHI: 'गुरुदेव के विदेशी शिष्य — आश्रम में आध्यात्मिक अभ्यास',
+    descHI:  'काराउली सरकार के विदेशी शिष्य गुरु पूर्णिमा से पहले अपनी आध्यात्मिक साधना पूरी करते हैं।',
+    tagHI:   'ध्यान',
   },
   // ── Rituály, havany, aarti ─────────────────────────────────────────────────
   {
@@ -246,6 +297,9 @@ export const VIDEOS = [
     descCS:  'Tradiční védský rituál Rudrabhišek zasvěcený Pánu Šivovi — mantry, očistné obřady a oddanost.',
     descEN:  'Traditional Vedic Rudrabhishek ritual dedicated to Lord Shiva — mantras, purification rites and devotion.',
     date: '2025', dateEN: '2025', tag: 'RITUÁL', tagEN: 'RITUAL',
+    titleHI: 'रुद्राभिषेक — काराउली शंकर आश्रम में वैदिक अनुष्ठान',
+    descHI:  'भगवान शिव को समर्पित पारंपरिक वैदिक रुद्राभिषेक अनुष्ठान — मंत्र, शुद्धिकरण और भक्ति।',
+    tagHI:   'अनुष्ठान',
   },
   {
     id: 'PiR2jW002dU',
@@ -255,6 +309,9 @@ export const VIDEOS = [
     descCS:  'Posvátný ohňový obřad havan při úplňku — tradiční ceremonie v ášrámu Luv Kush.',
     descEN:  'Sacred fire havan ceremony at the full moon — traditional ritual at Luv Kush ashram.',
     date: '2025', dateEN: '2025', tag: 'HAVAN', tagEN: 'HAVAN',
+    titleHI: 'काराउली सरकार आश्रम में पूर्णिमा हवन',
+    descHI:  'पूर्णिमा पर पवित्र अग्नि हवन समारोह — लव कुश आश्रम में पारंपरिक अनुष्ठान।',
+    tagHI:   'हवन',
   },
   {
     id: 'VqBudw3Wbts',
@@ -264,6 +321,9 @@ export const VIDEOS = [
     descCS:  'Celodenní havan — posvátný ohňový rituál v srdci ášrámu Karauli Shankar.',
     descEN:  'Full-day havan — sacred fire ritual at the heart of Karauli Shankar ashram.',
     date: '2025', dateEN: '2025', tag: 'HAVAN', tagEN: 'HAVAN',
+    titleHI: 'काराउली शंकर आश्रम में एक दिन का हवन',
+    descHI:  'पूरे दिन का हवन — काराउली शंकर आश्रम के हृदय में पवित्र अग्नि अनुष्ठान।',
+    tagHI:   'हवन',
   },
   // ── Cesty po Indii ─────────────────────────────────────────────────────────
   {
@@ -274,6 +334,9 @@ export const VIDEOS = [
     descCS:  'Meditativní záběry posvátné řeky Gangy v dešti — ticho, voda a duchovní přítomnost.',
     descEN:  'Meditative footage of the sacred Ganges river in the rain — silence, water and spiritual presence.',
     date: '2024', dateEN: '2024', tag: 'CESTA', tagEN: 'JOURNEY',
+    titleHI: 'माँ गंगा वर्षा में',
+    descHI:  'बारिश में पवित्र गंगा नदी के ध्यानात्मक दृश्य — मौन, जल और आध्यात्मिक उपस्थिति।',
+    tagHI:   'यात्रा',
   },
   {
     id: 'EvGYE9Cmmvo',
@@ -283,6 +346,9 @@ export const VIDEOS = [
     descCS:  'Cesta horskými průsmyky Himálaje — krása, nepředvídatelnost a duchovní síla pohoří.',
     descEN:  'A journey through Himalayan mountain passes — beauty, unpredictability and the spiritual power of the mountains.',
     date: '2024', dateEN: '2024', tag: 'CESTA', tagEN: 'JOURNEY',
+    titleHI: 'अद्भुत लेकिन अप्रत्याशित: हिमालय की यात्रा',
+    descHI:  'हिमालयी पर्वत दर्रों से यात्रा — सुंदरता, अप्रत्याशितता और पर्वतों की आध्यात्मिक शक्ति।',
+    tagHI:   'यात्रा',
   },
   // ── Deeksha ────────────────────────────────────────────────────────────────
   {
@@ -293,6 +359,9 @@ export const VIDEOS = [
     descCS:  'Duchovní zpěv bhajánů na večerním setkání v ášrámu Karauli Shankar v Haridwaru.',
     descEN:  'Spiritual bhajan singing at an evening gathering at Karauli Shankar ashram in Haridwar.',
     date: '2025', dateEN: '2025', tag: 'DEEKSHA', tagEN: 'DEEKSHA',
+    titleHI: 'हरिद्वार आश्रम में भजन संध्या',
+    descHI:  'हरिद्वार में काराउली शंकर आश्रम की एक सांध्यकालीन बैठक में आध्यात्मिक भजन गायन।',
+    tagHI:   'दीक्षा',
   },
   // ── Rozmluvy s Gurudevem ───────────────────────────────────────────────────
   {
@@ -303,6 +372,9 @@ export const VIDEOS = [
     descCS:  'Přímá rozmluva Gurudeva se zahraničními žáky — duchovní otázky, praxe a živé učení.',
     descEN:  'Direct conversation between Gurudev and foreign disciples — spiritual questions, practice and live teachings.',
     date: '2022', dateEN: '2022', tag: 'GURUDEV', tagEN: 'GURUDEV',
+    titleHI: 'गुरुदेव और विदेशी शिष्य — वार्तालाप और अभ्यास',
+    descHI:  'गुरुदेव और विदेशी शिष्यों के बीच प्रत्यक्ष वार्तालाप — आध्यात्मिक प्रश्न, अभ्यास और जीवंत शिक्षाएं।',
+    tagHI:   'गुरुदेव',
   },
   {
     id: '2dADmQbSdYY',
@@ -312,6 +384,9 @@ export const VIDEOS = [
     descCS:  'Druhý den rozhovorů Gurudeva se zahraničními žáky — hluboké učení a duchovní výměna.',
     descEN:  'Second day of Gurudev\'s conversations with foreign disciples — deep teachings and spiritual exchange.',
     date: '2022', dateEN: '2022', tag: 'GURUDEV', tagEN: 'GURUDEV',
+    titleHI: 'विदेशी शिष्यों के साथ आध्यात्मिक वार्तालाप — दिन 2',
+    descHI:  'गुरुदेव और विदेशी शिष्यों के बीच वार्तालाप का दूसरा दिन — गहन शिक्षाएं और आध्यात्मिक आदान-प्रदान।',
+    tagHI:   'गुरुदेव',
   },
   {
     id: 'aHE-DiIeJ1g',
@@ -321,6 +396,9 @@ export const VIDEOS = [
     descCS:  'Třetí den živého učení — Gurudev odpovídá na otázky zahraničních žáků.',
     descEN:  'Third day of live teachings — Gurudev answers questions from foreign disciples.',
     date: '2022', dateEN: '2022', tag: 'GURUDEV', tagEN: 'GURUDEV',
+    titleHI: 'विदेशी शिष्यों के साथ आध्यात्मिक वार्तालाप — दिन 3',
+    descHI:  'जीवंत शिक्षाओं का तीसरा दिन — गुरुदेव विदेशी शिष्यों के प्रश्नों का उत्तर देते हैं।',
+    tagHI:   'गुरुदेव',
   },
   {
     id: 'Yd1BhR9PnU8',
@@ -330,6 +408,9 @@ export const VIDEOS = [
     descCS:  'Závěrečné setkání a rozmluva Gurudeva se zahraničními žáky — završení duchovní cesty.',
     descEN:  'Final gathering and conversation with Gurudev — completion of the spiritual journey.',
     date: '2022', dateEN: '2022', tag: 'GURUDEV', tagEN: 'GURUDEV',
+    titleHI: 'विदेशी शिष्यों के साथ आध्यात्मिक वार्तालाप — अंतिम सभा',
+    descHI:  'गुरुदेव के साथ अंतिम सभा और वार्तालाप — आध्यात्मिक यात्रा का समापन।',
+    tagHI:   'गुरुदेव',
   },
   // ── Aarti s Gurudevem ──────────────────────────────────────────────────────
   {
@@ -340,6 +421,9 @@ export const VIDEOS = [
     descCS:  'Výjimečný obřad při úplňku Purnima — havan a udělení Gurudíkši v ášrámu Karauli Sarkar.',
     descEN:  'Special full moon Purnima ceremony — havan and Gurudeeksha initiation at Karauli Sarkar ashram.',
     date: '2021', dateEN: '2021', tag: 'AARTI', tagEN: 'AARTI',
+    titleHI: 'पूर्णिमा — विशेष हवन और गुरुदीक्षा',
+    descHI:  'पूर्णिमा पर विशेष समारोह — काराउली सरकार आश्रम में हवन और गुरुदीक्षा दीक्षा।',
+    tagHI:   'आरती',
   },
   {
     id: 'NIP_DO0cKe8',
@@ -349,6 +433,9 @@ export const VIDEOS = [
     descCS:  'Zpívaná aarti Guru Maty v podání Vishala Chaurasii — oddanostní píseň z ášrámu Karauli Sarkar.',
     descEN:  'Sung aarti of Guru Mata by Vishal Chaurasia — devotional song from Karauli Sarkar ashram.',
     date: '2022', dateEN: '2022', tag: 'AARTI', tagEN: 'AARTI',
+    titleHI: 'गुरु माता की आरती — काराउली सरकार',
+    descHI:  'विशाल चौरासिया द्वारा गाई गुरु माता की आरती — काराउली सरकार आश्रम से भक्तिपूर्ण गीत।',
+    tagHI:   'आरती',
   },
   {
     id: 'Fi2c7m264Vc',
@@ -358,6 +445,9 @@ export const VIDEOS = [
     descCS:  'Slavnostní aarti Babaji z ášrámu Karauli Sarkar v podání Vishala Chaurasii.',
     descEN:  'Ceremonial aarti of Babaji from Karauli Sarkar ashram, performed by Vishal Chaurasia.',
     date: '2022', dateEN: '2022', tag: 'AARTI', tagEN: 'AARTI',
+    titleHI: 'बाबाजी की सुंदर आरती — काराउली सरकार',
+    descHI:  'काराउली सरकार आश्रम से बाबाजी की पारंपरिक आरती, विशाल चौरासिया द्वारा प्रस्तुत।',
+    tagHI:   'आरती',
   },
 
 ]
@@ -367,6 +457,7 @@ export default function MediaSection() {
   const [playing, setPlaying] = useState(false)
   const { lang } = useLang()
   const cs = lang === 'cs'
+  const hi = lang === 'hi'
 
   const featured = VIDEOS[0]
   const preview  = VIDEOS.slice(1, 3)
@@ -375,13 +466,15 @@ export default function MediaSection() {
     <section className={styles.media} id="media" ref={ref}>
       {/* Header */}
       <div className={`${styles.mediaHeader} r`}>
-        <div className={styles.sectionLabel}>{cs ? 'Média' : 'Media'}</div>
+        <div className={styles.sectionLabel}>{hi ? 'मीडिया' : cs ? 'Média' : 'Media'}</div>
         <h2 className={styles.sectionTitle}>
-          {cs ? 'Z naší' : 'From our'}<br />
-          <span className={styles.acc}>{cs ? 'cesty do Indie' : 'journey to India'}</span>
+          {hi ? 'हमारी' : cs ? 'Z naší' : 'From our'}<br />
+          <span className={styles.acc}>{hi ? 'भारत यात्रा से' : cs ? 'cesty do Indie' : 'journey to India'}</span>
         </h2>
         <p className={styles.headerDesc}>
-          {cs
+          {hi
+            ? 'आश्रम, समारोहों और तीर्थयात्राओं की रिकॉर्डिंग — हमारे अभ्यास के हृदय के प्रामाणिक क्षण।'
+            : cs
             ? 'Záznamy z ášrámu, obřadů a poutí — autentické okamžiky ze srdce naší praxe.'
             : 'Recordings from the ashram, ceremonies and pilgrimages — authentic moments from the heart of our practice.'}
         </p>
@@ -394,21 +487,21 @@ export default function MediaSection() {
             <div className={styles.thumbnail} onClick={() => setPlaying(true)}>
               <img
                 src={`https://img.youtube.com/vi/${featured.id}/hqdefault.jpg`}
-                alt={cs ? featured.titleCS : featured.titleEN}
+                alt={hi ? featured.titleHI : cs ? featured.titleCS : featured.titleEN}
                 className={styles.thumbImg}
               />
               <div className={styles.thumbOverlay} />
-              <button className={styles.playBtn} aria-label={cs ? 'Přehrát video' : 'Play video'}>
+              <button className={styles.playBtn} aria-label={hi ? 'वीडियो चलाएं' : cs ? 'Přehrát video' : 'Play video'}>
                 <svg viewBox="0 0 24 24" fill="currentColor" width="28" height="28">
                   <path d="M8 5v14l11-7z" />
                 </svg>
               </button>
-              <div className={styles.featuredTag}>{cs ? featured.tag : featured.tagEN}</div>
+              <div className={styles.featuredTag}>{hi ? featured.tagHI : cs ? featured.tag : featured.tagEN}</div>
             </div>
           ) : (
             <iframe
               src={`https://www.youtube-nocookie.com/embed/${featured.id}?autoplay=1&rel=0`}
-              title={cs ? featured.titleCS : featured.titleEN}
+              title={hi ? featured.titleHI : cs ? featured.titleCS : featured.titleEN}
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
               className={styles.iframe}
@@ -417,16 +510,16 @@ export default function MediaSection() {
         </div>
 
         <div className={styles.featuredMeta}>
-          <span className={styles.featuredDate}>{cs ? featured.date : featured.dateEN}</span>
-          <h3 className={styles.featuredTitle}>{cs ? featured.titleCS : featured.titleEN}</h3>
-          <p className={styles.featuredDesc}>{cs ? featured.descCS : featured.descEN}</p>
+          <span className={styles.featuredDate}>{hi ? featured.date : cs ? featured.date : featured.dateEN}</span>
+          <h3 className={styles.featuredTitle}>{hi ? featured.titleHI : cs ? featured.titleCS : featured.titleEN}</h3>
+          <p className={styles.featuredDesc}>{hi ? featured.descHI : cs ? featured.descCS : featured.descEN}</p>
           <a
             href={`https://www.youtube.com/watch?v=${featured.id}`}
             target="_blank"
             rel="noopener noreferrer"
             className={styles.watchLink}
           >
-            {cs ? 'Sledovat na YouTube' : 'Watch on YouTube'}
+            {hi ? 'YouTube पर देखें' : cs ? 'Sledovat na YouTube' : 'Watch on YouTube'}
           </a>
         </div>
       </div>
@@ -434,14 +527,14 @@ export default function MediaSection() {
       {/* Preview cards */}
       <div className={styles.previewGrid}>
         {preview.map((v, i) => (
-          <VideoCard key={v.id} video={v} delay={`${(i + 1) * 0.1}s`} cs={cs} />
+          <VideoCard key={v.id} video={v} delay={`${(i + 1) * 0.1}s`} cs={cs} hi={hi} />
         ))}
       </div>
 
       {/* CTA to /media */}
       <div className={`${styles.mediaCta} r`} style={{ transitionDelay: '0.3s' }}>
         <a href="/media" className={styles.ctaBtn}>
-          {cs ? 'Všechna videa' : 'All videos'}
+          {hi ? 'सभी वीडियो' : cs ? 'Všechna videa' : 'All videos'}
         </a>
         <a
           href="https://www.youtube.com/@HariharOm"
@@ -457,7 +550,7 @@ export default function MediaSection() {
 }
 
 // ─── Reusable card ─────────────────────────────────────────────────────────
-function VideoCard({ video, delay, cs }: { video: typeof VIDEOS[0]; delay: string; cs: boolean }) {
+function VideoCard({ video, delay, cs, hi }: { video: typeof VIDEOS[0]; delay: string; cs: boolean; hi: boolean }) {
   const [playing, setPlaying] = useState(false)
 
   return (
@@ -467,21 +560,21 @@ function VideoCard({ video, delay, cs }: { video: typeof VIDEOS[0]; delay: strin
           <div className={styles.cardThumb} onClick={() => setPlaying(true)}>
             <img
               src={`https://img.youtube.com/vi/${video.id}/hqdefault.jpg`}
-              alt={cs ? video.titleCS : video.titleEN}
+              alt={hi ? video.titleHI : cs ? video.titleCS : video.titleEN}
               className={styles.thumbImg}
             />
             <div className={styles.thumbOverlay} />
-            <button className={styles.cardPlayBtn} aria-label={cs ? 'Přehrát' : 'Play'}>
+            <button className={styles.cardPlayBtn} aria-label={hi ? 'चलाएं' : cs ? 'Přehrát' : 'Play'}>
               <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20">
                 <path d="M8 5v14l11-7z" />
               </svg>
             </button>
-            <span className={styles.cardTag}>{cs ? video.tag : video.tagEN}</span>
+            <span className={styles.cardTag}>{hi ? video.tagHI : cs ? video.tag : video.tagEN}</span>
           </div>
         ) : (
           <iframe
             src={`https://www.youtube-nocookie.com/embed/${video.id}?autoplay=1&rel=0`}
-            title={cs ? video.titleCS : video.titleEN}
+            title={hi ? video.titleHI : cs ? video.titleCS : video.titleEN}
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
             className={styles.iframe}
@@ -489,8 +582,8 @@ function VideoCard({ video, delay, cs }: { video: typeof VIDEOS[0]; delay: strin
         )}
       </div>
       <div className={styles.cardMeta}>
-        <span className={styles.cardDate}>{cs ? video.date : video.dateEN}</span>
-        <div className={styles.cardTitle}>{cs ? video.titleCS : video.titleEN}</div>
+        <span className={styles.cardDate}>{hi ? video.date : cs ? video.date : video.dateEN}</span>
+        <div className={styles.cardTitle}>{hi ? video.titleHI : cs ? video.titleCS : video.titleEN}</div>
       </div>
     </div>
   )

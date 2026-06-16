@@ -9,7 +9,7 @@ import Link from 'next/link'
 const LANGUAGES = [
   { code: 'en' as Lang, flag: '🇬🇧', name: 'English',   soon: false },
   { code: 'cs' as Lang, flag: '🇨🇿', name: 'Čeština',   soon: false },
-  { code: 'hi' as Lang, flag: '🇮🇳', name: 'हिन्दी',     soon: true  },
+  { code: 'hi' as Lang, flag: '🇮🇳', name: 'हिन्दी',     soon: false },
   { code: 'es' as Lang, flag: '🇪🇸', name: 'Español',   soon: true  },
   { code: 'pt' as Lang, flag: '🇵🇹', name: 'Português', soon: true  },
   { code: 'de' as Lang, flag: '🇩🇪', name: 'Deutsch',   soon: true  },
