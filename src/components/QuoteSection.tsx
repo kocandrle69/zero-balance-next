@@ -15,7 +15,7 @@ export default function QuoteSection() {
       <div className={styles.quoteBannerContent}>
         <blockquote>
           {hi
-            ? <span dangerouslySetInnerHTML={{ __html: '"जब मन पूर्णतः शांत हो जाता है,<br/>तब <strong>आत्मा</strong> स्वयं प्रकाशित होती है।"' }} />
+            ? <span dangerouslySetInnerHTML={{ __html: 'जब मन पूर्णतः शांत हो जाता है,<br/>तब <strong>आत्मा</strong> स्वयं प्रकाशित होती है।"' }} />
             : cs
             ? <span dangerouslySetInnerHTML={{ __html: '„V tichu mysli<br/>zazáří <strong>Já</strong> vlastním světlem."' }} />
             : <span dangerouslySetInnerHTML={{ __html: '"When the mind becomes still,<br/>the <strong>Self</strong> shines of its own accord."' }} />
