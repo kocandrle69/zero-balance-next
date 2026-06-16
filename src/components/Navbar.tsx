@@ -106,7 +106,7 @@ export default function Navbar({ translucent = false }: { translucent?: boolean 
                   <span className={styles.langCode}>{l.code.toUpperCase()}</span>
                   <span className={styles.langName}>{l.name}</span>
                 </div>
-                {l.soon  && <span className={styles.langSoon}>Soon</span>}
+                {l.soon  && <span className={styles.langSoon}>{lang === 'hi' ? 'जल्द' : 'Soon'}</span>}
                 {!l.soon && l.code === lang && <span className={styles.langDot} />}
               </div>
             ))}

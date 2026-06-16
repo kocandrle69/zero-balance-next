@@ -24,6 +24,7 @@ const EVENTS = [
     linkHI:  'YouTube पर देखें',
     url:     'https://www.youtube.com/@karaulisarkarofficial',
     tag:     'WEEKLY',
+    tagHI:   'साप्ताहिक',
     icon:    '◉',
     type:    'link' as const,
   },
@@ -42,6 +43,7 @@ const EVENTS = [
     linkHI:  'YouTube पर देखें',
     url:     'https://www.youtube.com/@PoornaGuru',
     tag:     'WEEKLY',
+    tagHI:   'साप्ताहिक',
     icon:    '◎',
     type:    'link' as const,
   },
@@ -60,6 +62,7 @@ const EVENTS = [
     linkHI:  'अधिक जानें',
     url:     '#india',
     tag:     'JOURNEY',
+    tagHI:   'यात्रा',
     icon:    '✦',
     type:    'link' as const,
   },
@@ -179,7 +182,7 @@ export default function EventsSection() {
             style={{ transitionDelay: `${(i + 1) * 0.08}s` }}
           >
             <div className={styles.eventTop}>
-              <span className={styles.eventTag}>{ev.tag}</span>
+              <span className={styles.eventTag}>{hi ? ev.tagHI : ev.tag}</span>
               <span className={styles.eventIcon}>{ev.icon}</span>
             </div>
             <span className={styles.eventDate}>{hi ? ev.dateHI : cs ? ev.dateCS : ev.dateEN}</span>
