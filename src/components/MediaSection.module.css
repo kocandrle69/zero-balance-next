@@ -1,7 +1,7 @@
 /* ─── Section wrapper ──────────────────────────────────────────────────────── */
 .media {
   padding: 140px 80px;
-  background: var(--bg);
+  background: #fff;
   overflow: hidden;
 }
 

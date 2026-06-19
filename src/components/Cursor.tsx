@@ -32,11 +32,11 @@ export default function Cursor() {
         hovering = isOverLink
         if (hovering) {
           ring.style.transform = 'translate(-50%, -50%) scale(2.2)'
-          ring.style.borderColor = 'rgba(184,146,42,0.6)'
+          ring.style.borderColor = 'rgba(184,146,42,0.7)'
           dot.style.opacity = '0'
         } else {
           ring.style.transform = 'translate(-50%, -50%) scale(1)'
-          ring.style.borderColor = 'rgba(184,146,42,0.35)'
+          ring.style.borderColor = 'rgba(28,24,16,0.3)'
           dot.style.opacity = '1'
         }
       }
@@ -57,7 +57,7 @@ export default function Cursor() {
           width: 6,
           height: 6,
           borderRadius: '50%',
-          background: 'var(--gold)',
+          background: 'var(--ink2)',
           pointerEvents: 'none',
           zIndex: 9999,
           transform: 'translate(-50%, -50%)',
@@ -71,7 +71,7 @@ export default function Cursor() {
           width: 36,
           height: 36,
           borderRadius: '50%',
-          border: '1px solid rgba(184,146,42,0.35)',
+          border: '1px solid rgba(28,24,16,0.3)',
           pointerEvents: 'none',
           zIndex: 9998,
           transform: 'translate(-50%, -50%) scale(1)',
