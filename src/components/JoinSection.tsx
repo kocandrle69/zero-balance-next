@@ -36,9 +36,11 @@ export default function JoinSection() {
         <div className={`${styles.joinRight} r`} style={{ transitionDelay: '0.15s' }}>
           <p>{t('join_desc')}</p>
           <div className={styles.joinBtns}>
-            {/* btn1: Stát se členem → mailto s předmětem Členství */}
-            <a href={MEMBERSHIP_MAILTO} className={styles.btnGold}>{t('join_btn1')}</a>
-            {/* btn2: Kontaktovat nás → obecný kontaktní mailto */}
+            <p className={styles.joinAshramCta}>
+              <a href={CONTACT_MAILTO} className={styles.joinAshramLink}>
+                {t('join_ashram_cta')}
+              </a>
+            </p>
             <a href={CONTACT_MAILTO} className={styles.btnOutline}>{t('join_btn3')}</a>
           </div>
         </div>

@@ -17,7 +17,7 @@ const CARDS = [
 const CARD_LINKS: Record<string, string> = {
   act1: 'https://www.youtube.com/watch?v=hlnSuJFnywA',
   act2: '/media?category=gurudev',
-  act3: '/media?category=journeys',
+  act3: '/media?category=journeys,ashram',
   act4: '/media?category=wisdom',
   act5: '/media?category=rituals',
 }

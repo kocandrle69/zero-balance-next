@@ -13,25 +13,28 @@ export default function MediaContent() {
   const cs = lang === 'cs'
   const hi = lang === 'hi'
   const searchParams = useSearchParams()
-  const categoryParam = searchParams.get('category') as VideoCategory | null
-  const validCategory = categoryParam && CATEGORIES.some(c => c.id === categoryParam)
-    ? categoryParam
-    : null
+  const categoryParam = searchParams.get('category')
+  const parsedCats = categoryParam
+    ? categoryParam.split(',').filter((c): c is VideoCategory => CATEGORIES.some(cat => cat.id === c))
+    : []
 
-  const [active, setActive] = useState<VideoCategory | 'all'>(validCategory ?? 'all')
+  const [active, setActive] = useState<VideoCategory[] | 'all'>(
+    parsedCats.length > 0 ? parsedCats : 'all'
+  )
+  const activeCats = active === 'all' ? null : active
 
   type VideoWithCategories = typeof VIDEOS[0] & { categories?: VideoCategory[] }
 
-  const filtered = active === 'all'
+  const filtered = !activeCats
     ? VIDEOS
     : VIDEOS.filter(v => {
         const vc = v as VideoWithCategories
-        return vc.categories ? vc.categories.includes(active) : vc.category === active
+        return activeCats.some(c => vc.categories ? vc.categories.includes(c) : vc.category === c)
       })
 
-  const sections = active === 'all'
+  const sections = !activeCats
     ? CATEGORIES
-    : CATEGORIES.filter(c => c.id === active)
+    : CATEGORIES.filter(c => activeCats.includes(c.id))
 
   return (
     <>
@@ -65,8 +68,8 @@ export default function MediaContent() {
           {CATEGORIES.map(cat => (
             <button
               key={cat.id}
-              className={`${styles.filterBtn} ${active === cat.id ? styles.filterActive : ''}`}
-              onClick={() => setActive(cat.id)}
+              className={`${styles.filterBtn} ${Array.isArray(active) && active.length === 1 && active[0] === cat.id ? styles.filterActive : ''}`}
+              onClick={() => setActive([cat.id])}
             >
               {hi ? cat.labelHI : cs ? cat.labelCS : cat.labelEN}
             </button>

@@ -18,8 +18,8 @@ export default function HomePage() {
       <ActivitiesSection />
       <IndiaSection />
       <QuoteSection />
-      <EventsSection />
       <MediaSection />
+      <EventsSection />
       <JoinSection />
       <Footer />
     </main>

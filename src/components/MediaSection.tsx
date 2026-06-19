@@ -29,8 +29,8 @@ export const VIDEOS = [
   // 1. FEATURED — Sadhana s českým překladem
   {
     id: 'hlnSuJFnywA',
-    titleCS: 'Sadhana pod vedením Gurudeva — s českým dabingem',
-    titleEN: 'Sadhana under Gurudev\u2019s Guidance \u2014 Czech dubbing',
+    titleCS: 'Dhyan Sadhana — s českým dabingem',
+    titleEN: 'Dhyan Sadhana — with Czech dubbing',
     descCS:  'Vedená sadhana s přímým přenosem učení Gurudeva — s českým dabingem pro naši komunitu.',
     descEN:  'Guided sadhana with direct transmission from Gurudev — with Czech dubbing for our community.',
     date:    '2025',
@@ -39,15 +39,15 @@ export const VIDEOS = [
     categories: ['sadhana', 'meditation'] as VideoCategory[],
     tag:     'SADHANA',
     tagEN:   'SADHANA',
-    titleHI: 'गुरुदेव के मार्गदर्शन में साधना — चेक डबिंग के साथ',
+    titleHI: 'ध्यान साधना — चेक डबिंग के साथ',
     descHI:  'गुरुदेव के प्रत्यक्ष प्रसारण के साथ निर्देशित साधना — हमारी समुदाय के लिए चेक डबिंग के साथ।',
     tagHI:   'साधना',
   },
   // 2. PREVIEW — Moudrost Indie: Úvod (lekce 1)
   {
     id: 'rOTNqc8BbHw',
-    titleCS: 'Moudrost Indie se Sensei Rajeev Sinha — Úvod',
-    titleEN: 'Wisdom of India with Sensei Rajeev Sinha — Introduction',
+    titleCS: 'Video lekce se Sensei Rajeev Sinhou',
+    titleEN: 'Video Lessons with Sensei Rajeev Sinha',
     descCS:  'První lekce ze série Moudrost Indie. Sensei Rajeev Sinha uvádí do hloubky indické filozofie a spirituální praxe.',
     descEN:  'First lesson from the Wisdom of India series. Sensei Rajeev Sinha introduces the depth of Indian philosophy and spiritual practice.',
     date:    '2024',
@@ -55,7 +55,7 @@ export const VIDEOS = [
     category: 'wisdom' as const,
     tag:     'MOUDROST',
     tagEN:   'WISDOM',
-    titleHI: 'भारत की बुद्धि — सेंसेई राजीव सिन्हा के साथ — परिचय',
+    titleHI: 'सेंसेई राजीव सिन्हा के साथ वीडियो पाठ',
     descHI:  'भारत की बुद्धि श्रृंखला का पहला पाठ। सेंसेई राजीव सिन्हा भारतीय दर्शन और आध्यात्मिक अभ्यास की गहराई का परिचय देते हैं।',
     tagHI:   'बुद्धि',
   },
@@ -185,8 +185,8 @@ export const VIDEOS = [
   // Sekce: Sadhana
   {
     id: 'RWklWj6_mcY',
-    titleCS: 'DhyanSadhana — týdenní praxe na kanálu @PoornaGuru',
-    titleEN: 'DhyanSadhana — weekly practice on @PoornaGuru channel',
+    titleCS: 'Dhyan Sadhana — pravidelná praxe v hindštině na @PoornaGuru',
+    titleEN: 'Dhyan Sadhana — regular practice in Hindi on @PoornaGuru',
     descCS:  'Týdenní meditační sadhana v hindštině na kanálu Poorna Guru.',
     descEN:  'Weekly meditation sadhana in Hindi on the Poorna Guru channel.',
     date:    '2025',
@@ -195,7 +195,7 @@ export const VIDEOS = [
     categories: ['sadhana', 'meditation'] as VideoCategory[],
     tag:     'SADHANA',
     tagEN:   'SADHANA',
-    titleHI: 'ध्यानसाधना — @PoornaGuru चैनल पर साप्ताहिक अभ्यास',
+    titleHI: 'ध्यान साधना — @PoornaGuru पर हिंदी में नियमित अभ्यास',
     descHI:  'Poorna Guru चैनल पर हिंदी में साप्ताहिक ध्यान साधना।',
     tagHI:   'साधना',
   },
@@ -554,10 +554,16 @@ function VideoCard({ video, delay, cs, hi }: { video: typeof VIDEOS[0]; delay: s
   const [playing, setPlaying] = useState(false)
 
   return (
-    <div className={`${styles.videoCard} r`} style={{ transitionDelay: delay }}>
+    <a
+      href={`https://www.youtube.com/watch?v=${video.id}`}
+      target="_blank"
+      rel="noopener noreferrer"
+      className={`${styles.videoCard} r`}
+      style={{ transitionDelay: delay, textDecoration: 'none', display: 'block' }}
+    >
       <div className={styles.cardPlayer}>
         {!playing ? (
-          <div className={styles.cardThumb} onClick={() => setPlaying(true)}>
+          <div className={styles.cardThumb} onClick={(e) => { e.preventDefault(); setPlaying(true) }}>
             <img
               src={`https://img.youtube.com/vi/${video.id}/hqdefault.jpg`}
               alt={hi ? video.titleHI : cs ? video.titleCS : video.titleEN}
@@ -585,6 +591,6 @@ function VideoCard({ video, delay, cs, hi }: { video: typeof VIDEOS[0]; delay: s
         <span className={styles.cardDate}>{hi ? video.date : cs ? video.date : video.dateEN}</span>
         <div className={styles.cardTitle}>{hi ? video.titleHI : cs ? video.titleCS : video.titleEN}</div>
       </div>
-    </div>
+    </a>
   )
 }

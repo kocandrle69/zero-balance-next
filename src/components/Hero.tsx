@@ -86,7 +86,7 @@ export default function Hero() {
           <h1 className={styles.heroTitle} dangerouslySetInnerHTML={tHTML('hero_title')} />
           <div className={styles.heroLine} />
           <div className={styles.heroBtns}>
-            <a href="#about" className={styles.btnGold}>{t('hero_btn1')}</a>
+            <a href="#activities" className={styles.btnGold}>{t('hero_btn1')}</a>
             <a href="https://www.youtube.com/watch?v=ybIq2ZYYxGk" target="_blank" rel="noopener noreferrer" className={styles.btnText}>
               <div className={styles.playRing}>
                 <svg width="10" height="12" viewBox="0 0 10 12" fill="none">
