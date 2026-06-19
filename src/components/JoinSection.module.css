@@ -95,18 +95,11 @@
 .btnOutline:hover { border-color: var(--gold); color: var(--gold); }
 
 .joinAshramCta {
-  font-size: 16px;
-  color: rgba(255,255,255,0.85);
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.75);
   line-height: 1.6;
-  margin-bottom: 16px;
-}
-.joinAshramLink {
-  color: var(--gold);
-  text-decoration: underline;
-  text-underline-offset: 3px;
-}
-.joinAshramLink:hover {
-  color: #fff;
+  margin-bottom: 20px;
+  font-style: italic;
 }
 
 /* Big ZB decoration */

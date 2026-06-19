@@ -1,4 +1,4 @@
-.events { padding: 140px 80px; background: var(--bg); overflow: hidden; }
+.events { padding: 140px 80px; background: var(--bg); overflow: hidden; border-top: 1px solid rgba(28, 24, 16, 0.12); }
 
 .evHeader { max-width: 1200px; margin: 0 auto 56px; }
 

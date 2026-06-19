@@ -31,7 +31,7 @@ export default function IndiaSection() {
             </a>
             <a href="/media?category=wisdom" className={styles.indiaStatLink}>
               <div className={styles.indiaStat}>
-                <span className={styles.num} style={{ whiteSpace: 'pre-line' }}>{t('india_v2')}</span>
+                <span className={styles.num}>{t('india_v2')}</span>
                 <span className={styles.lbl}>{t('india_s2')}</span>
               </div>
             </a>

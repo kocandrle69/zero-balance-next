@@ -185,6 +185,7 @@ export const VIDEOS = [
   // Sekce: Sadhana
   {
     id: 'RWklWj6_mcY',
+    channelUrl: 'https://www.youtube.com/@PoornaGuru',
     titleCS: 'Dhyan Sadhana — pravidelná praxe v hindštině na @PoornaGuru',
     titleEN: 'Dhyan Sadhana — regular practice in Hindi on @PoornaGuru',
     descCS:  'Týdenní meditační sadhana v hindštině na kanálu Poorna Guru.',
@@ -552,10 +553,11 @@ export default function MediaSection() {
 // ─── Reusable card ─────────────────────────────────────────────────────────
 function VideoCard({ video, delay, cs, hi }: { video: typeof VIDEOS[0]; delay: string; cs: boolean; hi: boolean }) {
   const [playing, setPlaying] = useState(false)
+  const videoUrl = ('channelUrl' in video && video.channelUrl) || `https://www.youtube.com/watch?v=${video.id}`
 
   return (
     <a
-      href={`https://www.youtube.com/watch?v=${video.id}`}
+      href={videoUrl}
       target="_blank"
       rel="noopener noreferrer"
       className={`${styles.videoCard} r`}

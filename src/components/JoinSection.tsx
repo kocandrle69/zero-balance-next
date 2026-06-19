@@ -37,9 +37,7 @@ export default function JoinSection() {
           <p>{t('join_desc')}</p>
           <div className={styles.joinBtns}>
             <p className={styles.joinAshramCta}>
-              <a href={CONTACT_MAILTO} className={styles.joinAshramLink}>
-                {t('join_ashram_cta')}
-              </a>
+              {t('join_ashram_cta')}
             </p>
             <a href={CONTACT_MAILTO} className={styles.btnOutline}>{t('join_btn3')}</a>
           </div>

@@ -104,12 +104,19 @@ export default function MediaContent() {
 
 function VideoCard({ video, cs, hi }: { video: typeof VIDEOS[0]; cs: boolean; hi: boolean }) {
   const [playing, setPlaying] = useState(false)
+  const videoUrl = ('channelUrl' in video && video.channelUrl) || `https://www.youtube.com/watch?v=${video.id}`
 
   return (
-    <div className={styles.videoCard}>
+    <a
+      href={videoUrl}
+      target="_blank"
+      rel="noopener noreferrer"
+      className={styles.videoCard}
+      style={{ textDecoration: 'none', display: 'block' }}
+    >
       <div className={styles.cardPlayer}>
         {!playing ? (
-          <div className={styles.cardThumb} onClick={() => setPlaying(true)}>
+          <div className={styles.cardThumb} onClick={(e) => { e.preventDefault(); setPlaying(true) }}>
             <img
               src={`https://img.youtube.com/vi/${video.id}/hqdefault.jpg`}
               alt={hi ? video.titleHI : cs ? video.titleCS : video.titleEN}
@@ -137,15 +144,10 @@ function VideoCard({ video, cs, hi }: { video: typeof VIDEOS[0]; cs: boolean; hi
         <span className={styles.cardDate}>{hi ? video.date : cs ? video.date : video.dateEN}</span>
         <div className={styles.cardTitle}>{hi ? video.titleHI : cs ? video.titleCS : video.titleEN}</div>
         <p className={styles.cardDesc}>{hi ? video.descHI : cs ? video.descCS : video.descEN}</p>
-        <a
-          href={`https://www.youtube.com/watch?v=${video.id}`}
-          target="_blank"
-          rel="noopener noreferrer"
-          className={styles.watchLink}
-        >
+        <span className={styles.watchLink}>
           {hi ? 'YouTube पर देखें' : cs ? 'Sledovat na YouTube' : 'Watch on YouTube'}
-        </a>
+        </span>
       </div>
-    </div>
+    </a>
   )
 }
