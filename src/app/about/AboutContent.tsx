@@ -99,7 +99,7 @@ export default function AboutContent() {
           <section className={styles.section}>
             <div className={styles.personRow}>
               <div className={styles.personImg}>
-                <img src="/images/Jan.png" alt="Jan Kočandrle" style={{ objectPosition: '20% 25%' }} />
+                <img src="/images/Jan.png" alt="Jan Kočandrle" style={{ objectPosition: '40% 25%' }} />
               </div>
               <div className={styles.personText}>
                 <h2 className={styles.sectionHead}>{C.janHead}</h2>
