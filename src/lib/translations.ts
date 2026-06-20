@@ -2,7 +2,7 @@ export type Lang = 'en' | 'cs' | 'hi'
 
 export const T = {
   en: {
-    nav_about:      'About',
+    nav_about:      'About Us',
     nav_philosophy: 'Philosophy',
     nav_activities: 'Activities',
     nav_india:      'India',
