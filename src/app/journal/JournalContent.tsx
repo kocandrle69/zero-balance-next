@@ -10,9 +10,9 @@ const CONTENT = {
     issueLabel:   'Vydání I · Jaro 2026',
     mastheadSub:  'Prostor pro slovo, reflexi a sdílení naší cesty.',
     kicker:       'Vznik spolku',
-    articleTitle: <>Zero Ballance Society vzniklo.<br /><em>Zde je proč.</em></>,
+    articleTitle: <>Zero Balance Society vzniklo.<br /><em>Zde je proč.</em></>,
     lead: `Dne 27. května 2026 byl v Zákupech podepsán zakladatelský dokument
-      a Zero Ballance Society, z.s. vstoupilo v život jako zapsaný spolek
+      a Zero Balance Society, z.s. vstoupilo v život jako zapsaný spolek
       podle českého občanského zákoníku. Tato chvíle nebyla spontánním
       rozhodnutím — byla vyvrcholením let duchovní praxe, kulturní výměny
       a sdílené cesty s tradicemi, které nás formovaly.`,
@@ -24,7 +24,7 @@ const CONTENT = {
       je duchovní linie <strong>Shri Karauli Shankar Mahadeva Ji</strong>,
       známého jako Karauli Sarkar nebo Gurudev — a s ní spojené tradice,
       praxe a kulturní dědictví Indie.</>,
-    s1p2: `Zero Ballance Society není náboženskou organizací. Jsme kulturním
+    s1p2: `Zero Balance Society není náboženskou organizací. Jsme kulturním
       a vzdělávacím spolkem, který vytváří prostor pro duchovní praxi,
       mezikulturní setkávání a osobní rozvoj — otevřený všem bez rozdílu
       původu, přesvědčení nebo zkušenosti.`,
@@ -52,8 +52,8 @@ const CONTENT = {
 
     members: [
       { initial: 'J', role: 'Předseda spolku',        name: 'Jan Kočandrle',         bio: 'Zakladatel a předseda spolku. Přispívá k rozvoji jeho aktivit a kulturní mise.' },
-      { initial: 'J', role: 'Člen',                   name: 'PhDr. Jiří Kočandrle',  bio: 'Zakladatel a člen Zero Ballance Society.' },
-      { initial: 'F', role: 'Člen',                   name: 'František Filouš',       bio: 'Zakladatel spolku a člen Zero Ballance Society.' },
+      { initial: 'J', role: 'Člen',                   name: 'PhDr. Jiří Kočandrle',  bio: 'Zakladatel a člen Zero Balance Society.' },
+      { initial: 'F', role: 'Člen',                   name: 'František Filouš',       bio: 'Zakladatel spolku a člen Zero Balance Society.' },
       { initial: 'P', role: 'Připravuje se · Člen',   name: 'Pavel Znamenáček',       bio: '' },
       { initial: 'P', role: 'Připravuje se · Členka', name: 'Pavlína Muchová',        bio: '' },
     ],
@@ -64,16 +64,16 @@ const CONTENT = {
       Sídlo spolku: <strong>Krakovany 352, 281 27 Krakovany, Česká republika.</strong></>,
     s4p2: 'Spolek byl založen na dobu neurčitou a může působit v České republice i v zahraničí.',
 
-    footerLabel: 'Zero Ballance Society, z.s. · Vydání I · 2026',
+    footerLabel: 'Zero Balance Society, z.s. · Vydání I · 2026',
   },
 
   en: {
     issueLabel:   'Issue I · Spring 2026',
     mastheadSub:  'A space for words, reflection and sharing our journey.',
     kicker:       'Founding of the Association',
-    articleTitle: <>Zero Ballance Society was founded.<br /><em>Here is why.</em></>,
+    articleTitle: <>Zero Balance Society was founded.<br /><em>Here is why.</em></>,
     lead: `On 27 May 2026, the founding document was signed in Zákupy and
-      Zero Ballance Society, z.s. came into existence as a registered
+      Zero Balance Society, z.s. came into existence as a registered
       non-profit association under Czech civil law. This moment was not
       a spontaneous decision — it was the culmination of years of spiritual
       practice, cultural exchange and a shared path with traditions that
@@ -86,7 +86,7 @@ const CONTENT = {
       lineage of <strong>Shri Karauli Shankar Mahadev Ji</strong>, known as
       Karauli Sarkar or Gurudev — and the traditions, practices and cultural heritage
       of India connected with his teaching.</>,
-    s1p2: `Zero Ballance Society is not a religious organisation. We are a cultural
+    s1p2: `Zero Balance Society is not a religious organisation. We are a cultural
       and educational association that creates space for spiritual practice,
       intercultural encounter and personal development — open to all regardless
       of background, belief or experience.`,
@@ -115,8 +115,8 @@ const CONTENT = {
 
     members: [
       { initial: 'J', role: 'Chairman',               name: 'Jan Kočandrle',         bio: 'Founder and chairman of the association. Contributing to the development of its activities and cultural mission.' },
-      { initial: 'J', role: 'Member',                  name: 'PhDr. Jiří Kočandrle',  bio: 'Founder and member of Zero Ballance Society.' },
-      { initial: 'F', role: 'Member',                  name: 'František Filouš',       bio: 'Founder and member of Zero Ballance Society.' },
+      { initial: 'J', role: 'Member',                  name: 'PhDr. Jiří Kočandrle',  bio: 'Founder and member of Zero Balance Society.' },
+      { initial: 'F', role: 'Member',                  name: 'František Filouš',       bio: 'Founder and member of Zero Balance Society.' },
       { initial: 'P', role: 'Joining Soon · Member',   name: 'Pavel Znamenáček',       bio: '' },
       { initial: 'P', role: 'Joining Soon · Member',   name: 'Pavlína Muchová',        bio: '' },
     ],
@@ -127,15 +127,15 @@ const CONTENT = {
       Registered office: <strong>Krakovany 352, 281 27 Krakovany, Czech Republic.</strong></>,
     s4p2: 'The association is established for an indefinite period and may operate in the Czech Republic and abroad.',
 
-    footerLabel: 'Zero Ballance Society, z.s. · Issue I · 2026',
+    footerLabel: 'Zero Balance Society, z.s. · Issue I · 2026',
   },
   hi: {
     issueLabel:   'अंक I · वसंत 2026',
     mastheadSub:  'शब्द, चिंतन और हमारी यात्रा साझा करने का एक स्थान।',
     kicker:       'संस्था की स्थापना',
-    articleTitle: <>Zero Ballance Society की स्थापना हुई।<br /><em>यहाँ जानिए क्यों।</em></>,
+    articleTitle: <>Zero Balance Society की स्थापना हुई।<br /><em>यहाँ जानिए क्यों।</em></>,
     lead: `27 मई 2026 को ज़ाकुपी में संस्थापक दस्तावेज़ पर हस्ताक्षर किए गए और
-      Zero Ballance Society, z.s. चेक नागरिक कानून के तहत एक पंजीकृत
+      Zero Balance Society, z.s. चेक नागरिक कानून के तहत एक पंजीकृत
       अलाभकारी संस्था के रूप में अस्तित्व में आई। यह क्षण कोई अचानक लिया गया
       निर्णय नहीं था — यह वर्षों की आध्यात्मिक साधना, सांस्कृतिक आदान-प्रदान
       और उन परंपराओं के साथ साझा पथ का परिणाम था जिन्होंने हमें आकार दिया है।`,
@@ -146,7 +146,7 @@ const CONTENT = {
       करने के लिए स्थापित की गई थी। हमारे ध्यान के केंद्र में <strong>श्री कराउली शंकर महादेव जी</strong> की
       आध्यात्मिक परंपरा है, जिन्हें कराउली सरकार या गुरुदेव के नाम से जाना जाता है —
       और उनकी शिक्षाओं से जुड़ी भारत की परंपराएँ, अभ्यास और सांस्कृतिक विरासत।</>,
-    s1p2: `Zero Ballance Society कोई धार्मिक संगठन नहीं है। हम एक सांस्कृतिक
+    s1p2: `Zero Balance Society कोई धार्मिक संगठन नहीं है। हम एक सांस्कृतिक
       और शैक्षिक संस्था हैं जो आध्यात्मिक अभ्यास, अंतरसांस्कृतिक मुलाकात और
       व्यक्तिगत विकास के लिए स्थान बनाती है — सभी के लिए खुली है चाहे
       उनकी पृष्ठभूमि, विश्वास या अनुभव कुछ भी हो।`,
@@ -175,8 +175,8 @@ const CONTENT = {
 
     members: [
       { initial: 'J', role: 'अध्यक्ष',                   name: 'Jan Kočandrle',         bio: 'संस्था के संस्थापक और अध्यक्ष। इसकी गतिविधियों और सांस्कृतिक मिशन के विकास में योगदान देते हैं।' },
-      { initial: 'J', role: 'सदस्य',                      name: 'PhDr. Jiří Kočandrle',  bio: 'Zero Ballance Society के संस्थापक और सदस्य।' },
-      { initial: 'F', role: 'सदस्य',                      name: 'František Filouš',       bio: 'Zero Ballance Society के संस्थापक और सदस्य।' },
+      { initial: 'J', role: 'सदस्य',                      name: 'PhDr. Jiří Kočandrle',  bio: 'Zero Balance Society के संस्थापक और सदस्य।' },
+      { initial: 'F', role: 'सदस्य',                      name: 'František Filouš',       bio: 'Zero Balance Society के संस्थापक और सदस्य।' },
       { initial: 'P', role: 'शीघ्र जुड़ रहे हैं · सदस्य', name: 'Pavel Znamenáček',       bio: '' },
       { initial: 'P', role: 'शीघ्र जुड़ रही हैं · सदस्या', name: 'Pavlína Muchová',        bio: '' },
     ],
@@ -187,7 +187,7 @@ const CONTENT = {
       पंजीकृत कार्यालय: <strong>Krakovany 352, 281 27 Krakovany, Czech Republic।</strong></>,
     s4p2: 'संस्था अनिश्चित काल के लिए स्थापित है और चेक गणराज्य तथा विदेशों में काम कर सकती है।',
 
-    footerLabel: 'Zero Ballance Society, z.s. · अंक I · 2026',
+    footerLabel: 'Zero Balance Society, z.s. · अंक I · 2026',
   },
 } as const
 
@@ -206,7 +206,7 @@ export default function JournalContent() {
             <div className={styles.mastheadMeta}>
               <span className={styles.issueLabel}>{c.issueLabel}</span>
               <span className={styles.issueDivider}>·</span>
-              <span className={styles.issueLabel}>Zero Ballance Society, z.s.</span>
+              <span className={styles.issueLabel}>Zero Balance Society, z.s.</span>
             </div>
             <h1 className={styles.mastheadTitle}>
               {lang === 'hi' ? 'पत्रिका' : lang === 'cs' ? 'Časopis' : 'Journal'}

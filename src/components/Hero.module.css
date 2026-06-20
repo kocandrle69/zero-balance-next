@@ -363,10 +363,16 @@
     padding-bottom: max(28px, env(safe-area-inset-bottom, 28px));
     gap: 12px;
   }
-  .heroGlassCard { padding: 22px 22px; }
-  .heroLabel { margin-bottom: 12px; }
-  .heroTitle { font-size: clamp(28px, 8vw, 40px); margin-bottom: 16px; }
-  .heroLine { margin-bottom: 12px; }
+  .heroGlassCard {
+    padding: 18px 18px;
+    border-radius: 20px;
+    background: rgba(255,255,255,0.65);
+    backdrop-filter: blur(28px) saturate(1.5);
+    -webkit-backdrop-filter: blur(28px) saturate(1.5);
+  }
+  .heroLabel { margin-bottom: 10px; font-size: 9px; }
+  .heroTitle { font-size: clamp(24px, 7vw, 34px); margin-bottom: 12px; }
+  .heroLine { margin-bottom: 10px; }
   .heroBtns { flex-direction: column; align-items: flex-start; gap: 10px; }
 
   /* Druhá karta — kompaktní verze na mobilu */

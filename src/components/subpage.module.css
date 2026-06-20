@@ -163,3 +163,61 @@
   .lead { font-size: 17px; padding-bottom: 36px; margin-bottom: 40px; }
   .pullquote { padding: 24px 24px; }
 }
+
+/* ── About Us — person rows ── */
+.personRow {
+  display: flex;
+  gap: 48px;
+  align-items: flex-start;
+}
+
+.personRowReverse {
+  flex-direction: row-reverse;
+}
+
+.personImg {
+  flex-shrink: 0;
+  width: 220px;
+  height: 280px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.personImg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+}
+
+.personText {
+  flex: 1;
+}
+
+.subpageCtaLink {
+  font-family: 'Cinzel', serif;
+  font-size: 11px;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: var(--gold);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(184,146,42,0.3);
+  padding-bottom: 2px;
+  transition: border-color 0.3s, color 0.3s;
+}
+
+.subpageCtaLink:hover {
+  color: var(--ink);
+  border-color: var(--ink);
+}
+
+@media (max-width: 700px) {
+  .personRow,
+  .personRowReverse {
+    flex-direction: column;
+  }
+  .personImg {
+    width: 100%;
+    height: 260px;
+  }
+}

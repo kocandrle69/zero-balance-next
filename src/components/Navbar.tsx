@@ -48,7 +48,7 @@ export default function Navbar({ translucent = false }: { translucent?: boolean 
   }, [menuOpen])
 
   const navLinks = [
-    { href: '/#about',      key: 'nav_about'      },
+    { href: '/about',        key: 'nav_about'      },
     { href: '/#philosophy', key: 'nav_philosophy'  },
     { href: '/#activities', key: 'nav_activities'  },
     { href: '/#india',      key: 'nav_india'       },

@@ -92,7 +92,7 @@ export default function Footer() {
         <div className={styles.footerCol}>
           <h5>{t('foot_nav')}</h5>
           <ul>
-            <li><a href="/#philosophy">{t('foot_about')}</a></li>
+            <li><a href="/about">{t('foot_about')}</a></li>
             <li><a href="/#philosophy">{t('foot_phil')}</a></li>
             <li><a href="/#activities">{t('foot_act')}</a></li>
             <li><a href="/#india">{t('foot_india')}</a></li>

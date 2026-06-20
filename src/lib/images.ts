@@ -15,7 +15,7 @@ const IMG = {
   act1:      '/images/main-sadhna.png',                  // Meditation — Gurudev sedí
   act2:      '/images/anand-darbar-e-2.jpg',      // Cultural Events — ceremonie
   act3:      '/images/Gate-1024x576.png',         // India Journeys — brána chrámu
-  act4:      '/images/mant.png',           // Study & Discussion — dav v meditaci
+  act4:      '/images/Sensei 3.png',           // Study & Discussion — dav v meditaci
   act5:      '/images/WEB1.png',                  // Gatherings — shromáždění
 
   // India
