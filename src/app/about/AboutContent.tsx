@@ -5,6 +5,7 @@ import Footer from '../../components/Footer'
 import BackLink from '../../components/BackLink'
 import { useLang } from '../../contexts/LangContext'
 import styles from '../../components/subpage.module.css'
+import IMG from '../../lib/images'
 
 const CONTENT = {
   en: {
@@ -78,17 +79,22 @@ export default function AboutContent() {
 
   return (
     <>
-      <Navbar />
+      <Navbar translucent />
       <main className={styles.page}>
-        <article className={styles.article} style={{ paddingTop: '120px', position: 'relative' }}>
-          <BackLink />
 
-          <div style={{ marginTop: '32px', marginBottom: '56px' }}>
-            <p className={styles.sectionHead} style={{ marginBottom: '18px' }}>{C.label}</p>
-            <h1 className={styles.heroTitle} style={{ color: 'var(--ink2)', fontSize: 'clamp(36px, 5vw, 64px)' }}>
+        <div className={styles.hero}>
+          <div className={styles.heroBg} style={{ backgroundImage: `url(${IMG.purposeAbout})`, backgroundPosition: 'center 7%' }} />
+          <div className={styles.heroOverlay} />
+          <BackLink />
+          <div className={styles.heroContent}>
+            <p className={styles.heroLabel}>{C.label}</p>
+            <h1 className={styles.heroTitle}>
               {C.titleLine1}<br /><em>{C.titleLine2}</em>
             </h1>
           </div>
+        </div>
+
+        <article className={styles.article}>
 
           <section className={styles.section}>
             <h2 className={styles.sectionHead}>{C.introHead}</h2>
@@ -138,7 +144,7 @@ export default function AboutContent() {
             </div>
           </section>
 
-          <section className={`${styles.section}`} style={{ textAlign: 'center', paddingTop: '16px' }}>
+          <section className={styles.section}>
             <a href="/lineage" className={styles.subpageCtaLink}>{C.philLink}</a>
           </section>
 
