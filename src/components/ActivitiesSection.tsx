@@ -42,7 +42,7 @@ export default function ActivitiesSection() {
           const link = CARD_LINKS[card.imgKey]
           const inner = (
             <>
-              <img src={IMG[card.imgKey]} alt={t(card.titleKey)} />
+              <img src={IMG[card.imgKey]} alt={t(card.titleKey)} style={card.imgKey === 'act4' ? { objectPosition: '40% center' } : undefined} />
               <div className={styles.actCardOverlay} />
               <div className={styles.actCardContent}>
                 <span className={styles.actTag}>{t(card.tagKey)}</span>
