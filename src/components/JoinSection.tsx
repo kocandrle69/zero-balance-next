@@ -7,12 +7,12 @@ import { useScrollRevealAll } from '../hooks/useScrollReveal'
 import IMG from '../lib/images'
 
 const CONTACT_MAILTO =
-  'mailto:jan@zero-balance.org?cc=frantisek@zero-balance.org,jiri@zero-balance.org&subject=Z%C3%A1jem%20o%20n%C3%A1v%C5%A1t%C4%9Bvu%20%C3%A1%C5%A1r%C3%A1mu'
+  'mailto:jan@zero-balance.org?cc=jiri@zero-balance.org&subject=Z%C3%A1jem%20o%20n%C3%A1v%C5%A1t%C4%9Bvu%20%C3%A1%C5%A1r%C3%A1mu'
 
 // "Stát se členem" — zatím mailto s předmětem Členství
 // TODO: nahradit za /join nebo Google Form, jakmile bude hotov
 const MEMBERSHIP_MAILTO =
-  'mailto:jan@zero-balance.org?cc=frantisek@zero-balance.org,jiri@zero-balance.org&subject=Z%C3%A1jem%20o%20%C4%8Dlenstv%C3%AD%20%E2%80%93%20Zero%20Balance%20Society'
+  'mailto:jan@zero-balance.org?cc=jiri@zero-balance.org&subject=Z%C3%A1jem%20o%20%C4%8Dlenstv%C3%AD%20%E2%80%93%20Zero%20Balance%20Society'
 
 export default function JoinSection() {
   const { t, tHTML } = useLang()
