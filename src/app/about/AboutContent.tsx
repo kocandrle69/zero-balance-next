@@ -99,7 +99,7 @@ export default function AboutContent() {
           <section className={styles.section}>
             <div className={styles.personRow}>
               <div className={styles.personImg}>
-                <img src="/images/Jan.png" alt="Jan Kočandrle" />
+                <img src="/images/Jan.png" alt="Jan Kočandrle" style={{ objectPosition: '45% 20%' }} />
               </div>
               <div className={styles.personText}>
                 <h2 className={styles.sectionHead}>{C.janHead}</h2>
@@ -113,7 +113,7 @@ export default function AboutContent() {
           <section className={styles.section}>
             <div className={`${styles.personRow} ${styles.personRowReverse}`}>
               <div className={styles.personImg}>
-                <img src="/images/Gurudev.png" alt="Gurudev Shri Karauli Shankar Mahadeva Ji" />
+                <img src="/images/Gurudev.png" alt="Gurudev Shri Karauli Shankar Mahadeva Ji" style={{ objectPosition: 'center 10%' }} />
               </div>
               <div className={styles.personText}>
                 <h2 className={styles.sectionHead}>{C.gurudevHead}</h2>
@@ -127,7 +127,7 @@ export default function AboutContent() {
           <section className={styles.section}>
             <div className={styles.personRow}>
               <div className={styles.personImg}>
-                <img src="/images/Sensei 3.png" alt="Rajeev Sinha — Sensei" />
+                <img src="/images/Sensei 3.png" alt="Rajeev Sinha — Sensei" style={{ objectPosition: '55% 15%', transform: 'scale(1.35)' }} />
               </div>
               <div className={styles.personText}>
                 <h2 className={styles.sectionHead}>{C.senseiHead}</h2>
