@@ -53,8 +53,8 @@ const CONTENT = {
 
     members: [
       { initial: 'J', role: 'Předseda spolku',        name: 'Jan Kočandrle',         bio: 'Zakladatel a předseda spolku. Přispívá k rozvoji jeho aktivit a kulturní mise.', photo: '/images/Jan.png', imgPos: '30% 20%' },
-      { initial: 'J', role: 'Člen',                   name: 'PhDr. Jiří Kočandrle',  bio: 'Zakladatel a člen Zero Balance Society.', photo: '/images/Jiri.png' },
-      { initial: 'F', role: 'Člen',                   name: 'František Filouš',       bio: 'Zakladatel spolku a člen Zero Balance Society.', photo: '/images/Franta.png', imgPos: '40% 20%' },
+      { initial: 'J', role: 'Místopředseda spolku',   name: 'PhDr. Jiří Kočandrle',  bio: 'Zakladatel a člen Zero Balance Society.', photo: '/images/Jiri.png' },
+      { initial: 'F', role: 'Místopředseda spolku',   name: 'František Filouš',       bio: 'Zakladatel spolku a člen Zero Balance Society.', photo: '/images/Franta.png', imgPos: '40% 20%' },
       { initial: 'P', role: 'Člen',                   name: 'Pavel Znamenáček',       bio: 'Člen Zero Balance Society.', photo: '/images/Pavel.png', imgPos: '70% 20%' },
       { initial: 'P', role: 'Členka',                 name: 'Pavlína Muchová',        bio: 'Členka Zero Balance Society.', photo: '/images/Pavlina.png', imgPos: '60% 15%', imgScale: '1.2' },
     ],
@@ -116,8 +116,8 @@ const CONTENT = {
 
     members: [
       { initial: 'J', role: 'Chairman',               name: 'Jan Kočandrle',         bio: 'Founder and chairman of the association. Contributing to the development of its activities and cultural mission.', photo: '/images/Jan.png', imgPos: '30% 20%' },
-      { initial: 'J', role: 'Member',                  name: 'PhDr. Jiří Kočandrle',  bio: 'Founder and member of Zero Balance Society.', photo: '/images/Jiri.png' },
-      { initial: 'F', role: 'Member',                  name: 'František Filouš',       bio: 'Founder and member of Zero Balance Society.', photo: '/images/Franta.png', imgPos: '40% 20%' },
+      { initial: 'J', role: 'Vice-Chairman',            name: 'PhDr. Jiří Kočandrle',  bio: 'Founder and member of Zero Balance Society.', photo: '/images/Jiri.png' },
+      { initial: 'F', role: 'Vice-Chairman',            name: 'František Filouš',       bio: 'Founder and member of Zero Balance Society.', photo: '/images/Franta.png', imgPos: '40% 20%' },
       { initial: 'P', role: 'Member',                  name: 'Pavel Znamenáček',       bio: 'Member of Zero Balance Society.', photo: '/images/Pavel.png', imgPos: '70% 20%' },
       { initial: 'P', role: 'Member',                  name: 'Pavlína Muchová',        bio: 'Member of Zero Balance Society.', photo: '/images/Pavlina.png', imgPos: '60% 15%', imgScale: '1.2' },
     ],
@@ -176,8 +176,8 @@ const CONTENT = {
 
     members: [
       { initial: 'J', role: 'अध्यक्ष',                   name: 'Jan Kočandrle',         bio: 'संस्था के संस्थापक और अध्यक्ष। इसकी गतिविधियों और सांस्कृतिक मिशन के विकास में योगदान देते हैं।', photo: '/images/Jan.png', imgPos: '30% 20%' },
-      { initial: 'J', role: 'सदस्य',                      name: 'PhDr. Jiří Kočandrle',  bio: 'Zero Balance Society के संस्थापक और सदस्य।', photo: '/images/Jiri.png' },
-      { initial: 'F', role: 'सदस्य',                      name: 'František Filouš',       bio: 'Zero Balance Society के संस्थापक और सदस्य।', photo: '/images/Franta.png', imgPos: '40% 20%' },
+      { initial: 'J', role: 'उपाध्यक्ष',                    name: 'PhDr. Jiří Kočandrle',  bio: 'Zero Balance Society के संस्थापक और सदस्य।', photo: '/images/Jiri.png' },
+      { initial: 'F', role: 'उपाध्यक्ष',                    name: 'František Filouš',       bio: 'Zero Balance Society के संस्थापक और सदस्य।', photo: '/images/Franta.png', imgPos: '40% 20%' },
       { initial: 'P', role: 'सदस्य',                      name: 'Pavel Znamenáček',       bio: 'Zero Balance Society के सदस्य।', photo: '/images/Pavel.png', imgPos: '70% 20%' },
       { initial: 'P', role: 'सदस्या',                     name: 'Pavlína Muchová',        bio: 'Zero Balance Society की सदस्या।', photo: '/images/Pavlina.png', imgPos: '60% 15%', imgScale: '1.2' },
     ],
