@@ -21,7 +21,7 @@ const CONTENT = {
     s1p1: <>Spolek byl založen za účelem podpory, rozvoje, uchovávání a šíření
       duchovních, kulturních, meditačních a vzdělávacích tradic vycházejících
       z indické védské, jógové a tantrické tradice. Středem našeho zaměření
-      je duchovní linie <strong>Shri Karauli Shankar Mahadeva Ji</strong>,
+      je duchovní linie <strong>Shri Karauli Shankar Mahadev Ji</strong>,
       známého jako Karauli Sarkar nebo Gurudev — a s ní spojené tradice,
       praxe a kulturní dědictví Indie.</>,
     s1p2: `Zero Balance Society není náboženskou organizací. Jsme kulturním

@@ -13,14 +13,14 @@ const CONTENT = {
     titleLine1: 'A Society.',
     titleLine2: 'A Living Tradition.',
     introHead: 'Zero Balance Society',
-    introP1: 'Zero Balance Society (z.s.) is a registered Czech non-profit association dedicated to preserving and sharing the spiritual, cultural and meditative traditions of India — rooted in the Vedic, yogic and tantric lineage of Shri Karauli Shankar Mahadeva Ji.',
+    introP1: 'Zero Balance Society (z.s.) is a registered Czech non-profit association dedicated to preserving and sharing the spiritual, cultural and meditative traditions of India — rooted in the Vedic, yogic and tantric lineage of Shri Karauli Shankar Mahadev Ji.',
     introP2: 'Our work rests on three pillars: Contemplation, Dialogue and Community. We organise meditation gatherings, group journeys to India, study evenings and cultural events — open to all sincere seekers.',
     janHead: 'Jan Kočandrle — Chairman',
-    janP1: 'Jan Kočandrle is the Chairman of Zero Balance Society and one of its founding members. The association was established at the wish and with the blessing of Gurudev Shri Karauli Shankar Mahadeva Ji, and with the support and guidance of Sensei Rajeev Sinha.',
+    janP1: 'Jan Kočandrle is the Chairman of Zero Balance Society and one of its founding members. The association was established at the wish and with the blessing of Gurudev Shri Karauli Shankar Mahadev Ji, and with the support and guidance of Sensei Rajeev Sinha.',
     janP2: 'Within Zero Balance Society, Jan Kočandrle helps to carry forward the association\'s mission: preserving, promoting and transmitting the living spiritual, cultural and meditative heritage of India, rooted in Gurudev\'s lineage.',
     janP3: 'Under his chairmanship, the Society develops meditation gatherings, study evenings, cultural activities and group journeys to India, creating a space where ancient spiritual traditions can remain alive, meaningful and accessible to contemporary seekers in the Czech Republic and beyond.',
-    gurudevHead: 'Gurudev — Shri Karauli Shankar Mahadeva Ji',
-    gurudevP1: 'Gurudev Shri Karauli Shankar Mahadeva Ji is the spiritual heart of our lineage. As Mahāmaṇḍalēśvar of Shri Panchayati Akhada Naya Udasin Nirvan, he holds the highest spiritual rank within this tradition.',
+    gurudevHead: 'Gurudev — Shri Karauli Shankar Mahadev Ji',
+    gurudevP1: 'Gurudev Shri Karauli Shankar Mahadev Ji is the spiritual heart of our lineage. As Mahāmaṇḍalēśvar of Shri Panchayati Akhada Naya Udasin Nirvan, he holds the highest spiritual rank within this tradition.',
     gurudevP2: 'His teaching is rooted in Tantra Kriya Yoga — a direct, experiential path of inner transformation, devotion and self-realisation. Gurudev\'s presence and grace are the source from which all ZBS activities draw their inspiration.',
     gurudevP3: 'We are preparing an extraordinary visit of Gurudev to the Czech Republic in 2027.',
     senseiHead: 'Sensei Rajeev Sinha — Guide & Teacher',
@@ -34,14 +34,14 @@ const CONTENT = {
     titleLine1: 'Spolek.',
     titleLine2: 'Živá tradice.',
     introHead: 'Zero Balance Society',
-    introP1: 'Zero Balance Society (z.s.) je registrovaný český neziskový spolek věnovaný zachování a šíření duchovních, kulturních a meditativních tradic Indie — zakořeněných ve védské, jógické a tantrické linii Shri Karauli Shankar Mahadeva Ji.',
+    introP1: 'Zero Balance Society (z.s.) je registrovaný český neziskový spolek věnovaný zachování a šíření duchovních, kulturních a meditativních tradic Indie — zakořeněných ve védské, jógické a tantrické linii Shri Karauli Shankar Mahadev Ji.',
     introP2: 'Naše práce stojí na třech pilířích: Kontemplace, Dialog a Komunita. Pořádáme meditační setkání, skupinové cesty do Indie, studijní večery a kulturní akce — otevřené všem upřímným hledačům.',
     janHead: 'Jan Kočandrle — Předseda spolku',
-    janP1: 'Jan Kočandrle je předsedou Zero Balance Society a jedním z jeho zakladatelů. Spolek vznikl z přání a s požehnáním Gurudeva Shri Karauli Shankar Mahadeva Ji a s podporou a vedením Sensei Rajeev Sinhy.',
+    janP1: 'Jan Kočandrle je předsedou Zero Balance Society a jedním z jeho zakladatelů. Spolek vznikl z přání a s požehnáním Gurudeva Shri Karauli Shankar Mahadev Ji a s podporou a vedením Sensei Rajeev Sinhy.',
     janP2: 'V rámci Zero Balance Society pomáhá naplňovat poslání spolku: zachovávat, podporovat a předávat živé duchovní, kulturní a meditativní dědictví Indie, zakořeněné v Gurudevově linii.',
     janP3: 'Pod jeho vedením spolek rozvíjí meditační setkání, studijní večery, kulturní aktivity a skupinové cesty do Indie — vytváří prostor, kde mohou starobylé duchovní tradice zůstat živé, smysluplné a přístupné současným hledačům v České republice i za jejími hranicemi.',
-    gurudevHead: 'Gurudev — Shri Karauli Shankar Mahadeva Ji',
-    gurudevP1: 'Gurudev Shri Karauli Shankar Mahadeva Ji je duchovním srdcem naší linie. Jako Mahāmaṇḍalēśvar Shri Panchayati Akhada Naya Udasin Nirvan zastává nejvyšší duchovní hodnost v této tradici.',
+    gurudevHead: 'Gurudev — Shri Karauli Shankar Mahadev Ji',
+    gurudevP1: 'Gurudev Shri Karauli Shankar Mahadev Ji je duchovním srdcem naší linie. Jako Mahāmaṇḍalēśvar Shri Panchayati Akhada Naya Udasin Nirvan zastává nejvyšší duchovní hodnost v této tradici.',
     gurudevP2: 'Jeho učení je zakořeněno v Tantra Krija Józe — přímé, zkušenostní cestě vnitřní transformace, oddanosti a sebepoznání. Gurudevova přítomnost a milost jsou zdrojem, z nějž čerpají veškeré aktivity ZBS.',
     gurudevP3: 'Připravujeme výjimečnou návštěvu Gurudeva v České republice v roce 2027.',
     senseiHead: 'Sensei Rajeev Sinha — Průvodce a učitel',
@@ -119,7 +119,7 @@ export default function AboutContent() {
           <section className={styles.section}>
             <div className={`${styles.personRow} ${styles.personRowReverse}`}>
               <div className={styles.personImg}>
-                <img src="/images/Gurudev.png" alt="Gurudev Shri Karauli Shankar Mahadeva Ji" style={{ objectPosition: '10% 15%' }} />
+                <img src="/images/Gurudev.png" alt="Gurudev Shri Karauli Shankar Mahadev Ji" style={{ objectPosition: '10% 15%' }} />
               </div>
               <div className={styles.personText}>
                 <h2 className={styles.sectionHead}>{C.gurudevHead}</h2>
