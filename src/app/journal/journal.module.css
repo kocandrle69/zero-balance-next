@@ -4,36 +4,37 @@
   min-height: 100vh;
 }
 
-/* ── Hero banner ──────────────────────────────────────────────── */
+/* ── Hero + Masthead ──────────────────────────────────────────── */
 .hero {
   position: relative;
-  height: 340px;
+  min-height: 520px;
   overflow: hidden;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
 }
 .heroBg {
   position: absolute; inset: 0;
   background-size: cover;
-  background-position: center 60%;
-  filter: brightness(0.85);
+  background-position: center 50%;
 }
 .heroOverlay {
   position: absolute; inset: 0;
   background: linear-gradient(
     to bottom,
-    rgba(14,10,4,0.15) 0%,
-    rgba(247,243,236,0.3) 70%,
-    rgba(247,243,236,0.95) 100%
+    rgba(247,243,236,0.1) 0%,
+    rgba(247,243,236,0.5) 50%,
+    rgba(247,243,236,0.92) 85%,
+    rgba(247,243,236,1) 100%
   );
 }
 
-/* ── Masthead ──────────────────────────────────────────────────── */
-.masthead {
-  background: var(--bg2);
-  border-bottom: 1px solid rgba(184,146,42,0.15);
-  padding: 80px 40px 64px;
+.mastheadInner {
+  position: relative; z-index: 2;
+  max-width: 720px; margin: 0 auto;
+  padding: 0 40px 48px;
   text-align: center;
 }
-.mastheadInner { max-width: 720px; margin: 0 auto; }
 
 .mastheadMeta {
   display: flex; align-items: center; justify-content: center;
@@ -169,48 +170,37 @@
 }
 
 /* ── Team grid ─────────────────────────────────────────────────── */
-.teamGrid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
+.teamList {
   margin: 8px 0 48px;
+  display: flex; flex-direction: column; gap: 48px;
 }
 
-.memberCard {
-  padding: 28px 24px;
-  background: var(--glass-b);
-  border: 1px solid rgba(255,255,255,0.7);
-  border-radius: 16px;
-  box-shadow: var(--shadow);
-  display: flex; flex-direction: column; gap: 16px;
-  transition: box-shadow 0.25s, border-color 0.25s;
+.memberRow {
+  display: flex; gap: 40px; align-items: flex-start;
 }
-.memberCard:hover {
-  box-shadow: var(--shadow-lg);
-  border-color: rgba(184,146,42,0.2);
+.memberRowReverse {
+  flex-direction: row-reverse;
 }
-.memberCardPending {
-  opacity: 0.5;
-  background: transparent;
-  border-style: dashed;
-  border-color: rgba(184,146,42,0.2);
-  box-shadow: none;
+.memberRowImg {
+  flex-shrink: 0;
+  width: 180px; height: 220px;
+  border-radius: 16px; overflow: hidden;
 }
-.memberCardPending:hover { box-shadow: none; opacity: 0.65; }
-
-.memberPhoto { flex-shrink: 0; }
-.memberPhotoImg {
-  width: 72px; height: 72px; border-radius: 50%;
+.memberRowImg img {
+  width: 100%; height: 100%;
   object-fit: cover; object-position: center 20%;
-  border: 2px solid rgba(184,146,42,0.15);
 }
-.memberPhotoPlaceholder {
-  width: 52px; height: 52px; border-radius: 50%;
-  background: rgba(184,146,42,0.1);
-  border: 1px solid rgba(184,146,42,0.2);
-  display: flex; align-items: center; justify-content: center;
-  font-family: 'Cinzel', serif; font-size: 18px;
-  color: var(--gold);
+.memberRowText {
+  flex: 1;
+}
+
+.pendingRow {
+  display: flex; gap: 32px;
+  opacity: 0.5; padding-top: 8px;
+  border-top: 1px dashed rgba(184,146,42,0.2);
+}
+.pendingMember {
+  flex: 1;
 }
 
 .memberRole {
@@ -253,14 +243,16 @@
 }
 
 /* ── Responsive ────────────────────────────────────────────────── */
-@media (max-width: 900px) {
-  .teamGrid { grid-template-columns: repeat(2, 1fr); }
+@media (max-width: 700px) {
+  .memberRow, .memberRowReverse { flex-direction: column; }
+  .memberRowImg { width: 100%; height: 240px; }
+  .pendingRow { flex-direction: column; gap: 24px; }
+  .hero { min-height: 400px; }
 }
 
 @media (max-width: 640px) {
-  .masthead { padding: 60px 24px 48px; }
+  .mastheadInner { padding: 0 24px 40px; }
   .article { padding: 48px 24px 60px; }
   .articleFooter { padding: 0 24px 60px; }
-  .teamGrid { grid-template-columns: 1fr; }
   .pullquote { padding: 24px 24px; }
 }

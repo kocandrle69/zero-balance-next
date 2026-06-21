@@ -201,15 +201,11 @@ export default function JournalContent() {
       <Navbar translucent />
       <main className={styles.page}>
 
-        {/* ── Hero ─────────────────────────────────────────────── */}
+        {/* ── Hero + Masthead ────────────────────────────────── */}
         <div className={styles.hero}>
           <div className={styles.heroBg} style={{ backgroundImage: 'url(/images/BKG.png)' }} />
           <div className={styles.heroOverlay} />
           <BackLink />
-        </div>
-
-        {/* ── Masthead ──────────────────────────────────────────── */}
-        <header className={styles.masthead}>
           <div className={styles.mastheadInner}>
             <div className={styles.mastheadMeta}>
               <span className={styles.issueLabel}>{c.issueLabel}</span>
@@ -222,7 +218,7 @@ export default function JournalContent() {
             <p className={styles.mastheadSub}>{c.mastheadSub}</p>
             <div className={styles.mastheadRule} />
           </div>
-        </header>
+        </div>
 
         {/* ── Article ───────────────────────────────────────────── */}
         <article className={styles.article}>
@@ -266,23 +262,29 @@ export default function JournalContent() {
               <p>{c.s3p1}</p>
             </section>
 
-            <div className={styles.teamGrid}>
-              {c.members.map((m, i) => (
-                <div key={i} className={`${styles.memberCard} ${!m.photo ? styles.memberCardPending : ''}`}>
-                  <div className={styles.memberPhoto}>
-                    {m.photo ? (
-                      <img src={m.photo} alt={m.name} className={styles.memberPhotoImg} />
-                    ) : (
-                      <div className={styles.memberPhotoPlaceholder}>{m.initial}</div>
-                    )}
+            <div className={styles.teamList}>
+              {c.members.filter(m => m.photo).map((m, i) => (
+                <div key={i} className={`${styles.memberRow} ${i % 2 === 1 ? styles.memberRowReverse : ''}`}>
+                  <div className={styles.memberRowImg}>
+                    <img src={m.photo} alt={m.name} />
                   </div>
-                  <div className={styles.memberInfo}>
+                  <div className={styles.memberRowText}>
                     <span className={styles.memberRole}>{m.role}</span>
                     <h4 className={styles.memberName}>{m.name}</h4>
                     {m.bio && <p className={styles.memberBio}>{m.bio}</p>}
                   </div>
                 </div>
               ))}
+              {c.members.some(m => !m.photo) && (
+                <div className={styles.pendingRow}>
+                  {c.members.filter(m => !m.photo).map((m, i) => (
+                    <div key={i} className={styles.pendingMember}>
+                      <span className={styles.memberRole}>{m.role}</span>
+                      <h4 className={styles.memberName}>{m.name}</h4>
+                    </div>
+                  ))}
+                </div>
+              )}
             </div>
 
             <section className={styles.section}>
