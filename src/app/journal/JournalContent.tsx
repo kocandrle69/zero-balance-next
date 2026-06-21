@@ -2,6 +2,7 @@
 
 import Navbar from '../../components/Navbar'
 import Footer from '../../components/Footer'
+import BackLink from '../../components/BackLink'
 import styles from './journal.module.css'
 import { useLang } from '../../contexts/LangContext'
 
@@ -51,11 +52,11 @@ const CONTENT = {
       jednat jménem spolku samostatně.`,
 
     members: [
-      { initial: 'J', role: 'Předseda spolku',        name: 'Jan Kočandrle',         bio: 'Zakladatel a předseda spolku. Přispívá k rozvoji jeho aktivit a kulturní mise.' },
-      { initial: 'J', role: 'Člen',                   name: 'PhDr. Jiří Kočandrle',  bio: 'Zakladatel a člen Zero Balance Society.' },
-      { initial: 'F', role: 'Člen',                   name: 'František Filouš',       bio: 'Zakladatel spolku a člen Zero Balance Society.' },
-      { initial: 'P', role: 'Připravuje se · Člen',   name: 'Pavel Znamenáček',       bio: '' },
-      { initial: 'P', role: 'Připravuje se · Členka', name: 'Pavlína Muchová',        bio: '' },
+      { initial: 'J', role: 'Předseda spolku',        name: 'Jan Kočandrle',         bio: 'Zakladatel a předseda spolku. Přispívá k rozvoji jeho aktivit a kulturní mise.', photo: '/images/Jan.png' },
+      { initial: 'J', role: 'Člen',                   name: 'PhDr. Jiří Kočandrle',  bio: 'Zakladatel a člen Zero Balance Society.', photo: '/images/Jiri.png' },
+      { initial: 'F', role: 'Člen',                   name: 'František Filouš',       bio: 'Zakladatel spolku a člen Zero Balance Society.', photo: '/images/Franta.png' },
+      { initial: 'P', role: 'Připravuje se · Člen',   name: 'Pavel Znamenáček',       bio: '', photo: '' },
+      { initial: 'P', role: 'Připravuje se · Členka', name: 'Pavlína Muchová',        bio: '', photo: '' },
     ],
 
     s4Head: 'Sídlo a registrace',
@@ -114,11 +115,11 @@ const CONTENT = {
       to act on behalf of the association independently.`,
 
     members: [
-      { initial: 'J', role: 'Chairman',               name: 'Jan Kočandrle',         bio: 'Founder and chairman of the association. Contributing to the development of its activities and cultural mission.' },
-      { initial: 'J', role: 'Member',                  name: 'PhDr. Jiří Kočandrle',  bio: 'Founder and member of Zero Balance Society.' },
-      { initial: 'F', role: 'Member',                  name: 'František Filouš',       bio: 'Founder and member of Zero Balance Society.' },
-      { initial: 'P', role: 'Joining Soon · Member',   name: 'Pavel Znamenáček',       bio: '' },
-      { initial: 'P', role: 'Joining Soon · Member',   name: 'Pavlína Muchová',        bio: '' },
+      { initial: 'J', role: 'Chairman',               name: 'Jan Kočandrle',         bio: 'Founder and chairman of the association. Contributing to the development of its activities and cultural mission.', photo: '/images/Jan.png' },
+      { initial: 'J', role: 'Member',                  name: 'PhDr. Jiří Kočandrle',  bio: 'Founder and member of Zero Balance Society.', photo: '/images/Jiri.png' },
+      { initial: 'F', role: 'Member',                  name: 'František Filouš',       bio: 'Founder and member of Zero Balance Society.', photo: '/images/Franta.png' },
+      { initial: 'P', role: 'Joining Soon · Member',   name: 'Pavel Znamenáček',       bio: '', photo: '' },
+      { initial: 'P', role: 'Joining Soon · Member',   name: 'Pavlína Muchová',        bio: '', photo: '' },
     ],
 
     s4Head: 'Registered Office',
@@ -174,11 +175,11 @@ const CONTENT = {
       संस्था की ओर से स्वतंत्र रूप से कार्य कर सकते हैं।`,
 
     members: [
-      { initial: 'J', role: 'अध्यक्ष',                   name: 'Jan Kočandrle',         bio: 'संस्था के संस्थापक और अध्यक्ष। इसकी गतिविधियों और सांस्कृतिक मिशन के विकास में योगदान देते हैं।' },
-      { initial: 'J', role: 'सदस्य',                      name: 'PhDr. Jiří Kočandrle',  bio: 'Zero Balance Society के संस्थापक और सदस्य।' },
-      { initial: 'F', role: 'सदस्य',                      name: 'František Filouš',       bio: 'Zero Balance Society के संस्थापक और सदस्य।' },
-      { initial: 'P', role: 'शीघ्र जुड़ रहे हैं · सदस्य', name: 'Pavel Znamenáček',       bio: '' },
-      { initial: 'P', role: 'शीघ्र जुड़ रही हैं · सदस्या', name: 'Pavlína Muchová',        bio: '' },
+      { initial: 'J', role: 'अध्यक्ष',                   name: 'Jan Kočandrle',         bio: 'संस्था के संस्थापक और अध्यक्ष। इसकी गतिविधियों और सांस्कृतिक मिशन के विकास में योगदान देते हैं।', photo: '/images/Jan.png' },
+      { initial: 'J', role: 'सदस्य',                      name: 'PhDr. Jiří Kočandrle',  bio: 'Zero Balance Society के संस्थापक और सदस्य।', photo: '/images/Jiri.png' },
+      { initial: 'F', role: 'सदस्य',                      name: 'František Filouš',       bio: 'Zero Balance Society के संस्थापक और सदस्य।', photo: '/images/Franta.png' },
+      { initial: 'P', role: 'शीघ्र जुड़ रहे हैं · सदस्य', name: 'Pavel Znamenáček',       bio: '', photo: '' },
+      { initial: 'P', role: 'शीघ्र जुड़ रही हैं · सदस्या', name: 'Pavlína Muchová',        bio: '', photo: '' },
     ],
 
     s4Head: 'पंजीकृत कार्यालय',
@@ -197,8 +198,15 @@ export default function JournalContent() {
 
   return (
     <>
-      <Navbar />
+      <Navbar translucent />
       <main className={styles.page}>
+
+        {/* ── Hero ─────────────────────────────────────────────── */}
+        <div className={styles.hero}>
+          <div className={styles.heroBg} style={{ backgroundImage: 'url(/images/BKG.png)' }} />
+          <div className={styles.heroOverlay} />
+          <BackLink />
+        </div>
 
         {/* ── Masthead ──────────────────────────────────────────── */}
         <header className={styles.masthead}>
@@ -260,9 +268,13 @@ export default function JournalContent() {
 
             <div className={styles.teamGrid}>
               {c.members.map((m, i) => (
-                <div key={i} className={styles.memberCard}>
+                <div key={i} className={`${styles.memberCard} ${!m.photo ? styles.memberCardPending : ''}`}>
                   <div className={styles.memberPhoto}>
-                    <div className={styles.memberPhotoPlaceholder}>{m.initial}</div>
+                    {m.photo ? (
+                      <img src={m.photo} alt={m.name} className={styles.memberPhotoImg} />
+                    ) : (
+                      <div className={styles.memberPhotoPlaceholder}>{m.initial}</div>
+                    )}
                   </div>
                   <div className={styles.memberInfo}>
                     <span className={styles.memberRole}>{m.role}</span>
