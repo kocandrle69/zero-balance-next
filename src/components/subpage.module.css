@@ -19,13 +19,20 @@
 }
 .heroOverlay {
   position: absolute; inset: 0;
-  background: linear-gradient(
-    to bottom,
-    transparent 0%,
-    transparent 60%,
-    rgba(247,243,236,0.7) 85%,
-    rgba(247,243,236,1) 100%
-  );
+  background:
+    linear-gradient(
+      to right,
+      rgba(247,243,236,0.95) 0%,
+      rgba(247,243,236,0.6) 30%,
+      transparent 55%
+    ),
+    linear-gradient(
+      to bottom,
+      transparent 0%,
+      transparent 60%,
+      rgba(247,243,236,0.7) 85%,
+      rgba(247,243,236,1) 100%
+    );
 }
 .heroContent {
   position: absolute;
