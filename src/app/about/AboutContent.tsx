@@ -149,7 +149,7 @@ export default function AboutContent() {
 
           <section className={styles.section} style={{ display: 'flex', flexDirection: 'column', gap: '16px', alignItems: 'flex-start' }}>
             <a href="/lineage" className={styles.subpageCtaLink}>{C.philLink}</a>
-            <a href="/Zero Balance Society (eng).pdf" target="_blank" rel="noopener noreferrer" className={styles.subpageCtaLink} style={{ opacity: 0.7 }}>{C.pdfLink}</a>
+            <a href={lang === 'hi' ? '/Zero Balance Society (hi).pdf' : lang === 'cs' ? '/Zero Balance Society (cs).pdf' : '/Zero Balance Society (eng).pdf'} target="_blank" rel="noopener noreferrer" className={styles.subpageCtaLink} style={{ opacity: 0.7 }}>{C.pdfLink}</a>
           </section>
 
         </article>
