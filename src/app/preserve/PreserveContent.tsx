@@ -119,7 +119,7 @@ export default function PreserveContent() {
       <main className={styles.page}>
 
         <div className={styles.hero}>
-          <div className={styles.heroBg} style={{ backgroundImage: 'url(/images/preserve.jpg)' }} />
+          <div className={styles.heroBg} style={{ backgroundImage: 'url(/images/preserve2.jpg)' }} />
           <div className={styles.heroOverlay} />
           <BackLink />
           <div className={styles.heroContent}>
