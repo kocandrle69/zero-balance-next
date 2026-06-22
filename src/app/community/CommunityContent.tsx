@@ -149,7 +149,7 @@ export default function CommunityContent() {
       <main className={styles.page}>
 
         <div className={styles.hero}>
-          <div className={styles.heroBg} style={{ backgroundImage: `url(${IMG.purposeCreate})` }} />
+          <div className={styles.heroBg} style={{ backgroundImage: 'url(/images/create.jpg)' }} />
           <div className={styles.heroOverlay} />
           <BackLink />
           <div className={styles.heroContent}>

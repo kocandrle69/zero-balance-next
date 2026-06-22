@@ -98,7 +98,7 @@ export default function ServeContent() {
       <main className={styles.page}>
 
         <div className={styles.hero}>
-          <div className={styles.heroBg} style={{ backgroundImage: `url(${IMG.purposeServe})` }} />
+          <div className={styles.heroBg} style={{ backgroundImage: 'url(/images/serve.jpg)' }} />
           <div className={styles.heroOverlay} />
           <BackLink />
           <div className={styles.heroContent}>
