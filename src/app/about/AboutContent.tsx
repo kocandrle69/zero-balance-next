@@ -28,6 +28,7 @@ const CONTENT = {
     senseiP2: 'Through his Wisdom of India video lesson series, Sensei Rajeev Sinha makes the depth of Indian philosophy and spiritual practice accessible, practical and alive for our community.',
     senseiP3: 'He facilitated the connection of the ZBS founding members with Gurudev\'s lineage — a bond that remains at the core of everything we do.',
     philLink: 'Explore our Philosophy →',
+    pdfLink: 'Download PDF — About Zero Balance Society',
   },
   cs: {
     label: 'O nás',
@@ -49,6 +50,7 @@ const CONTENT = {
     senseiP2: 'Prostřednictvím své série video lekcí Moudrost Indie zpřístupňuje Sensei Rajeev Sinha hloubku indické filozofie a duchovní praxe — prakticky a živě pro naši komunitu.',
     senseiP3: 'Zprostředkoval propojení zakladatelů ZBS s Gurudevovou linií — pouto, které zůstává jádrem všeho, co děláme.',
     philLink: 'Prozkoumejte naši filozofii →',
+    pdfLink: 'Stáhnout PDF — O Zero Balance Society',
   },
   hi: {
     label: 'हमारे बारे में',
@@ -70,6 +72,7 @@ const CONTENT = {
     senseiP2: 'भारत की बुद्धि वीडियो श्रृंखला के माध्यम से वे भारतीय दर्शन को सुलभ और व्यावहारिक बनाते हैं।',
     senseiP3: 'उन्होंने ZBS के संस्थापकों का गुरुदेव की परंपरा से संबंध स्थापित कराया।',
     philLink: 'हमारी दर्शन का अन्वेषण करें →',
+    pdfLink: 'PDF डाउनलोड करें — Zero Balance Society के बारे में',
   },
 } as const
 
@@ -144,8 +147,9 @@ export default function AboutContent() {
             </div>
           </section>
 
-          <section className={styles.section}>
+          <section className={styles.section} style={{ display: 'flex', flexDirection: 'column', gap: '16px', alignItems: 'flex-start' }}>
             <a href="/lineage" className={styles.subpageCtaLink}>{C.philLink}</a>
+            <a href="/Zero Balance Society (eng).pdf" target="_blank" rel="noopener noreferrer" className={styles.subpageCtaLink} style={{ opacity: 0.7 }}>{C.pdfLink}</a>
           </section>
 
         </article>
