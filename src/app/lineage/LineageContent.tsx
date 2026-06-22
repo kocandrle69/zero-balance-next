@@ -110,7 +110,7 @@ export default function LineageContent() {
       <main className={styles.page}>
 
         <div className={styles.hero}>
-          <div className={styles.heroBg} style={{ backgroundImage: 'url(/images/lineage.jpg)' }} />
+          <div className={styles.heroBg} style={{ backgroundImage: 'url(/images/lineage2.jpg)', transform: 'none' }} />
           <div className={styles.heroOverlay} />
           <BackLink />
           <div className={styles.heroContent}>
