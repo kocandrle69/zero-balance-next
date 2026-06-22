@@ -218,21 +218,6 @@ export const VIDEOS = [
   },
 
   {
-    id: 'ybIq2ZYYxGk',
-    titleCS: 'Leden 2026 — Karauli Shankar Mahadev Dham',
-    titleEN: 'January 2026 — Karauli Shankar Mahadev Dham',
-    descCS:  'Záznamy z pobytu v ášrámu v lednu 2026. Atmosféra, praxe a každodenní život v Karauli.',
-    descEN:  'Recordings from the ashram stay in January 2026. Atmosphere, practice and daily life in Karauli.',
-    date:    'Leden 2026',
-    dateEN:  'January 2026',
-    category: 'ashram' as const,
-    tag:     'ÁŠRAM',
-    tagEN:   'ASHRAM',
-    titleHI: 'जनवरी 2026 — काराउली शंकर महादेव धाम',
-    descHI:  'जनवरी 2026 में आश्रम प्रवास की रिकॉर्डिंग। काराउली में वातावरण, अभ्यास और दैनिक जीवन।',
-    tagHI:   'आश्रम',
-  },
-  {
     id: 'Lgz_pjQ8mok',
     titleCS: 'Udělení Deeksha v ášrámu Karauli Shankar',
     titleEN: 'Deeksha Ceremony at Karauli Shankar Ashram',
