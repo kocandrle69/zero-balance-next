@@ -52,11 +52,11 @@ const CONTENT = {
       jednat jménem spolku samostatně.`,
 
     members: [
-      { initial: 'J', role: 'Předseda spolku',        name: 'Jan Kočandrle',         bio: 'Zakladatel a předseda spolku. Přispívá k rozvoji jeho aktivit a kulturní mise.', photo: '/images/Jan.png', imgPos: '30% 20%' },
-      { initial: 'J', role: 'Místopředseda spolku',   name: 'PhDr. Jiří Kočandrle',  bio: 'Zakladatel a místopředseda Zero Balance Society.', photo: '/images/Jiri.png' },
-      { initial: 'F', role: 'Místopředseda spolku',   name: 'Ing. František Filouš',       bio: 'Zakladatel a místopředseda Zero Balance Society.', photo: '/images/Franta.png', imgPos: '40% 20%' },
-      { initial: 'P', role: 'Zakládající člen',        name: 'Pavel Znamenáček',       bio: 'Zakládající člen Zero Balance Society.', photo: '/images/Pavel.png', imgPos: '70% 20%' },
-      { initial: 'P', role: 'Zakládající členka',      name: 'Pavlína Muchová',        bio: 'Zakládající členka Zero Balance Society.', photo: '/images/Pavlina.png', imgPos: '60% 15%', imgScale: '1.2' },
+      { initial: 'J', role: 'Předseda spolku',        name: 'Jan Kočandrle',         bio: 'Zakladatel a předseda spolku. Přispívá k rozvoji jeho aktivit a kulturní mise.', photo: '/images/Jan.jpg', imgPos: '30% 20%' },
+      { initial: 'J', role: 'Místopředseda spolku',   name: 'PhDr. Jiří Kočandrle',  bio: 'Zakladatel a místopředseda Zero Balance Society.', photo: '/images/Jiri.jpg' },
+      { initial: 'F', role: 'Místopředseda spolku',   name: 'Ing. František Filouš',       bio: 'Zakladatel a místopředseda Zero Balance Society.', photo: '/images/Franta.jpg', imgPos: '40% 20%' },
+      { initial: 'P', role: 'Zakládající člen',        name: 'Pavel Znamenáček',       bio: 'Zakládající člen Zero Balance Society.', photo: '/images/Pavel.jpg', imgPos: '70% 20%' },
+      { initial: 'P', role: 'Zakládající členka',      name: 'Pavlína Muchová',        bio: 'Zakládající členka Zero Balance Society.', photo: '/images/Pavlina.jpg', imgPos: '60% 15%', imgScale: '1.2' },
     ],
 
     s4Head: 'Sídlo a registrace',
@@ -115,11 +115,11 @@ const CONTENT = {
       to act on behalf of the association independently.`,
 
     members: [
-      { initial: 'J', role: 'Chairman',               name: 'Jan Kočandrle',         bio: 'Founder and chairman of the association. Contributing to the development of its activities and cultural mission.', photo: '/images/Jan.png', imgPos: '30% 20%' },
-      { initial: 'J', role: 'Vice-Chairman',            name: 'PhDr. Jiří Kočandrle',  bio: 'Founder and vice-chairman of Zero Balance Society.', photo: '/images/Jiri.png' },
-      { initial: 'F', role: 'Vice-Chairman',            name: 'Ing. František Filouš',       bio: 'Founder and vice-chairman of Zero Balance Society.', photo: '/images/Franta.png', imgPos: '40% 20%' },
-      { initial: 'P', role: 'Founding Member',          name: 'Pavel Znamenáček',       bio: 'Founding member of Zero Balance Society.', photo: '/images/Pavel.png', imgPos: '70% 20%' },
-      { initial: 'P', role: 'Founding Member',          name: 'Pavlína Muchová',        bio: 'Founding member of Zero Balance Society.', photo: '/images/Pavlina.png', imgPos: '60% 15%', imgScale: '1.2' },
+      { initial: 'J', role: 'Chairman',               name: 'Jan Kočandrle',         bio: 'Founder and chairman of the association. Contributing to the development of its activities and cultural mission.', photo: '/images/Jan.jpg', imgPos: '30% 20%' },
+      { initial: 'J', role: 'Vice-Chairman',            name: 'PhDr. Jiří Kočandrle',  bio: 'Founder and vice-chairman of Zero Balance Society.', photo: '/images/Jiri.jpg' },
+      { initial: 'F', role: 'Vice-Chairman',            name: 'Ing. František Filouš',       bio: 'Founder and vice-chairman of Zero Balance Society.', photo: '/images/Franta.jpg', imgPos: '40% 20%' },
+      { initial: 'P', role: 'Founding Member',          name: 'Pavel Znamenáček',       bio: 'Founding member of Zero Balance Society.', photo: '/images/Pavel.jpg', imgPos: '70% 20%' },
+      { initial: 'P', role: 'Founding Member',          name: 'Pavlína Muchová',        bio: 'Founding member of Zero Balance Society.', photo: '/images/Pavlina.jpg', imgPos: '60% 15%', imgScale: '1.2' },
     ],
 
     s4Head: 'Registered Office',
@@ -175,11 +175,11 @@ const CONTENT = {
       संस्था की ओर से स्वतंत्र रूप से कार्य कर सकते हैं।`,
 
     members: [
-      { initial: 'J', role: 'अध्यक्ष',                   name: 'Jan Kočandrle',         bio: 'संस्था के संस्थापक और अध्यक्ष। इसकी गतिविधियों और सांस्कृतिक मिशन के विकास में योगदान देते हैं।', photo: '/images/Jan.png', imgPos: '30% 20%' },
-      { initial: 'J', role: 'उपाध्यक्ष',                    name: 'PhDr. Jiří Kočandrle',  bio: 'Zero Balance Society के संस्थापक और उपाध्यक्ष।', photo: '/images/Jiri.png' },
-      { initial: 'F', role: 'उपाध्यक्ष',                    name: 'Ing. František Filouš',       bio: 'Zero Balance Society के संस्थापक और उपाध्यक्ष।', photo: '/images/Franta.png', imgPos: '40% 20%' },
-      { initial: 'P', role: 'संस्थापक सदस्य',               name: 'Pavel Znamenáček',       bio: 'Zero Balance Society के संस्थापक सदस्य।', photo: '/images/Pavel.png', imgPos: '70% 20%' },
-      { initial: 'P', role: 'संस्थापक सदस्या',              name: 'Pavlína Muchová',        bio: 'Zero Balance Society की संस्थापक सदस्या।', photo: '/images/Pavlina.png', imgPos: '60% 15%', imgScale: '1.2' },
+      { initial: 'J', role: 'अध्यक्ष',                   name: 'Jan Kočandrle',         bio: 'संस्था के संस्थापक और अध्यक्ष। इसकी गतिविधियों और सांस्कृतिक मिशन के विकास में योगदान देते हैं।', photo: '/images/Jan.jpg', imgPos: '30% 20%' },
+      { initial: 'J', role: 'उपाध्यक्ष',                    name: 'PhDr. Jiří Kočandrle',  bio: 'Zero Balance Society के संस्थापक और उपाध्यक्ष।', photo: '/images/Jiri.jpg' },
+      { initial: 'F', role: 'उपाध्यक्ष',                    name: 'Ing. František Filouš',       bio: 'Zero Balance Society के संस्थापक और उपाध्यक्ष।', photo: '/images/Franta.jpg', imgPos: '40% 20%' },
+      { initial: 'P', role: 'संस्थापक सदस्य',               name: 'Pavel Znamenáček',       bio: 'Zero Balance Society के संस्थापक सदस्य।', photo: '/images/Pavel.jpg', imgPos: '70% 20%' },
+      { initial: 'P', role: 'संस्थापक सदस्या',              name: 'Pavlína Muchová',        bio: 'Zero Balance Society की संस्थापक सदस्या।', photo: '/images/Pavlina.jpg', imgPos: '60% 15%', imgScale: '1.2' },
     ],
 
     s4Head: 'पंजीकृत कार्यालय',
@@ -203,7 +203,7 @@ export default function JournalContent() {
 
         {/* ── Hero + Masthead ────────────────────────────────── */}
         <div className={styles.hero}>
-          <div className={styles.heroBg} style={{ backgroundImage: 'url(/images/BKG.png)' }} />
+          <div className={styles.heroBg} style={{ backgroundImage: 'url(/images/BKG.jpg)' }} />
           <div className={styles.heroOverlay} />
           <BackLink />
           <div className={styles.mastheadInner}>

@@ -5,7 +5,7 @@ import styles from './Hero.module.css'
 import { useLang } from '../contexts/LangContext'
 
 const SLIDES = [
-  '/images/WEB1.png',
+  '/images/WEB1.jpg',
   '/images/anand-darbar-e-2.jpg',
 ]
 

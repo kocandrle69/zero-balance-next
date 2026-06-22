@@ -12,11 +12,11 @@ const IMG = {
 
 
     // Activities
-  act1:      '/images/main-sadhna.png',                  // Meditation — Gurudev sedí
+  act1:      '/images/main-sadhna.jpg',                  // Meditation — Gurudev sedí
   act2:      '/images/anand-darbar-e-2.jpg',      // Cultural Events — ceremonie
   act3:      '/images/Gate-1024x576.png',         // India Journeys — brána chrámu
-  act4:      '/images/Sensei 3.png',           // Study & Discussion — dav v meditaci
-  act5:      '/images/WEB1.png',                  // Gatherings — shromáždění
+  act4:      '/images/Sensei 3.jpg',           // Study & Discussion — dav v meditaci
+  act5:      '/images/WEB1.jpg',                  // Gatherings — shromáždění
 
   // India
   indiaBg:   '/images/Gate-1024x576.png',         // full-screen bg — brána
@@ -31,7 +31,7 @@ const IMG = {
   purposeLineage:  '/images/purpose-lineage.jpg',
   purposeCreate:   '/images/purpose-create.jpg',
   purposeServe:    '/images/purpose-serve.jpg',
-  purposeAbout:    '/images/purpose-about.png',
+  purposeAbout:    '/images/purpose-about.jpg',
 } as const
 
 export default IMG
