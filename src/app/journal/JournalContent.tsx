@@ -203,7 +203,7 @@ export default function JournalContent() {
 
         {/* ── Hero + Masthead ────────────────────────────────── */}
         <div className={styles.hero}>
-          <div className={styles.heroBg} style={{ backgroundImage: 'url(/images/BKG.jpg)' }} />
+          <div className={styles.heroBg} style={{ backgroundImage: 'url(/images/Casopis.jpg)', transform: 'none' }} />
           <div className={styles.heroOverlay} />
           <BackLink />
           <div className={styles.mastheadInner}>
