@@ -52,12 +52,12 @@ const CONTENT = {
       jednat jménem spolku samostatně.`,
 
     members: [
-      { initial: 'S', role: 'Čestný předseda spolku', name: 'Sensei Rajeev Sinha', bio: 'Čestný předseda Zero Balance Society. Jogín a učitel Tantra Kriya Yogy s více než dvaceti lety osobního vedení v indické duchovní tradici.', photo: '/images/Sensei_3.jpg', imgPos: 'center 15%' },
-      { initial: 'J', role: 'Předseda spolku',        name: 'Jan Kočandrle',         bio: 'Zakladatel a předseda spolku. Přispívá k rozvoji jeho aktivit a kulturní mise.', photo: '/images/Jan.jpg', imgPos: '30% 20%' },
-      { initial: 'J', role: 'Místopředseda spolku',   name: 'PhDr. Jiří Kočandrle',  bio: 'Zakladatel a místopředseda Zero Balance Society.', photo: '/images/Jiri.jpg' },
-      { initial: 'F', role: 'Místopředseda spolku',   name: 'Ing. František Filouš',       bio: 'Zakladatel a místopředseda Zero Balance Society.', photo: '/images/Franta.jpg', imgPos: '40% 20%' },
-      { initial: 'P', role: 'Zakládající členka',      name: 'Pavlína Muchová',        bio: 'Zakládající členka Zero Balance Society.', photo: '/images/Pavlina.jpg', imgPos: '60% 15%', imgScale: '1.2' },
-      { initial: 'P', role: 'Zakládající člen',        name: 'Pavel Znamenáček',       bio: 'Zakládající člen Zero Balance Society.', photo: '/images/Pavel.jpg', imgPos: '70% 20%' },
+      { initial: 'S', role: 'Čestný předseda spolku', name: 'Sensei Dr. Rajeev Sinha', bio: 'Čestný předseda Zero Balance Society, jogínský mistr a učitel Tantra Kriya Yogy. Již více než dvacet let nás osobně vede v praxi původní indické duchovní tradice.', photo: '/images/Sensei_3.jpg', imgPos: 'center 15%' },
+      { initial: 'J', role: 'Předseda spolku', name: 'Jan Kočandrle', bio: 'Zakladatel a předseda Zero Balance Society. Podílí se na rozvoji činnosti spolku, jeho kulturní misi a na vytváření prostoru pro setkávání, studium a sdílení indických duchovních tradic.', photo: '/images/Jan.jpg', imgPos: '30% 20%' },
+      { initial: 'J', role: 'Místopředseda spolku', name: 'PhDr. Jiří Kočandrle', bio: 'Místopředseda Zero Balance Society. Věnuje se komunikaci, vztahům s veřejností a rozvoji kulturní mise spolku. Podílí se na předávání jogínské praxe a podpoře studia indických duchovních tradic.', photo: '/images/Jiri.jpg' },
+      { initial: 'F', role: 'Místopředseda spolku', name: 'Ing. František Filouš', bio: 'Místopředseda spolku. Věnuje se legislativním a technickým záležitostem a podílí se na praktickém fungování Zero Balance Society.', photo: '/images/Franta.jpg', imgPos: '40% 20%' },
+      { initial: 'P', role: 'Spoluzakládající členka', name: 'Pavlína Muchová', bio: 'Spoluzakládající členka Zero Balance Society. Do činnosti spolku přináší cit pro krásu, tvořivost a výtvarné vnímání; věnuje se malbě a podporuje kulturní a umělecký rozměr našich aktivit.', photo: '/images/Pavlina.jpg', imgPos: '60% 15%', imgScale: '1.2' },
+      { initial: 'P', role: 'Spoluzakládající člen', name: 'Pavel Znamenáček', bio: 'Spoluzakládající člen Zero Balance Society. Vynikající karatista a trenér, který se již více než 30 let věnuje práci s mládeží a vede úspěšný oddíl karate. Ve spolku se podílí především na organizačních a technických záležitostech.', photo: '/images/Pavel.jpg', imgPos: '70% 20%' },
     ],
 
     s4Head: 'Sídlo a registrace',
@@ -116,12 +116,12 @@ const CONTENT = {
       to act on behalf of the association independently.`,
 
     members: [
-      { initial: 'S', role: 'Honorary Chairman', name: 'Sensei Rajeev Sinha', bio: 'Honorary Chairman of Zero Balance Society. A yogi and teacher of Tantra Kriya Yoga with over twenty years of personal guidance in the Indian spiritual tradition.', photo: '/images/Sensei_3.jpg', imgPos: 'center 15%' },
-      { initial: 'J', role: 'Chairman',               name: 'Jan Kočandrle',         bio: 'Founder and chairman of the association. Contributing to the development of its activities and cultural mission.', photo: '/images/Jan.jpg', imgPos: '30% 20%' },
-      { initial: 'J', role: 'Vice-Chairman',            name: 'PhDr. Jiří Kočandrle',  bio: 'Founder and vice-chairman of Zero Balance Society.', photo: '/images/Jiri.jpg' },
-      { initial: 'F', role: 'Vice-Chairman',            name: 'Ing. František Filouš',       bio: 'Founder and vice-chairman of Zero Balance Society.', photo: '/images/Franta.jpg', imgPos: '40% 20%' },
-      { initial: 'P', role: 'Founding Member',          name: 'Pavlína Muchová',        bio: 'Founding member of Zero Balance Society.', photo: '/images/Pavlina.jpg', imgPos: '60% 15%', imgScale: '1.2' },
-      { initial: 'P', role: 'Founding Member',          name: 'Pavel Znamenáček',       bio: 'Founding member of Zero Balance Society.', photo: '/images/Pavel.jpg', imgPos: '70% 20%' },
+      { initial: 'S', role: 'Honorary Chairman', name: 'Sensei Dr. Rajeev Sinha', bio: 'Honorary Chairman of Zero Balance Society, a yogic master and teacher of Tantra Kriya Yoga. For over twenty years he has guided us personally in the practice of the original Indian spiritual tradition.', photo: '/images/Sensei_3.jpg', imgPos: 'center 15%' },
+      { initial: 'J', role: 'Chairman', name: 'Jan Kočandrle', bio: 'Founder and Chairman of Zero Balance Society. He contributes to the development of the association\'s activities, its cultural mission and the creation of spaces for gathering, study and sharing of Indian spiritual traditions.', photo: '/images/Jan.jpg', imgPos: '30% 20%' },
+      { initial: 'J', role: 'Vice-Chairman', name: 'PhDr. Jiří Kočandrle', bio: 'Vice-Chairman of Zero Balance Society. He focuses on communication, public relations and the development of the association\'s cultural mission, and contributes to the transmission of yogic practice and the study of Indian spiritual traditions.', photo: '/images/Jiri.jpg' },
+      { initial: 'F', role: 'Vice-Chairman', name: 'Ing. František Filouš', bio: 'Vice-Chairman of the association. He handles legislative and technical matters and contributes to the practical functioning of Zero Balance Society.', photo: '/images/Franta.jpg', imgPos: '40% 20%' },
+      { initial: 'P', role: 'Co-founding Member', name: 'Pavlína Muchová', bio: 'Co-founding member of Zero Balance Society. She brings a sense of beauty, creativity and artistic sensibility to the association\'s work; she is a painter and supports the cultural and artistic dimension of our activities.', photo: '/images/Pavlina.jpg', imgPos: '60% 15%', imgScale: '1.2' },
+      { initial: 'P', role: 'Co-founding Member', name: 'Pavel Znamenáček', bio: 'Co-founding member of Zero Balance Society. An accomplished karateka and coach who has worked with young people for over 30 years, leading a successful karate club. Within the association he focuses primarily on organisational and technical matters.', photo: '/images/Pavel.jpg', imgPos: '70% 20%' },
     ],
 
     s4Head: 'Registered Office',
@@ -177,12 +177,12 @@ const CONTENT = {
       संस्था की ओर से स्वतंत्र रूप से कार्य कर सकते हैं।`,
 
     members: [
-      { initial: 'S', role: 'मानद अध्यक्ष', name: 'Sensei Rajeev Sinha', bio: 'Zero Balance Society के मानद अध्यक्ष। तंत्र क्रिया योग के योगी और शिक्षक, जो बीस से अधिक वर्षों से भारतीय आध्यात्मिक परंपरा में व्यक्तिगत मार्गदर्शन प्रदान करते हैं।', photo: '/images/Sensei_3.jpg', imgPos: 'center 15%' },
-      { initial: 'J', role: 'अध्यक्ष',                   name: 'Jan Kočandrle',         bio: 'संस्था के संस्थापक और अध्यक्ष। इसकी गतिविधियों और सांस्कृतिक मिशन के विकास में योगदान देते हैं।', photo: '/images/Jan.jpg', imgPos: '30% 20%' },
-      { initial: 'J', role: 'उपाध्यक्ष',                    name: 'PhDr. Jiří Kočandrle',  bio: 'Zero Balance Society के संस्थापक और उपाध्यक्ष।', photo: '/images/Jiri.jpg' },
-      { initial: 'F', role: 'उपाध्यक्ष',                    name: 'Ing. František Filouš',       bio: 'Zero Balance Society के संस्थापक और उपाध्यक्ष।', photo: '/images/Franta.jpg', imgPos: '40% 20%' },
-      { initial: 'P', role: 'संस्थापक सदस्या',              name: 'Pavlína Muchová',        bio: 'Zero Balance Society की संस्थापक सदस्या।', photo: '/images/Pavlina.jpg', imgPos: '60% 15%', imgScale: '1.2' },
-      { initial: 'P', role: 'संस्थापक सदस्य',               name: 'Pavel Znamenáček',       bio: 'Zero Balance Society के संस्थापक सदस्य।', photo: '/images/Pavel.jpg', imgPos: '70% 20%' },
+      { initial: 'S', role: 'मानद अध्यक्ष', name: 'Sensei Dr. Rajeev Sinha', bio: 'Zero Balance Society के मानद अध्यक्ष, एक योगाचार्य और तंत्र क्रिया योग के शिक्षक। बीस से अधिक वर्षों से वे हमें मूल भारतीय आध्यात्मिक परंपरा की साधना में व्यक्तिगत रूप से मार्गदर्शन करते आए हैं।', photo: '/images/Sensei_3.jpg', imgPos: 'center 15%' },
+      { initial: 'J', role: 'अध्यक्ष', name: 'Jan Kočandrle', bio: 'Zero Balance Society के संस्थापक और अध्यक्ष। वे संस्था की गतिविधियों, उसकी सांस्कृतिक मिशन और भारतीय आध्यात्मिक परंपराओं के मिलन, अध्ययन व साझाकरण के लिए स्थान निर्माण में योगदान करते हैं।', photo: '/images/Jan.jpg', imgPos: '30% 20%' },
+      { initial: 'J', role: 'उपाध्यक्ष', name: 'PhDr. Jiří Kočandrle', bio: 'Zero Balance Society के उपाध्यक्ष। वे संचार, जनसंपर्क और संस्था की सांस्कृतिक मिशन के विकास पर ध्यान देते हैं, और योगाभ्यास के प्रसार तथा भारतीय आध्यात्मिक परंपराओं के अध्ययन में सहयोग करते हैं।', photo: '/images/Jiri.jpg' },
+      { initial: 'F', role: 'उपाध्यक्ष', name: 'Ing. František Filouš', bio: 'संस्था के उपाध्यक्ष। वे विधायी और तकनीकी मामलों को संभालते हैं और Zero Balance Society के व्यावहारिक संचालन में योगदान करते हैं।', photo: '/images/Franta.jpg', imgPos: '40% 20%' },
+      { initial: 'P', role: 'सह-संस्थापक सदस्या', name: 'Pavlína Muchová', bio: 'Zero Balance Society की सह-संस्थापक सदस्या। वे संस्था के कार्य में सौंदर्यबोध, रचनात्मकता और कलात्मक दृष्टि लाती हैं; वे एक चित्रकार हैं और हमारी गतिविधियों के सांस्कृतिक एवं कलात्मक आयाम का समर्थन करती हैं।', photo: '/images/Pavlina.jpg', imgPos: '60% 15%', imgScale: '1.2' },
+      { initial: 'P', role: 'सह-संस्थापक सदस्य', name: 'Pavel Znamenáček', bio: 'Zero Balance Society के सह-संस्थापक सदस्य। एक कुशल कराटे खिलाड़ी और प्रशिक्षक, जो 30 से अधिक वर्षों से युवाओं के साथ कार्य करते हैं और एक सफल कराटे क्लब का नेतृत्व करते हैं। संस्था में वे मुख्यतः संगठनात्मक और तकनीकी मामलों में योगदान करते हैं।', photo: '/images/Pavel.jpg', imgPos: '70% 20%' },
     ],
 
     s4Head: 'पंजीकृत कार्यालय',
