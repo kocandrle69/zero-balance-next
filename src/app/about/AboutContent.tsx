@@ -115,32 +115,24 @@ export default function AboutContent() {
             <p>{C.senseiP3}</p>
           </section>
 
-          <section className={styles.section}>
-            <div className={`${styles.personRow} ${styles.personRowReverse}`}>
-              <div className={styles.personImg}>
-                <img src="/images/Jan.jpg" alt="Jan Kočandrle" style={{ objectPosition: '40% 25%' }} />
-              </div>
-              <div className={styles.personText}>
-                <h2 className={styles.sectionHead}>{C.janHead}</h2>
-                <p>{C.janP1}</p>
-                <p>{C.janP2}</p>
-                {C.janP3 && <p>{C.janP3}</p>}
-              </div>
+          <section className={`${styles.section} ${styles.personFloat}`}>
+            <div className={styles.personImg}>
+              <img src="/images/Jan.jpg" alt="Jan Kočandrle" style={{ objectPosition: '40% 25%' }} />
             </div>
+            <h2 className={styles.sectionHead}>{C.janHead}</h2>
+            <p>{C.janP1}</p>
+            <p>{C.janP2}</p>
+            {C.janP3 && <p>{C.janP3}</p>}
           </section>
 
-          <section className={styles.section}>
-            <div className={styles.personRow}>
-              <div className={styles.personImg}>
-                <img src="/images/Gurudev.jpg" alt="Gurudev Shri Karauli Shankar Mahadev Ji" style={{ objectPosition: '10% 15%' }} />
-              </div>
-              <div className={styles.personText}>
-                <h2 className={styles.sectionHead}>{C.gurudevHead}</h2>
-                <p>{C.gurudevP1}</p>
-                <p>{C.gurudevP2}</p>
-                <p>{C.gurudevP3}</p>
-              </div>
+          <section className={`${styles.section} ${styles.personFloat}`}>
+            <div className={styles.personImg}>
+              <img src="/images/Gurudev.jpg" alt="Gurudev Shri Karauli Shankar Mahadev Ji" style={{ objectPosition: '10% 15%' }} />
             </div>
+            <h2 className={styles.sectionHead}>{C.gurudevHead}</h2>
+            <p>{C.gurudevP1}</p>
+            <p>{C.gurudevP2}</p>
+            <p>{C.gurudevP3}</p>
           </section>
 
           <section className={styles.section} style={{ display: 'flex', flexDirection: 'column', gap: '16px', alignItems: 'flex-start' }}>
