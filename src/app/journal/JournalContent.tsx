@@ -52,6 +52,7 @@ const CONTENT = {
       jednat jménem spolku samostatně.`,
 
     members: [
+      { initial: 'S', role: 'Čestný předseda spolku', name: 'Sensei Rajeev Sinha', bio: 'Čestný předseda Zero Balance Society. Průvodce a učitel v indických duchovních tradicích.', photo: '/images/Sensei 3.jpg', imgPos: 'center 20%' },
       { initial: 'J', role: 'Předseda spolku',        name: 'Jan Kočandrle',         bio: 'Zakladatel a předseda spolku. Přispívá k rozvoji jeho aktivit a kulturní mise.', photo: '/images/Jan.jpg', imgPos: '30% 20%' },
       { initial: 'J', role: 'Místopředseda spolku',   name: 'PhDr. Jiří Kočandrle',  bio: 'Zakladatel a místopředseda Zero Balance Society.', photo: '/images/Jiri.jpg' },
       { initial: 'F', role: 'Místopředseda spolku',   name: 'Ing. František Filouš',       bio: 'Zakladatel a místopředseda Zero Balance Society.', photo: '/images/Franta.jpg', imgPos: '40% 20%' },
@@ -115,6 +116,7 @@ const CONTENT = {
       to act on behalf of the association independently.`,
 
     members: [
+      { initial: 'S', role: 'Honorary Chairman', name: 'Sensei Rajeev Sinha', bio: 'Honorary Chairman of Zero Balance Society. Guide and teacher in Indian spiritual traditions.', photo: '/images/Sensei 3.jpg', imgPos: 'center 20%' },
       { initial: 'J', role: 'Chairman',               name: 'Jan Kočandrle',         bio: 'Founder and chairman of the association. Contributing to the development of its activities and cultural mission.', photo: '/images/Jan.jpg', imgPos: '30% 20%' },
       { initial: 'J', role: 'Vice-Chairman',            name: 'PhDr. Jiří Kočandrle',  bio: 'Founder and vice-chairman of Zero Balance Society.', photo: '/images/Jiri.jpg' },
       { initial: 'F', role: 'Vice-Chairman',            name: 'Ing. František Filouš',       bio: 'Founder and vice-chairman of Zero Balance Society.', photo: '/images/Franta.jpg', imgPos: '40% 20%' },
@@ -175,6 +177,7 @@ const CONTENT = {
       संस्था की ओर से स्वतंत्र रूप से कार्य कर सकते हैं।`,
 
     members: [
+      { initial: 'S', role: 'मानद अध्यक्ष', name: 'Sensei Rajeev Sinha', bio: 'Zero Balance Society के मानद अध्यक्ष। भारतीय आध्यात्मिक परंपराओं में मार्गदर्शक और शिक्षक।', photo: '/images/Sensei 3.jpg', imgPos: 'center 20%' },
       { initial: 'J', role: 'अध्यक्ष',                   name: 'Jan Kočandrle',         bio: 'संस्था के संस्थापक और अध्यक्ष। इसकी गतिविधियों और सांस्कृतिक मिशन के विकास में योगदान देते हैं।', photo: '/images/Jan.jpg', imgPos: '30% 20%' },
       { initial: 'J', role: 'उपाध्यक्ष',                    name: 'PhDr. Jiří Kočandrle',  bio: 'Zero Balance Society के संस्थापक और उपाध्यक्ष।', photo: '/images/Jiri.jpg' },
       { initial: 'F', role: 'उपाध्यक्ष',                    name: 'Ing. František Filouš',       bio: 'Zero Balance Society के संस्थापक और उपाध्यक्ष।', photo: '/images/Franta.jpg', imgPos: '40% 20%' },

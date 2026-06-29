@@ -23,7 +23,8 @@ const CONTENT = {
     gurudevP1: 'Gurudev Shri Karauli Shankar Mahadev Ji is the spiritual heart of our lineage. As Mahāmaṇḍalēśvar of Shri Panchayati Akhada Naya Udasin Nirvan, he holds the highest spiritual rank within this tradition.',
     gurudevP2: 'His teaching is rooted in Tantra Kriya Yoga — a direct, experiential path of inner transformation, devotion and self-realisation. Gurudev\'s presence and grace are the source from which all ZBS activities draw their inspiration.',
     gurudevP3: 'We are preparing an extraordinary visit of Gurudev to the Czech Republic in 2027.',
-    senseiHead: 'Sensei Rajeev Sinha — Guide & Teacher',
+    senseiHead: 'Sensei Rajeev Sinha — Honorary Chairman',
+    senseiHonoraryNote: 'Sensei Rajeev Sinha has accepted the Honorary Chairmanship of Zero Balance Society. His guidance, wisdom and deep-rooted connection to Indian spiritual traditions are a foundational pillar of the association.',
     senseiP1: 'Sensei Rajeev Sinha is our primary guide and teacher in the Czech Republic. His journey into Indian spiritual traditions began decades ago, leading him to become a bridge between ancient Eastern wisdom and contemporary Western seekers.',
     senseiP2: 'Through his Wisdom of India video lesson series, Sensei Rajeev Sinha makes the depth of Indian philosophy and spiritual practice accessible, practical and alive for our community.',
     senseiP3: 'He facilitated the connection of the ZBS founding members with Gurudev\'s lineage — a bond that remains at the core of everything we do.',
@@ -45,7 +46,8 @@ const CONTENT = {
     gurudevP1: 'Gurudev Shri Karauli Shankar Mahadev Ji je duchovním srdcem naší linie. Jako Mahāmaṇḍalēśvar Shri Panchayati Akhada Naya Udasin Nirvan zastává nejvyšší duchovní hodnost v této tradici.',
     gurudevP2: 'Jeho učení je zakořeněno v Tantra Krija Józe — přímé, zkušenostní cestě vnitřní transformace, oddanosti a sebepoznání. Gurudevova přítomnost a milost jsou zdrojem, z nějž čerpají veškeré aktivity ZBS.',
     gurudevP3: 'Připravujeme výjimečnou návštěvu Gurudeva v České republice v roce 2027.',
-    senseiHead: 'Sensei Rajeev Sinha — Průvodce a učitel',
+    senseiHead: 'Sensei Rajeev Sinha — Čestný předseda spolku',
+    senseiHonoraryNote: 'Sensei Rajeev Sinha přijal čestné předsednictví Zero Balance Society. Jeho vedení, moudrost a dlouholeté zakotvení v indických duchovních tradicích jsou pro spolek zásadní oporou.',
     senseiP1: 'Sensei Rajeev Sinha je naším hlavním průvodcem a učitelem v České republice. Jeho cesta k indickým duchovním tradicím začala před desítkami let a přivedla ho k tomu, aby se stal mostem mezi starověkou východní moudrostí a současnými západními hledači.',
     senseiP2: 'Prostřednictvím své série video lekcí Moudrost Indie zpřístupňuje Sensei Rajeev Sinha hloubku indické filozofie a duchovní praxe — prakticky a živě pro naši komunitu.',
     senseiP3: 'Zprostředkoval propojení zakladatelů ZBS s Gurudevovou linií — pouto, které zůstává jádrem všeho, co děláme.',
@@ -67,7 +69,8 @@ const CONTENT = {
     gurudevP1: 'गुरुदेव श्री काराउली शंकर महादेव जी हमारी परंपरा के आध्यात्मिक हृदय हैं।',
     gurudevP2: 'उनकी शिक्षाएं तंत्र क्रिया योग में निहित हैं — आत्म-साक्षात्कार का एक प्रत्यक्ष मार्ग।',
     gurudevP3: 'हम 2027 में गुरुदेव की चेक गणराज्य यात्रा की तैयारी कर रहे हैं।',
-    senseiHead: 'सेंसेई राजीव सिन्हा — मार्गदर्शक और शिक्षक',
+    senseiHead: 'सेन्सेई राजीव सिन्हा — मानद अध्यक्ष',
+    senseiHonoraryNote: 'सेन्सेई राजीव सिन्हा ने Zero Balance Society का मानद अध्यक्ष पद स्वीकार किया है। उनका मार्गदर्शन, ज्ञान और भारतीय आध्यात्मिक परंपराओं से गहरा जुड़ाव संस्था का मूल आधार है।',
     senseiP1: 'सेंसेई राजीव सिन्हा चेक गणराज्य में हमारे प्राथमिक मार्गदर्शक और शिक्षक हैं।',
     senseiP2: 'भारत की बुद्धि वीडियो श्रृंखला के माध्यम से वे भारतीय दर्शन को सुलभ और व्यावहारिक बनाते हैं।',
     senseiP3: 'उन्होंने ZBS के संस्थापकों का गुरुदेव की परंपरा से संबंध स्थापित कराया।',
@@ -108,6 +111,21 @@ export default function AboutContent() {
           <section className={styles.section}>
             <div className={styles.personRow}>
               <div className={styles.personImg}>
+                <img src="/images/Sensei 3.jpg" alt="Sensei Rajeev Sinha" style={{ objectPosition: '10% 10%', transform: 'scale(1.4)' }} />
+              </div>
+              <div className={styles.personText}>
+                <h2 className={styles.sectionHead}>{C.senseiHead}</h2>
+                <p>{C.senseiHonoraryNote}</p>
+                <p>{C.senseiP1}</p>
+                <p>{C.senseiP2}</p>
+                <p>{C.senseiP3}</p>
+              </div>
+            </div>
+          </section>
+
+          <section className={styles.section}>
+            <div className={`${styles.personRow} ${styles.personRowReverse}`}>
+              <div className={styles.personImg}>
                 <img src="/images/Jan.jpg" alt="Jan Kočandrle" style={{ objectPosition: '40% 25%' }} />
               </div>
               <div className={styles.personText}>
@@ -120,7 +138,7 @@ export default function AboutContent() {
           </section>
 
           <section className={styles.section}>
-            <div className={`${styles.personRow} ${styles.personRowReverse}`}>
+            <div className={styles.personRow}>
               <div className={styles.personImg}>
                 <img src="/images/Gurudev.jpg" alt="Gurudev Shri Karauli Shankar Mahadev Ji" style={{ objectPosition: '10% 15%' }} />
               </div>
@@ -129,20 +147,6 @@ export default function AboutContent() {
                 <p>{C.gurudevP1}</p>
                 <p>{C.gurudevP2}</p>
                 <p>{C.gurudevP3}</p>
-              </div>
-            </div>
-          </section>
-
-          <section className={styles.section}>
-            <div className={styles.personRow}>
-              <div className={styles.personImg}>
-                <img src="/images/Sensei 3.jpg" alt="Rajeev Sinha — Sensei" style={{ objectPosition: '10% 10%', transform: 'scale(1.4)' }} />
-              </div>
-              <div className={styles.personText}>
-                <h2 className={styles.sectionHead}>{C.senseiHead}</h2>
-                <p>{C.senseiP1}</p>
-                <p>{C.senseiP2}</p>
-                <p>{C.senseiP3}</p>
               </div>
             </div>
           </section>
