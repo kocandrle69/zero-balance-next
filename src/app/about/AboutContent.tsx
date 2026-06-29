@@ -105,18 +105,14 @@ export default function AboutContent() {
             <p>{C.introP2}</p>
           </section>
 
-          <section className={styles.section}>
-            <div className={styles.personRow}>
-              <div className={styles.personImg}>
-                <img src="/images/Sensei_3.jpg" alt="Sensei Rajeev Sinha" style={{ objectPosition: 'center 15%' }} />
-              </div>
-              <div className={styles.personText}>
-                <h2 className={styles.sectionHead}>{C.senseiHead}</h2>
-                <p>{C.senseiP1}</p>
-                <p>{C.senseiP2}</p>
-                <p>{C.senseiP3}</p>
-              </div>
+          <section className={`${styles.section} ${styles.personFloat}`}>
+            <div className={styles.personImg}>
+              <img src="/images/Sensei_3.jpg" alt="Sensei Rajeev Sinha" style={{ objectPosition: 'center 15%' }} />
             </div>
+            <h2 className={styles.sectionHead}>{C.senseiHead}</h2>
+            <p>{C.senseiP1}</p>
+            <p>{C.senseiP2}</p>
+            <p>{C.senseiP3}</p>
           </section>
 
           <section className={styles.section}>

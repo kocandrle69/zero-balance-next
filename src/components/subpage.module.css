@@ -227,6 +227,15 @@
   border-color: var(--ink);
 }
 
+/* ── Float layout (text wraps around image) ── */
+.personFloat {
+  overflow: hidden;
+}
+.personFloat .personImg {
+  float: left;
+  margin: 0 36px 20px 0;
+}
+
 @media (max-width: 700px) {
   .personRow,
   .personRowReverse {
@@ -235,5 +244,9 @@
   .personImg {
     width: 100%;
     height: 260px;
+  }
+  .personFloat .personImg {
+    float: none;
+    margin: 0 0 24px 0;
   }
 }
