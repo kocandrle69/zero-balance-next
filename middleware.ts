@@ -8,17 +8,19 @@ const BYPASS_VALUE = 'zbs2027'
 export function middleware(request: NextRequest) {
   const { pathname, searchParams } = request.nextUrl
 
-  if (!pathname.startsWith('/about')) return NextResponse.next()
-  if (pathname.startsWith('/about/coming-soon')) return NextResponse.next()
+  if (pathname.startsWith('/coming-soon')) return NextResponse.next()
+  if (pathname.startsWith('/_next')) return NextResponse.next()
+  if (pathname.startsWith('/api')) return NextResponse.next()
+  if (pathname.match(/\.\w+$/)) return NextResponse.next()
 
   const now = new Date()
   if (now >= REVEAL_DATE) return NextResponse.next()
 
   if (searchParams.get(BYPASS_PARAM) === BYPASS_VALUE) return NextResponse.next()
 
-  return NextResponse.redirect(new URL('/about/coming-soon', request.url))
+  return NextResponse.redirect(new URL('/coming-soon', request.url))
 }
 
 export const config = {
-  matcher: ['/about', '/about/:path*'],
+  matcher: ['/((?!_next/static|_next/image|favicon.ico|images/).*)'],
 }

@@ -1,6 +1,6 @@
-import Navbar from '../../../components/Navbar'
-import Footer from '../../../components/Footer'
-import styles from '../../../components/subpage.module.css'
+import Navbar from '../../components/Navbar'
+import Footer from '../../components/Footer'
+import styles from '../../components/subpage.module.css'
 
 export const metadata = {
   title: 'Coming Soon · Zero Balance Society',
@@ -16,7 +16,7 @@ export default function ComingSoonPage() {
           <div className={styles.heroBg} style={{ backgroundImage: 'url(/images/aboutus4.jpg)', transform: 'none' }} />
           <div className={styles.heroOverlay} />
           <div className={styles.heroContent}>
-            <p className={styles.heroLabel}>About Us</p>
+            <p className={styles.heroLabel}>Zero Balance Society</p>
             <h1 className={styles.heroTitle}>
               Something<br /><em>is coming.</em>
             </h1>
