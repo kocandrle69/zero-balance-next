@@ -24,10 +24,9 @@ const CONTENT = {
     gurudevP2: 'His teaching is rooted in Tantra Kriya Yoga — a direct, experiential path of inner transformation, devotion and self-realisation. Gurudev\'s presence and grace are the source from which all ZBS activities draw their inspiration.',
     gurudevP3: 'We are preparing an extraordinary visit of Gurudev to the Czech Republic in 2027.',
     senseiHead: 'Sensei Rajeev Sinha — Honorary Chairman',
-    senseiHonoraryNote: 'Sensei Rajeev Sinha has accepted the Honorary Chairmanship of Zero Balance Society. His guidance, wisdom and deep-rooted connection to Indian spiritual traditions are a foundational pillar of the association.',
-    senseiP1: 'Sensei Rajeev Sinha is our primary guide and teacher in the Czech Republic. His journey into Indian spiritual traditions began decades ago, leading him to become a bridge between ancient Eastern wisdom and contemporary Western seekers.',
-    senseiP2: 'Through his Wisdom of India video lesson series, Sensei Rajeev Sinha makes the depth of Indian philosophy and spiritual practice accessible, practical and alive for our community.',
-    senseiP3: 'He facilitated the connection of the ZBS founding members with Gurudev\'s lineage — a bond that remains at the core of everything we do.',
+    senseiP1: 'Sensei Rajeev Sinha has accepted the Honorary Chairmanship of Zero Balance Society. His presence is a foundational pillar of our association — rooted in more than twenty years of personal guidance, deep spiritual practice and living immersion in the original Indian yogic tradition.',
+    senseiP2: 'Sensei Rajeev Sinha is a yogi and teacher of original Indian yoga, in particular Tantra Kriya Yoga. For the founders and members of Zero Balance Society, he has been a long-standing teacher and guide — transmitting not only knowledge, but above all the lived experience of practice, discipline and inner transformation. He is among the first disciples of Gurudev Shri Karauli Shankar Mahadev Ji, and it is through him that a living connection with Gurudev, the ashram and the spiritual lineage from which ZBS draws its work has opened for us. This lineage flows from the teachings of Shri Radharaman Ji Mishra and, at its deeper roots, reaches back to the legacy of Mahavatar Babaji.',
+    senseiP3: 'For European students, Sensei Rajeev Sinha serves as a bridge between the authentic Indian spiritual tradition and the contemporary Western world. Through his guidance, our work is not merely a cultural or educational project — it is rooted in a living tradition transmitted personally, through practice and direct experience. Through his Wisdom of India video lesson series, he makes the depth of Indian philosophy, yoga and spiritual practice accessible, practical and naturally applicable to the contemporary European seeker. His role in Zero Balance Society is therefore not merely honorary, but profoundly defining: he helps maintain the direction, depth and fidelity to the tradition on which the association stands.',
     philLink: 'Explore our Philosophy →',
     pdfLink: 'Download PDF — About Zero Balance Society',
   },
@@ -46,11 +45,10 @@ const CONTENT = {
     gurudevP1: 'Gurudev Shri Karauli Shankar Mahadev Ji je duchovním srdcem naší linie. Jako Mahāmaṇḍalēśvar Shri Panchayati Akhada Naya Udasin Nirvan zastává nejvyšší duchovní hodnost v této tradici.',
     gurudevP2: 'Jeho učení je zakořeněno v Tantra Krija Józe — přímé, zkušenostní cestě vnitřní transformace, oddanosti a sebepoznání. Gurudevova přítomnost a milost jsou zdrojem, z nějž čerpají veškeré aktivity ZBS.',
     gurudevP3: 'Připravujeme výjimečnou návštěvu Gurudeva v České republice v roce 2027.',
-    senseiHead: 'Sensei Rajeev Sinha — Čestný předseda spolku',
-    senseiHonoraryNote: 'Sensei Rajeev Sinha přijal čestné předsednictví Zero Balance Society. Jeho vedení, moudrost a dlouholeté zakotvení v indických duchovních tradicích jsou pro spolek zásadní oporou.',
-    senseiP1: 'Sensei Rajeev Sinha je naším hlavním průvodcem a učitelem v České republice. Jeho cesta k indickým duchovním tradicím začala před desítkami let a přivedla ho k tomu, aby se stal mostem mezi starověkou východní moudrostí a současnými západními hledači.',
-    senseiP2: 'Prostřednictvím své série video lekcí Moudrost Indie zpřístupňuje Sensei Rajeev Sinha hloubku indické filozofie a duchovní praxe — prakticky a živě pro naši komunitu.',
-    senseiP3: 'Zprostředkoval propojení zakladatelů ZBS s Gurudevovou linií — pouto, které zůstává jádrem všeho, co děláme.',
+    senseiHead: 'Sensei Rajeev Sinha — čestný předseda',
+    senseiP1: 'Sensei Rajeev Sinha přijal čestné předsednictví Zero Balance Society. Jeho přítomnost je pro náš spolek zásadní oporou – vychází z více než dvaceti let osobního vedení, hluboké duchovní praxe a živého zakotvení v původní indické jógové tradici.',
+    senseiP2: 'Sensei Rajeev Sinha je jogín a učitel původní indické jógy, zejména Tantra Kriya Yogy. Pro zakladatele a členy Zero Balance Society je dlouhodobým učitelem a průvodcem, který předává nejen poznání, ale především zkušenost praxe, disciplíny a vnitřní proměny. Patří k prvním žákům Gurudeva Shri Karauli Shankar Mahadev Ji a právě skrze něj se pro nás otevírá živé spojení s Gurudevem, ášramem i duchovní linií, z níž činnost Zero Balance Society vyrůstá. Tato linie se odvíjí od učení Shri Radharaman Ji Mishra a svými hlubšími kořeny sahá k odkazu Mahavatara Babajiho.',
+    senseiP3: 'Pro evropské žáky představuje Sensei Rajeev Sinha most mezi autentickou indickou duchovní tradicí a současným západním prostředím. Díky jeho vedení není naše práce pouze kulturním nebo vzdělávacím projektem, ale navazuje na živou tradici, která se předává osobně, skrze praxi a přímou zkušenost. Prostřednictvím série videolekcí Moudrost Indie zpřístupňuje hloubku indické filozofie, jógy a duchovní praxe způsobem, který je srozumitelný, praktický a přirozeně použitelný i pro současného evropského člověka. Jeho role v Zero Balance Society proto není pouze čestná, ale bytostně určující: pomáhá udržovat směr, hloubku a věrnost tradici, na níž spolek stojí.',
     philLink: 'Prozkoumejte naši filozofii →',
     pdfLink: 'Stáhnout PDF — O Zero Balance Society',
   },
@@ -69,11 +67,10 @@ const CONTENT = {
     gurudevP1: 'गुरुदेव श्री काराउली शंकर महादेव जी हमारी परंपरा के आध्यात्मिक हृदय हैं।',
     gurudevP2: 'उनकी शिक्षाएं तंत्र क्रिया योग में निहित हैं — आत्म-साक्षात्कार का एक प्रत्यक्ष मार्ग।',
     gurudevP3: 'हम 2027 में गुरुदेव की चेक गणराज्य यात्रा की तैयारी कर रहे हैं।',
-    senseiHead: 'सेन्सेई राजीव सिन्हा — मानद अध्यक्ष',
-    senseiHonoraryNote: 'सेन्सेई राजीव सिन्हा ने Zero Balance Society का मानद अध्यक्ष पद स्वीकार किया है। उनका मार्गदर्शन, ज्ञान और भारतीय आध्यात्मिक परंपराओं से गहरा जुड़ाव संस्था का मूल आधार है।',
-    senseiP1: 'सेंसेई राजीव सिन्हा चेक गणराज्य में हमारे प्राथमिक मार्गदर्शक और शिक्षक हैं।',
-    senseiP2: 'भारत की बुद्धि वीडियो श्रृंखला के माध्यम से वे भारतीय दर्शन को सुलभ और व्यावहारिक बनाते हैं।',
-    senseiP3: 'उन्होंने ZBS के संस्थापकों का गुरुदेव की परंपरा से संबंध स्थापित कराया।',
+    senseiHead: 'सेंसेई राजीव सिन्हा — मानद अध्यक्ष',
+    senseiP1: 'सेंसेई राजीव सिन्हा ने Zero Balance Society का मानद अध्यक्ष पद स्वीकार किया है। हमारी संस्था के लिए उनकी उपस्थिति एक मूलभूत आधार है — जो बीस से अधिक वर्षों के व्यक्तिगत मार्गदर्शन, गहन आध्यात्मिक साधना और मूल भारतीय योग परंपरा में जीवंत निहितता से उपजी है।',
+    senseiP2: 'सेंसेई राजीव सिन्हा मूल भारतीय योग, विशेष रूप से तंत्र क्रिया योग के एक योगी और शिक्षक हैं। Zero Balance Society के संस्थापकों और सदस्यों के लिए वे एक दीर्घकालिक शिक्षक और मार्गदर्शक रहे हैं — जो केवल ज्ञान नहीं, बल्कि सबसे बढ़कर साधना, अनुशासन और आंतरिक रूपांतरण का जीवंत अनुभव प्रदान करते हैं। वे गुरुदेव श्री काराउली शंकर महादेव जी के प्रथम शिष्यों में से हैं, और उन्हीं के माध्यम से हमारे लिए गुरुदेव, आश्रम और उस आध्यात्मिक परंपरा से जीवंत संबंध खुला है जिससे ZBS की गतिविधियाँ उत्पन्न होती हैं। यह परंपरा श्री राधारमण जी मिश्र की शिक्षाओं से प्रवाहित होती है और अपनी गहरी जड़ों में महावतार बाबाजी की विरासत तक पहुँचती है।',
+    senseiP3: 'यूरोपीय साधकों के लिए सेंसेई राजीव सिन्हा प्रामाणिक भारतीय आध्यात्मिक परंपरा और समकालीन पश्चिमी जगत के बीच एक सेतु हैं। उनके मार्गदर्शन से हमारा कार्य केवल सांस्कृतिक या शैक्षिक परियोजना नहीं रहता — यह एक जीवंत परंपरा से जुड़ा है जो व्यक्तिगत रूप से, साधना और प्रत्यक्ष अनुभव के माध्यम से प्रवाहित होती है। अपनी वीडियो श्रृंखला भारत की प्रज्ञा के माध्यम से वे भारतीय दर्शन, योग और आध्यात्मिक साधना की गहराई को ऐसे रूप में प्रस्तुत करते हैं जो सुगम, व्यावहारिक और समकालीन यूरोपीय साधक के लिए स्वाभाविक रूप से उपयोगी है। Zero Balance Society में उनकी भूमिका इसलिए केवल सम्मानजनक नहीं, बल्कि मूलभूत रूप से निर्धारक है: वे उस परंपरा की दिशा, गहराई और निष्ठा बनाए रखने में सहायता करते हैं जिस पर संस्था टिकी है।',
     philLink: 'हमारी दर्शन का अन्वेषण करें →',
     pdfLink: 'PDF डाउनलोड करें — Zero Balance Society के बारे में',
   },
@@ -111,11 +108,10 @@ export default function AboutContent() {
           <section className={styles.section}>
             <div className={styles.personRow}>
               <div className={styles.personImg}>
-                <img src="/images/Sensei 3.jpg" alt="Sensei Rajeev Sinha" style={{ objectPosition: '10% 10%', transform: 'scale(1.4)' }} />
+                <img src="/images/Sensei_3.jpg" alt="Sensei Rajeev Sinha" style={{ objectPosition: 'center 15%' }} />
               </div>
               <div className={styles.personText}>
                 <h2 className={styles.sectionHead}>{C.senseiHead}</h2>
-                <p>{C.senseiHonoraryNote}</p>
                 <p>{C.senseiP1}</p>
                 <p>{C.senseiP2}</p>
                 <p>{C.senseiP3}</p>

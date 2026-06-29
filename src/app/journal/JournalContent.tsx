@@ -12,7 +12,7 @@ const CONTENT = {
     mastheadSub:  'Prostor pro slovo, reflexi a sdílení naší cesty.',
     kicker:       'Vznik spolku',
     articleTitle: <>Zero Balance Society vzniklo.<br /><em>Zde je proč.</em></>,
-    lead: `Dne 27. května 2026 byl v Zákupech podepsán zakladatelský dokument
+    lead: `Dne 19. června 2026 byl v Krakovanech podepsán zakladatelský dokument
       a Zero Balance Society, z.s. vstoupilo v život jako zapsaný spolek
       podle českého občanského zákoníku. Tato chvíle nebyla spontánním
       rozhodnutím — byla vyvrcholením let duchovní praxe, kulturní výměny
@@ -47,12 +47,12 @@ const CONTENT = {
 
     s3Head: 'Zakladatelé a struktura spolku',
     s3p1: `Spolek byl založen třemi zakladateli na ustavující schůzi dne
-      27. května 2026 v Zákupech. Orgány spolku tvoří členská schůze,
+      19. června 2026 v Krakovanech. Orgány spolku tvoří členská schůze,
       předseda. Statutárním zástupcem spolku je předseda.
       jednat jménem spolku samostatně.`,
 
     members: [
-      { initial: 'S', role: 'Čestný předseda spolku', name: 'Sensei Rajeev Sinha', bio: 'Čestný předseda Zero Balance Society. Průvodce a učitel v indických duchovních tradicích.', photo: '/images/Sensei 3.jpg', imgPos: 'center 20%' },
+      { initial: 'S', role: 'Čestný předseda spolku', name: 'Sensei Rajeev Sinha', bio: 'Čestný předseda Zero Balance Society. Jogín a učitel Tantra Kriya Yogy s více než dvaceti lety osobního vedení v indické duchovní tradici.', photo: '/images/Sensei_3.jpg', imgPos: 'center 15%' },
       { initial: 'J', role: 'Předseda spolku',        name: 'Jan Kočandrle',         bio: 'Zakladatel a předseda spolku. Přispívá k rozvoji jeho aktivit a kulturní mise.', photo: '/images/Jan.jpg', imgPos: '30% 20%' },
       { initial: 'J', role: 'Místopředseda spolku',   name: 'PhDr. Jiří Kočandrle',  bio: 'Zakladatel a místopředseda Zero Balance Society.', photo: '/images/Jiri.jpg' },
       { initial: 'F', role: 'Místopředseda spolku',   name: 'Ing. František Filouš',       bio: 'Zakladatel a místopředseda Zero Balance Society.', photo: '/images/Franta.jpg', imgPos: '40% 20%' },
@@ -74,7 +74,7 @@ const CONTENT = {
     mastheadSub:  'A space for words, reflection and sharing our journey.',
     kicker:       'Founding of the Association',
     articleTitle: <>Zero Balance Society was founded.<br /><em>Here is why.</em></>,
-    lead: `On 27 May 2026, the founding document was signed in Zákupy and
+    lead: `On 19 June 2026, the founding document was signed in Krakovany and
       Zero Balance Society, z.s. came into existence as a registered
       non-profit association under Czech civil law. This moment was not
       a spontaneous decision — it was the culmination of years of spiritual
@@ -111,12 +111,12 @@ const CONTENT = {
 
     s3Head: 'Founders and Structure',
     s3p1: `The association was founded by three founders at the constitutive meeting
-      on 27 May 2026 in Zákupy. The governing bodies consist of the general assembly,
+      on 19 June 2026 in Krakovany. The governing bodies consist of the general assembly,
       the chairman. The statutory representative of the association is the chairman.
       to act on behalf of the association independently.`,
 
     members: [
-      { initial: 'S', role: 'Honorary Chairman', name: 'Sensei Rajeev Sinha', bio: 'Honorary Chairman of Zero Balance Society. Guide and teacher in Indian spiritual traditions.', photo: '/images/Sensei 3.jpg', imgPos: 'center 20%' },
+      { initial: 'S', role: 'Honorary Chairman', name: 'Sensei Rajeev Sinha', bio: 'Honorary Chairman of Zero Balance Society. A yogi and teacher of Tantra Kriya Yoga with over twenty years of personal guidance in the Indian spiritual tradition.', photo: '/images/Sensei_3.jpg', imgPos: 'center 15%' },
       { initial: 'J', role: 'Chairman',               name: 'Jan Kočandrle',         bio: 'Founder and chairman of the association. Contributing to the development of its activities and cultural mission.', photo: '/images/Jan.jpg', imgPos: '30% 20%' },
       { initial: 'J', role: 'Vice-Chairman',            name: 'PhDr. Jiří Kočandrle',  bio: 'Founder and vice-chairman of Zero Balance Society.', photo: '/images/Jiri.jpg' },
       { initial: 'F', role: 'Vice-Chairman',            name: 'Ing. František Filouš',       bio: 'Founder and vice-chairman of Zero Balance Society.', photo: '/images/Franta.jpg', imgPos: '40% 20%' },
@@ -137,7 +137,7 @@ const CONTENT = {
     mastheadSub:  'शब्द, चिंतन और हमारी यात्रा साझा करने का एक स्थान।',
     kicker:       'संस्था की स्थापना',
     articleTitle: <>Zero Balance Society की स्थापना हुई।<br /><em>यहाँ जानिए क्यों।</em></>,
-    lead: `27 मई 2026 को ज़ाकुपी में संस्थापक दस्तावेज़ पर हस्ताक्षर किए गए और
+    lead: `19 जून 2026 को क्राकोवानी में संस्थापक दस्तावेज़ पर हस्ताक्षर किए गए और
       Zero Balance Society, z.s. चेक नागरिक कानून के तहत एक पंजीकृत
       अलाभकारी संस्था के रूप में अस्तित्व में आई। यह क्षण कोई अचानक लिया गया
       निर्णय नहीं था — यह वर्षों की आध्यात्मिक साधना, सांस्कृतिक आदान-प्रदान
@@ -171,13 +171,13 @@ const CONTENT = {
     ],
 
     s3Head: 'संस्थापक और संरचना',
-    s3p1: `संस्था की स्थापना तीन संस्थापकों द्वारा 27 मई 2026 को ज़ाकुपी में
+    s3p1: `संस्था की स्थापना तीन संस्थापकों द्वारा 19 जून 2026 को क्राकोवानी में
       संविधान सभा में की गई थी। संस्था के शासी निकायों में सदस्य सभा,
       अध्यक्ष शामिल हैं। संस्था के वैधानिक प्रतिनिधि अध्यक्ष हैं जो
       संस्था की ओर से स्वतंत्र रूप से कार्य कर सकते हैं।`,
 
     members: [
-      { initial: 'S', role: 'मानद अध्यक्ष', name: 'Sensei Rajeev Sinha', bio: 'Zero Balance Society के मानद अध्यक्ष। भारतीय आध्यात्मिक परंपराओं में मार्गदर्शक और शिक्षक।', photo: '/images/Sensei 3.jpg', imgPos: 'center 20%' },
+      { initial: 'S', role: 'मानद अध्यक्ष', name: 'Sensei Rajeev Sinha', bio: 'Zero Balance Society के मानद अध्यक्ष। तंत्र क्रिया योग के योगी और शिक्षक, जो बीस से अधिक वर्षों से भारतीय आध्यात्मिक परंपरा में व्यक्तिगत मार्गदर्शन प्रदान करते हैं।', photo: '/images/Sensei_3.jpg', imgPos: 'center 15%' },
       { initial: 'J', role: 'अध्यक्ष',                   name: 'Jan Kočandrle',         bio: 'संस्था के संस्थापक और अध्यक्ष। इसकी गतिविधियों और सांस्कृतिक मिशन के विकास में योगदान देते हैं।', photo: '/images/Jan.jpg', imgPos: '30% 20%' },
       { initial: 'J', role: 'उपाध्यक्ष',                    name: 'PhDr. Jiří Kočandrle',  bio: 'Zero Balance Society के संस्थापक और उपाध्यक्ष।', photo: '/images/Jiri.jpg' },
       { initial: 'F', role: 'उपाध्यक्ष',                    name: 'Ing. František Filouš',       bio: 'Zero Balance Society के संस्थापक और उपाध्यक्ष।', photo: '/images/Franta.jpg', imgPos: '40% 20%' },
@@ -228,8 +228,8 @@ export default function JournalContent() {
 
           <div className={styles.articleKicker}>
             <span className={styles.kicker}>{c.kicker}</span>
-            <time className={styles.articleDate} dateTime="2026-05-27">
-              {lang === 'hi' ? '27 मई 2026' : lang === 'cs' ? '27. května 2026' : '27 May 2026'}
+            <time className={styles.articleDate} dateTime="2026-06-19">
+              {lang === 'hi' ? '19 जून 2026' : lang === 'cs' ? '19. června 2026' : '19 June 2026'}
             </time>
           </div>
 
