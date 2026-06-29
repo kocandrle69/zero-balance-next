@@ -16,7 +16,13 @@ export function middleware(request: NextRequest) {
   const now = new Date()
   if (now >= REVEAL_DATE) return NextResponse.next()
 
-  if (searchParams.get(BYPASS_PARAM) === BYPASS_VALUE) return NextResponse.next()
+  if (searchParams.get(BYPASS_PARAM) === BYPASS_VALUE) {
+    const response = NextResponse.next()
+    response.cookies.set('zbs_preview', '1', { path: '/', maxAge: 60 * 60 * 24 * 30 })
+    return response
+  }
+
+  if (request.cookies.get('zbs_preview')?.value === '1') return NextResponse.next()
 
   return NextResponse.redirect(new URL('/coming-soon', request.url))
 }
