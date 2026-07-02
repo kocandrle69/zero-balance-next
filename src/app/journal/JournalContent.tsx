@@ -52,7 +52,7 @@ const CONTENT = {
       jednat jménem spolku samostatně.`,
 
     members: [
-      { initial: 'S', role: 'Čestný předseda spolku', name: 'Sensei Dr. Rajeev Sinha', bio: 'Čestný předseda Zero Balance Society, jogínský mistr a učitel Tantra Kriya Yogy. Již více než dvacet let nás osobně vede v praxi původní indické duchovní tradice.', photo: '/images/Sensei_3.jpg', imgPos: 'center 15%' },
+      { initial: 'S', role: 'Čestný předseda spolku', name: 'Sensei Dr. Rajeev Sinha', bio: 'Čestný předseda Zero Balance Society, jogínský mistr a učitel Tantra Kriya Yogy s žáky po celém světě. Členy spolku již více než dvacet let osobně vede v praxi původní indické duchovní tradice.', photo: '/images/Sensei_3.jpg', imgPos: 'center 15%' },
       { initial: 'J', role: 'Předseda spolku', name: 'Jan Kočandrle', bio: 'Zakladatel a předseda Zero Balance Society. Podílí se na rozvoji činnosti spolku, jeho kulturní misi a na vytváření prostoru pro setkávání, studium a sdílení indických duchovních tradic.', photo: '/images/Jan.jpg', imgPos: '30% 20%' },
       { initial: 'J', role: 'Místopředseda spolku', name: 'PhDr. Jiří Kočandrle', bio: 'Místopředseda Zero Balance Society. Věnuje se komunikaci, vztahům s veřejností a rozvoji kulturní mise spolku. Podílí se na předávání jogínské praxe a podpoře studia indických duchovních tradic.', photo: '/images/Jiri.jpg' },
       { initial: 'F', role: 'Místopředseda spolku', name: 'Ing. František Filouš', bio: 'Místopředseda spolku. Věnuje se legislativním a technickým záležitostem a podílí se na praktickém fungování Zero Balance Society.', photo: '/images/Franta.jpg', imgPos: '40% 20%' },
@@ -116,7 +116,7 @@ const CONTENT = {
       to act on behalf of the association independently.`,
 
     members: [
-      { initial: 'S', role: 'Honorary Chairman', name: 'Sensei Dr. Rajeev Sinha', bio: 'Honorary Chairman of Zero Balance Society, a yogic master and teacher of Tantra Kriya Yoga. For over twenty years he has guided us personally in the practice of the original Indian spiritual tradition.', photo: '/images/Sensei_3.jpg', imgPos: 'center 15%' },
+      { initial: 'S', role: 'Honorary Chairman', name: 'Sensei Dr. Rajeev Sinha', bio: 'Honorary Chairman of Zero Balance Society, a yogic master and teacher of Tantra Kriya Yoga with students around the world. He has personally guided members of the association in the practice of the original Indian spiritual tradition for over twenty years.', photo: '/images/Sensei_3.jpg', imgPos: 'center 15%' },
       { initial: 'J', role: 'Chairman', name: 'Jan Kočandrle', bio: 'Founder and Chairman of Zero Balance Society. He contributes to the development of the association\'s activities, its cultural mission and the creation of spaces for gathering, study and sharing of Indian spiritual traditions.', photo: '/images/Jan.jpg', imgPos: '30% 20%' },
       { initial: 'J', role: 'Vice-Chairman', name: 'PhDr. Jiří Kočandrle', bio: 'Vice-Chairman of Zero Balance Society. He focuses on communication, public relations and the development of the association\'s cultural mission, and contributes to the transmission of yogic practice and the study of Indian spiritual traditions.', photo: '/images/Jiri.jpg' },
       { initial: 'F', role: 'Vice-Chairman', name: 'Ing. František Filouš', bio: 'Vice-Chairman of the association. He handles legislative and technical matters and contributes to the practical functioning of Zero Balance Society.', photo: '/images/Franta.jpg', imgPos: '40% 20%' },
@@ -177,7 +177,7 @@ const CONTENT = {
       संस्था की ओर से स्वतंत्र रूप से कार्य कर सकते हैं।`,
 
     members: [
-      { initial: 'S', role: 'मानद अध्यक्ष', name: 'Sensei Dr. Rajeev Sinha', bio: 'Zero Balance Society के मानद अध्यक्ष, एक योगाचार्य और तंत्र क्रिया योग के शिक्षक। बीस से अधिक वर्षों से वे हमें मूल भारतीय आध्यात्मिक परंपरा की साधना में व्यक्तिगत रूप से मार्गदर्शन करते आए हैं।', photo: '/images/Sensei_3.jpg', imgPos: 'center 15%' },
+      { initial: 'S', role: 'मानद अध्यक्ष', name: 'Sensei Dr. Rajeev Sinha', bio: 'Zero Balance Society के मानद अध्यक्ष, एक योगाचार्य और तंत्र क्रिया योग के शिक्षक, जिनके शिष्य पूरी दुनिया में हैं। वे संस्था के सदस्यों को बीस से अधिक वर्षों से मूल भारतीय आध्यात्मिक परंपरा की साधना में व्यक्तिगत रूप से मार्गदर्शन करते आए हैं।', photo: '/images/Sensei_3.jpg', imgPos: 'center 15%' },
       { initial: 'J', role: 'अध्यक्ष', name: 'Jan Kočandrle', bio: 'Zero Balance Society के संस्थापक और अध्यक्ष। वे संस्था की गतिविधियों, उसकी सांस्कृतिक मिशन और भारतीय आध्यात्मिक परंपराओं के मिलन, अध्ययन व साझाकरण के लिए स्थान निर्माण में योगदान करते हैं।', photo: '/images/Jan.jpg', imgPos: '30% 20%' },
       { initial: 'J', role: 'उपाध्यक्ष', name: 'PhDr. Jiří Kočandrle', bio: 'Zero Balance Society के उपाध्यक्ष। वे संचार, जनसंपर्क और संस्था की सांस्कृतिक मिशन के विकास पर ध्यान देते हैं, और योगाभ्यास के प्रसार तथा भारतीय आध्यात्मिक परंपराओं के अध्ययन में सहयोग करते हैं।', photo: '/images/Jiri.jpg' },
       { initial: 'F', role: 'उपाध्यक्ष', name: 'Ing. František Filouš', bio: 'संस्था के उपाध्यक्ष। वे विधायी और तकनीकी मामलों को संभालते हैं और Zero Balance Society के व्यावहारिक संचालन में योगदान करते हैं।', photo: '/images/Franta.jpg', imgPos: '40% 20%' },
