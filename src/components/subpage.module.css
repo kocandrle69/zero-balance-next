@@ -210,6 +210,23 @@
   flex: 1;
 }
 
+.personEmail {
+  display: inline-block;
+  font-family: 'Cinzel', serif;
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  color: var(--gold);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(184,146,42,0.3);
+  padding-bottom: 2px;
+  margin-top: 4px;
+  transition: border-color 0.3s, color 0.3s;
+}
+.personEmail:hover {
+  color: var(--ink);
+  border-color: var(--ink);
+}
+
 .subpageCtaLink {
   font-family: 'Cinzel', serif;
   font-size: 11px;
@@ -227,13 +244,17 @@
   border-color: var(--ink);
 }
 
-/* ── Float layout (text wraps around image) ── */
+/* ── Float layout (text wraps around image, alternating sides) ── */
 .personFloat {
   overflow: hidden;
 }
 .personFloat .personImg {
   float: left;
   margin: 0 36px 20px 0;
+}
+.personFloatReverse .personImg {
+  float: right;
+  margin: 0 0 20px 36px;
 }
 
 @media (max-width: 700px) {
@@ -245,7 +266,8 @@
     width: 100%;
     height: 260px;
   }
-  .personFloat .personImg {
+  .personFloat .personImg,
+  .personFloatReverse .personImg {
     float: none;
     margin: 0 0 24px 0;
   }
