@@ -60,7 +60,7 @@ const CONTENT = {
     janEmail: 'jan@zero-balance.org',
     gurudevHead: 'Gurudev — Shri Karauli Shankar Mahadev Ji',
     gurudevP1: 'Gurudev Shri Karauli Shankar Mahadev Ji je duchovním srdcem naší linie. Jako Mahāmaṇḍalēśvar Shri Panchayati Akhada Naya Udasin Nirvan zastává nejvyšší duchovní hodnost v této tradici.',
-    gurudevP2: 'Jeho učení je zakořeněno v Tantra Krija Józe — přímé, zkušenostní cestě vnitřní transformace, oddanosti a sebepoznání. Gurudevova přítomnost a milost jsou zdrojem, z nějž čerpají veškeré aktivity Zero Balance Society.',
+    gurudevP2: 'Jeho učení vychází z Tantra Kriya Jógy – přímé cesty založené na vlastní zkušenosti, vedoucí k vnitřní proměně, oddanosti a seberealizaci. Přítomnost a milost Gurudéva jsou zdrojem, z něhož čerpají inspiraci všechny aktivity Zero Balance Society.',
     gurudevP3: 'Připravujeme výjimečnou návštěvu Gurudeva v České republice v roce 2027.',
     jiriHead: 'PhDr. Jiří Kočandrle — Místopředseda spolku',
     jiriP1: 'Místopředseda Zero Balance Society. Věnuje se komunikaci, vztahům s veřejností a rozvoji kulturní mise spolku. Podílí se na předávání jogínské praxe a podpoře studia indických duchovních tradic.',
@@ -134,7 +134,7 @@ export default function AboutContent() {
       <main className={styles.page}>
 
         <div className={styles.hero}>
-          <div className={styles.heroBg} style={{ backgroundImage: 'url(/images/aboutus4.jpg)', transform: 'none' }} />
+          <div className={`${styles.heroBg} ${styles.heroBgFigureRight}`} style={{ backgroundImage: 'url(/images/aboutus4.jpg)', transform: 'none' }} />
           <div className={styles.heroOverlay} />
           <BackLink />
           <div className={styles.heroContent}>
@@ -155,6 +155,16 @@ export default function AboutContent() {
 
           <section className={`${styles.section} ${styles.personFloat}`}>
             <div className={styles.personImg}>
+              <img src="/images/Gurudev.jpg" alt="Gurudev Shri Karauli Shankar Mahadev Ji" style={{ objectPosition: '10% 15%' }} />
+            </div>
+            <h2 className={styles.sectionHead}>{C.gurudevHead}</h2>
+            <p>{C.gurudevP1}</p>
+            <p>{C.gurudevP2}</p>
+            <p>{C.gurudevP3}</p>
+          </section>
+
+          <section className={`${styles.section} ${styles.personFloat} ${styles.personFloatReverse}`}>
+            <div className={styles.personImg}>
               <img src="/images/Sensei_3.jpg" alt="Sensei Rajeev Sinha" style={{ objectPosition: '22% 18%', transform: 'scale(1.5)' }} />
             </div>
             <h2 className={styles.sectionHead}>{C.senseiHead}</h2>
@@ -164,7 +174,7 @@ export default function AboutContent() {
             <a href={`mailto:${C.senseiEmail}`} className={styles.personEmail}>{C.senseiEmail}</a>
           </section>
 
-          <section className={`${styles.section} ${styles.personFloat} ${styles.personFloatReverse}`}>
+          <section className={`${styles.section} ${styles.personFloat}`}>
             <div className={styles.personImg}>
               <img src="/images/Jan2.png" alt="Jan Kočandrle" style={{ objectPosition: '55% 20%' }} />
             </div>
@@ -173,16 +183,6 @@ export default function AboutContent() {
             <p>{C.janP2}</p>
             {C.janP3 && <p>{C.janP3}</p>}
             <a href={`mailto:${C.janEmail}`} className={styles.personEmail}>{C.janEmail}</a>
-          </section>
-
-          <section className={`${styles.section} ${styles.personFloat}`}>
-            <div className={styles.personImg}>
-              <img src="/images/Gurudev.jpg" alt="Gurudev Shri Karauli Shankar Mahadev Ji" style={{ objectPosition: '10% 15%' }} />
-            </div>
-            <h2 className={styles.sectionHead}>{C.gurudevHead}</h2>
-            <p>{C.gurudevP1}</p>
-            <p>{C.gurudevP2}</p>
-            <p>{C.gurudevP3}</p>
           </section>
 
           <section className={`${styles.section} ${styles.personFloat} ${styles.personFloatReverse}`}>

@@ -17,6 +17,14 @@
   filter: none;
   transform: scaleX(-1);
 }
+/* Hero photos where the subject sits off-centre (right side) — on
+   narrow/tall mobile crops "center" hides the subject entirely, so
+   shift the focal point toward it. */
+@media (max-width: 700px) {
+  .heroBgFigureRight {
+    background-position: 78% 22%;
+  }
+}
 .heroOverlay {
   position: absolute; inset: 0;
   background:

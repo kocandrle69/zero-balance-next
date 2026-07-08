@@ -47,9 +47,9 @@ const CONTENT = {
 
     s3Head: 'Zakladatelé a struktura spolku',
     s3p1: `Spolek byl založen třemi zakladateli na ustavující schůzi dne
-      19. června 2026 v Krakovanech. Orgány spolku tvoří členská schůze,
-      předseda. Statutárním zástupcem spolku je předseda.
-      jednat jménem spolku samostatně.`,
+      19. června 2026 v Krakovanech. Orgány spolku tvoří členská schůze
+      a předseda. Statutárním zástupcem spolku je předseda, který je
+      oprávněn jednat jménem spolku samostatně.`,
 
     members: [
       { initial: 'S', role: 'Čestný předseda spolku', name: 'Sensei Rajeev Sinha', bio: 'Čestný předseda Zero Balance Society, jogínský mistr a učitel Tantra Kriya Yogy s žáky po celém světě. Členy spolku již více než dvacet let osobně vede v praxi původní indické duchovní tradice.', photo: '/images/Sensei_3.jpg', imgPos: '22% 18%', imgScale: '1.5', email: 'senseirajeev@icloud.com' },
@@ -111,9 +111,9 @@ const CONTENT = {
 
     s3Head: 'Founders and Structure',
     s3p1: `The association was founded by three founders at the constitutive meeting
-      on 19 June 2026 in Krakovany. The governing bodies consist of the general assembly,
-      the chairman. The statutory representative of the association is the chairman.
-      to act on behalf of the association independently.`,
+      on 19 June 2026 in Krakovany. The governing bodies of the association are the
+      general assembly and the chairman. The statutory representative of the association
+      is the chairman, who is authorised to act on behalf of the association independently.`,
 
     members: [
       { initial: 'S', role: 'Honorary Chairman', name: 'Sensei Rajeev Sinha', bio: 'Honorary Chairman of Zero Balance Society, a yogic master and teacher of Tantra Kriya Yoga with students around the world. He has personally guided members of the association in the practice of the original Indian spiritual tradition for over twenty years.', photo: '/images/Sensei_3.jpg', imgPos: '22% 18%', imgScale: '1.5', email: 'senseirajeev@icloud.com' },
