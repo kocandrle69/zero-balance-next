@@ -38,6 +38,11 @@ const CONTENT = {
     senseiP2: 'Sensei Rajeev Sinha is a yogi and teacher of original Indian yoga, in particular Tantra Kriya Yoga. For the founders and members of Zero Balance Society, he has been a long-standing teacher and guide — transmitting not only knowledge, but above all the lived experience of practice, discipline and inner transformation. He is among the first disciples of Gurudev Shri Karauli Shankar Mahadev Ji, and it is through him that a living connection with Gurudev, the ashram and the spiritual lineage from which Zero Balance Society draws its work has opened for us. This lineage flows from the teachings of Shri Radharaman Ji Mishra and, at its deeper roots, reaches back to the legacy of Mahavatar Babaji.',
     senseiP3: 'For European students, Sensei Rajeev Sinha serves as a bridge between the authentic Indian spiritual tradition and the contemporary Western world. Through his guidance, our work is not merely a cultural or educational project — it is rooted in a living tradition transmitted personally, through practice and direct experience. Through his Wisdom of India video lesson series, he makes the depth of Indian philosophy, yoga and spiritual practice accessible, practical and naturally applicable to the contemporary European seeker. His role in Zero Balance Society is therefore not merely honorary, but profoundly defining: he helps maintain the direction, depth and fidelity to the tradition on which the association stands.',
     senseiEmail: 'senseirajeev@icloud.com',
+    s4Head: 'Registered Office',
+    s4p1: <>The association is registered in the Czech Republic as a registered
+      non-profit association (z.s.) under Act No. 89/2012 Coll., the Civil Code.<br />
+      Registered office: <strong>Krakovany 352, 281 27 Krakovany, Czech Republic.</strong></>,
+    s4p2: 'The association is established for an indefinite period and may operate in the Czech Republic and abroad.',
     philLink: 'Explore our Philosophy →',
     pdfLink: 'Download PDF — About Zero Balance Society',
   },
@@ -71,6 +76,11 @@ const CONTENT = {
     senseiP2: 'Sensei Rajeev Sinha je jogín a učitel původní indické jógy, zejména Tantra Kriya Yogy. Pro zakladatele a členy Zero Balance Society je dlouhodobým učitelem a průvodcem, který předává nejen poznání, ale především zkušenost praxe, disciplíny a vnitřní proměny. Patří k prvním žákům Gurudeva Shri Karauli Shankar Mahadev Ji a právě skrze něj se pro nás otevírá živé spojení s Gurudevem, ášramem i duchovní linií, z níž činnost Zero Balance Society vyrůstá. Tato linie se odvíjí od učení Shri Radharaman Ji Mishra a svými hlubšími kořeny sahá k odkazu Mahavatara Babajiho.',
     senseiP3: 'Pro evropské žáky představuje Sensei Rajeev Sinha most mezi autentickou indickou duchovní tradicí a současným západním prostředím. Díky jeho vedení není naše práce pouze kulturním nebo vzdělávacím projektem, ale navazuje na živou tradici, která se předává osobně, skrze praxi a přímou zkušenost. Prostřednictvím série videolekcí Moudrost Indie zpřístupňuje hloubku indické filozofie, jógy a duchovní praxe způsobem, který je srozumitelný, praktický a přirozeně použitelný i pro současného evropského člověka. Jeho role v Zero Balance Society proto není pouze čestná, ale bytostně určující: pomáhá udržovat směr, hloubku a věrnost tradici, na níž spolek stojí.',
     senseiEmail: 'senseirajeev@icloud.com',
+    s4Head: 'Sídlo a registrace',
+    s4p1: <>Spolek je registrován v České republice jako zapsaný spolek (z.s.)
+      podle zákona č. 89/2012 Sb., občanského zákoníku.<br />
+      Sídlo spolku: <strong>Krakovany 352, 281 27 Krakovany, Česká republika.</strong></>,
+    s4p2: 'Spolek byl založen na dobu neurčitou a může působit v České republice i v zahraničí.',
     philLink: 'Prozkoumejte naši filozofii →',
     pdfLink: 'Stáhnout PDF — O Zero Balance Society',
   },
@@ -104,6 +114,11 @@ const CONTENT = {
     senseiP2: 'सेंसेई राजीव सिन्हा मूल भारतीय योग, विशेष रूप से तंत्र क्रिया योग के एक योगी और शिक्षक हैं। Zero Balance Society के संस्थापकों और सदस्यों के लिए वे एक दीर्घकालिक शिक्षक और मार्गदर्शक रहे हैं — जो केवल ज्ञान नहीं, बल्कि सबसे बढ़कर साधना, अनुशासन और आंतरिक रूपांतरण का जीवंत अनुभव प्रदान करते हैं। वे गुरुदेव श्री काराउली शंकर महादेव जी के प्रथम शिष्यों में से हैं, और उन्हीं के माध्यम से हमारे लिए गुरुदेव, आश्रम और उस आध्यात्मिक परंपरा से जीवंत संबंध खुला है जिससे Zero Balance Society की गतिविधियाँ उत्पन्न होती हैं। यह परंपरा श्री राधारमण जी मिश्र की शिक्षाओं से प्रवाहित होती है और अपनी गहरी जड़ों में महावतार बाबाजी की विरासत तक पहुँचती है।',
     senseiP3: 'यूरोपीय साधकों के लिए सेंसेई राजीव सिन्हा प्रामाणिक भारतीय आध्यात्मिक परंपरा और समकालीन पश्चिमी जगत के बीच एक सेतु हैं। उनके मार्गदर्शन से हमारा कार्य केवल सांस्कृतिक या शैक्षिक परियोजना नहीं रहता — यह एक जीवंत परंपरा से जुड़ा है जो व्यक्तिगत रूप से, साधना और प्रत्यक्ष अनुभव के माध्यम से प्रवाहित होती है। अपनी वीडियो श्रृंखला भारत की प्रज्ञा के माध्यम से वे भारतीय दर्शन, योग और आध्यात्मिक साधना की गहराई को ऐसे रूप में प्रस्तुत करते हैं जो सुगम, व्यावहारिक और समकालीन यूरोपीय साधक के लिए स्वाभाविक रूप से उपयोगी है। Zero Balance Society में उनकी भूमिका इसलिए केवल सम्मानजनक नहीं, बल्कि मूलभूत रूप से निर्धारक है: वे उस परंपरा की दिशा, गहराई और निष्ठा बनाए रखने में सहायता करते हैं जिस पर संस्था टिकी है।',
     senseiEmail: 'senseirajeev@icloud.com',
+    s4Head: 'पंजीकृत कार्यालय',
+    s4p1: <>संस्था चेक गणराज्य में अधिनियम संख्या 89/2012 Sb., नागरिक संहिता के
+      तहत एक पंजीकृत अलाभकारी संस्था (z.s.) के रूप में पंजीकृत है।<br />
+      पंजीकृत कार्यालय: <strong>Krakovany 352, 281 27 Krakovany, Czech Republic।</strong></>,
+    s4p2: 'संस्था अनिश्चित काल के लिए स्थापित है और चेक गणराज्य तथा विदेशों में काम कर सकती है।',
     philLink: 'हमारी दर्शन का अन्वेषण करें →',
     pdfLink: 'PDF डाउनलोड करें — Zero Balance Society के बारे में',
   },
@@ -140,7 +155,7 @@ export default function AboutContent() {
 
           <section className={`${styles.section} ${styles.personFloat}`}>
             <div className={styles.personImg}>
-              <img src="/images/Sensei_3.jpg" alt="Sensei Rajeev Sinha" style={{ objectPosition: 'center 15%' }} />
+              <img src="/images/Sensei_3.jpg" alt="Sensei Rajeev Sinha" style={{ objectPosition: '22% 18%', transform: 'scale(1.5)' }} />
             </div>
             <h2 className={styles.sectionHead}>{C.senseiHead}</h2>
             <p>{C.senseiP1}</p>
@@ -151,7 +166,7 @@ export default function AboutContent() {
 
           <section className={`${styles.section} ${styles.personFloat} ${styles.personFloatReverse}`}>
             <div className={styles.personImg}>
-              <img src="/images/Jan.jpg" alt="Jan Kočandrle" style={{ objectPosition: '40% 25%' }} />
+              <img src="/images/Jan2.png" alt="Jan Kočandrle" style={{ objectPosition: '55% 20%' }} />
             </div>
             <h2 className={styles.sectionHead}>{C.janHead}</h2>
             <p>{C.janP1}</p>
@@ -172,7 +187,7 @@ export default function AboutContent() {
 
           <section className={`${styles.section} ${styles.personFloat} ${styles.personFloatReverse}`}>
             <div className={styles.personImg}>
-              <img src="/images/Jiri.jpg" alt="PhDr. Jiří Kočandrle" />
+              <img src="/images/Jiri3.png" alt="PhDr. Jiří Kočandrle" style={{ objectPosition: '65% 20%' }} />
             </div>
             <h2 className={styles.sectionHead}>{C.jiriHead}</h2>
             <p>{C.jiriP1}</p>
@@ -181,7 +196,7 @@ export default function AboutContent() {
 
           <section className={`${styles.section} ${styles.personFloat}`}>
             <div className={styles.personImg}>
-              <img src="/images/Franta.jpg" alt="Ing. František Filouš" style={{ objectPosition: '40% 20%' }} />
+              <img src="/images/Franta2.png" alt="Ing. František Filouš" style={{ objectPosition: '62% 15%' }} />
             </div>
             <h2 className={styles.sectionHead}>{C.frantaHead}</h2>
             <p>{C.frantaP1}</p>
@@ -189,7 +204,7 @@ export default function AboutContent() {
 
           <section className={`${styles.section} ${styles.personFloat} ${styles.personFloatReverse}`}>
             <div className={styles.personImg}>
-              <img src="/images/Pavlina.jpg" alt="Pavlína Muchová" style={{ objectPosition: '60% 15%', transform: 'scale(1.2)' }} />
+              <img src="/images/Pavlina2.png" alt="Pavlína Muchová" style={{ objectPosition: '62% 15%' }} />
             </div>
             <h2 className={styles.sectionHead}>{C.pavlinaHead}</h2>
             <p>{C.pavlinaP1}</p>
@@ -197,10 +212,16 @@ export default function AboutContent() {
 
           <section className={`${styles.section} ${styles.personFloat}`}>
             <div className={styles.personImg}>
-              <img src="/images/Pavel.jpg" alt="Pavel Znamenáček" style={{ objectPosition: '70% 20%' }} />
+              <img src="/images/Pavel2.png" alt="Pavel Znamenáček" style={{ objectPosition: '62% 15%' }} />
             </div>
             <h2 className={styles.sectionHead}>{C.pavelHead}</h2>
             <p>{C.pavelP1}</p>
+          </section>
+
+          <section className={styles.section}>
+            <h2 className={styles.sectionHead}>{C.s4Head}</h2>
+            <p>{C.s4p1}</p>
+            <p>{C.s4p2}</p>
           </section>
 
           <section className={styles.section} style={{ display: 'flex', flexDirection: 'column', gap: '16px', alignItems: 'flex-start' }}>
