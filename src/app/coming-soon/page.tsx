@@ -13,7 +13,7 @@ export default function ComingSoonPage() {
       <main className={styles.page}>
 
         <div className={styles.hero}>
-          <div className={styles.heroBg} style={{ backgroundImage: 'url(/images/aboutus4.jpg)', transform: 'none' }} />
+          <div className={`${styles.heroBg} ${styles.heroBgFigureRight}`} style={{ backgroundImage: 'url(/images/aboutus4.jpg)', transform: 'none' }} />
           <div className={styles.heroOverlay} />
           <div className={styles.heroContent}>
             <p className={styles.heroLabel}>Zero Balance Society</p>
@@ -24,10 +24,10 @@ export default function ComingSoonPage() {
         </div>
 
         <article className={styles.article}>
-          <section className={styles.section} style={{ textAlign: 'center', padding: '80px 0' }}>
-            <p style={{ fontFamily: 'Cormorant Garamond, serif', fontSize: 'clamp(18px, 2vw, 24px)', fontWeight: 300, lineHeight: 1.7, color: 'var(--ink2)', maxWidth: '480px', margin: '0 auto' }}>
-              We are preparing something meaningful.<br />
-              This page will open soon.
+          <section className={styles.section} style={{ textAlign: 'center', padding: '56px 0 100px' }}>
+            <div style={{ width: 48, height: 1, background: 'var(--gold)', opacity: 0.5, margin: '0 auto 26px' }} />
+            <p style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: 'clamp(19px, 2.2vw, 25px)', fontWeight: 300, fontStyle: 'italic', lineHeight: 1.8, color: 'var(--gold)', maxWidth: '480px', margin: '0 auto' }}>
+              Thank you for your patience — we&apos;ll be here from 26 July 2026.
             </p>
           </section>
         </article>
