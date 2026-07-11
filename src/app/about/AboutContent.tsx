@@ -39,9 +39,11 @@ const CONTENT = {
     senseiP3: 'For European students, Sensei Rajeev Sinha serves as a bridge between the authentic Indian spiritual tradition and the contemporary Western world. Through his guidance, our work is not merely a cultural or educational project — it is rooted in a living tradition transmitted personally, through practice and direct experience. Through his Wisdom of India video lesson series, he makes the depth of Indian philosophy, yoga and spiritual practice accessible, practical and naturally applicable to the contemporary European seeker. His role in Zero Balance Society is therefore not merely honorary, but profoundly defining: he helps maintain the direction, depth and fidelity to the tradition on which the association stands.',
     senseiEmail: 'senseirajeev@icloud.com',
     s4Head: 'Registered Office',
-    s4p1: <>The association is registered in the Czech Republic as a registered
-      non-profit association (z.s.) under Act No. 89/2012 Coll., the Civil Code.<br />
-      Registered office: <strong>Krakovany 352, 281 27 Krakovany, Czech Republic.</strong></>,
+    s4p1: <>Zero Balance Society z.s. is registered in the Czech Republic as a
+      registered non-profit association under Act No. 89/2012 Coll., the Civil Code.<br />
+      Registered office: <strong>Krakovany 352, 281 27 Krakovany, Czech Republic.</strong><br />
+      Reg. No. (IČO): <strong>29775060</strong> · File No.: <strong>L 82293</strong>,
+      Municipal Court in Prague.</>,
     s4p2: 'The association is established for an indefinite period and may operate in the Czech Republic and abroad.',
     philLink: 'Explore our Philosophy →',
     pdfLink: 'Download PDF — About Zero Balance Society',
@@ -77,9 +79,11 @@ const CONTENT = {
     senseiP3: 'Pro evropské žáky představuje Sensei Rajeev Sinha most mezi autentickou indickou duchovní tradicí a současným západním prostředím. Díky jeho vedení není naše práce pouze kulturním nebo vzdělávacím projektem, ale navazuje na živou tradici, která se předává osobně, skrze praxi a přímou zkušenost. Prostřednictvím série videolekcí Moudrost Indie zpřístupňuje hloubku indické filozofie, jógy a duchovní praxe způsobem, který je srozumitelný, praktický a přirozeně použitelný i pro současného evropského člověka. Jeho role v Zero Balance Society proto není pouze čestná, ale bytostně určující: pomáhá udržovat směr, hloubku a věrnost tradici, na níž spolek stojí.',
     senseiEmail: 'senseirajeev@icloud.com',
     s4Head: 'Sídlo a registrace',
-    s4p1: <>Spolek je registrován v České republice jako zapsaný spolek (z.s.)
-      podle zákona č. 89/2012 Sb., občanského zákoníku.<br />
-      Sídlo spolku: <strong>Krakovany 352, 281 27 Krakovany, Česká republika.</strong></>,
+    s4p1: <>Zero Balance Society z.s. je registrován v České republice jako
+      zapsaný spolek podle zákona č. 89/2012 Sb., občanského zákoníku.<br />
+      Sídlo spolku: <strong>Krakovany 352, 281 27 Krakovany, Česká republika.</strong><br />
+      IČO: <strong>29775060</strong> · Spisová značka: <strong>L 82293</strong> vedená
+      u Městského soudu v Praze.</>,
     s4p2: 'Spolek byl založen na dobu neurčitou a může působit v České republice i v zahraničí.',
     philLink: 'Prozkoumejte naši filozofii →',
     pdfLink: 'Stáhnout PDF — O Zero Balance Society',
@@ -115,9 +119,11 @@ const CONTENT = {
     senseiP3: 'यूरोपीय साधकों के लिए सेंसेई राजीव सिन्हा प्रामाणिक भारतीय आध्यात्मिक परंपरा और समकालीन पश्चिमी जगत के बीच एक सेतु हैं। उनके मार्गदर्शन से हमारा कार्य केवल सांस्कृतिक या शैक्षिक परियोजना नहीं रहता — यह एक जीवंत परंपरा से जुड़ा है जो व्यक्तिगत रूप से, साधना और प्रत्यक्ष अनुभव के माध्यम से प्रवाहित होती है। अपनी वीडियो श्रृंखला भारत की प्रज्ञा के माध्यम से वे भारतीय दर्शन, योग और आध्यात्मिक साधना की गहराई को ऐसे रूप में प्रस्तुत करते हैं जो सुगम, व्यावहारिक और समकालीन यूरोपीय साधक के लिए स्वाभाविक रूप से उपयोगी है। Zero Balance Society में उनकी भूमिका इसलिए केवल सम्मानजनक नहीं, बल्कि मूलभूत रूप से निर्धारक है: वे उस परंपरा की दिशा, गहराई और निष्ठा बनाए रखने में सहायता करते हैं जिस पर संस्था टिकी है।',
     senseiEmail: 'senseirajeev@icloud.com',
     s4Head: 'पंजीकृत कार्यालय',
-    s4p1: <>संस्था चेक गणराज्य में अधिनियम संख्या 89/2012 Sb., नागरिक संहिता के
-      तहत एक पंजीकृत अलाभकारी संस्था (z.s.) के रूप में पंजीकृत है।<br />
-      पंजीकृत कार्यालय: <strong>Krakovany 352, 281 27 Krakovany, Czech Republic।</strong></>,
+    s4p1: <>Zero Balance Society z.s. चेक गणराज्य में अधिनियम संख्या 89/2012 Sb., नागरिक संहिता के
+      तहत एक पंजीकृत अलाभकारी संस्था के रूप में पंजीकृत है।<br />
+      पंजीकृत कार्यालय: <strong>Krakovany 352, 281 27 Krakovany, Czech Republic।</strong><br />
+      पंजीकरण संख्या (IČO): <strong>29775060</strong> · फ़ाइल संख्या: <strong>L 82293</strong>,
+      प्राग नगर न्यायालय।</>,
     s4p2: 'संस्था अनिश्चित काल के लिए स्थापित है और चेक गणराज्य तथा विदेशों में काम कर सकती है।',
     philLink: 'हमारी दर्शन का अन्वेषण करें →',
     pdfLink: 'PDF डाउनलोड करें — Zero Balance Society के बारे में',

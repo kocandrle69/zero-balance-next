@@ -61,9 +61,11 @@ const CONTENT = {
     ],
 
     s4Head: 'Sídlo a registrace',
-    s4p1: <>Spolek je registrován v České republice jako zapsaný spolek (z.s.)
-      podle zákona č. 89/2012 Sb., občanského zákoníku.<br />
-      Sídlo spolku: <strong>Krakovany 352, 281 27 Krakovany, Česká republika.</strong></>,
+    s4p1: <>Zero Balance Society z.s. je registrován v České republice jako
+      zapsaný spolek podle zákona č. 89/2012 Sb., občanského zákoníku.<br />
+      Sídlo spolku: <strong>Krakovany 352, 281 27 Krakovany, Česká republika.</strong><br />
+      IČO: <strong>29775060</strong> · Spisová značka: <strong>L 82293</strong> vedená
+      u Městského soudu v Praze.</>,
     s4p2: 'Spolek byl založen na dobu neurčitou a může působit v České republice i v zahraničí.',
 
     footerLabel: 'Zero Balance Society, z.s. · Vydání I · 2026',
@@ -125,9 +127,11 @@ const CONTENT = {
     ],
 
     s4Head: 'Registered Office',
-    s4p1: <>The association is registered in the Czech Republic as a registered
-      non-profit association (z.s.) under Act No. 89/2012 Coll., the Civil Code.<br />
-      Registered office: <strong>Krakovany 352, 281 27 Krakovany, Czech Republic.</strong></>,
+    s4p1: <>Zero Balance Society z.s. is registered in the Czech Republic as a
+      registered non-profit association under Act No. 89/2012 Coll., the Civil Code.<br />
+      Registered office: <strong>Krakovany 352, 281 27 Krakovany, Czech Republic.</strong><br />
+      Reg. No. (IČO): <strong>29775060</strong> · File No.: <strong>L 82293</strong>,
+      Municipal Court in Prague.</>,
     s4p2: 'The association is established for an indefinite period and may operate in the Czech Republic and abroad.',
 
     footerLabel: 'Zero Balance Society, z.s. · Issue I · 2026',
@@ -186,9 +190,11 @@ const CONTENT = {
     ],
 
     s4Head: 'पंजीकृत कार्यालय',
-    s4p1: <>संस्था चेक गणराज्य में अधिनियम संख्या 89/2012 Sb., नागरिक संहिता के
-      तहत एक पंजीकृत अलाभकारी संस्था (z.s.) के रूप में पंजीकृत है।<br />
-      पंजीकृत कार्यालय: <strong>Krakovany 352, 281 27 Krakovany, Czech Republic।</strong></>,
+    s4p1: <>Zero Balance Society z.s. चेक गणराज्य में अधिनियम संख्या 89/2012 Sb., नागरिक संहिता के
+      तहत एक पंजीकृत अलाभकारी संस्था के रूप में पंजीकृत है।<br />
+      पंजीकृत कार्यालय: <strong>Krakovany 352, 281 27 Krakovany, Czech Republic।</strong><br />
+      पंजीकरण संख्या (IČO): <strong>29775060</strong> · फ़ाइल संख्या: <strong>L 82293</strong>,
+      प्राग नगर न्यायालय।</>,
     s4p2: 'संस्था अनिश्चित काल के लिए स्थापित है और चेक गणराज्य तथा विदेशों में काम कर सकती है।',
 
     footerLabel: 'Zero Balance Society, z.s. · अंक I · 2026',
