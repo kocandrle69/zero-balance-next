@@ -171,7 +171,7 @@ export default function AboutContent() {
 
           <section className={`${styles.section} ${styles.personFloat} ${styles.personFloatReverse}`}>
             <div className={styles.personImg}>
-              <img src="/images/Sensei_3.jpg" alt="Sensei Rajeev Sinha" style={{ objectPosition: '22% 18%', transform: 'scale(1.5)' }} />
+              <img src="/images/Sensei4.jpg" alt="Sensei Rajeev Sinha" style={{ objectPosition: 'center 15%' }} />
             </div>
             <h2 className={styles.sectionHead}>{C.senseiHead}</h2>
             <p>{C.senseiP1}</p>
