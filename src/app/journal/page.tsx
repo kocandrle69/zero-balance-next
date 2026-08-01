@@ -1,10 +1,10 @@
-import JournalContent from './JournalContent'
+import JournalIndex from './JournalIndex'
 
 export const metadata = {
   title: 'Journal · Zero Balance Society',
-  description: 'About Zero Balance Society, z.s. — founders, purpose, structure and spiritual orientation.',
+  description: 'The journal of Zero Balance Society, z.s. — discourses, reports and news from the association and the lineage.',
 }
 
 export default function JournalPage() {
-  return <JournalContent />
+  return <JournalIndex />
 }

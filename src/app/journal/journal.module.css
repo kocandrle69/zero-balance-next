@@ -106,7 +106,8 @@
 }
 
 /* ── Body text ─────────────────────────────────────────────────── */
-.articleBody { display: flex; flex-direction: column; gap: 0; }
+/* blok, nikoli flex — jinak se text neobtéká kolem plovoucích fotografií */
+.articleBody { display: block; }
 
 .section { margin-bottom: 48px; }
 
@@ -252,7 +253,192 @@
   text-transform: uppercase; white-space: nowrap;
 }
 
+/* ── Archiv vydání ─────────────────────────────────────────────── */
+.archive {
+  max-width: 900px; margin: 0 auto;
+  padding: 72px 40px 96px;
+  display: flex; flex-direction: column; gap: 0;
+}
+
+.card {
+  display: flex; gap: 40px; align-items: flex-start;
+  padding: 40px 0;
+  border-top: 1px solid rgba(184,146,42,0.15);
+  text-decoration: none; color: inherit;
+}
+.card:first-child { border-top: none; padding-top: 0; }
+
+.cardImg {
+  flex-shrink: 0;
+  width: 260px; height: 190px;
+  border-radius: 14px; overflow: hidden;
+  background: var(--bg2);
+}
+.cardImg img {
+  width: 100%; height: 100%;
+  object-fit: cover; object-position: center;
+  transition: transform 0.6s ease;
+}
+.card:hover .cardImg img { transform: scale(1.04); }
+
+.cardText { flex: 1; min-width: 0; }
+
+.cardMeta {
+  display: flex; align-items: center; gap: 20px;
+  margin-bottom: 14px;
+}
+
+.cardTitle {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(24px, 3vw, 32px);
+  font-weight: 300; line-height: 1.2;
+  color: var(--ink); margin-bottom: 14px;
+  transition: color 0.3s ease;
+}
+.cardTitle em { font-style: italic; color: var(--gold); }
+.card:hover .cardTitle { color: var(--gold); }
+
+.cardPerex {
+  font-size: 15px; font-weight: 300;
+  line-height: 1.8; color: var(--muted);
+  margin-bottom: 18px;
+}
+
+.cardMore {
+  font-family: 'Cinzel', serif; font-size: 9px;
+  letter-spacing: 0.25em; color: var(--gold);
+  text-transform: uppercase;
+  display: inline-flex; align-items: center; gap: 8px;
+}
+.cardArrow { transition: transform 0.3s ease; display: inline-block; }
+.card:hover .cardArrow { transform: translateX(4px); }
+
+/* ── Hlavička článku ───────────────────────────────────────────── */
+.postTitle {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(34px, 5.2vw, 62px);
+  /* 1.25 — devanágarí má vysoké akcenty, u těsnějšího řádkování se řádky dotýkají */
+  font-weight: 300; line-height: 1.25;
+  color: var(--ink); letter-spacing: -0.01em;
+  margin-bottom: 24px;
+}
+.postTitle em { font-style: italic; color: var(--gold); }
+
+.langNotice {
+  font-size: 13px; font-weight: 300; line-height: 1.7;
+  color: var(--muted); font-style: italic;
+  padding: 14px 18px; margin-bottom: 40px;
+  border-left: 2px solid var(--gold-mid);
+  background: var(--glass-gold);
+  border-radius: 0 8px 8px 0;
+}
+
+.archiveLink {
+  font-family: 'Cinzel', serif; font-size: 8px;
+  letter-spacing: 0.25em; color: var(--faint);
+  text-transform: uppercase; white-space: nowrap;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+.archiveLink:hover { color: var(--gold); }
+
+/* ── Dlouhý text: kapitoly, odstavce, poznámky ─────────────────── */
+.articleBody::after { content: ''; display: block; clear: both; }
+
+.chapterHead {
+  clear: both;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(25px, 3vw, 32px);
+  font-weight: 300; line-height: 1.25;
+  color: var(--ink);
+  margin: 64px 0 24px;
+  padding-top: 40px;
+  border-top: 1px solid rgba(184,146,42,0.15);
+}
+.chapterHead:first-child { margin-top: 0; padding-top: 0; border-top: none; }
+
+/* podkapitola — přebírá zlatý Cinzel styl .sectionHead, jen se srovná s floatem */
+.articleBody .sectionHead {
+  clear: both;
+  margin-top: 48px;
+}
+
+.prose {
+  font-size: 16px; font-weight: 300;
+  line-height: 1.95; color: var(--muted);
+  margin-bottom: 20px;
+}
+.prose em { font-style: italic; color: var(--ink2); }
+.prose strong { font-weight: 500; color: var(--ink2); }
+
+.transNote {
+  clear: both;
+  font-size: 13px; font-weight: 300; font-style: italic;
+  line-height: 1.8; color: var(--muted);
+  margin-bottom: 28px;
+}
+.articleBody > .transNote:last-child {
+  margin-top: 48px; padding-top: 28px;
+  border-top: 1px solid rgba(184,146,42,0.15);
+  font-style: normal;
+}
+
+.videoLink {
+  display: inline-flex; align-items: center; gap: 10px;
+  margin-bottom: 8px;
+  font-family: 'Cinzel', serif; font-size: 10px;
+  letter-spacing: 0.2em; text-transform: uppercase;
+  color: var(--gold); text-decoration: none;
+  padding: 12px 20px;
+  border: 1px solid rgba(184,146,42,0.3);
+  border-radius: 999px;
+  transition: background 0.3s ease, border-color 0.3s ease;
+}
+.videoLink:hover { background: var(--glass-gold); border-color: var(--gold); }
+.videoIcon { font-size: 8px; }
+
+/* ── Fotografie v textu ────────────────────────────────────────── */
+.figFull, .figLeft, .figRight { margin-bottom: 28px; }
+.figFull img, .figLeft img, .figRight img {
+  width: 100%; height: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.figFull {
+  clear: both;
+  /* přesně na šířku textového sloupce — žádné přetékání */
+  width: 100%;
+  height: 380px;
+  margin-top: 12px;
+}
+
+.figLeft, .figRight {
+  width: 260px; height: 340px;
+  margin-top: 6px;
+}
+.figLeft  { float: left;  margin-right: 32px; }
+.figRight { float: right; margin-left: 32px; }
+
 /* ── Responsive ────────────────────────────────────────────────── */
+@media (max-width: 860px) {
+  .card { gap: 28px; }
+  .cardImg { width: 200px; height: 150px; }
+}
+
+@media (max-width: 700px) {
+  .archive { padding: 48px 24px 72px; }
+  .card { flex-direction: column; gap: 20px; padding: 32px 0; }
+  .cardImg { width: 100%; height: 220px; }
+
+  .figLeft, .figRight {
+    float: none; width: 100%; height: 300px;
+    margin-left: 0; margin-right: 0;
+  }
+  .figFull { height: 260px; }
+  .chapterHead { margin-top: 48px; padding-top: 32px; }
+}
+
 @media (max-width: 700px) {
   .memberRow, .memberRowReverse { flex-direction: column; }
   .memberRowImg { width: 100%; height: 320px; }
