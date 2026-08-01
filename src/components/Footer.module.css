@@ -13,7 +13,7 @@
 /* Brand */
 .footerBrand p {
   font-size: 14px; font-weight: 300;
-  color: rgba(255,255,255,0.45); line-height: 1.8;
+  color: rgba(255,255,255,0.62); line-height: 1.8;
   max-width: 280px; margin-top: 16px;
 }
 
@@ -39,9 +39,9 @@
 .footerCol ul { list-style: none; display: flex; flex-direction: column; gap: 10px; }
 .footerCol a {
   font-size: 14px; font-weight: 300;
-  color: rgba(255,255,255,0.4); text-decoration: none; transition: color 0.3s;
+  color: rgba(255,255,255,0.6); text-decoration: none; transition: color 0.3s;
 }
-.footerCol a:hover { color: rgba(255,255,255,0.8); }
+.footerCol a:hover { color: rgba(255,255,255,0.9); }
 
 /* Newsletter */
 .footerNewsletter h5 {
@@ -51,7 +51,7 @@
 }
 .footerNewsletter p {
   font-size: 14px; font-weight: 300;
-  color: rgba(255,255,255,0.45); margin-bottom: 18px; line-height: 1.75;
+  color: rgba(255,255,255,0.62); margin-bottom: 18px; line-height: 1.75;
 }
 
 .subForm { display: flex; gap: 8px; }

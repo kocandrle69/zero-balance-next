@@ -10,8 +10,12 @@
   --warm:          #C4713A;
   --ink:           #1C1810;
   --ink2:          #2E2618;
-  --muted:         rgba(28,24,16,0.5);
-  --faint:         rgba(28,24,16,0.2);
+  /* Obě jsou výhradně barvy textu (nikde nedrží linky ani rámečky).
+     Původní 0.5 / 0.2 dávalo na krémovém pozadí kontrast 3,3:1 a 1,5:1 —
+     pod hranicí WCAG AA (4,5:1), na mobilu prakticky nečitelné.
+     Teď 6,2:1 a 4,5:1; pořád teplá šedá, ne černá. */
+  --muted:         rgba(28,24,16,0.7);
+  --faint:         rgba(28,24,16,0.6);
   --glass:         rgba(255,255,255,0.55);
   --glass-b:       rgba(255,255,255,0.8);
   --glass-border:  rgba(255,255,255,0.7);
