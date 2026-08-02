@@ -371,6 +371,20 @@
 .prose em { font-style: italic; color: var(--ink2); }
 .prose strong { font-weight: 500; color: var(--ink2); }
 
+/* Zvýrazněné sdělení v textu — na rozdíl od .transNote má být vidět */
+.callout {
+  clear: both;
+  display: block;
+  margin: 8px 0 32px;
+  padding: 24px 28px;
+  border-left: 2px solid var(--gold);
+  background: var(--glass-gold);
+  border-radius: 0 12px 12px 0;
+  font-size: 16px; font-weight: 300;
+  line-height: 1.85; color: var(--ink2);
+}
+.callout strong { font-weight: 500; color: var(--ink); }
+
 .transNote {
   clear: both;
   font-size: 13px; font-weight: 300; font-style: italic;

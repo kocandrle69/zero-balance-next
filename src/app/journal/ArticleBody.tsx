@@ -27,6 +27,8 @@ export default function ArticleBody({ blocks }: { blocks: Block[] }) {
             return <h4 key={i} className={styles.sectionHead}>{b.t}</h4>
           case 'note':
             return <p key={i} className={styles.transNote}>{inline(b.t)}</p>
+          case 'callout':
+            return <aside key={i} className={styles.callout}>{inline(b.t)}</aside>
           case 'video':
             return (
               <a key={i} className={styles.videoLink} href={b.href} target="_blank" rel="noopener noreferrer">

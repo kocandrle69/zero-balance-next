@@ -36,6 +36,71 @@ export interface PostMeta {
 
 export const POSTS: PostMeta[] = [
   {
+    slug: 'youtube-channel',
+    date: '2026-08-02',
+    cover: '/images/YouTube-Channel.jpg',
+    langs: ['cs', 'en', 'hi'],
+    meta: {
+      cs: {
+        rubric: 'Ze spolku',
+        title: 'Zero Balance Society nově na YouTube',
+        perex: `Spustili jsme nový YouTube kanál věnovaný meditaci, józe, duchovní praxi
+          a živým tradicím Indie — Bháratu. Na jednom místě nyní najdete řízené meditace
+          s Gurudevem, záběry z ášramu, havany a další rituály, putování Bháratem
+          i praktické videolekce tradiční jógové moudrosti.`,
+      },
+      en: {
+        rubric: 'From the Association',
+        title: 'Zero Balance Society is now on YouTube',
+        perex: `We have launched a new YouTube channel devoted to meditation, yoga,
+          spiritual practice and the living traditions of India — Bharat. In one place you
+          will now find guided meditations with Gurudev, footage from the ashram, havans
+          and other rituals, journeys through Bharat, and practical video lessons in
+          traditional yogic wisdom.`,
+      },
+      hi: {
+        rubric: 'संस्था से',
+        title: 'Zero Balance Society अब YouTube पर',
+        perex: `हमने ध्यान, योग, आध्यात्मिक साधना और भारत की जीवंत परंपराओं को समर्पित एक नया
+          YouTube चैनल शुरू किया है। अब एक ही स्थान पर आपको गुरुदेव के साथ निर्देशित ध्यान,
+          आश्रम के दृश्य, हवन और अन्य अनुष्ठान, भारत की यात्राएँ तथा पारंपरिक योग-ज्ञान के
+          व्यावहारिक वीडियो पाठ मिलेंगे।`,
+      },
+    },
+  },
+  {
+    slug: 'beyond-the-body',
+    date: '2026-08-01',
+    cover: '/images/Journal-Sensei-Vedomi.jpg',
+    coverPos: 'center 30%',
+    langs: ['cs', 'en', 'hi'],
+    meta: {
+      cs: {
+        rubric: 'Promluvy',
+        title: 'Kdo skutečně jsme a kam odcházíme po smrti?',
+        perex: `Je naše tělo skutečným domovem, nebo pouze dočasným prostředkem na cestě
+          vědomí? Sensei Rajeev se v této duchovní promluvě dotýká jedné z nejhlubších
+          otázek lidského života: kdo jsme za hranicemi těla a co se s námi děje
+          v okamžiku smrti.`,
+      },
+      en: {
+        rubric: 'Discourses',
+        title: 'Who are we really, and where do we go after death?',
+        perex: `Is our body a real home, or only a temporary vehicle on the journey of
+          consciousness? In this spiritual discourse Sensei Rajeev touches on one of the
+          deepest questions of human life: who we are beyond the body, and what becomes
+          of us at the moment of death.`,
+      },
+      hi: {
+        rubric: 'प्रवचन',
+        title: 'हम वास्तव में कौन हैं और मृत्यु के बाद कहाँ जाते हैं?',
+        perex: `क्या हमारा शरीर वास्तविक घर है, या चेतना की यात्रा में केवल एक अस्थायी साधन?
+          इस आध्यात्मिक प्रवचन में सेंसेई राजीव मानव जीवन के गहनतम प्रश्नों में से एक को छूते
+          हैं: शरीर की सीमा से परे हम कौन हैं, और मृत्यु के क्षण में हमारे साथ क्या होता है।`,
+      },
+    },
+  },
+  {
     slug: 'guru-purnima-2026',
     date: '2026-07-29',
     cover: '/images/Journal-Photo1.jpg',

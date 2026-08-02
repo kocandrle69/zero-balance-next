@@ -10,7 +10,8 @@
  *   ### Nadpis                         podkapitola
  *   ![popisek](/images/x.jpg "right")  fotografie; side = full | left | right
  *   [Text odkazu](https://…)           odkaz na záznam (samostatný řádek)
- *   > text                             výkladová poznámka v textu
+ *   > text                             drobná výkladová poznámka v textu
+ *   !> text                            zvýrazněné sdělení (rámeček se zlatou linkou)
  *   ---                                vše za oddělovačem je závěrečná poznámka
  *   *kurzíva*  **tučně**               uvnitř odstavce
  *
@@ -20,7 +21,7 @@
 export type Side = 'full' | 'left' | 'right'
 
 export type Block =
-  | { k: 'h2' | 'h3' | 'p' | 'note'; t: string }
+  | { k: 'h2' | 'h3' | 'p' | 'note' | 'callout'; t: string }
   | { k: 'video'; href: string; t: string }
   | { k: 'fig'; src: string; side: Side; alt: string }
 
@@ -49,6 +50,8 @@ export function parseMarkdown(md: string): Block[] {
 
     if (t.startsWith('### ')) { blocks.push({ k: 'h3', t: t.slice(4) }); continue }
     if (t.startsWith('## '))  { blocks.push({ k: 'h2', t: t.slice(3) }); continue }
+    // pozor na pořadí: `!> ` musí projít dřív než `> `
+    if (t.startsWith('!> '))  { blocks.push({ k: 'callout', t: t.slice(3) }); continue }
     if (t.startsWith('> '))   { blocks.push({ k: 'note', t: t.slice(2) }); continue }
 
     blocks.push({ k: afterRule ? 'note' : 'p', t })
