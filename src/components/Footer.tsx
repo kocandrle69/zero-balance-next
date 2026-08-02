@@ -109,7 +109,7 @@ export default function Footer() {
             <li><a href={MEMBERSHIP_MAILTO}>{t('foot_join')}</a></li>
             {/* Donate page does not exist yet — placeholder */}
             <li><a href="#" aria-disabled="true" style={{ opacity: 0.45, pointerEvents: 'none' }}>{t('foot_donate')}</a></li>
-            <li><a href="https://www.youtube.com/@HariharOm" target="_blank" rel="noopener noreferrer">{t('foot_media')}</a></li>
+            <li><a href="https://www.youtube.com/@Zero-BalanceSociety" target="_blank" rel="noopener noreferrer">{t('foot_media')}</a></li>
           </ul>
         </div>
 
@@ -150,7 +150,7 @@ export default function Footer() {
         <p>{t('foot_copy')}</p>
         <div className={styles.socials}>
           {/* Sociální sítě — zatím pouze YouTube a Email */}
-          <a href="https://www.youtube.com/@HariharOm" target="_blank" rel="noopener noreferrer" title="YouTube">▶</a>
+          <a href="https://www.youtube.com/@Zero-BalanceSociety" target="_blank" rel="noopener noreferrer" title="YouTube">▶</a>
           <a href={CONTACT_MAILTO} title="Email">✉</a>
         </div>
       </div>

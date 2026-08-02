@@ -23,6 +23,20 @@ export const CATEGORIES: { id: VideoCategory; labelCS: string; labelEN: string; 
   { id: 'rituals',    labelCS: 'Rituály & havany',   labelEN: 'Rituals & havans',     labelHI: 'अनुष्ठान व हवन' },
 ]
 
+/** Playlist série Moudrost Indie na kanálu @Zero-BalanceSociety.
+    Videa v něm jsou původní, playlist je jen seskupuje. */
+const WISDOM_PLAYLIST = 'PLbqoMKGt31J8'
+
+/**
+ * Odkaz „Sledovat na YouTube". U dílů série se připojí playlist, aby divák
+ * mohl plynule pokračovat dál; vložený přehrávač na webu ho nedostává, ať
+ * v něm nepřekáží fronta dalších dílů.
+ */
+export function watchUrl(video: { id: string; list?: string; channelUrl?: string }) {
+  if (video.channelUrl) return video.channelUrl
+  return `https://www.youtube.com/watch?v=${video.id}` + (video.list ? `&list=${video.list}` : '')
+}
+
 // ─── Video data ───────────────────────────────────────────────────────────────
 // Pořadí na hlavní stránce: featured = Sadhana, preview[0] = Moudrost Indie, preview[1] = Ášrám
 export const VIDEOS = [
@@ -53,6 +67,7 @@ export const VIDEOS = [
     date:    '2024',
     dateEN:  '2024',
     category: 'wisdom' as const,
+    list:    WISDOM_PLAYLIST,
     tag:     'MOUDROST',
     tagEN:   'WISDOM',
     titleHI: 'सेंसेई राजीव सिन्हा के साथ वीडियो पाठ',
@@ -86,6 +101,7 @@ export const VIDEOS = [
     date:    '2024',
     dateEN:  '2024',
     category: 'wisdom' as const,
+    list:    WISDOM_PLAYLIST,
     tag:     'MOUDROST',
     tagEN:   'WISDOM',
     titleHI: 'भारत की बुद्धि — एक सच्चे गुरु को खोजना',
@@ -101,6 +117,7 @@ export const VIDEOS = [
     date:    '2024',
     dateEN:  '2024',
     category: 'wisdom' as const,
+    list:    WISDOM_PLAYLIST,
     tag:     'MOUDROST',
     tagEN:   'WISDOM',
     titleHI: 'भारत की बुद्धि — प्रकृति के तत्वों पर नियंत्रण',
@@ -116,6 +133,7 @@ export const VIDEOS = [
     date:    '2024',
     dateEN:  '2024',
     category: 'wisdom' as const,
+    list:    WISDOM_PLAYLIST,
     tag:     'MOUDROST',
     tagEN:   'WISDOM',
     titleHI: 'भारत की बुद्धि — पाठ 4',
@@ -131,6 +149,7 @@ export const VIDEOS = [
     date:    '2024',
     dateEN:  '2024',
     category: 'wisdom' as const,
+    list:    WISDOM_PLAYLIST,
     tag:     'MOUDROST',
     tagEN:   'WISDOM',
     titleHI: 'भारत की बुद्धि — धर्म एक कूटबद्ध मानव अभिव्यक्ति है',
@@ -146,6 +165,7 @@ export const VIDEOS = [
     date:    '2024',
     dateEN:  '2024',
     category: 'wisdom' as const,
+    list:    WISDOM_PLAYLIST,
     tag:     'MOUDROST',
     tagEN:   'WISDOM',
     titleHI: 'भारत की बुद्धि — विज्ञान प्रकृति का नियम है',
@@ -161,6 +181,7 @@ export const VIDEOS = [
     date:    '2024',
     dateEN:  '2024',
     category: 'wisdom' as const,
+    list:    WISDOM_PLAYLIST,
     tag:     'MOUDROST',
     tagEN:   'WISDOM',
     titleHI: 'भारत की बुद्धि — साधना में प्रगति के सर्वोत्तम तरीके',
@@ -176,10 +197,27 @@ export const VIDEOS = [
     date:    '2024',
     dateEN:  '2024',
     category: 'wisdom' as const,
+    list:    WISDOM_PLAYLIST,
     tag:     'MOUDROST',
     tagEN:   'WISDOM',
     titleHI: 'भारत की बुद्धि — योगतंत्र की शक्ति को उजागर करना',
     descHI:  'आठवां पाठ: योगतंत्र की शक्ति और इसे अभ्यास में कैसे सक्रिय करें।',
+    tagHI:   'बुद्धि',
+  },
+  {
+    id: 'kg6-YHE50uQ',
+    titleCS: 'Kdo skutečně jste a kam odejdete poté, co opustíte své tělo?',
+    titleEN: 'Who are you really, and where do you go after you leave your body?',
+    descCS:  'V této duchovní promluvě Sensei Rajeev otevírá jednu z nejhlubších otázek lidského života: Je tělo naším skutečným domovem, nebo pouze dočasným místem na cestě vědomí? Video vybízí k obrácení pozornosti dovnitř a k hledání odpovědi prostřednictvím sebepoznání, meditace a přímé zkušenosti. Jazyk titulků lze změnit v nastavení videa — Titulky → zvolte svůj jazyk.',
+    descEN:  'In this spiritual discourse Sensei Rajeev opens one of the deepest questions of human life: is the body our true home, or only a temporary place on the journey of consciousness? The video invites you to turn your attention inward and to seek the answer through self-knowledge, meditation and direct experience. The subtitle language can be changed in the video settings — Subtitles → choose your language.',
+    date:    '2026',
+    dateEN:  '2026',
+    category: 'wisdom' as const,
+    list:    WISDOM_PLAYLIST,
+    tag:     'MOUDROST',
+    tagEN:   'WISDOM',
+    titleHI: 'आप वास्तव में कौन हैं और शरीर छोड़ने के बाद कहाँ जाते हैं?',
+    descHI:  'इस आध्यात्मिक प्रवचन में सेंसेई राजीव मानव जीवन के गहनतम प्रश्नों में से एक को उठाते हैं: क्या शरीर हमारा वास्तविक घर है, या चेतना की यात्रा में केवल एक अस्थायी पड़ाव? यह वीडियो भीतर की ओर ध्यान मोड़ने और आत्मज्ञान, ध्यान तथा प्रत्यक्ष अनुभव के माध्यम से उत्तर खोजने का निमंत्रण देता है। उपशीर्षक की भाषा वीडियो सेटिंग्स में बदली जा सकती है — Subtitles → अपनी भाषा चुनें।',
     tagHI:   'बुद्धि',
   },
   // Sekce: Sadhana
@@ -500,7 +538,7 @@ export default function MediaSection() {
           <h3 className={styles.featuredTitle}>{hi ? featured.titleHI : cs ? featured.titleCS : featured.titleEN}</h3>
           <p className={styles.featuredDesc}>{hi ? featured.descHI : cs ? featured.descCS : featured.descEN}</p>
           <a
-            href={`https://www.youtube.com/watch?v=${featured.id}`}
+            href={watchUrl(featured)}
             target="_blank"
             rel="noopener noreferrer"
             className={styles.watchLink}
@@ -523,12 +561,12 @@ export default function MediaSection() {
           {hi ? 'सभी वीडियो' : cs ? 'Všechna videa' : 'All videos'}
         </a>
         <a
-          href="https://www.youtube.com/@HariharOm"
+          href="https://www.youtube.com/@Zero-BalanceSociety"
           target="_blank"
           rel="noopener noreferrer"
           className={styles.ctaSecondary}
         >
-          YouTube @HariharOm
+          YouTube @Zero-BalanceSociety
         </a>
       </div>
     </section>
@@ -538,7 +576,7 @@ export default function MediaSection() {
 // ─── Reusable card ─────────────────────────────────────────────────────────
 function VideoCard({ video, delay, cs, hi }: { video: typeof VIDEOS[0]; delay: string; cs: boolean; hi: boolean }) {
   const [playing, setPlaying] = useState(false)
-  const videoUrl = ('channelUrl' in video && video.channelUrl) || `https://www.youtube.com/watch?v=${video.id}`
+  const videoUrl = watchUrl(video)
 
   return (
     <a

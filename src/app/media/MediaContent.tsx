@@ -5,7 +5,7 @@ import { useSearchParams } from 'next/navigation'
 import { useLang } from '../../contexts/LangContext'
 import Navbar from '../../components/Navbar'
 import Footer from '../../components/Footer'
-import { VIDEOS, CATEGORIES, type VideoCategory } from '../../components/MediaSection'
+import { VIDEOS, CATEGORIES, watchUrl, type VideoCategory } from '../../components/MediaSection'
 import styles from './media.module.css'
 
 export default function MediaContent() {
@@ -104,7 +104,7 @@ export default function MediaContent() {
 
 function VideoCard({ video, cs, hi }: { video: typeof VIDEOS[0]; cs: boolean; hi: boolean }) {
   const [playing, setPlaying] = useState(false)
-  const videoUrl = ('channelUrl' in video && video.channelUrl) || `https://www.youtube.com/watch?v=${video.id}`
+  const videoUrl = watchUrl(video)
 
   return (
     <a
