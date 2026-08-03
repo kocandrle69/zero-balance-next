@@ -14,6 +14,8 @@
  *   !> text                            zvýrazněné sdělení (rámeček se zlatou linkou)
  *   ---                                vše za oddělovačem je závěrečná poznámka
  *   *kurzíva*  **tučně**               uvnitř odstavce
+ *   [text](https://…)                  odkaz uvnitř odstavce/poznámky/calloutu
+ *   [**tučný text**](https://…)        totéž, tučně (jen tato jedna kombinace)
  *
  * Odstavce se oddělují prázdným řádkem.
  */

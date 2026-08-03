@@ -4,10 +4,21 @@ import { Fragment, type ReactNode } from 'react'
 import styles from './journal.module.css'
 import type { Block } from './markdown'
 
-/** `*kurzíva*` a `**tučně**` uvnitř odstavce. */
+const INLINE_LINK = /^\[([^\]]+)\]\((https?:\/\/[^)]+)\)$/
+
+/** `*kurzíva*`, `**tučně**` a `[text](url)` uvnitř odstavce. */
 function inline(text: string): ReactNode {
-  const parts = text.split(/(\*\*[^*]+\*\*|\*[^*]+\*)/g)
+  const parts = text.split(/(\[[^\]]+\]\(https?:\/\/[^)]+\)|\*\*[^*]+\*\*|\*[^*]+\*)/g)
   return parts.map((p, i) => {
+    const link = INLINE_LINK.exec(p)
+    if (link) {
+      const bold = /^\*\*([^*]+)\*\*$/.exec(link[1])
+      return (
+        <a key={i} href={link[2]} target="_blank" rel="noopener noreferrer" className={styles.inlineLink}>
+          {bold ? <strong>{bold[1]}</strong> : link[1]}
+        </a>
+      )
+    }
     if (p.startsWith('**') && p.endsWith('**')) return <strong key={i}>{p.slice(2, -2)}</strong>
     if (p.startsWith('*') && p.endsWith('*')) return <em key={i}>{p.slice(1, -1)}</em>
     return <Fragment key={i}>{p}</Fragment>

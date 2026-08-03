@@ -10,4 +10,4 @@ Videa publikujeme v češtině, angličtině i hindštině. U vybraných nahráv
 
 Navštivte YouTube kanál Zero Balance Society, přihlaste se k odběru a sdílejte tuto cestu s námi.
 
-!> **Nezapomeňte na YouTube kliknout na tlačítko Odebírat a zapnout zvoneček.** Nová videa tak budete dostávat automaticky a žádné další duchovní promluvy ani meditace vám neuniknou.
+!> [**Nezapomeňte na YouTube kliknout na tlačítko Odebírat a zapnout zvoneček.**](https://www.youtube.com/@Zero-BalanceSociety) Nová videa tak budete dostávat automaticky a žádné další duchovní promluvy ani meditace vám neuniknou.

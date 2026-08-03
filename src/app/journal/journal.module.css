@@ -399,6 +399,17 @@
 }
 .callout strong { font-weight: 500; color: var(--ink); }
 
+/* Odkaz uvnitř odstavce/calloutu — `[text](url)` v markdownu */
+.inlineLink {
+  color: var(--gold-text);
+  text-decoration: underline;
+  text-decoration-color: rgba(133,100,22,0.35);
+  text-underline-offset: 3px;
+  transition: text-decoration-color 0.25s ease;
+}
+.inlineLink:hover { text-decoration-color: var(--gold-text); }
+.inlineLink strong { color: inherit; }
+
 .transNote {
   clear: both;
   font-size: 13px; font-weight: 300; font-style: italic;

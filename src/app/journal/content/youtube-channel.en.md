@@ -10,4 +10,4 @@ We publish videos in Czech, English and Hindi. For selected recordings we are pr
 
 Visit the Zero Balance Society YouTube channel, subscribe, and share this journey with us.
 
-!> **Remember to press Subscribe on YouTube and turn on the bell.** New videos will then reach you automatically, and no further discourse or meditation will pass you by.
+!> [**Remember to press Subscribe on YouTube and turn on the bell.**](https://www.youtube.com/@Zero-BalanceSociety) New videos will then reach you automatically, and no further discourse or meditation will pass you by.
