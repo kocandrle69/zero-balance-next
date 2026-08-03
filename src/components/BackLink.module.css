@@ -17,7 +17,7 @@
   text-decoration: none;
   transition: color 0.25s ease;
 }
-.back:hover { color: var(--gold); }
+.back:hover { color: var(--gold-text); }
 
 .arrow {
   display: inline-block;

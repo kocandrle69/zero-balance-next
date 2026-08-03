@@ -22,6 +22,13 @@ export interface PostMeta {
   cover: string
   /** object-position obálky, pokud výchozí střed nesedí */
   coverPos?: string
+  /**
+   * Obálka nese vlastní text nebo je to detailní portrét bez "prázdného" místa
+   * (video náhled apod.) — přebitý vlastním titulkem by kolidoval se vším, co
+   * je už na fotce. V tomto režimu je obálka jen krátký pruh bez titulku
+   * a kicker/titulek/datum se vysází pod ní na běžném pozadí stránky.
+   */
+  coverBanner?: boolean
   /** Jazyky, ve kterých existuje TĚLO článku. Ostatní se odbaví fallbackem. */
   langs: PostLang[]
   /** Rubrika, titulek, kurzívní dovětek titulku a perex — pro každý jazyk */
@@ -39,6 +46,8 @@ export const POSTS: PostMeta[] = [
     slug: 'youtube-channel',
     date: '2026-08-02',
     cover: '/images/YouTube-Channel.jpg',
+    coverPos: 'left center',
+    coverBanner: true,
     langs: ['cs', 'en', 'hi'],
     meta: {
       cs: {
@@ -72,7 +81,8 @@ export const POSTS: PostMeta[] = [
     slug: 'beyond-the-body',
     date: '2026-08-01',
     cover: '/images/Journal-Sensei-Vedomi.jpg',
-    coverPos: 'center 30%',
+    coverPos: 'center 45%',
+    coverBanner: true,
     langs: ['cs', 'en', 'hi'],
     meta: {
       cs: {

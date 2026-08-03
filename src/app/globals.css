@@ -5,6 +5,10 @@
   --bg2:           #F0EBE1;
   --surface:       #FFFFFF;
   --gold:          #B8922A;
+  /* Gold at 2.64:1 on the cream background fails WCAG AA (4.5:1) as text —
+     fine for borders/buttons/underlines, not for reading. --gold-text is the
+     same hue darkened to 4.95:1, used wherever gold colours actual letters. */
+  --gold-text:     #856416;
   --gold-mid:      rgba(184,146,42,0.5);
   --gold-trace:    rgba(184,146,42,0.1);
   --warm:          #C4713A;
@@ -84,8 +88,8 @@ body::after {
 }
 
 /* Global accent classes used inside dangerouslySetInnerHTML */
-.acc { color: var(--gold); font-style: italic; }
-.dot { color: var(--gold); }
+.acc { color: var(--gold-text); font-style: italic; }
+.dot { color: var(--gold-text); }
 
 @keyframes up {
   from { opacity: 0; transform: translateY(26px); }

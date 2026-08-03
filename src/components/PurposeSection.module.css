@@ -21,7 +21,7 @@
 .purposeLabel {
   font-family: 'Cinzel', serif;
   font-size: 10px; letter-spacing: 0.38em;
-  color: var(--gold); text-transform: uppercase;
+  color: var(--gold-text); text-transform: uppercase;
   margin-bottom: 26px;
 }
 
@@ -31,7 +31,7 @@
   font-weight: 300; line-height: 1.15;
   margin-bottom: 24px; color: var(--ink2);
 }
-.purpose :global(h2 em) { font-style: italic; color: var(--gold); }
+.purpose :global(h2 em) { font-style: italic; color: var(--gold-text); }
 
 .purposeDesc {
   font-size: 17px; font-weight: 300; color: var(--muted);
@@ -113,7 +113,7 @@
   font-family: 'Cinzel', serif;
   font-size: 10.5px; letter-spacing: 0.26em;
   font-weight: 600;
-  color: var(--gold);
+  color: var(--gold-text);
   text-shadow: 0 1px 4px rgba(14,10,4,0.5);
   text-transform: uppercase;
   line-height: 1;
@@ -125,7 +125,7 @@
   border: 1px solid rgba(184,146,42,0.35);
   border-radius: 50%;
   display: flex; align-items: center; justify-content: center;
-  color: var(--gold);
+  color: var(--gold-text);
   opacity: 0;
   transform: translateY(-4px);
   transition: opacity 0.3s ease, transform 0.3s ease;

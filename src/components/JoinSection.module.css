@@ -56,7 +56,7 @@
 }
 .joinLeft :global(h2 em) {
   font-style: italic; font-weight: 400;
-  color: var(--gold); display: block;
+  color: var(--gold-text); display: block;
 }
 
 /* Right */
@@ -93,7 +93,7 @@
   background: rgba(255,255,255,0.5);
   backdrop-filter: blur(10px);
 }
-.btnOutline:hover { border-color: var(--gold); color: var(--gold); }
+.btnOutline:hover { border-color: var(--gold); color: var(--gold-text); }
 
 .joinAshramCta {
   font-size: 15px;

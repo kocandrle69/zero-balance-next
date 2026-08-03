@@ -15,7 +15,7 @@
 
 .sectionLabel {
   font-family: 'Cinzel', serif; font-size: 10px;
-  letter-spacing: 0.32em; color: var(--gold);
+  letter-spacing: 0.32em; color: var(--gold-text);
   text-transform: uppercase; margin-bottom: 20px;
   display: flex; align-items: center; gap: 14px;
 }
@@ -28,7 +28,7 @@
   font-size: clamp(28px, 3vw, 46px); font-weight: 300;
   line-height: 1.1; color: var(--ink2);
 }
-.sectionTitle :global(.acc) { color: var(--gold); font-style: italic; }
+.sectionTitle :global(.acc) { color: var(--gold-text); font-style: italic; }
 
 /* Grid */
 .actGrid {

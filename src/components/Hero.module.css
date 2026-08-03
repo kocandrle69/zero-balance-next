@@ -192,7 +192,7 @@
   font-family: 'Cinzel', serif;
   font-size: 10px;
   letter-spacing: 0.38em;
-  color: var(--gold);
+  color: var(--gold-text);
   text-transform: uppercase;
   margin-bottom: 28px;
   display: flex;
@@ -220,8 +220,8 @@
   opacity: 0;
   animation: up 0.9s 0.35s forwards;
 }
-.heroTitle :global(em)   { font-style: italic; color: var(--gold); font-weight: 400; }
-.heroTitle :global(.dot) { color: var(--gold); }
+.heroTitle :global(em)   { font-style: italic; color: var(--gold-text); font-weight: 400; }
+.heroTitle :global(.dot) { color: var(--gold-text); }
 
 .heroLine {
   width: 56px;

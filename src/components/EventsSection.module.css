@@ -4,7 +4,7 @@
 
 .sectionLabel {
   font-family: 'Cinzel', serif; font-size: 10px;
-  letter-spacing: 0.32em; color: var(--gold);
+  letter-spacing: 0.32em; color: var(--gold-text);
   text-transform: uppercase; margin-bottom: 20px;
   display: flex; align-items: center; gap: 14px;
 }
@@ -17,7 +17,7 @@
   font-size: clamp(28px, 3vw, 46px); font-weight: 300;
   line-height: 1.1; color: var(--ink2);
 }
-.sectionTitle :global(.acc) { color: var(--gold); font-style: italic; }
+.sectionTitle :global(.acc) { color: var(--gold-text); font-style: italic; }
 
 .eventsGrid {
   display: grid; grid-template-columns: repeat(3,1fr);
@@ -46,7 +46,7 @@
 
 .eventDate {
   font-family: 'Cinzel', serif; font-size: 9.5px;
-  letter-spacing: 0.22em; color: var(--gold);
+  letter-spacing: 0.22em; color: var(--gold-text);
   text-transform: uppercase; margin-bottom: 14px; display: block;
 }
 
@@ -64,7 +64,7 @@
   text-transform: uppercase; text-decoration: none;
   display: flex; align-items: center; gap: 8px; transition: color 0.3s;
 }
-.eventLink:hover { color: var(--gold); }
+.eventLink:hover { color: var(--gold-text); }
 .eventLink::after { content: '→'; transition: transform 0.3s; }
 .eventLink:hover::after { transform: translateX(4px); }
 
@@ -74,7 +74,7 @@
 }
 .eventTag {
   font-family: 'Cinzel', serif; font-size: 8.5px;
-  letter-spacing: 0.2em; color: var(--gold);
+  letter-spacing: 0.2em; color: var(--gold-text);
   background: rgba(184,146,42,0.08);
   border: 1px solid rgba(184,146,42,0.2);
   border-radius: 100px; padding: 3px 10px;
@@ -136,7 +136,7 @@
 
 .gurudevSuccess {
   font-family: 'Cinzel', serif; font-size: 9.5px;
-  letter-spacing: 0.15em; color: var(--gold);
+  letter-spacing: 0.15em; color: var(--gold-text);
   text-transform: uppercase; padding: 8px 0;
 }
 

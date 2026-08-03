@@ -59,7 +59,7 @@
 .navLinks a:hover::after { transform: scaleX(1); }
 
 .joinItem { margin-left: 8px; padding-left: 20px; border-left: 1px solid rgba(184,146,42,0.2); }
-.joinLink { color: var(--gold) !important; font-weight: 600; }
+.joinLink { color: var(--gold-text) !important; font-weight: 600; }
 .joinLink::after { background: var(--gold) !important; }
 
 /* ── Language dropdown ── */
@@ -77,7 +77,7 @@
 .langGlobe  { width: 13px; height: 13px; opacity: 0.5; flex-shrink: 0; }
 .langArrow  { width: 8px; height: 8px; opacity: 0.4; transition: transform 0.25s; flex-shrink: 0; }
 .open .langArrow { transform: rotate(180deg); }
-.langCurrent { color: var(--gold); font-weight: 600; }
+.langCurrent { color: var(--gold-text); font-weight: 600; }
 
 .langMenu {
   position: absolute; top: calc(100% + 10px); right: 0;
@@ -107,9 +107,9 @@
 .langFlag  { font-size: 17px; line-height: 1; flex-shrink: 0; }
 .langInfo  { flex: 1; }
 .langCode  { font-family: 'Cinzel', serif; font-size: 10px; letter-spacing: 0.18em; color: var(--ink2); text-transform: uppercase; display: block; font-weight: 600; line-height: 1.2; }
-.active .langCode { color: var(--gold); }
+.active .langCode { color: var(--gold-text); }
 .langName  { font-size: 11px; color: var(--muted); display: block; margin-top: 1px; }
-.langSoon  { font-family: 'Cinzel', serif; font-size: 7.5px; letter-spacing: 0.15em; color: var(--gold); background: rgba(184,146,42,0.1); border: 1px solid rgba(184,146,42,0.2); border-radius: 4px; padding: 2px 6px; text-transform: uppercase; }
+.langSoon  { font-family: 'Cinzel', serif; font-size: 7.5px; letter-spacing: 0.15em; color: var(--gold-text); background: rgba(184,146,42,0.1); border: 1px solid rgba(184,146,42,0.2); border-radius: 4px; padding: 2px 6px; text-transform: uppercase; }
 .langDot   { width: 6px; height: 6px; border-radius: 50%; background: var(--gold); box-shadow: 0 0 6px rgba(184,146,42,0.5); }
 
 /* ── Hamburger ── */
@@ -159,7 +159,7 @@
   border-bottom: 1px solid rgba(184,146,42,0.1);
   transition: color 0.25s;
 }
-.mobileLinks a:hover { color: var(--gold); }
+.mobileLinks a:hover { color: var(--gold-text); }
 
 .mobileJoin {
   margin-top: 24px;
@@ -186,7 +186,7 @@
 }
 .mobileLangActive {
   background: rgba(184,146,42,0.08);
-  border-color: var(--gold); color: var(--gold);
+  border-color: var(--gold); color: var(--gold-text);
   font-weight: 600;
 }
 

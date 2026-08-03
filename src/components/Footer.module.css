@@ -33,7 +33,7 @@
 /* Columns */
 .footerCol h5 {
   font-family: 'Cinzel', serif; font-size: 9.5px;
-  letter-spacing: 0.26em; color: var(--gold);
+  letter-spacing: 0.26em; color: var(--gold-text);
   text-transform: uppercase; margin-bottom: 22px;
 }
 .footerCol ul { list-style: none; display: flex; flex-direction: column; gap: 10px; }
@@ -46,7 +46,7 @@
 /* Newsletter */
 .footerNewsletter h5 {
   font-family: 'Cinzel', serif; font-size: 9.5px;
-  letter-spacing: 0.26em; color: var(--gold);
+  letter-spacing: 0.26em; color: var(--gold-text);
   text-transform: uppercase; margin-bottom: 22px;
 }
 .footerNewsletter p {
@@ -94,7 +94,7 @@
   color: rgba(255,255,255,0.3); text-decoration: none;
   font-size: 13px; transition: all 0.3s;
 }
-.socials a:hover { border-color: var(--gold); color: var(--gold); }
+.socials a:hover { border-color: var(--gold); color: var(--gold-text); }
 
 @media (max-width: 1000px) {
   .footerTop { grid-template-columns: 1fr 1fr; }
@@ -117,7 +117,7 @@
 
 .subSuccess {
   font-size: 14px; font-weight: 400;
-  color: var(--gold); letter-spacing: 0.04em;
+  color: var(--gold-text); letter-spacing: 0.04em;
   padding: 12px 0; display: flex; align-items: center; gap: 8px;
 }
 .subError {

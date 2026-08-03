@@ -35,32 +35,60 @@ export default function JournalPost({ slug, body }: { slug: string; body: Record
   const meta = post.meta[lang]
   const bl = bodyLang(post, lang)
 
+  const kicker = (
+    <div className={styles.mastheadMeta}>
+      <span className={styles.issueLabel}>{meta.rubric}</span>
+      <span className={styles.issueDivider}>·</span>
+      <time className={styles.issueLabel} dateTime={post.date}>{formatDate(post.date, lang)}</time>
+    </div>
+  )
+  const title = (
+    <h1 className={styles.postTitle}>
+      {meta.title}
+      {meta.titleEm && <><br /><em>{meta.titleEm}</em></>}
+    </h1>
+  )
+  const coverImg = (
+    <div
+      className={styles.heroBg}
+      style={{ backgroundImage: `url(${post.cover})`, backgroundPosition: post.coverPos ?? 'center 50%' }}
+    />
+  )
+
   return (
     <>
       <Navbar translucent />
       <main className={styles.page}>
 
         {/* ── Obálka článku ─────────────────────────────────── */}
-        <div className={styles.hero}>
-          <div
-            className={styles.heroBg}
-            style={{ backgroundImage: `url(${post.cover})`, backgroundPosition: post.coverPos ?? 'center 50%' }}
-          />
-          <div className={styles.heroOverlay} />
-          <BackLink />
-          <div className={styles.mastheadInner}>
-            <div className={styles.mastheadMeta}>
-              <span className={styles.issueLabel}>{meta.rubric}</span>
-              <span className={styles.issueDivider}>·</span>
-              <time className={styles.issueLabel} dateTime={post.date}>{formatDate(post.date, lang)}</time>
+        {post.coverBanner ? (
+          <>
+            {/* Obálka nese vlastní text/grafiku nebo je to detailní portrét —
+                titulek by se s ní přebíjel, proto jde jako krátký pruh a
+                kicker/titulek se vysází pod ním na běžném pozadí stránky. */}
+            <div className={`${styles.hero} ${styles.heroBanner}`}>
+              {coverImg}
+              <div className={styles.heroOverlay} />
+              <BackLink />
             </div>
-            <h1 className={styles.postTitle}>
-              {meta.title}
-              {meta.titleEm && <><br /><em>{meta.titleEm}</em></>}
-            </h1>
-            <div className={styles.mastheadRule} />
+            <div className={styles.bannerHeader}>
+              {kicker}
+              {title}
+              <div className={styles.mastheadRule} />
+            </div>
+          </>
+        ) : (
+          <div className={styles.hero}>
+            {coverImg}
+            <div className={styles.heroOverlay} />
+            <BackLink />
+            <div className={styles.mastheadInner}>
+              {kicker}
+              {title}
+              <div className={styles.mastheadRule} />
+            </div>
           </div>
-        </div>
+        )}
 
         {/* ── Text ──────────────────────────────────────────── */}
         <article className={styles.article}>

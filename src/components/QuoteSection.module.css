@@ -57,7 +57,7 @@
 .quoteBannerContent blockquote :global(strong) {
   font-style: normal;
   font-weight: 500;
-  color: var(--gold);
+  color: var(--gold-text);
 }
 
 .quoteAttr {

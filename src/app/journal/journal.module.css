@@ -42,7 +42,7 @@
 }
 .issueLabel {
   font-family: 'Cinzel', serif; font-size: 9px;
-  letter-spacing: 0.3em; color: var(--gold);
+  letter-spacing: 0.3em; color: var(--gold-text);
   text-transform: uppercase;
 }
 .issueDivider { color: var(--faint); font-size: 12px; }
@@ -66,6 +66,20 @@
   background: var(--gold); margin: 0 auto;
 }
 
+/* ── Obálka jako pruh (coverBanner) ──────────────────────────────
+   Pro fotky, které už samy nesou text nebo jsou detailním portrétem
+   bez volného místa — vlastní titulek by se s nimi rval. Obálka je
+   kratší a bez overlay textu, kicker/titulek jdou pod ni. */
+/* Kombinovaný selektor kvůli specificitě — jinak ho přebije .hero
+   uvnitř mediálního dotazu níž (pořadí v souboru, stejná specificita). */
+.hero.heroBanner { min-height: clamp(200px, 32vw, 400px); }
+
+.bannerHeader {
+  max-width: 720px; margin: 0 auto;
+  padding: 44px 40px 8px;
+  text-align: center;
+}
+
 /* ── Article ───────────────────────────────────────────────────── */
 .article {
   max-width: 740px; margin: 0 auto;
@@ -78,7 +92,7 @@
 }
 .kicker {
   font-family: 'Cinzel', serif; font-size: 9px;
-  letter-spacing: 0.28em; color: var(--gold);
+  letter-spacing: 0.28em; color: var(--gold-text);
   text-transform: uppercase;
 }
 .articleDate {
@@ -93,7 +107,7 @@
   font-weight: 300; line-height: 1.15;
   color: var(--ink); margin-bottom: 36px;
 }
-.articleTitle em { font-style: italic; color: var(--gold); }
+.articleTitle em { font-style: italic; color: var(--gold-text); }
 
 .articleLead p {
   font-family: 'Cormorant Garamond', serif;
@@ -114,7 +128,7 @@
 .sectionHead {
   font-family: 'Cinzel', serif;
   font-size: 10px; letter-spacing: 0.3em;
-  color: var(--gold); text-transform: uppercase;
+  color: var(--gold-text); text-transform: uppercase;
   margin-bottom: 20px;
   display: flex; align-items: center; gap: 14px;
 }
@@ -206,7 +220,7 @@
 
 .memberRole {
   font-family: 'Cinzel', serif; font-size: 8px;
-  letter-spacing: 0.25em; color: var(--gold);
+  letter-spacing: 0.25em; color: var(--gold-text);
   text-transform: uppercase; display: block;
   margin-bottom: 6px;
 }
@@ -230,7 +244,7 @@
   display: inline-block;
   margin-top: 10px;
   font-family: 'Cinzel', serif; font-size: 10px; letter-spacing: 0.1em;
-  color: var(--gold); text-decoration: none;
+  color: var(--gold-text); text-decoration: none;
   border-bottom: 1px solid rgba(184,146,42,0.3);
   padding-bottom: 2px;
   transition: border-color 0.3s, color 0.3s;
@@ -295,8 +309,8 @@
   color: var(--ink); margin-bottom: 14px;
   transition: color 0.3s ease;
 }
-.cardTitle em { font-style: italic; color: var(--gold); }
-.card:hover .cardTitle { color: var(--gold); }
+.cardTitle em { font-style: italic; color: var(--gold-text); }
+.card:hover .cardTitle { color: var(--gold-text); }
 
 .cardPerex {
   font-size: 15px; font-weight: 300;
@@ -306,7 +320,7 @@
 
 .cardMore {
   font-family: 'Cinzel', serif; font-size: 9px;
-  letter-spacing: 0.25em; color: var(--gold);
+  letter-spacing: 0.25em; color: var(--gold-text);
   text-transform: uppercase;
   display: inline-flex; align-items: center; gap: 8px;
 }
@@ -322,7 +336,7 @@
   color: var(--ink); letter-spacing: -0.01em;
   margin-bottom: 24px;
 }
-.postTitle em { font-style: italic; color: var(--gold); }
+.postTitle em { font-style: italic; color: var(--gold-text); }
 
 .langNotice {
   font-size: 13px; font-weight: 300; line-height: 1.7;
@@ -340,7 +354,7 @@
   text-decoration: none;
   transition: color 0.3s ease;
 }
-.archiveLink:hover { color: var(--gold); }
+.archiveLink:hover { color: var(--gold-text); }
 
 /* ── Dlouhý text: kapitoly, odstavce, poznámky ─────────────────── */
 .articleBody::after { content: ''; display: block; clear: both; }
@@ -402,7 +416,7 @@
   margin-bottom: 8px;
   font-family: 'Cinzel', serif; font-size: 10px;
   letter-spacing: 0.2em; text-transform: uppercase;
-  color: var(--gold); text-decoration: none;
+  color: var(--gold-text); text-decoration: none;
   padding: 12px 20px;
   border: 1px solid rgba(184,146,42,0.3);
   border-radius: 999px;
@@ -458,11 +472,36 @@
   .memberRowImg { width: 100%; height: 320px; }
   .pendingRow { flex-direction: column; gap: 24px; }
   .hero { min-height: 400px; }
+  /* Na mobilu je pruh nutně nízký (viz clamp výše), takže tlačítko Zpět
+     sedí téměř na obrázku samém, bez ohledu na to, co zrovna ořez ukáže.
+     Silnější scrim nahoře drží kontrast pro Zpět/navigaci vždy, i když
+     odznak nebo titulek z fotky vyjdou pod ním jen napůl vidět — to už
+     nese hlavní titulek pod pruhem. */
+  .heroBanner .heroOverlay {
+    background: linear-gradient(
+      to bottom,
+      rgba(247,243,236,0.82) 0%,
+      rgba(247,243,236,0.15) 30%,
+      rgba(247,243,236,0.05) 60%,
+      rgba(247,243,236,0.92) 100%
+    );
+  }
 }
 
 @media (max-width: 640px) {
   .mastheadInner { padding: 0 24px 40px; }
+  .bannerHeader { padding: 32px 24px 4px; }
   .article { padding: 48px 24px 60px; }
   .articleFooter { padding: 0 24px 60px; }
   .pullquote { padding: 24px 24px; }
+
+  /* Weight-300 text is a fine, editorial look at desktop reading distance;
+     on a phone screen it thins out and readers reported trouble with it.
+     Bumped only for the actual long-form reading copy (article body,
+     bios, perex) — headings and small caps labels keep their thin weight,
+     that's not what people are reading line after line. */
+  .prose, .section p, .actList li, .memberBio,
+  .cardPerex, .transNote, .callout, .langNotice {
+    font-weight: 400;
+  }
 }
