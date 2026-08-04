@@ -68,6 +68,17 @@
   margin: 56px auto;
 }
 
+/* Uzavírací poznámka o rostoucí sbírce — stejný idiom jako .transNote
+   v journal.module.css (jemný, oddělený linkou nahoře). */
+.growingNote {
+  max-width: 460px; margin: 24px auto 0;
+  padding-top: 32px;
+  border-top: 1px solid rgba(184,146,42,0.15);
+  text-align: center;
+  font-size: 13px; font-weight: 300; font-style: italic;
+  line-height: 1.8; color: var(--muted);
+}
+
 /* Masonry přes CSS columns — sloupce se samy zredukují na mobilu,
    fotky se neořezávají (žádný object-fit), jen se vyskládají po výšce. */
 .grid {

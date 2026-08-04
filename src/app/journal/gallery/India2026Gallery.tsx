@@ -7,13 +7,37 @@ import { PHOTOGRAPHERS } from './photographers'
 import type { PostLang } from '../posts'
 
 const UI = {
-  cs: { close: 'Zavřít', prev: 'Předchozí', next: 'Další', lens: 'Objektivem' },
-  en: { close: 'Close',  prev: 'Previous',  next: 'Next',  lens: 'Through the lens of' },
-  hi: { close: 'बंद करें', prev: 'पिछला', next: 'अगला', lens: 'की नज़र से' },
+  cs: {
+    close: 'Zavřít', prev: 'Předchozí', next: 'Další', lens: 'Objektivem',
+    growing: `Tato galerie je živá sbírka, která bude postupně růst. Vedle Andreiných
+      fotografií, které zde vidíte, budou postupně přibývat i snímky dalších přispěvatelů
+      a členů naší komunity — každý s vlastním pohledem a zkušeností.`,
+  },
+  en: {
+    close: 'Close',  prev: 'Previous',  next: 'Next',  lens: 'Through the lens of',
+    growing: `This gallery is a living collection that will keep growing. Alongside
+      Andrea's work shown here, photographs from other contributors and members of our
+      community will be added over time, each capturing their own unique perspective
+      and experience.`,
+  },
+  hi: {
+    close: 'बंद करें', prev: 'पिछला', next: 'अगला', lens: 'की नज़र से',
+    growing: `यह गैलरी एक जीवंत संग्रह है जो समय के साथ बढ़ता रहेगा। यहाँ दिखाई गई आंद्रेया की
+      तस्वीरों के साथ-साथ, समय के साथ हमारे समुदाय के अन्य योगदानकर्ताओं और सदस्यों की तस्वीरें
+      भी जुड़ती जाएँगी — हर एक अपने अनूठे दृष्टिकोण और अनुभव के साथ।`,
+  },
 } as const
 
-/** Zploštěné pole napříč sekcemi — lightbox listuje bez ohledu na fotografa. */
-const ALL_PHOTOS = INDIA_2026.flatMap(s => s.photos)
+/**
+ * Sekce, které jsou zatím zveřejněné — allow-list, ne mazání z dat. Jan má
+ * fotky i řádek v INDIA_2026, ale bez hotového bia zatím do článku nejde;
+ * až bude připravený, stačí ho sem přidat, nic jiného se měnit nemusí.
+ */
+const PUBLISHED = ['Andrea']
+const SECTIONS = INDIA_2026.filter(s => PUBLISHED.includes(s.photographer))
+
+/** Zploštěné pole napříč zveřejněnými sekcemi — lightbox listuje bez ohledu na fotografa. */
+const ALL_PHOTOS = SECTIONS.flatMap(s => s.photos)
 /** thumb → globální index; cesty k náhledům jsou v datech jedinečné. */
 const PHOTO_INDEX = new Map(ALL_PHOTOS.map((p, i) => [p.thumb, i]))
 
@@ -45,7 +69,7 @@ export default function India2026Gallery({ lang }: { lang: PostLang }) {
 
   return (
     <div className={styles.wrap}>
-      {INDIA_2026.map((section, si) => (
+      {SECTIONS.map((section, si) => (
         <div key={section.photographer}>
           {si > 0 && <div className={styles.divider} />}
           <section className={styles.section}>
@@ -98,6 +122,8 @@ export default function India2026Gallery({ lang }: { lang: PostLang }) {
           </section>
         </div>
       ))}
+
+      <p className={styles.growingNote}>{t.growing}</p>
 
       {open !== null && (
         <div className={styles.overlay} onClick={() => setOpen(null)}>

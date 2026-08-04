@@ -58,29 +58,26 @@ export const POSTS: PostMeta[] = [
     meta: {
       cs: {
         rubric: 'Reportáž',
-        title: 'Bhárat 2026',
+        title: 'Lidé Bháratu 2026',
         titleEm: 've fotografiích',
-        perex: `Každá cesta do Bháratu přináší něco jiného. Nejen nové zážitky, ale i
-          setkání s lidmi, jejichž laskavost a přirozenost často zanechají silnější stopu
-          než samotná navštívená místa. Tento fotografický deník zachycuje právě tyto
-          okamžiky – život kolem ášramu, cestu a atmosféru, kterou lze jen těžko popsat slovy.`,
+        perex: `Tváře, gesta a okamžiky, které Andrea zachytila během letošní cesty do
+          Bháratu — lidé z ášramu, z okolních vesnic i z cesty samé, viděni jejím
+          laskavým a otevřeným pohledem.`,
       },
       en: {
         rubric: 'Photo essay',
-        title: 'Bhārat 2026',
+        title: 'People of Bhārat 2026',
         titleEm: 'in photographs',
-        perex: `Every journey to Bhārat brings something different. Not only new
-          experiences, but encounters with people whose kindness and ease often leave a
-          deeper mark than the places themselves. This photographic diary holds those
-          moments — life around the ashram, the road, and an atmosphere words can barely capture.`,
+        perex: `Faces, gestures and moments Andrea captured on this year's journey to
+          Bhārat — people from the ashram, from the surrounding villages, and from the
+          road itself, seen through her kind and open eye.`,
       },
       hi: {
         rubric: 'फ़ोटो निबंध',
-        title: 'भारत 2026',
+        title: 'भारत के लोग 2026',
         titleEm: 'तस्वीरों में',
-        perex: `भारत की हर यात्रा कुछ नया लेकर आती है। केवल नए अनुभव ही नहीं, बल्कि उन लोगों से भेंट,
-          जिनकी सरलता और स्नेह अक्सर देखे हुए स्थानों से भी गहरी छाप छोड़ जाते हैं। यह फ़ोटो डायरी उन्हीं
-          क्षणों को समेटे है — आश्रम के इर्द-गिर्द का जीवन, यह यात्रा, और वह वातावरण जिसे शब्दों में बाँधना कठिन है।`,
+        perex: `आंद्रेया ने इस वर्ष भारत की यात्रा के दौरान जो चेहरे, भाव और क्षण क़ैद किए — आश्रम के,
+          आसपास के गाँवों के और स्वयं इस यात्रा के लोग, उनकी सहज और खुली दृष्टि से देखे गए।`,
       },
     },
   },
