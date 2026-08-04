@@ -88,6 +88,14 @@
 .grid figure {
   break-inside: avoid;
   margin: 0 0 14px;
+  /* Safari umí při jakémkoli repaintu uvnitř CSS columns přebalancovat
+     celý sloupcový layout (známá WebKit chyba) — nejnápadnější je to
+     zrovna u prvních položek v každém sloupci, kde se hover projeví
+     jako blik/posun místo tichého ztlumení. translateZ(0) izoluje
+     každou figuru do vlastní GPU vrstvy, takže její repaint layout
+     ostatních sloupců netáhne s sebou — stejný trik jako u grain
+     overlaye v globals.css. */
+  transform: translateZ(0);
 }
 .thumb {
   width: 100%; height: auto;
@@ -96,6 +104,7 @@
   cursor: pointer;
   box-shadow: var(--shadow);
   transition: opacity 0.2s ease;
+  transform: translateZ(0);
 }
 .thumb:hover { opacity: 0.88; }
 
