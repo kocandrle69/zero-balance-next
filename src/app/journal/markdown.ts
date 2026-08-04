@@ -8,11 +8,16 @@
  *
  *   ## Nadpis                          kapitola
  *   ### Nadpis                         podkapitola
- *   ![popisek](/images/x.jpg "right")  fotografie; side = full | left | right
+ *   ![popisek](/images/x.jpg "right")  fotografie; side = full | left | right | plain
+ *                                      (plain = bez oříznutí — diagram/screenshot
+ *                                      s popisky až u okrajů, ne fotka s "obětovatelným"
+ *                                      okrajem; celá šířka, výška podle poměru stran)
  *   [Text odkazu](https://…)           odkaz na záznam (samostatný řádek)
  *   > text                             drobná výkladová poznámka v textu
  *   !> text                            zvýrazněné sdělení (rámeček se zlatou linkou)
  *   ---                                vše za oddělovačem je závěrečná poznámka
+ *   ***                                tenká zlatá dělicí linka mezi oddíly
+ *                                      (na rozdíl od --- nic nespouští, jen odděluje)
  *   *kurzíva*  **tučně**               uvnitř odstavce
  *   [text](https://…)                  odkaz uvnitř odstavce/poznámky/calloutu
  *   [**tučný text**](https://…)        totéž, tučně (jen tato jedna kombinace)
@@ -20,14 +25,15 @@
  * Odstavce se oddělují prázdným řádkem.
  */
 
-export type Side = 'full' | 'left' | 'right'
+export type Side = 'full' | 'left' | 'right' | 'plain'
 
 export type Block =
   | { k: 'h2' | 'h3' | 'p' | 'note' | 'callout'; t: string }
   | { k: 'video'; href: string; t: string }
   | { k: 'fig'; src: string; side: Side; alt: string }
+  | { k: 'divider' }
 
-const FIG = /^!\[([^\]]*)\]\(([^)\s]+)(?:\s+"(full|left|right)")?\)$/
+const FIG = /^!\[([^\]]*)\]\(([^)\s]+)(?:\s+"(full|left|right|plain)")?\)$/
 const LINK = /^\[([^\]]+)\]\((https?:\/\/[^)]+)\)$/
 
 export function parseMarkdown(md: string): Block[] {
@@ -40,6 +46,7 @@ export function parseMarkdown(md: string): Block[] {
     if (!t) continue
 
     if (t === '---') { afterRule = true; continue }
+    if (t === '***') { blocks.push({ k: 'divider' }); continue }
 
     const fig = FIG.exec(t)
     if (fig) {

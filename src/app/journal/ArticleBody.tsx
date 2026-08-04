@@ -25,7 +25,7 @@ function inline(text: string): ReactNode {
   })
 }
 
-const FIG_CLASS = { left: styles.figLeft, right: styles.figRight, full: styles.figFull }
+const FIG_CLASS = { left: styles.figLeft, right: styles.figRight, full: styles.figFull, plain: styles.figPlain }
 
 export default function ArticleBody({ blocks }: { blocks: Block[] }) {
   return (
@@ -40,6 +40,8 @@ export default function ArticleBody({ blocks }: { blocks: Block[] }) {
             return <p key={i} className={styles.transNote}>{inline(b.t)}</p>
           case 'callout':
             return <aside key={i} className={styles.callout}>{inline(b.t)}</aside>
+          case 'divider':
+            return <div key={i} className={styles.sectionDivider} />
           case 'video':
             return (
               <a key={i} className={styles.videoLink} href={b.href} target="_blank" rel="noopener noreferrer">

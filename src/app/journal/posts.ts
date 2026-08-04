@@ -48,6 +48,75 @@ export interface PostMeta {
 
 export const POSTS: PostMeta[] = [
   {
+    slug: 'maya-brahman-asramy',
+    date: '2026-08-05',
+    cover: '/images/Citta-Vritti.png',
+    langs: ['cs', 'en'],
+    meta: {
+      cs: {
+        rubric: 'Promluvy',
+        title: 'Gurudévovy promluvy k žákům',
+        perex: `Neformální rozhovor Gurudéva se žáky, zachycený co nejsyrověji — bez úprav
+          a vyhlazování. Řeč se stáčí od máji a Brahmanu přes čtyři ášramy životní cesty
+          až k rozboru pěti částí vědomí: mysli, vritti, čitty, buddhi a átman.`,
+      },
+      en: {
+        rubric: 'Discourses',
+        title: "Gurudev's Talks to the Disciples",
+        perex: `An informal conversation between Gurudev and his disciples, kept as raw
+          as possible — unedited and unsmoothed. The talk moves from maya and Brahman
+          through the four ashramas of life's journey to an account of the five parts
+          of consciousness: mind, vritti, chitta, buddhi and atman.`,
+      },
+      hi: {
+        rubric: 'प्रवचन',
+        title: 'गुरुदेव की शिष्यों से बातचीत',
+        perex: `गुरुदेव और शिष्यों के बीच एक अनौपचारिक बातचीत, यथासंभव कच्चे रूप में — बिना
+          संपादन और सफ़ाई के। बातचीत माया और ब्रह्म से होते हुए जीवन-यात्रा के चार आश्रमों
+          से गुज़रती है और अंत में चेतना के पाँच अंगों — मन, वृत्ति, चित्त, बुद्धि और आत्मा
+          — के विश्लेषण तक पहुँचती है।`,
+      },
+    },
+  },
+  {
+    slug: 'ashram-return-2026',
+    date: '2026-08-04',
+    cover: '/images/Journal-Ashram-Return.jpg',
+    coverBanner: true,
+    langs: ['cs', 'en', 'hi'],
+    meta: {
+      cs: {
+        rubric: 'Z cesty',
+        title: 'Návrat do ášramu',
+        titleEm: 'z ruchu Nového Dillí do ticha Karauli Sarkar',
+        perex: `Dne 26. července 2026 jsme se z České republiky znovu vydali do ášramu
+          Karauli Sarkar. Video zachycuje naši cestu od příletu do Nového Dillí až po
+          srdečné přivítání květinami po vystoupení z minibusu. Do ášramu se vracíme
+          již poněkolikáté, tentokrát zde opět strávíme několik týdnů věnovaných
+          duchovní praxi.`,
+      },
+      en: {
+        rubric: 'On the Road',
+        title: 'Return to the Ashram',
+        titleEm: 'from the rush of New Delhi to the silence of Karauli Sarkar',
+        perex: `On 26 July 2026 we set out from the Czech Republic once again for the
+          Karauli Sarkar ashram. The video captures our journey from landing in New Delhi
+          to the warm welcome with flowers as we stepped off the minibus. We return to
+          the ashram now for the umpteenth time, and this time too we will spend several
+          weeks here devoted to spiritual practice.`,
+      },
+      hi: {
+        rubric: 'यात्रा से',
+        title: 'आश्रम की वापसी',
+        titleEm: 'नई दिल्ली की चहल-पहल से काराउली सरकार की शांति तक',
+        perex: `26 जुलाई 2026 को हम चेक गणराज्य से एक बार फिर काराउली सरकार आश्रम के लिए रवाना
+          हुए। यह वीडियो नई दिल्ली में उतरने से लेकर मिनीबस से उतरते ही फूलों से हुए हार्दिक
+          स्वागत तक की हमारी यात्रा को दर्शाता है। हम आश्रम में अब कई बार लौट चुके हैं, और
+          इस बार भी यहाँ कुछ सप्ताह आध्यात्मिक साधना में बिताएँगे।`,
+      },
+    },
+  },
+  {
     slug: 'bharat-2026',
     date: '2026-08-03',
     cover: '/images/india-2026/andrea/thumb/028.webp',
@@ -58,7 +127,7 @@ export const POSTS: PostMeta[] = [
     meta: {
       cs: {
         rubric: 'Reportáž',
-        title: 'Lidé Bháratu 2026',
+        title: 'Lidé Bháratu',
         titleEm: 've fotografiích',
         perex: `Tváře, gesta a okamžiky, které Andrea zachytila během letošní cesty do
           Bháratu — lidé z ášramu, z okolních vesnic i z cesty samé, viděni jejím
@@ -66,7 +135,7 @@ export const POSTS: PostMeta[] = [
       },
       en: {
         rubric: 'Photo essay',
-        title: 'People of Bhārat 2026',
+        title: 'People of Bhārat',
         titleEm: 'in photographs',
         perex: `Faces, gestures and moments Andrea captured on this year's journey to
           Bhārat — people from the ashram, from the surrounding villages, and from the
@@ -74,7 +143,7 @@ export const POSTS: PostMeta[] = [
       },
       hi: {
         rubric: 'फ़ोटो निबंध',
-        title: 'भारत के लोग 2026',
+        title: 'भारत के लोग',
         titleEm: 'तस्वीरों में',
         perex: `आंद्रेया ने इस वर्ष भारत की यात्रा के दौरान जो चेहरे, भाव और क्षण क़ैद किए — आश्रम के,
           आसपास के गाँवों के और स्वयं इस यात्रा के लोग, उनकी सहज और खुली दृष्टि से देखे गए।`,
