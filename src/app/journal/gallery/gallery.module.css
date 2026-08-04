@@ -85,10 +85,30 @@
   columns: 3 260px;
   column-gap: 14px;
 }
+
+
 .grid figure {
   break-inside: avoid;
   margin: 0 0 14px;
+  position: relative;
+  border-radius: 4px;
 }
+
+.grid figure::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(255, 255, 255, 0.12);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease;
+}
+
+.grid figure:hover::after {
+  opacity: 1;
+}
+
+
 .thumb {
   width: 100%; height: auto;
   display: block;
