@@ -1,0 +1,137 @@
+/* ── Fotoreportáž — mřížka + lightbox ─────────────────────────────
+   Vlastní modul (ne journal.module.css), protože jde o galerii, ne
+   textový článek — sdílí jen design tokeny z globals.css. */
+
+/* Šířku už hlídá .articleWide v journal.module.css (rodičovský <article>);
+   .wrap dává jen vlastní horizontální odsazení uvnitř něj. */
+.wrap {
+  padding: 0 24px;
+}
+
+.section { margin: 72px 0; }
+.section:first-child { margin-top: 24px; }
+
+.sectionHead {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* Kicker s tenkými zlatými linkami po stranách — "── THROUGH THE LENS OF ──" */
+.sectionKicker {
+  display: inline-flex; align-items: center; gap: 16px;
+  font-family: 'Cinzel', serif;
+  font-size: 10px; letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: var(--gold-text);
+  margin-bottom: 18px;
+}
+.sectionKicker::before, .sectionKicker::after {
+  content: ''; width: 32px; height: 1px;
+  background: var(--gold); opacity: 0.4;
+}
+
+/* Velké jméno — společné pro fotografa s medailonkem i bez něj (Jan zatím
+   bez fota/bia dostane jen tohle, ať vedle Andrey nepůsobí podřadně). */
+.sectionName {
+  display: block;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(44px, 7vw, 68px);
+  font-weight: 300; line-height: 1.05;
+  color: var(--ink);
+}
+
+/* Medailonek fotografa — text a portrét centrované pod jménem, portrét
+   jako drobný "podpis" dole, ne rovnocenný sloupec vedle textu. Zobrazí
+   se jen tam, kde je pro fotografa záznam v photographers.ts; jinak
+   zůstává jen kicker + .sectionName. */
+.bioBlock {
+  max-width: 460px; margin: 20px auto 0;
+}
+.bioBlock p {
+  font-size: 14.5px; font-weight: 300; line-height: 1.85;
+  color: var(--muted);
+  margin-bottom: 24px;
+}
+.bioPhoto {
+  width: 64px; height: 64px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: var(--shadow);
+  outline: 1px solid rgba(184,146,42,0.35);
+  outline-offset: 4px;
+  margin: 0 auto;
+}
+
+.divider {
+  height: 1px; width: 60px;
+  background: var(--gold); opacity: 0.4;
+  margin: 56px auto;
+}
+
+/* Masonry přes CSS columns — sloupce se samy zredukují na mobilu,
+   fotky se neořezávají (žádný object-fit), jen se vyskládají po výšce. */
+.grid {
+  columns: 3 260px;
+  column-gap: 14px;
+}
+.grid figure {
+  break-inside: avoid;
+  margin: 0 0 14px;
+}
+.thumb {
+  width: 100%; height: auto;
+  display: block;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: var(--shadow);
+  transition: opacity 0.2s ease;
+}
+.thumb:hover { opacity: 0.88; }
+
+/* ── Lightbox ──────────────────────────────────────────────────── */
+.overlay {
+  position: fixed; inset: 0; z-index: 1000;
+  background: rgba(15,12,8,0.94);
+  display: flex; align-items: center; justify-content: center;
+  padding: 24px;
+}
+.full {
+  max-width: 92vw; max-height: 92vh;
+  object-fit: contain;
+  border-radius: 4px;
+}
+
+.close, .navBtn {
+  position: absolute;
+  display: flex; align-items: center; justify-content: center;
+  width: 44px; height: 44px;
+  border-radius: 50%;
+  border: 1px solid rgba(255,255,255,0.25);
+  background: var(--glass);
+  color: var(--ink);
+  cursor: pointer;
+  font-size: 18px; line-height: 1;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+.close:hover, .navBtn:hover { background: rgba(255,255,255,0.8); }
+
+.close { top: 20px; right: 20px; }
+.navBtn { top: 50%; transform: translateY(-50%); }
+.navBtn:hover { transform: translateY(-50%) scale(1.06); }
+.prevBtn { left: 20px; }
+.nextBtn { right: 20px; }
+
+@media (max-width: 640px) {
+  .wrap { padding: 0 16px; }
+  .grid { columns: 2 150px; column-gap: 10px; }
+  .grid figure { margin-bottom: 10px; }
+  .divider { margin: 40px auto; }
+  .section { margin: 56px 0; }
+  .sectionKicker::before, .sectionKicker::after { width: 20px; }
+
+  .close, .navBtn { width: 36px; height: 36px; font-size: 15px; }
+  .close { top: 10px; right: 10px; }
+  .prevBtn { left: 8px; }
+  .nextBtn { right: 8px; }
+  .overlay { padding: 8px; }
+}

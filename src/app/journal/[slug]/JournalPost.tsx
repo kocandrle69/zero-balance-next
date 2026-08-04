@@ -9,14 +9,17 @@ import { useLang } from '../../../contexts/LangContext'
 import { getPost, bodyLang, formatDate, type PostLang } from '../posts'
 import ArticleBody from '../ArticleBody'
 import FoundingArticle from '../posts/FoundingArticle'
+import India2026Gallery from '../gallery/India2026Gallery'
 import type { Block } from '../markdown'
 
 /**
- * Starší články psané přímo v TSX. Nové stačí přidat jako .md do `content/`
- * — sem se pak nic dopisovat nemusí.
+ * Vydání, jejichž tělo NENÍ text z content/*.md — starší články psané přímo
+ * v TSX a galerie. Nový textový článek stačí přidat jako .md do `content/`,
+ * sem se pak nic dopisovat nemusí.
  */
 const BODIES: Record<string, (p: { lang: PostLang }) => React.ReactNode> = {
   'society-founded': FoundingArticle,
+  'bharat-2026': India2026Gallery,
 }
 
 const UI = {
@@ -91,7 +94,7 @@ export default function JournalPost({ slug, body }: { slug: string; body: Record
         )}
 
         {/* ── Text ──────────────────────────────────────────── */}
-        <article className={styles.article}>
+        <article className={post.wide ? `${styles.article} ${styles.articleWide}` : styles.article}>
           {bl !== lang && <p className={styles.langNotice}>{ui.fallback}</p>}
           {body ? <ArticleBody blocks={body[bl]} /> : <Body lang={bl} />}
         </article>

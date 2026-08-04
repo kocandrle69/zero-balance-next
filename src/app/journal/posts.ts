@@ -29,6 +29,11 @@ export interface PostMeta {
    * a kicker/titulek/datum se vysází pod ní na běžném pozadí stránky.
    */
   coverBanner?: boolean
+  /**
+   * Tělo je obrazové (galerie), ne text — sloupec pro čtecí text (740px) by
+   * fotky zbytečně svazoval. Rozšíří `.article` na `.articleWide`.
+   */
+  wide?: boolean
   /** Jazyky, ve kterých existuje TĚLO článku. Ostatní se odbaví fallbackem. */
   langs: PostLang[]
   /** Rubrika, titulek, kurzívní dovětek titulku a perex — pro každý jazyk */
@@ -42,6 +47,43 @@ export interface PostMeta {
 }
 
 export const POSTS: PostMeta[] = [
+  {
+    slug: 'bharat-2026',
+    date: '2026-08-03',
+    cover: '/images/india-2026/andrea/thumb/028.webp',
+    coverPos: 'center 20%',
+    coverBanner: true,
+    wide: true,
+    langs: ['cs', 'en', 'hi'],
+    meta: {
+      cs: {
+        rubric: 'Reportáž',
+        title: 'Bhárat 2026',
+        titleEm: 've fotografiích',
+        perex: `Každá cesta do Bháratu přináší něco jiného. Nejen nové zážitky, ale i
+          setkání s lidmi, jejichž laskavost a přirozenost často zanechají silnější stopu
+          než samotná navštívená místa. Tento fotografický deník zachycuje právě tyto
+          okamžiky – život kolem ášramu, cestu a atmosféru, kterou lze jen těžko popsat slovy.`,
+      },
+      en: {
+        rubric: 'Photo essay',
+        title: 'Bhārat 2026',
+        titleEm: 'in photographs',
+        perex: `Every journey to Bhārat brings something different. Not only new
+          experiences, but encounters with people whose kindness and ease often leave a
+          deeper mark than the places themselves. This photographic diary holds those
+          moments — life around the ashram, the road, and an atmosphere words can barely capture.`,
+      },
+      hi: {
+        rubric: 'फ़ोटो निबंध',
+        title: 'भारत 2026',
+        titleEm: 'तस्वीरों में',
+        perex: `भारत की हर यात्रा कुछ नया लेकर आती है। केवल नए अनुभव ही नहीं, बल्कि उन लोगों से भेंट,
+          जिनकी सरलता और स्नेह अक्सर देखे हुए स्थानों से भी गहरी छाप छोड़ जाते हैं। यह फ़ोटो डायरी उन्हीं
+          क्षणों को समेटे है — आश्रम के इर्द-गिर्द का जीवन, यह यात्रा, और वह वातावरण जिसे शब्दों में बाँधना कठिन है।`,
+      },
+    },
+  },
   {
     slug: 'youtube-channel',
     date: '2026-08-02',
