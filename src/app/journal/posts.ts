@@ -201,7 +201,7 @@ export const POSTS: PostMeta[] = [
     meta: {
       cs: {
         rubric: 'Promluvy',
-        title: 'Kdo skutečně jsme a kam jdeme?',
+        title: 'Kdo jsme a kam jdeme?',
         titleEm: 'Se Senseiem Rajeevem',
         perex: `Je naše tělo skutečným domovem, nebo pouze dočasným prostředkem na cestě
           vědomí? Sensei Rajeev se v této duchovní promluvě dotýká jedné z nejhlubších
