@@ -210,7 +210,7 @@ export const POSTS: PostMeta[] = [
       },
       en: {
         rubric: 'Discourses',
-        title: 'Who are we really, and where are we going?',
+        title: 'Who are we, and where are we going?',
         titleEm: 'With Sensei Rajeev',
         perex: `Is our body a real home, or only a temporary vehicle on the journey of
           consciousness? In this spiritual discourse Sensei Rajeev touches on one of the
