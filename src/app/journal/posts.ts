@@ -50,7 +50,7 @@ export const POSTS: PostMeta[] = [
   {
     slug: 'maya-brahman-asramy',
     date: '2026-08-05',
-    cover: '/images/Citta-Vritti.png',
+    cover: '/images/Citta-Vritti.jpg',
     langs: ['cs', 'en'],
     meta: {
       cs: {
