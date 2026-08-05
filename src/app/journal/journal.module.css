@@ -313,7 +313,12 @@
   color: var(--ink); margin-bottom: 14px;
   transition: color 0.3s ease;
 }
-.cardTitle em { font-style: italic; color: var(--gold-text); }
+.cardTitle em {
+  display: inline-block;
+  margin-top: 4px;
+  font-size: 0.68em;
+  font-style: italic; color: var(--gold-text);
+}
 .card:hover .cardTitle { color: var(--gold-text); }
 
 .cardPerex {
@@ -340,7 +345,12 @@
   color: var(--ink); letter-spacing: -0.01em;
   margin-bottom: 24px;
 }
-.postTitle em { font-style: italic; color: var(--gold-text); }
+.postTitle em {
+  display: inline-block;
+  margin-top: 6px;
+  font-size: 0.6em;
+  font-style: italic; color: var(--gold-text);
+}
 
 .langNotice {
   font-size: 13px; font-weight: 300; line-height: 1.7;
