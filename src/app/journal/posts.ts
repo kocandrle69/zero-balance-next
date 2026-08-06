@@ -48,6 +48,42 @@ export interface PostMeta {
 
 export const POSTS: PostMeta[] = [
   {
+    slug: 'sadhana-with-music',
+    date: '2026-08-06',
+    cover: '/images/Meditace.jpg',
+    langs: ['cs', 'en', 'hi'],
+    meta: {
+      cs: {
+        rubric: 'Promluvy',
+        title: 'Gurudévovy promluvy',
+        titleEm: 'Meditace s hudbou',
+        perex: `Přepis neformálního ranního sezení Gurudéva se žáky, zachycený co
+          nejsyrověji — bez úprav a vyhlazování. Řeč se stáčí od rozdílu mezi informací
+          a zkušeností přes význam živého Gurua a povahu klamu a duality až k praktickému
+          pokynu k meditaci se sádhanou s hudbou.`,
+      },
+      en: {
+        rubric: 'Discourses',
+        title: "Gurudev's Talks",
+        titleEm: 'Meditation with Music',
+        perex: `A transcript of an informal morning session between Gurudev and his
+          disciples, kept as raw as possible — unedited and unsmoothed. The talk moves
+          from the difference between information and experience, through the
+          significance of a living Guru and the nature of illusion and duality, to the
+          practical instruction for a sadhana with music.`,
+      },
+      hi: {
+        rubric: 'प्रवचन',
+        title: 'गुरुदेव के प्रवचन',
+        titleEm: 'संगीत के साथ ध्यान',
+        perex: `गुरुदेव और शिष्यों के बीच एक अनौपचारिक प्रातःकालीन सत्र का प्रतिलेख,
+          यथासंभव कच्चे रूप में — बिना संपादन और सफ़ाई के। बातचीत सूचना और अनुभव के भेद से
+          होते हुए जीवित गुरु के महत्व तथा भ्रम और द्वैत की प्रकृति से गुज़रती है और अंत
+          में संगीत के साथ साधना के व्यावहारिक निर्देश तक पहुँचती है।`,
+      },
+    },
+  },
+  {
     slug: 'maya-brahman-asramy',
     date: '2026-08-05',
     cover: '/images/Citta-Vritti.jpg',
