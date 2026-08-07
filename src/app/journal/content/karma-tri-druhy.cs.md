@@ -12,7 +12,7 @@ Když je reakce z předchozích životů připravena projevit se v tomto život�
 
 Je to jako s výstřelem ze zbraně: jakmile stisknete spoušť, kulka už se nemůže vrátit zpět do hlavně.
 
-Prarabdh, který již začal působit, může obrátit pouze úplný mistr — pórna guru. Dokáže jeho dopad omezit na naprosté minimum, a pokud si to přeje, dokáže jej i zcela odstranit. Někdo měl například zemřít, ale místo toho se následek rozdělí na menší části: pět let zakouší bolest nebo určitý neduh, poté je opět v pořádku — a nezemře.
+Prarabdh, který již začal působit, může obrátit pouze úplný mistr — půrna guru. Dokáže jeho dopad omezit na naprosté minimum, a pokud si to přeje, dokáže jej i zcela odstranit. Někdo měl například zemřít, ale místo toho se následek rozdělí na menší části: pět let zakouší bolest nebo určitý neduh, poté je opět v pořádku — a nezemře.
 
 ***
 
