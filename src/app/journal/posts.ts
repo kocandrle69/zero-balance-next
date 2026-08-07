@@ -56,7 +56,7 @@ export const POSTS: PostMeta[] = [
       cs: {
         rubric: 'Promluvy',
         title: 'Gurudévovy promluvy',
-        titleEm: 'Meditace s hudbou',
+        titleEm: 'Proč se nemůžeme poučit z vlastních chyb',
         perex: `Přepis neformálního ranního sezení Gurudéva se žáky, zachycený co
           nejsyrověji — bez úprav a vyhlazování. Řeč se stáčí od rozdílu mezi informací
           a zkušeností přes význam živého Gurua a povahu klamu a duality až k praktickému
@@ -65,7 +65,7 @@ export const POSTS: PostMeta[] = [
       en: {
         rubric: 'Discourses',
         title: "Gurudev's Talks",
-        titleEm: 'Meditation with Music',
+        titleEm: 'Why We Cannot Learn from Our Own Mistakes',
         perex: `A transcript of an informal morning session between Gurudev and his
           disciples, kept as raw as possible — unedited and unsmoothed. The talk moves
           from the difference between information and experience, through the
@@ -75,7 +75,7 @@ export const POSTS: PostMeta[] = [
       hi: {
         rubric: 'प्रवचन',
         title: 'गुरुदेव के प्रवचन',
-        titleEm: 'संगीत के साथ ध्यान',
+        titleEm: 'हम अपनी गलतियों से क्यों नहीं सीख सकते',
         perex: `गुरुदेव और शिष्यों के बीच एक अनौपचारिक प्रातःकालीन सत्र का प्रतिलेख,
           यथासंभव कच्चे रूप में — बिना संपादन और सफ़ाई के। बातचीत सूचना और अनुभव के भेद से
           होते हुए जीवित गुरु के महत्व तथा भ्रम और द्वैत की प्रकृति से गुज़रती है और अंत
