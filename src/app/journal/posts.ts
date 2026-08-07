@@ -57,21 +57,21 @@ export const POSTS: PostMeta[] = [
       cs: {
         rubric: 'Promluvy - Sensei',
         title: 'Senseiovy promluvy',
-        titleEm: 'Karma a její tři druhy',
+        titleEm: 'Karma bhóg a tři druhy karmy',
         perex: `Sensei Rajeev o sanchit karmě, prarabdh karmě a kriyaman karmě — o
           připoutanosti, napomínání jako povinnosti a o tom, co znamená zero balance.`,
       },
       en: {
         rubric: 'Discourses - Sensei',
         title: "Sensei's Talks",
-        titleEm: 'Karma and Its Three Kinds',
+        titleEm: 'Karma Bhog and the Three Kinds of Karma',
         perex: `Sensei Rajeev on sanchit karma, prarabdh karma and kriyaman karma — on
           attachment, admonishment as duty, and what zero balance really means.`,
       },
       hi: {
         rubric: 'प्रवचन - सेंसेई',
         title: 'सेंसेई के प्रवचन',
-        titleEm: 'कर्म के तीन प्रकार',
+        titleEm: 'कर्म भोग और कर्म के तीन प्रकार',
         perex: `सेंसेई राजीव संचित कर्म, प्रारब्ध कर्म और क्रियमाण कर्म पर — आसक्ति,
           कर्तव्य के रूप में चेतावनी और ज़ीरो बैलेंस के अर्थ पर।`,
       },
