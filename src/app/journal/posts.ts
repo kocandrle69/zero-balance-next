@@ -50,26 +50,26 @@ export const POSTS: PostMeta[] = [
   {
     slug: 'karma-tri-druhy',
     date: '2026-08-07',
-    cover: '/images/Sensei4.jpg',
-    coverPos: 'center 15%',
+    cover: '/images/Karma.jpg',
+    coverBanner: true,
     langs: ['cs', 'en', 'hi'],
     meta: {
       cs: {
-        rubric: 'Promluvy',
+        rubric: 'Promluvy - Sensei',
         title: 'Senseiovy promluvy',
         titleEm: 'Karma a její tři druhy',
         perex: `Sensei Rajeev o sanchit karmě, prarabdh karmě a kriyaman karmě — o
           připoutanosti, napomínání jako povinnosti a o tom, co znamená zero balance.`,
       },
       en: {
-        rubric: 'Discourses',
+        rubric: 'Discourses - Sensei',
         title: "Sensei's Talks",
         titleEm: 'Karma and Its Three Kinds',
         perex: `Sensei Rajeev on sanchit karma, prarabdh karma and kriyaman karma — on
           attachment, admonishment as duty, and what zero balance really means.`,
       },
       hi: {
-        rubric: 'प्रवचन',
+        rubric: 'प्रवचन - सेंसेई',
         title: 'सेंसेई के प्रवचन',
         titleEm: 'कर्म के तीन प्रकार',
         perex: `सेंसेई राजीव संचित कर्म, प्रारब्ध कर्म और क्रियमाण कर्म पर — आसक्ति,
@@ -84,7 +84,7 @@ export const POSTS: PostMeta[] = [
     langs: ['cs', 'en', 'hi'],
     meta: {
       cs: {
-        rubric: 'Promluvy',
+        rubric: 'Promluvy - Gurudév',
         title: 'Gurudévovy promluvy',
         titleEm: 'Proč se nemůžeme poučit z vlastních chyb',
         perex: `Přepis neformálního ranního sezení Gurudéva se žáky, zachycený co
@@ -93,7 +93,7 @@ export const POSTS: PostMeta[] = [
           pokynu k meditaci se sádhanou s hudbou.`,
       },
       en: {
-        rubric: 'Discourses',
+        rubric: 'Discourses - Gurudev',
         title: "Gurudev's Talks",
         titleEm: 'Why We Cannot Learn from Our Own Mistakes',
         perex: `A transcript of an informal morning session between Gurudev and his
@@ -103,7 +103,7 @@ export const POSTS: PostMeta[] = [
           practical instruction for a sadhana with music.`,
       },
       hi: {
-        rubric: 'प्रवचन',
+        rubric: 'प्रवचन - गुरुदेव',
         title: 'गुरुदेव के प्रवचन',
         titleEm: 'हम अपनी गलतियों से क्यों नहीं सीख सकते',
         perex: `गुरुदेव और शिष्यों के बीच एक अनौपचारिक प्रातःकालीन सत्र का प्रतिलेख,
@@ -120,7 +120,7 @@ export const POSTS: PostMeta[] = [
     langs: ['cs', 'en'],
     meta: {
       cs: {
-        rubric: 'Promluvy',
+        rubric: 'Promluvy - Gurudév',
         title: 'Gurudévovy promluvy',
         titleEm: 'Čtyři ášramy a Mája',
         perex: `Neformální rozhovor Gurudéva se žáky, zachycený co nejsyrověji — bez úprav
@@ -128,7 +128,7 @@ export const POSTS: PostMeta[] = [
           až k rozboru pěti částí vědomí: mysli, vritti, čitty, buddhi a átman.`,
       },
       en: {
-        rubric: 'Discourses',
+        rubric: 'Discourses - Gurudev',
         title: "Gurudev's Talks",
         titleEm: 'The Four Ashramas and Maya',
         perex: `An informal conversation between Gurudev and his disciples, kept as raw
@@ -137,7 +137,7 @@ export const POSTS: PostMeta[] = [
           of consciousness: mind, vritti, chitta, buddhi and atman.`,
       },
       hi: {
-        rubric: 'प्रवचन',
+        rubric: 'प्रवचन - गुरुदेव',
         title: 'गुरुदेव के प्रवचन',
         titleEm: 'चार आश्रम और माया',
         perex: `गुरुदेव और शिष्यों के बीच एक अनौपचारिक बातचीत, यथासंभव कच्चे रूप में — बिना
@@ -266,7 +266,7 @@ export const POSTS: PostMeta[] = [
     langs: ['cs', 'en', 'hi'],
     meta: {
       cs: {
-        rubric: 'Promluvy',
+        rubric: 'Promluvy - Sensei',
         title: 'Kdo jsme a kam jdeme?',
         titleEm: 'Se Senseiem Rajeevem',
         perex: `Je naše tělo skutečným domovem, nebo pouze dočasným prostředkem na cestě
@@ -275,7 +275,7 @@ export const POSTS: PostMeta[] = [
           v okamžiku smrti.`,
       },
       en: {
-        rubric: 'Discourses',
+        rubric: 'Discourses - Sensei',
         title: 'Who are we, and where are we going?',
         titleEm: 'With Sensei Rajeev',
         perex: `Is our body a real home, or only a temporary vehicle on the journey of
@@ -284,7 +284,7 @@ export const POSTS: PostMeta[] = [
           of us at the moment of death.`,
       },
       hi: {
-        rubric: 'प्रवचन',
+        rubric: 'प्रवचन - सेंसेई',
         title: 'हम कौन हैं और कहाँ जा रहे हैं?',
         titleEm: 'सेंसेई राजीव के साथ',
         perex: `क्या हमारा शरीर वास्तविक घर है, या चेतना की यात्रा में केवल एक अस्थायी साधन?
@@ -301,7 +301,7 @@ export const POSTS: PostMeta[] = [
     langs: ['cs', 'en', 'hi'],
     meta: {
       cs: {
-        rubric: 'Promluvy',
+        rubric: 'Promluvy - Gurudév',
         title: 'Guru Púrnimá 2026',
         titleEm: 'Rozpravy a setkání se žáky',
         perex: `Na svátek Guru Púrnimá promluvil Gurudév o samskárách a jednání — o tom,
@@ -309,7 +309,7 @@ export const POSTS: PostMeta[] = [
           překlad hlavní rozpravy, obou podobenství i slov tajemníka akháry a mukhja mahanta.`,
       },
       en: {
-        rubric: 'Discourses',
+        rubric: 'Discourses - Gurudev',
         title: 'Guru Purnima 2026',
         titleEm: 'Talks and gatherings with the disciples',
         perex: `On the festival of Guru Purnima, Gurudev spoke of samskaras and conduct —
@@ -318,7 +318,7 @@ export const POSTS: PostMeta[] = [
           secretary of the akhara and of the mukhya mahant.`,
       },
       hi: {
-        rubric: 'प्रवचन',
+        rubric: 'प्रवचन - गुरुदेव',
         title: 'गुरु पूर्णिमा 2026',
         titleEm: 'शिष्यों के साथ प्रवचन और सत्संग',
         perex: `गुरु पूर्णिमा के पावन अवसर पर गुरुदेव ने संस्कारों और आचरण पर प्रवचन दिया —
