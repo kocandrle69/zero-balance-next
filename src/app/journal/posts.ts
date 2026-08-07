@@ -267,8 +267,8 @@ export const POSTS: PostMeta[] = [
     meta: {
       cs: {
         rubric: 'Promluvy - Sensei',
-        title: 'Kdo jsme a kam jdeme?',
-        titleEm: 'Se Senseiem Rajeevem',
+        title: 'Senseiovy promluvy',
+        titleEm: 'Kdo jsme a kam jdeme?',
         perex: `Je naše tělo skutečným domovem, nebo pouze dočasným prostředkem na cestě
           vědomí? Sensei Rajeev se v této duchovní promluvě dotýká jedné z nejhlubších
           otázek lidského života: kdo jsme za hranicemi těla a co se s námi děje
@@ -276,8 +276,8 @@ export const POSTS: PostMeta[] = [
       },
       en: {
         rubric: 'Discourses - Sensei',
-        title: 'Who are we, and where are we going?',
-        titleEm: 'With Sensei Rajeev',
+        title: "Sensei's Talks",
+        titleEm: 'Who are we, and where are we going?',
         perex: `Is our body a real home, or only a temporary vehicle on the journey of
           consciousness? In this spiritual discourse Sensei Rajeev touches on one of the
           deepest questions of human life: who we are beyond the body, and what becomes
@@ -285,8 +285,8 @@ export const POSTS: PostMeta[] = [
       },
       hi: {
         rubric: 'प्रवचन - सेंसेई',
-        title: 'हम कौन हैं और कहाँ जा रहे हैं?',
-        titleEm: 'सेंसेई राजीव के साथ',
+        title: 'सेंसेई के प्रवचन',
+        titleEm: 'हम कौन हैं और कहाँ जा रहे हैं?',
         perex: `क्या हमारा शरीर वास्तविक घर है, या चेतना की यात्रा में केवल एक अस्थायी साधन?
           इस आध्यात्मिक प्रवचन में सेंसेई राजीव मानव जीवन के गहनतम प्रश्नों में से एक को छूते
           हैं: शरीर की सीमा से परे हम कौन हैं, और मृत्यु के क्षण में हमारे साथ क्या होता है।`,
