@@ -12,7 +12,7 @@ Když je reakce z předchozích životů připravena projevit se v tomto život�
 
 Je to jako s výstřelem ze zbraně: jakmile stisknete spoušť, kulka už se nemůže vrátit zpět do hlavně.
 
-Prarabdh, který již začal působit, může obrátit pouze úplný mistr. Ani ten jej však nezničí; může jeho dopad omezit na naprosté minimum. Někdo měl například zemřít, ale místo toho se následek rozdělí na menší části: pět let zakouší bolest nebo určitý neduh, poté je opět v pořádku — a nezemře.
+Prarabdh, který již začal působit, může obrátit pouze úplný mistr — pórna guru. Dokáže jeho dopad omezit na naprosté minimum, a pokud si to přeje, dokáže jej i zcela odstranit. Někdo měl například zemřít, ale místo toho se následek rozdělí na menší části: pět let zakouší bolest nebo určitý neduh, poté je opět v pořádku — a nezemře.
 
 ***
 
@@ -154,14 +154,14 @@ Smyslem proto není přestat jednat, vyhýbat se povinnostem nebo si zakazovat b
 
 ### Kterou karmu můžeme ovlivnit sami a kterou Gurudev
 
-Rozdělení odpovědnosti je v rozpravě jasné: *sami můžeme přímo ovlivnit kriyaman karmu, pokud setrváváme vědomě v přítomném okamžiku a v postoji pozorovatele. Sanchit karmu očišťujeme vlastní sádhanou, ale s její velmi intenzivní částí může pomoci Gurudev. Již působící prarabdh karmu sami změnit nedokážeme — její průběh může napravit či její dopad zásadně zmírnit pouze Gurudev.*
+Rozdělení odpovědnosti je v rozpravě jasné: *sami můžeme přímo ovlivnit kriyaman karmu, pokud setrváváme vědomě v přítomném okamžiku a v postoji pozorovatele. Sanchit karmu očišťujeme vlastní sádhanou, ale s její velmi intenzivní částí může pomoci Gurudev. Již působící prarabdh karmu sami změnit nedokážeme — její průběh může napravit, její dopad zásadně zmírnit, a pokud si to přeje, i zcela odstranit pouze Gurudev.*
 
 U každého ze tří druhů karmy to znamená:
 
 *Sanchit karma* je nashromážděná karma minulosti. Člověk ji odstraňuje vlastní sádhanou. Pokud je však některý uložený karma bhog natolik intenzivní, že jej sám odstranit nedokáže, může pomoci Gurudev. Podle příkladu z rozpravy odstraní přibližně devadesát pět procent a zbývajících pět procent ponechá člověku k dokončení vlastní sádhanou.
 
-*Prarabdh karma* je část minulé karmy, která již začala působit. Právě tuto karmu může napravit pouze úplný mistr — Gurudev. Nemůže ji jednoduše zničit, ale může obrátit její průběh a zmenšit její dopad na naprosté minimum. Následek, který měl vést ke smrti, se tak může projevit pouze jako časově omezená bolest či nemoc.
+*Prarabdh karma* je část minulé karmy, která již začala působit. Právě tuto karmu může napravit pouze úplný mistr — Gurudev. Může obrátit její průběh a zmenšit její dopad na naprosté minimum, a pokud chce, dokáže ji i zcela odstranit. Následek, který měl vést ke smrti, se tak může projevit pouze jako časově omezená bolest či nemoc.
 
 *Kriyaman karma* vzniká z toho, co děláme právě nyní. Tu máme pod přímou kontrolou my sami, ale pouze tehdy, když si svého jednání vědomě všímáme a setrváváme v přítomném okamžiku. Máme být drashta a sakshi — pozorovatel a svědek — a nemáme ulpívat na činu ani na jeho výsledku. Pokud jednáme bez připoutanosti, nevzniká reakce ani další karma bhog a čin se neukládá jako nová sanchit karma. Gurudev za nás naše současné jednání nevykoná, ale svými pokyny, napomenutími a varováním nám pomáhá, abychom se nechytili do nové karmické pasti.
 
-Zero balance proto není výsledkem samotné lidské vůle. Spojuje setrvávání v přítomném okamžiku, postoj pozorovatele, vědomé jednání bez připoutanosti, vlastní sádhanu a pomoc Gurudeva. Člověk odpovídá za svou kriyaman karmu a za vlastní praxi; Gurudev může pomoci s intenzivní sanchit karmou a jako jediný může napravit či zásadně zmírnit dopad již působící prarabdh karmy.
+Zero balance proto není výsledkem samotné lidské vůle. Spojuje setrvávání v přítomném okamžiku, postoj pozorovatele, vědomé jednání bez připoutanosti, vlastní sádhanu a pomoc Gurudeva. Člověk odpovídá za svou kriyaman karmu a za vlastní praxi; Gurudev může pomoci s intenzivní sanchit karmou a jako jediný může napravit, zásadně zmírnit, nebo — pokud si to přeje — zcela odstranit dopad již působící prarabdh karmy.

@@ -12,7 +12,7 @@ When the reaction from previous lives becomes ready to manifest in this life, it
 
 It is like firing a gun: the moment you pull the trigger, the bullet can no longer return into the barrel.
 
-Prarabdh that has already begun to act can be reversed only by a fully realised master. Even he cannot destroy it; he can only reduce its impact to an absolute minimum. Someone, for instance, was meant to die, but instead the consequence is divided into smaller parts: for five years they experience pain or a certain ailment, then they are fine again — and they do not die.
+Prarabdh that has already begun to act can be reversed only by a fully realised master — a poorna guru. He can reduce its impact to an absolute minimum, and if he so wishes, he can remove it entirely. Someone, for instance, was meant to die, but instead the consequence is divided into smaller parts: for five years they experience pain or a certain ailment, then they are fine again — and they do not die.
 
 ***
 
@@ -156,14 +156,14 @@ The point, therefore, is not to stop acting, to avoid duties, or to forbid ourse
 
 ### Which karma we can influence ourselves, and which Gurudev can
 
-The division of responsibility is clear in the talk: *we ourselves can directly influence kriyaman karma, if we consciously remain in the present moment and in the stance of the observer. We cleanse sanchit karma through our own sadhana, but Gurudev can help with its very intense part. Prarabdh karma that has already begun to act we cannot change ourselves — its course can be corrected, or its impact fundamentally softened, only by Gurudev.*
+The division of responsibility is clear in the talk: *we ourselves can directly influence kriyaman karma, if we consciously remain in the present moment and in the stance of the observer. We cleanse sanchit karma through our own sadhana, but Gurudev can help with its very intense part. Prarabdh karma that has already begun to act we cannot change ourselves — its course can be corrected, its impact fundamentally softened, or — if he so wishes — removed entirely, only by Gurudev.*
 
 For each of the three kinds of karma, this means:
 
 *Sanchit karma* is the accumulated karma of the past. A person removes it through their own sadhana. But if some stored karma bhog is so intense that they cannot remove it themselves, Gurudev can help. According to the example given in the talk, he removes roughly ninety-five per cent and leaves the remaining five per cent for the person to complete through their own sadhana.
 
-*Prarabdh karma* is the part of past karma that has already begun to act. This is precisely the karma that only a fully realised master — Gurudev — can correct. He cannot simply destroy it, but he can reverse its course and reduce its impact to an absolute minimum. A consequence that was meant to lead to death can thus manifest instead as only a time-limited pain or illness.
+*Prarabdh karma* is the part of past karma that has already begun to act. This is precisely the karma that only a fully realised master — Gurudev — can correct. He can reverse its course and reduce its impact to an absolute minimum, and if he so chooses, remove it completely. A consequence that was meant to lead to death can thus manifest instead as only a time-limited pain or illness.
 
 *Kriyaman karma* arises from what we are doing right now. This one we hold under our own direct control, but only when we consciously attend to our actions and remain in the present moment. We are meant to be drashta and sakshi — the observer and the witness — and not to cling either to the act or to its result. If we act without attachment, no reaction and no further karma bhog arises, and the act is not stored as new sanchit karma. Gurudev does not carry out our present actions for us, but through his instructions, admonishments and warnings he helps us avoid getting caught in a new karmic trap.
 
-Zero balance, therefore, is not the result of human will alone. It combines remaining in the present moment, the stance of the observer, conscious action free of attachment, one's own sadhana, and Gurudev's help. A person is responsible for their own kriyaman karma and for their own practice; Gurudev can help with intense sanchit karma, and he alone can correct — or fundamentally soften the impact of — prarabdh karma that has already begun to act.
+Zero balance, therefore, is not the result of human will alone. It combines remaining in the present moment, the stance of the observer, conscious action free of attachment, one's own sadhana, and Gurudev's help. A person is responsible for their own kriyaman karma and for their own practice; Gurudev can help with intense sanchit karma, and he alone can correct, fundamentally soften, or — if he chooses — completely remove the impact of prarabdh karma that has already begun to act.
