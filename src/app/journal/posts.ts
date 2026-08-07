@@ -48,6 +48,36 @@ export interface PostMeta {
 
 export const POSTS: PostMeta[] = [
   {
+    slug: 'karma-tri-druhy',
+    date: '2026-08-07',
+    cover: '/images/Sensei4.jpg',
+    coverPos: 'center 15%',
+    langs: ['cs', 'en', 'hi'],
+    meta: {
+      cs: {
+        rubric: 'Promluvy',
+        title: 'Senseiovy promluvy',
+        titleEm: 'Karma a její tři druhy',
+        perex: `Sensei Rajeev o sanchit karmě, prarabdh karmě a kriyaman karmě — o
+          připoutanosti, napomínání jako povinnosti a o tom, co znamená zero balance.`,
+      },
+      en: {
+        rubric: 'Discourses',
+        title: "Sensei's Talks",
+        titleEm: 'Karma and Its Three Kinds',
+        perex: `Sensei Rajeev on sanchit karma, prarabdh karma and kriyaman karma — on
+          attachment, admonishment as duty, and what zero balance really means.`,
+      },
+      hi: {
+        rubric: 'प्रवचन',
+        title: 'सेंसेई के प्रवचन',
+        titleEm: 'कर्म के तीन प्रकार',
+        perex: `सेंसेई राजीव संचित कर्म, प्रारब्ध कर्म और क्रियमाण कर्म पर — आसक्ति,
+          कर्तव्य के रूप में चेतावनी और ज़ीरो बैलेंस के अर्थ पर।`,
+      },
+    },
+  },
+  {
     slug: 'sadhana-with-music',
     date: '2026-08-06',
     cover: '/images/Meditace.jpg',
