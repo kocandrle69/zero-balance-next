@@ -80,7 +80,7 @@ export default function MediaContent() {
               className={`${styles.filterBtn} ${Array.isArray(active) && active.length === 1 && active[0] === cat.id ? styles.filterActive : ''}`}
               onClick={() => setActive([cat.id])}
             >
-              {hi ? cat.labelHI : cs ? cat.labelCS : cat.labelEN}
+              {hi ? cat.labelHI : cs ? cat.labelCS : fr ? cat.labelFR : es ? cat.labelES : de ? cat.labelDE : cat.labelEN}
             </button>
           ))}
         </div>
@@ -97,7 +97,7 @@ export default function MediaContent() {
               <div className={styles.catLabel}>{hi ? cat.labelHI : cs ? cat.labelCS : cat.labelEN}</div>
               <div className={styles.videoGrid}>
                 {videos.map((v, i) => (
-                  <VideoCard key={v.id} video={v} cs={cs} hi={hi} />
+                  <VideoCard key={v.id} video={v} cs={cs} hi={hi} fr={fr} es={es} de={de} />
                 ))}
               </div>
               <hr className={styles.divider} />
@@ -111,9 +111,13 @@ export default function MediaContent() {
   )
 }
 
-function VideoCard({ video, cs, hi }: { video: typeof VIDEOS[0]; cs: boolean; hi: boolean }) {
+function VideoCard({ video, cs, hi, fr, es, de }: { video: typeof VIDEOS[0]; cs: boolean; hi: boolean; fr: boolean; es: boolean; de: boolean }) {
   const [playing, setPlaying] = useState(false)
   const videoUrl = watchUrl(video)
+  const title = hi ? video.titleHI : cs ? video.titleCS : fr ? video.titleFR : es ? video.titleES : de ? video.titleDE : video.titleEN
+  const desc  = hi ? video.descHI : cs ? video.descCS : fr ? video.descFR : es ? video.descES : de ? video.descDE : video.descEN
+  const tag   = hi ? video.tagHI : cs ? video.tag : fr ? video.tagFR : es ? video.tagES : de ? video.tagDE : video.tagEN
+  const date  = hi || cs ? video.date : video.dateEN
 
   return (
     <a
@@ -128,21 +132,21 @@ function VideoCard({ video, cs, hi }: { video: typeof VIDEOS[0]; cs: boolean; hi
           <div className={styles.cardThumb} onClick={(e) => { e.preventDefault(); setPlaying(true) }}>
             <img
               src={`https://img.youtube.com/vi/${video.id}/hqdefault.jpg`}
-              alt={hi ? video.titleHI : cs ? video.titleCS : video.titleEN}
+              alt={title}
               className={styles.thumbImg}
             />
             <div className={styles.thumbOverlay} />
-            <button className={styles.cardPlayBtn} aria-label={hi ? 'चलाएं' : cs ? 'Přehrát' : 'Play'}>
+            <button className={styles.cardPlayBtn} aria-label={hi ? 'चलाएं' : cs ? 'Přehrát' : fr ? 'Lire' : es ? 'Reproducir' : de ? 'Abspielen' : 'Play'}>
               <svg viewBox="0 0 24 24" fill="currentColor" width="22" height="22">
                 <path d="M8 5v14l11-7z" />
               </svg>
             </button>
-            <span className={styles.cardTag}>{hi ? video.tagHI : cs ? video.tag : video.tagEN}</span>
+            <span className={styles.cardTag}>{tag}</span>
           </div>
         ) : (
           <iframe
             src={`https://www.youtube-nocookie.com/embed/${video.id}?autoplay=1&rel=0`}
-            title={hi ? video.titleHI : cs ? video.titleCS : video.titleEN}
+            title={title}
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
             className={styles.iframe}
@@ -150,11 +154,11 @@ function VideoCard({ video, cs, hi }: { video: typeof VIDEOS[0]; cs: boolean; hi
         )}
       </div>
       <div className={styles.cardMeta}>
-        <span className={styles.cardDate}>{hi ? video.date : cs ? video.date : video.dateEN}</span>
-        <div className={styles.cardTitle}>{hi ? video.titleHI : cs ? video.titleCS : video.titleEN}</div>
-        <p className={styles.cardDesc}>{hi ? video.descHI : cs ? video.descCS : video.descEN}</p>
+        <span className={styles.cardDate}>{date}</span>
+        <div className={styles.cardTitle}>{title}</div>
+        <p className={styles.cardDesc}>{desc}</p>
         <span className={styles.watchLink}>
-          {hi ? 'YouTube पर देखें' : cs ? 'Sledovat na YouTube' : 'Watch on YouTube'}
+          {hi ? 'YouTube पर देखें' : cs ? 'Sledovat na YouTube' : fr ? 'Regarder sur YouTube' : es ? 'Ver en YouTube' : de ? 'Auf YouTube ansehen' : 'Watch on YouTube'}
         </span>
       </div>
     </a>
