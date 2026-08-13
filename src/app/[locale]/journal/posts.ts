@@ -183,7 +183,7 @@ export const POSTS: PostMeta[] = [
     slug: 'maya-brahman-asramy',
     date: '2026-08-05',
     cover: '/images/Citta-Vritti.jpg',
-    langs: ['cs', 'en'],
+    langs: ['cs', 'en', 'fr', 'es'],
     meta: {
       cs: {
         rubric: 'Promluvy - Gurudév',
@@ -210,6 +210,26 @@ export const POSTS: PostMeta[] = [
           संपादन और सफ़ाई के। बातचीत माया और ब्रह्म से होते हुए जीवन-यात्रा के चार आश्रमों
           से गुज़रती है और अंत में चेतना के पाँच अंगों — मन, वृत्ति, चित्त, बुद्धि और आत्मा
           — के विश्लेषण तक पहुँचती है।`,
+      },
+      fr: {
+        rubric: 'Discours - Gurudev',
+        title: 'Les discours de Gurudev',
+        titleEm: 'Les quatre ashramas et Maya',
+        perex: `Conversation informelle entre Gurudev et ses disciples, conservée dans une
+          forme aussi brute que possible — sans édition ni lissage. L'échange passe de
+          maya et Brahman aux quatre ashramas du parcours de la vie, puis à une
+          explication des cinq aspects de la conscience : le mental, vritti, chitta,
+          buddhi et atman.`,
+      },
+      es: {
+        rubric: 'Discursos - Gurudev',
+        title: 'Discursos de Gurudev',
+        titleEm: 'Los cuatro ashramas y Maya',
+        perex: `Una conversación informal entre Gurudev y sus discípulos, conservada de la
+          forma más cruda posible — sin editar ni suavizar. La charla pasa de maya y
+          Brahman a los cuatro ashramas del recorrido de la vida y después a una
+          explicación de las cinco partes de la conciencia: mente, vritti, chitta,
+          buddhi y atman.`,
       },
     },
   },
