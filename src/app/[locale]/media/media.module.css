@@ -32,7 +32,7 @@
 .pageTitle {
   font-family: 'Cormorant Garamond', serif;
   font-size: clamp(32px, 4vw, 56px);
-  font-weight: 400;
+  font-weight: 500;
   line-height: 1.1;
   color: var(--ink2);
   margin: 0 0 20px;
@@ -221,7 +221,7 @@
 .cardTitle {
   font-family: 'Cormorant Garamond', serif;
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 500;
   color: var(--ink2);
   line-height: 1.3;
   margin-bottom: 10px;

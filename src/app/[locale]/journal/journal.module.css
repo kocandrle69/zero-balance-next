@@ -50,7 +50,7 @@
 .mastheadTitle {
   font-family: 'Cormorant Garamond', serif;
   font-size: clamp(52px, 8vw, 96px);
-  font-weight: 400; line-height: 1;
+  font-weight: 500; line-height: 1;
   color: var(--ink); letter-spacing: -0.01em;
   margin-bottom: 20px;
 }
@@ -108,7 +108,7 @@
 .articleTitle {
   font-family: 'Cormorant Garamond', serif;
   font-size: clamp(32px, 4.5vw, 52px);
-  font-weight: 400; line-height: 1.15;
+  font-weight: 500; line-height: 1.15;
   color: var(--ink); margin-bottom: 36px;
 }
 .articleTitle em { font-style: italic; color: var(--gold-text); }
@@ -309,7 +309,7 @@
 .cardTitle {
   font-family: 'Cormorant Garamond', serif;
   font-size: clamp(24px, 3vw, 32px);
-  font-weight: 400; line-height: 1.2;
+  font-weight: 500; line-height: 1.2;
   color: var(--ink); margin-bottom: 14px;
   transition: color 0.3s ease;
 }
@@ -377,7 +377,7 @@
   clear: both;
   font-family: 'Cormorant Garamond', serif;
   font-size: clamp(25px, 3vw, 32px);
-  font-weight: 400; line-height: 1.25;
+  font-weight: 500; line-height: 1.25;
   color: var(--ink);
   margin: 64px 0 24px;
   padding-top: 40px;
