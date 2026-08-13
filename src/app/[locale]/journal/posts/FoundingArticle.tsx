@@ -3,9 +3,10 @@
 import styles from '../journal.module.css'
 import type { PostLang } from '../posts'
 
-/** Článek zatím existuje jen v cs/en/hi — fr/es/de spadnou na angličtinu. */
-function toArticleLang(lang: PostLang): 'cs' | 'en' | 'hi' {
-  return lang === 'cs' || lang === 'hi' ? lang : 'en'
+/** Článek existuje v cs/en/hi/fr/es/de. */
+function toArticleLang(lang: PostLang): 'cs' | 'en' | 'hi' | 'fr' | 'es' | 'de' {
+  const valid: readonly PostLang[] = ['cs', 'en', 'hi', 'fr', 'es', 'de']
+  return (valid as readonly string[]).includes(lang) ? (lang as 'cs' | 'en' | 'hi' | 'fr' | 'es' | 'de') : 'en'
 }
 
 const CONTENT = {
@@ -183,6 +184,199 @@ const CONTENT = {
       पंजीकरण संख्या (IČO): <strong>29775060</strong> · फ़ाइल संख्या: <strong>L 82293</strong>,
       प्राग नगर न्यायालय।</>,
     s4p2: 'संस्था अनिश्चित काल के लिए स्थापित है और चेक गणराज्य तथा विदेशों में काम कर सकती है।',
+  },
+
+  fr: {
+    lead: `Le 19 juin 2026, l’acte fondateur a été signé à Krakovany et
+      Zero Balance Society, z.s. a vu le jour en tant qu’association à but
+      non lucratif enregistrée selon le droit civil tchèque. Ce moment n’a
+      pas été une décision spontanée — il a été l’aboutissement de plusieurs
+      années de pratique spirituelle, d’échanges culturels et d’un chemin
+      partagé avec des traditions qui nous ont façonnés.`,
+
+    s1Head: 'Vocation et orientation spirituelle',
+    s1p1: <>L’association a été fondée pour soutenir, développer, préserver et
+      transmettre des traditions spirituelles, culturelles, méditatives et
+      éducatives enracinées dans les traditions indiennes védiques, yogiques
+      et tantriques. Au cœur de notre démarche se trouve la lignée spirituelle
+      de <strong>Shri Karauli Shankar Mahadev Ji</strong>, connue sous le nom
+      de Karauli Sarkar ou Gurudev — ainsi que les traditions, pratiques et le
+      patrimoine culturel de l’Inde qui sont liés à son enseignement.</>,
+    s1p2: `Zero Balance Society n’est pas une organisation religieuse. Nous
+      sommes une association culturelle et éducative qui crée un espace pour
+      la pratique spirituelle, la rencontre interculturelle et le
+      développement personnel — ouverte à tous, quels que soient leurs
+      origines, leurs convictions ou leur expérience.`,
+
+    pullquote: <>&laquo;L’association crée un espace pour la pratique
+      spirituelle, le développement personnel, l’éducation, les échanges
+      culturels et interculturels et la coopération internationale.&raquo;</>,
+    pullquoteCite: '— Statuts de l’association, article II',
+
+    s2Head: 'Ce que fait l’Association',
+    s2p1: 'Les principales activités de l’association sont à but non lucratif et non commercial. L’association notamment :',
+    activities: [
+      'Organise des rencontres, conférences, séminaires, séances de méditation et événements culturels',
+      'Organise des voyages de groupe en Inde et des immersions culturelles dans des traditions vivantes',
+      'Soutient les visites d’enseignants spirituels et d’invités culturels en République tchèque',
+      'Traduit, prépare et diffuse des documents liés à la vocation de l’association',
+      'Coopère avec des communautés, organisations et particuliers en République tchèque et à l’étranger',
+      'Soutient la découverte de la culture, de la philosophie, des langues, de la musique et du patrimoine spirituel de l’Inde',
+    ],
+
+    s3Head: 'Fondateurs et structure',
+    s3p1: `L’association a été fondée par trois fondateurs lors de l’assemblée
+      constitutive du 19 juin 2026 à Krakovany. Les organes de l’association
+      sont l’assemblée générale et le président. Le représentant légal de
+      l’association est le président, qui est habilité à agir au nom de
+      l’association de manière indépendante.`,
+
+    members: [
+      { role: 'Président d’honneur', name: 'Sensei Rajeev Sinha, PhD', bio: 'Président d’honneur de Zero Balance Society, maître yogique et enseignant de Tantra Kriya Yoga, avec des élèves dans le monde entier. Depuis plus de vingt ans, il guide personnellement des membres de l’association dans la pratique de la tradition spirituelle indienne originelle.', photo: '/images/Sensei4.jpg', imgPos: 'center 15%', email: 'senseirajeev@icloud.com' },
+      { role: 'Président', name: 'Jan Kočandrle', bio: 'Fondateur et président de Zero Balance Society. Il contribue au développement des activités de l’association, à sa mission culturelle et à la création d’espaces de rencontre, d’étude et de partage des traditions spirituelles indiennes.', photo: '/images/Jan_ashram.jpg', imgPos: 'center 20%', email: 'jan@zero-balance.org' },
+      { role: 'Vice-président', name: 'PhDr. Jiří Kočandrle', bio: 'Vice-président de Zero Balance Society. Il se consacre à la communication, aux relations publiques et au développement de la mission culturelle de l’association, et contribue à la transmission de la pratique yogique et à l’étude des traditions spirituelles indiennes.', photo: '/images/Jirka_ashram.jpg', imgPos: 'center 20%', email: 'jiri@zero-balance.org' },
+      { role: 'Vice-président', name: 'Ing. František Filouš', bio: 'Vice-président de l’association. Il s’occupe des questions législatives et techniques et contribue au fonctionnement pratique de Zero Balance Society.', photo: '/images/Franta_ashram.jpg', imgPos: 'center 20%' },
+      { role: 'Membre cofondateur', name: 'Pavlína Muchová', bio: 'Membre cofondatrice de Zero Balance Society. Elle apporte au travail de l’association un sens de la beauté, de la créativité et de la sensibilité artistique ; elle est peintre et soutient la dimension culturelle et artistique de nos activités.', photo: '/images/Pavlina_ashram.jpg', imgPos: 'center 20%' },
+      { role: 'Membre cofondateur', name: 'Pavel Znamenáček', bio: 'Membre cofondateur de Zero Balance Society. Karatéka et entraîneur accompli, il se consacre depuis plus de 30 ans au travail avec les jeunes et dirige un club de karaté prospère. C’est par l’intermédiaire de son club que les fondateurs de l’association ont rencontré Sensei Rajeev Sinha pour la première fois, il y a plus de vingt ans. Au sein de l’association, il se concentre principalement sur les questions organisationnelles et techniques.', photo: '/images/Pavel_ashram.jpg', imgPos: 'center 20%' },
+    ],
+
+    s4Head: 'Siège social',
+    s4p1: <>Zero Balance Society z.s. est enregistrée en République tchèque en
+      tant qu’association à but non lucratif enregistrée conformément à la loi
+      n° 89/2012 Coll., Code civil.<br />
+      Siège social : <strong>Krakovany 352, 281 27 Krakovany, Czech Republic.</strong><br />
+      N° d’identification (IČO) : <strong>29775060</strong> · N° de dossier :{' '}
+      <strong>L 82293</strong>, Tribunal municipal de Prague.</>,
+    s4p2: 'L’association est constituée pour une durée indéterminée et peut exercer ses activités en République tchèque et à l’étranger.',
+  },
+
+  es: {
+    lead: `El 19 de junio de 2026 se firmó el acta fundacional en Krakovany y
+      Zero Balance Society, z.s. nació como una asociación sin ánimo de lucro
+      registrada conforme al derecho civil checo. Este momento no fue una
+      decisión espontánea — fue la culminación de años de práctica
+      espiritual, intercambio cultural y un camino compartido con
+      tradiciones que nos han formado.`,
+
+    s1Head: 'Propósito y orientación espiritual',
+    s1p1: <>La asociación fue fundada para apoyar, desarrollar, preservar y
+      difundir tradiciones espirituales, culturales, meditativas y educativas
+      arraigadas en las tradiciones indias védicas, yóguicas y tántricas. En
+      el centro de nuestro enfoque se encuentra el linaje espiritual
+      de <strong>Shri Karauli Shankar Mahadev Ji</strong>, conocido como
+      Karauli Sarkar o Gurudev — así como las tradiciones, prácticas y el
+      patrimonio cultural de la India relacionados con su enseñanza.</>,
+    s1p2: `Zero Balance Society no es una organización religiosa. Somos una
+      asociación cultural y educativa que crea un espacio para la práctica
+      espiritual, el encuentro intercultural y el desarrollo personal —
+      abierta a todos, independientemente de su origen, creencias o
+      experiencia.`,
+
+    pullquote: <>&laquo;La asociación crea un espacio para la práctica
+      espiritual, el desarrollo personal, la educación, el intercambio
+      cultural e intercultural y la cooperación internacional.&raquo;</>,
+    pullquoteCite: '— Estatutos de la Asociación, Artículo II',
+
+    s2Head: 'Qué hace la Asociación',
+    s2p1: 'Las principales actividades de la asociación son sin ánimo de lucro y no comerciales. En particular, la asociación:',
+    activities: [
+      'Organiza encuentros, conferencias, seminarios, sesiones de meditación y eventos culturales',
+      'Organiza viajes grupales a la India e inmersiones culturales en tradiciones vivas',
+      'Apoya las visitas de maestros espirituales e invitados culturales en la República Checa',
+      'Traduce, prepara y difunde materiales relacionados con el propósito de la asociación',
+      'Coopera con comunidades, organizaciones y particulares en la República Checa y en el extranjero',
+      'Apoya el conocimiento de la cultura, la filosofía, las lenguas, la música y el patrimonio espiritual de la India',
+    ],
+
+    s3Head: 'Fundadores y estructura',
+    s3p1: `La asociación fue fundada por tres fundadores en la asamblea
+      constituyente celebrada el 19 de junio de 2026 en Krakovany. Los
+      órganos de gobierno de la asociación son la asamblea general y el
+      presidente. El representante legal de la asociación es el presidente,
+      que está autorizado para actuar en nombre de la asociación de forma
+      independiente.`,
+
+    members: [
+      { role: 'Presidente de Honor', name: 'Sensei Rajeev Sinha, PhD', bio: 'Presidente de Honor de Zero Balance Society, maestro yóguico y profesor de Tantra Kriya Yoga con alumnos en todo el mundo. Desde hace más de veinte años, guía personalmente a miembros de la asociación en la práctica de la tradición espiritual india original.', photo: '/images/Sensei4.jpg', imgPos: 'center 15%', email: 'senseirajeev@icloud.com' },
+      { role: 'Presidente', name: 'Jan Kočandrle', bio: 'Fundador y presidente de Zero Balance Society. Contribuye al desarrollo de las actividades de la asociación, a su misión cultural y a la creación de espacios para el encuentro, el estudio y el intercambio de las tradiciones espirituales indias.', photo: '/images/Jan_ashram.jpg', imgPos: 'center 20%', email: 'jan@zero-balance.org' },
+      { role: 'Vicepresidente', name: 'PhDr. Jiří Kočandrle', bio: 'Vicepresidente de Zero Balance Society. Se centra en la comunicación, las relaciones públicas y el desarrollo de la misión cultural de la asociación, y contribuye a la transmisión de la práctica yóguica y al estudio de las tradiciones espirituales indias.', photo: '/images/Jirka_ashram.jpg', imgPos: 'center 20%', email: 'jiri@zero-balance.org' },
+      { role: 'Vicepresidente', name: 'Ing. František Filouš', bio: 'Vicepresidente de la asociación. Se ocupa de asuntos legislativos y técnicos y contribuye al funcionamiento práctico de Zero Balance Society.', photo: '/images/Franta_ashram.jpg', imgPos: 'center 20%' },
+      { role: 'Miembro cofundador', name: 'Pavlína Muchová', bio: 'Miembro cofundadora de Zero Balance Society. Aporta al trabajo de la asociación un sentido de la belleza, la creatividad y la sensibilidad artística; es pintora y apoya la dimensión cultural y artística de nuestras actividades.', photo: '/images/Pavlina_ashram.jpg', imgPos: 'center 20%' },
+      { role: 'Miembro cofundador', name: 'Pavel Znamenáček', bio: 'Miembro cofundador de Zero Balance Society. Karateka y entrenador de reconocido nivel, lleva más de 30 años dedicado al trabajo con jóvenes y dirige un exitoso club de karate. Fue a través de su club como los fundadores de la asociación conocieron por primera vez a Sensei Rajeev Sinha hace más de veinte años. Dentro de la asociación se centra principalmente en cuestiones organizativas y técnicas.', photo: '/images/Pavel_ashram.jpg', imgPos: 'center 20%' },
+    ],
+
+    s4Head: 'Domicilio social',
+    s4p1: <>Zero Balance Society z.s. está registrada en la República Checa
+      como asociación sin ánimo de lucro registrada de conformidad con la Ley
+      n.º 89/2012 Coll., Código Civil.<br />
+      Domicilio social: <strong>Krakovany 352, 281 27 Krakovany, Czech Republic.</strong><br />
+      N.º de identificación (IČO): <strong>29775060</strong> · N.º de expediente:{' '}
+      <strong>L 82293</strong>, Tribunal Municipal de Praga.</>,
+    s4p2: 'La asociación se constituye por tiempo indefinido y puede desarrollar sus actividades en la República Checa y en el extranjero.',
+  },
+
+  de: {
+    lead: `Am 19. Juni 2026 wurde in Krakovany die Gründungsurkunde
+      unterzeichnet und Zero Balance Society, z.s. entstand als eingetragener
+      gemeinnütziger Verein nach tschechischem Zivilrecht. Dieser Moment war
+      keine spontane Entscheidung — er war der Höhepunkt jahrelanger
+      spiritueller Praxis, kulturellen Austauschs und eines gemeinsamen Weges
+      mit Traditionen, die uns geprägt haben.`,
+
+    s1Head: 'Zweck und spirituelle Ausrichtung',
+    s1p1: <>Der Verein wurde gegründet, um spirituelle, kulturelle, meditative
+      und pädagogische Traditionen zu unterstützen, weiterzuentwickeln, zu
+      bewahren und zu vermitteln, die in den indischen vedischen, yogischen
+      und tantrischen Traditionen verwurzelt sind. Im Mittelpunkt unserer
+      Arbeit steht die spirituelle Linie
+      von <strong>Shri Karauli Shankar Mahadev Ji</strong>, bekannt als
+      Karauli Sarkar oder Gurudev — sowie die mit seiner Lehre verbundenen
+      Traditionen, Praktiken und das kulturelle Erbe Indiens.</>,
+    s1p2: `Zero Balance Society ist keine religiöse Organisation. Wir sind ein
+      kultureller und pädagogischer Verein, der Raum für spirituelle Praxis,
+      interkulturelle Begegnung und persönliche Entwicklung schafft — offen
+      für alle, unabhängig von Herkunft, Glauben oder Erfahrung.`,
+
+    pullquote: <>&bdquo;Der Verein schafft Raum für spirituelle Praxis,
+      persönliche Entwicklung, Bildung, kulturellen und interkulturellen
+      Austausch sowie internationale Zusammenarbeit.&ldquo;</>,
+    pullquoteCite: '— Satzung des Vereins, Artikel II',
+
+    s2Head: 'Was der Verein tut',
+    s2p1: 'Die Haupttätigkeiten des Vereins sind gemeinnützig und nicht kommerziell. Der Verein insbesondere:',
+    activities: [
+      'Organisiert Begegnungen, Vorträge, Seminare, Meditationen und kulturelle Veranstaltungen',
+      'Organisiert Gruppenreisen nach Indien und kulturelle Immersionen in lebendige Traditionen',
+      'Unterstützt Besuche spiritueller Lehrer und kultureller Gäste in der Tschechischen Republik',
+      'Übersetzt, erstellt und verbreitet Materialien im Zusammenhang mit dem Zweck des Vereins',
+      'Arbeitet mit Gemeinschaften, Organisationen und Einzelpersonen in der Tschechischen Republik und im Ausland zusammen',
+      'Unterstützt die Auseinandersetzung mit der indischen Kultur, Philosophie, Sprachen, Musik und dem spirituellen Erbe',
+    ],
+
+    s3Head: 'Gründer und Struktur',
+    s3p1: `Der Verein wurde von drei Gründern bei der Gründungsversammlung am
+      19. Juni 2026 in Krakovany gegründet. Die Organe des Vereins sind die
+      Mitgliederversammlung und der Vorsitzende. Gesetzlicher Vertreter des
+      Vereins ist der Vorsitzende, der berechtigt ist, den Verein
+      selbstständig zu vertreten.`,
+
+    members: [
+      { role: 'Ehrenvorsitzender', name: 'Sensei Rajeev Sinha, PhD', bio: 'Ehrenvorsitzender von Zero Balance Society, yogischer Meister und Lehrer des Tantra Kriya Yoga mit Schülern auf der ganzen Welt. Seit mehr als zwanzig Jahren begleitet er persönlich Mitglieder des Vereins in der Praxis der ursprünglichen indischen spirituellen Tradition.', photo: '/images/Sensei4.jpg', imgPos: 'center 15%', email: 'senseirajeev@icloud.com' },
+      { role: 'Vorsitzender', name: 'Jan Kočandrle', bio: 'Gründer und Vorsitzender von Zero Balance Society. Er trägt zur Entwicklung der Aktivitäten des Vereins, zu seiner kulturellen Aufgabe und zur Schaffung von Räumen für Begegnung, Studium und den Austausch indischer spiritueller Traditionen bei.', photo: '/images/Jan_ashram.jpg', imgPos: 'center 20%', email: 'jan@zero-balance.org' },
+      { role: 'Stellvertretender Vorsitzender', name: 'PhDr. Jiří Kočandrle', bio: 'Stellvertretender Vorsitzender von Zero Balance Society. Er konzentriert sich auf Kommunikation, Öffentlichkeitsarbeit und die Entwicklung der kulturellen Aufgabe des Vereins und trägt zur Vermittlung yogischer Praxis und zum Studium indischer spiritueller Traditionen bei.', photo: '/images/Jirka_ashram.jpg', imgPos: 'center 20%', email: 'jiri@zero-balance.org' },
+      { role: 'Stellvertretender Vorsitzender', name: 'Ing. František Filouš', bio: 'Stellvertretender Vorsitzender des Vereins. Er kümmert sich um rechtliche und technische Angelegenheiten und trägt zum praktischen Funktionieren von Zero Balance Society bei.', photo: '/images/Franta_ashram.jpg', imgPos: 'center 20%' },
+      { role: 'Mitbegründendes Mitglied', name: 'Pavlína Muchová', bio: 'Mitbegründendes Mitglied von Zero Balance Society. Sie bringt ein Gespür für Schönheit, Kreativität und künstlerische Sensibilität in die Arbeit des Vereins ein; sie ist Malerin und unterstützt die kulturelle und künstlerische Dimension unserer Aktivitäten.', photo: '/images/Pavlina_ashram.jpg', imgPos: 'center 20%' },
+      { role: 'Mitbegründendes Mitglied', name: 'Pavel Znamenáček', bio: 'Mitbegründendes Mitglied von Zero Balance Society. Als erfolgreicher Karateka und Trainer widmet er sich seit mehr als 30 Jahren der Arbeit mit jungen Menschen und leitet einen erfolgreichen Karateverein. Über seinen Verein lernten die Gründer des Vereins vor mehr als zwanzig Jahren erstmals Sensei Rajeev Sinha kennen. Innerhalb des Vereins konzentriert er sich vor allem auf organisatorische und technische Angelegenheiten.', photo: '/images/Pavel_ashram.jpg', imgPos: 'center 20%' },
+    ],
+
+    s4Head: 'Sitz des Vereins',
+    s4p1: <>Zero Balance Society z.s. ist in der Tschechischen Republik als
+      eingetragener gemeinnütziger Verein gemäß Gesetz Nr. 89/2012 Slg.,
+      Bürgerliches Gesetzbuch, eingetragen.<br />
+      Sitz des Vereins: <strong>Krakovany 352, 281 27 Krakovany, Czech Republic.</strong><br />
+      Identifikationsnummer (IČO): <strong>29775060</strong> · Aktenzeichen:{' '}
+      <strong>L 82293</strong>, Stadtgericht in Prag.</>,
+    s4p2: 'Der Verein ist auf unbestimmte Zeit gegründet und kann seine Tätigkeit in der Tschechischen Republik und im Ausland ausüben.',
   },
 } as const
 

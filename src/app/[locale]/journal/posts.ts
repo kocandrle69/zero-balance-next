@@ -515,7 +515,7 @@ export const POSTS: PostMeta[] = [
     date: '2026-06-19',
     cover: '/images/Casopis.jpg',
     coverPos: '78% center',
-    langs: ['cs', 'en', 'hi'],
+    langs: ['cs', 'en', 'hi', 'fr', 'es', 'de'],
     meta: {
       cs: {
         rubric: 'Ze spolku',
@@ -540,6 +540,30 @@ export const POSTS: PostMeta[] = [
         perex: `19 जून 2026 को क्राकोवानी में संस्थापक दस्तावेज़ पर हस्ताक्षर हुए और
           Zero Balance Society, z.s. अस्तित्व में आई। संस्था के उद्देश्य, उसके संस्थापकों
           और आध्यात्मिक अभिमुखता के बारे में।`,
+      },
+      fr: {
+        rubric: 'De l’Association',
+        title: 'Zero Balance Society',
+        titleEm: 'Pourquoi nous avons été fondés',
+        perex: `Le 19 juin 2026, l’acte fondateur a été signé à Krakovany et
+          Zero Balance Society, z.s. a vu le jour. À propos de la vocation de
+          l’association, de ses fondateurs et de son orientation spirituelle.`,
+      },
+      es: {
+        rubric: 'De la Asociación',
+        title: 'Zero Balance Society',
+        titleEm: 'Por qué fuimos fundados',
+        perex: `El 19 de junio de 2026 se firmó el acta fundacional en Krakovany
+          y nació Zero Balance Society, z.s. Sobre el propósito de la asociación,
+          sus fundadores y su orientación espiritual.`,
+      },
+      de: {
+        rubric: 'Aus dem Verein',
+        title: 'Zero Balance Society',
+        titleEm: 'Warum wir gegründet wurden',
+        perex: `Am 19. Juni 2026 wurde in Krakovany die Gründungsurkunde
+          unterzeichnet und Zero Balance Society, z.s. ins Leben gerufen. Über
+          den Zweck des Vereins, seine Gründer und seine spirituelle Ausrichtung.`,
       },
     },
   },
