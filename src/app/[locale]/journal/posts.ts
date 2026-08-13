@@ -345,6 +345,31 @@ export const POSTS: PostMeta[] = [
         perex: `आंद्रेया ने इस वर्ष भारत की यात्रा के दौरान जो चेहरे, भाव और क्षण क़ैद किए — आश्रम के,
           आसपास के गाँवों के और स्वयं इस यात्रा के लोग, उनकी सहज और खुली दृष्टि से देखे गए।`,
       },
+      fr: {
+        rubric: 'Reportage photo',
+        title: 'Les gens du Bhārat',
+        titleEm: 'Un carnet photo depuis l’Inde',
+        perex: `Visages, gestes et instants qu’Andrea a capturés lors de son voyage au
+          Bhārat cette année — des habitants de l’ashram, des villages environnants et
+          de la route elle-même, vus à travers son regard bienveillant et ouvert.`,
+      },
+      es: {
+        rubric: 'Ensayo fotográfico',
+        title: 'La gente del Bhārat',
+        titleEm: 'Un diario fotográfico desde la India',
+        perex: `Rostros, gestos y momentos que Andrea capturó durante su viaje a Bhārat
+          este año — personas del ashram, de los pueblos cercanos y del propio camino,
+          vistas a través de su mirada amable y abierta.`,
+      },
+      de: {
+        rubric: 'Fotoessay',
+        title: 'Menschen aus Bhārat',
+        titleEm: 'Ein Foto-Tagebuch aus Indien',
+        perex: `Gesichter, Gesten und Momente, die Andrea auf ihrer diesjährigen Reise
+          nach Bhārat eingefangen hat — Menschen aus dem Ashram, aus den umliegenden
+          Dörfern und von der Reise selbst, gesehen durch ihren freundlichen und
+          offenen Blick.`,
+      },
     },
   },
   {
