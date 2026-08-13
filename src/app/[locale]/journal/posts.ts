@@ -442,7 +442,7 @@ export const POSTS: PostMeta[] = [
     date: '2026-07-29',
     cover: '/images/Journal-Photo1.jpg',
     coverPos: 'center 40%',
-    langs: ['cs', 'en', 'hi', 'fr', 'es'],
+    langs: ['cs', 'en', 'hi', 'fr', 'es', 'de'],
     meta: {
       cs: {
         rubric: 'Promluvy - Gurudév',
@@ -488,6 +488,15 @@ export const POSTS: PostMeta[] = [
           en que nosotros mismos vivimos. Aquí presentamos la traducción del discurso
           principal, de las dos parábolas y de las palabras del secretario del Akhara y
           del mukhya mahant.`,
+      },
+      de: {
+        rubric: 'Diskurse - Gurudev',
+        title: 'Guru Purnima 2026',
+        titleEm: 'Ansprachen und Zusammenkünfte mit den Schülern',
+        perex: `Am Fest Guru Purnima sprach Gurudev über Samskaras und Verhalten — die
+          nächste Generation erbt nicht unsere Worte, sondern die Art, wie wir selbst
+          leben. Hier ist die Übersetzung des Hauptdiskurses, der beiden Gleichnisse
+          sowie der Worte des Sekretärs des Akhara und des mukhya mahant.`,
       },
     },
   },
