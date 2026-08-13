@@ -311,7 +311,7 @@ export const POSTS: PostMeta[] = [
     cover: '/images/YouTube-Channel.jpg',
     coverPos: 'left center',
     coverBanner: true,
-    langs: ['cs', 'en', 'hi'],
+    langs: ['cs', 'en', 'hi', 'fr', 'es', 'de'],
     meta: {
       cs: {
         rubric: 'Ze spolku',
@@ -341,6 +341,37 @@ export const POSTS: PostMeta[] = [
           आश्रम के दृश्य, हवन और अन्य अनुष्ठान, भारत की यात्राएँ तथा पारंपरिक योग-ज्ञान के
           व्यावहारिक वीडियो पाठ मिलेंगे।`,
       },
+      fr: {
+        rubric: 'De l’association',
+        title: 'Désormais sur YouTube',
+        titleEm: 'Toutes nos vidéos au même endroit',
+        perex: `Nous avons lancé une nouvelle chaîne YouTube consacrée à la méditation,
+          au yoga, à la pratique spirituelle et aux traditions vivantes de l’Inde —
+          Bharat. Vous y trouverez désormais au même endroit des méditations guidées
+          avec Gurudev, des images de l’ashram, des havans et autres rituels, des voyages
+          à travers Bharat ainsi que des leçons vidéo pratiques sur la sagesse yogique
+          traditionnelle.`,
+      },
+      es: {
+        rubric: 'Desde la asociación',
+        title: 'Ahora en YouTube',
+        titleEm: 'Todos nuestros vídeos en un solo lugar',
+        perex: `Hemos lanzado un nuevo canal de YouTube dedicado a la meditación, el yoga,
+          la práctica espiritual y las tradiciones vivas de la India — Bharat. Ahora
+          encontrarás en un solo lugar meditaciones guiadas con Gurudev, imágenes del
+          ashram, havans y otros rituales, viajes por Bharat y lecciones prácticas en
+          vídeo sobre la sabiduría yóguica tradicional.`,
+      },
+      de: {
+        rubric: 'Von der Vereinigung',
+        title: 'Jetzt auf YouTube',
+        titleEm: 'Alle unsere Videos an einem Ort',
+        perex: `Wir haben einen neuen YouTube-Kanal gestartet, der der Meditation, dem
+          Yoga, der spirituellen Praxis und den lebendigen Traditionen Indiens — Bharat —
+          gewidmet ist. An einem Ort finden Sie nun geführte Meditationen mit Gurudev,
+          Aufnahmen aus dem Ashram, Havans und andere Rituale, Reisen durch Bharat sowie
+          praktische Videolektionen über die traditionelle yogische Weisheit.`,
+      },
     },
   },
   {
@@ -349,7 +380,7 @@ export const POSTS: PostMeta[] = [
     cover: '/images/Journal-Sensei-Vedomi.jpg',
     coverPos: 'center 45%',
     coverBanner: true,
-    langs: ['cs', 'en', 'hi'],
+    langs: ['cs', 'en', 'hi', 'fr', 'es', 'de'],
     meta: {
       cs: {
         rubric: 'Promluvy - Sensei',
@@ -376,6 +407,33 @@ export const POSTS: PostMeta[] = [
         perex: `क्या हमारा शरीर वास्तविक घर है, या चेतना की यात्रा में केवल एक अस्थायी साधन?
           इस आध्यात्मिक प्रवचन में सेंसेई राजीव मानव जीवन के गहनतम प्रश्नों में से एक को छूते
           हैं: शरीर की सीमा से परे हम कौन हैं, और मृत्यु के क्षण में हमारे साथ क्या होता है।`,
+      },
+      fr: {
+        rubric: 'Discours - Sensei',
+        title: 'Les enseignements de Sensei',
+        titleEm: 'Qui sommes-nous et où allons-nous ?',
+        perex: `Notre corps est-il véritablement notre demeure, ou seulement un véhicule
+          temporaire sur le chemin de la conscience ? Dans ce discours spirituel, Sensei
+          Rajeev aborde l’une des questions les plus profondes de la vie humaine : qui
+          sommes-nous au-delà du corps, et que devient-on au moment de la mort ?`,
+      },
+      es: {
+        rubric: 'Discursos - Sensei',
+        title: 'Las enseñanzas de Sensei',
+        titleEm: '¿Quiénes somos y hacia dónde vamos?',
+        perex: `¿Es nuestro cuerpo realmente nuestro hogar, o solo un vehículo temporal
+          en el viaje de la conciencia? En este discurso espiritual, Sensei Rajeev aborda
+          una de las preguntas más profundas de la vida humana: quiénes somos más allá
+          del cuerpo y qué sucede con nosotros en el momento de la muerte.`,
+      },
+      de: {
+        rubric: 'Diskurse - Sensei',
+        title: 'Senseis Vorträge',
+        titleEm: 'Wer sind wir und wohin gehen wir?',
+        perex: `Ist unser Körper wirklich unser Zuhause oder nur ein vorübergehendes
+          Fahrzeug auf der Reise des Bewusstseins? In diesem spirituellen Diskurs berührt
+          Sensei Rajeev eine der tiefsten Fragen des menschlichen Lebens: Wer sind wir
+          jenseits des Körpers, und was geschieht mit uns im Augenblick des Todes?`,
       },
     },
   },
