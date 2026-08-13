@@ -341,7 +341,7 @@
   font-family: 'Cormorant Garamond', serif;
   font-size: clamp(34px, 5.2vw, 62px);
   /* 1.25 — devanágarí má vysoké akcenty, u těsnějšího řádkování se řádky dotýkají */
-  font-weight: 300; line-height: 1.25;
+  font-weight: 500; line-height: 1.25;
   color: var(--ink); letter-spacing: -0.01em;
   margin-bottom: 24px;
 }
