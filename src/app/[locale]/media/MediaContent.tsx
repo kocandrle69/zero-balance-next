@@ -12,6 +12,9 @@ export default function MediaContent() {
   const { lang } = useLang()
   const cs = lang === 'cs'
   const hi = lang === 'hi'
+  const fr = lang === 'fr'
+  const es = lang === 'es'
+  const de = lang === 'de'
   const searchParams = useSearchParams()
   const categoryParam = searchParams.get('category')
   const parsedCats = categoryParam
@@ -43,16 +46,22 @@ export default function MediaContent() {
 
         {/* Header */}
         <div className={styles.pageHeader}>
-          <div className={styles.sectionLabel}>{hi ? 'मीडिया' : cs ? 'Média' : 'Media'}</div>
+          <div className={styles.sectionLabel}>{hi ? 'मीडिया' : cs ? 'Média' : fr ? 'Médias' : es ? 'Medios' : de ? 'Medien' : 'Media'}</div>
           <h1 className={styles.pageTitle}>
-            {hi ? 'वीडियो &' : cs ? 'Videa &' : 'Videos &'}<br />
-            <em className={styles.acc}>{hi ? 'रिकॉर्डिंग' : cs ? 'záznamy' : 'recordings'}</em>
+            {hi ? 'वीडियो &' : cs ? 'Videa &' : fr ? 'Vidéos &' : es ? 'Vídeos y' : de ? 'Videos &' : 'Videos &'}<br />
+            <em className={styles.acc}>{hi ? 'रिकॉर्डिंग' : cs ? 'záznamy' : fr ? 'enregistrements' : es ? 'grabaciones' : de ? 'Aufnahmen' : 'recordings'}</em>
           </h1>
           <p className={styles.pageSub}>
             {hi
               ? 'आश्रम, समारोहों और तीर्थयात्राओं की रिकॉर्डिंग — हमारे अभ्यास के हृदय के प्रामाणिक क्षण।'
               : cs
               ? 'Záznamy z ášrámu, obřadů a poutí — autentické okamžiky ze srdce naší praxe.'
+              : fr
+              ? 'Enregistrements depuis l’ashram, des cérémonies et des pèlerinages — des moments authentiques au cœur de notre pratique.'
+              : es
+              ? 'Grabaciones desde el ashram, ceremonias y peregrinaciones — momentos auténticos en el corazón de nuestra práctica.'
+              : de
+              ? 'Aufnahmen aus dem Ashram, von Zeremonien und Pilgerreisen — authentische Momente aus dem Herzen unserer Praxis.'
               : 'Recordings from the ashram, ceremonies and pilgrimages — authentic moments from the heart of our practice.'}
           </p>
         </div>
@@ -63,7 +72,7 @@ export default function MediaContent() {
             className={`${styles.filterBtn} ${active === 'all' ? styles.filterActive : ''}`}
             onClick={() => setActive('all')}
           >
-            {hi ? 'सभी' : cs ? 'Vše' : 'All'}
+            {hi ? 'सभी' : cs ? 'Vše' : fr ? 'Tous' : es ? 'Todo' : de ? 'Alle' : 'All'}
           </button>
           {CATEGORIES.map(cat => (
             <button
