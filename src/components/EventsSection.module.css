@@ -14,7 +14,7 @@
 
 .sectionTitle {
   font-family: 'Cormorant Garamond', serif;
-  font-size: clamp(28px, 3vw, 46px); font-weight: 500;
+  font-size: clamp(28px, 3vw, 46px); font-weight: 300;
   line-height: 1.1; color: var(--ink2);
 }
 .sectionTitle :global(.acc) { color: var(--gold-text); font-style: italic; }
@@ -52,7 +52,7 @@
 
 .eventTitle {
   font-family: 'Cormorant Garamond', serif;
-  font-size: 22px; font-weight: 500;
+  font-size: 22px; font-weight: 300;
   color: var(--ink2); line-height: 1.25; margin-bottom: 12px;
 }
 
