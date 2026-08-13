@@ -117,7 +117,7 @@ export const POSTS: PostMeta[] = [
     slug: 'sadhana-with-music',
     date: '2026-08-06',
     cover: '/images/Meditace.jpg',
-    langs: ['cs', 'en', 'hi'],
+    langs: ['cs', 'en', 'hi', 'fr', 'es', 'de'],
     meta: {
       cs: {
         rubric: 'Promluvy - Gurudév',
@@ -146,6 +146,36 @@ export const POSTS: PostMeta[] = [
           यथासंभव कच्चे रूप में — बिना संपादन और सफ़ाई के। बातचीत सूचना और अनुभव के भेद से
           होते हुए जीवित गुरु के महत्व तथा भ्रम और द्वैत की प्रकृति से गुज़रती है और अंत
           में संगीत के साथ साधना के व्यावहारिक निर्देश तक पहुँचती है।`,
+      },
+      fr: {
+        rubric: 'Discours - Gurudev',
+        title: 'Les discours de Gurudev',
+        titleEm: 'Pourquoi nous ne pouvons pas apprendre de nos propres erreurs',
+        perex: `Transcription d’une séance matinale informelle entre Gurudev et ses
+          disciples, conservée dans une forme aussi brute que possible — sans édition ni
+          lissage. L’enseignement passe de la différence entre information et expérience
+          à l’importance d’un Guru vivant et à la nature de l’illusion et de la dualité,
+          avant d’aboutir aux instructions pratiques pour une sadhana avec musique.`,
+      },
+      es: {
+        rubric: 'Discursos - Gurudev',
+        title: 'Discursos de Gurudev',
+        titleEm: 'Por qué no podemos aprender de nuestros propios errores',
+        perex: `Transcripción de una sesión matutina informal entre Gurudev y sus
+          discípulos, conservada de la forma más fiel y cruda posible — sin editar ni
+          suavizar. La charla pasa de la diferencia entre información y experiencia a la
+          importancia de un Guru vivo y a la naturaleza de la ilusión y la dualidad, para
+          llegar finalmente a las instrucciones prácticas para una sadhana con música.`,
+      },
+      de: {
+        rubric: 'Diskurse - Gurudev',
+        title: 'Gurudevs Vorträge',
+        titleEm: 'Warum wir aus unseren eigenen Fehlern nicht lernen können',
+        perex: `Transkription einer informellen Morgensitzung zwischen Gurudev und
+          seinen Schülern, so unverfälscht wie möglich — unbearbeitet und ungeglättet.
+          Der Vortrag führt vom Unterschied zwischen Information und Erfahrung über die
+          Bedeutung eines lebendigen Guru und das Wesen von Illusion und Dualität bis hin
+          zu praktischen Anweisungen für eine sadhana mit Musik.`,
       },
     },
   },
