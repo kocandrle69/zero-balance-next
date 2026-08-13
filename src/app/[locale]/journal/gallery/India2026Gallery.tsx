@@ -6,9 +6,10 @@ import { INDIA_2026 } from './india2026'
 import { PHOTOGRAPHERS } from './photographers'
 import type { PostLang } from '../posts'
 
-/** Galerie zatím existuje jen v cs/en/hi — fr/es/de spadnou na angličtinu. */
-function toGalleryLang(lang: PostLang): 'cs' | 'en' | 'hi' {
-  return lang === 'cs' || lang === 'hi' ? lang : 'en'
+/** Galerie existuje v cs/en/hi/fr/es/de. */
+function toGalleryLang(lang: PostLang): 'cs' | 'en' | 'hi' | 'fr' | 'es' | 'de' {
+  const valid: readonly PostLang[] = ['cs', 'en', 'hi', 'fr', 'es', 'de']
+  return (valid as readonly string[]).includes(lang) ? (lang as 'cs' | 'en' | 'hi' | 'fr' | 'es' | 'de') : 'en'
 }
 
 const UI = {
@@ -30,6 +31,27 @@ const UI = {
     growing: `यह गैलरी एक जीवंत संग्रह है जो समय के साथ बढ़ता रहेगा। यहाँ दिखाई गई आंद्रेया की
       तस्वीरों के साथ-साथ, समय के साथ हमारे समुदाय के अन्य योगदानकर्ताओं और सदस्यों की तस्वीरें
       भी जुड़ती जाएँगी — हर एक अपने अनूठे दृष्टिकोण और अनुभव के साथ।`,
+  },
+  fr: {
+    close: 'Fermer', prev: 'Précédente', next: 'Suivante', lens: 'À travers l’objectif de',
+    growing: `Cette galerie est une collection vivante qui continuera de s’enrichir. Aux
+      côtés des photographies d’Andrea présentées ici, des images d’autres contributeurs
+      et membres de notre communauté seront ajoutées au fil du temps, chacune portant un
+      regard et une expérience qui lui sont propres.`,
+  },
+  es: {
+    close: 'Cerrar', prev: 'Anterior', next: 'Siguiente', lens: 'A través del objetivo de',
+    growing: `Esta galería es una colección viva que seguirá creciendo. Junto al trabajo
+      de Andrea que aquí presentamos, con el tiempo iremos añadiendo fotografías de otros
+      colaboradores y miembros de nuestra comunidad, cada una de ellas reflejando su
+      propia perspectiva y experiencia.`,
+  },
+  de: {
+    close: 'Schließen', prev: 'Zurück', next: 'Weiter', lens: 'Durch die Linse von',
+    growing: `Diese Galerie ist eine lebendige Sammlung, die weiter wachsen wird. Neben
+      Andreas Fotografien, die hier zu sehen sind, werden im Laufe der Zeit auch Bilder
+      anderer Mitwirkender und Mitglieder unserer Gemeinschaft hinzukommen – jedes davon
+      mit seiner eigenen Perspektive und Erfahrung.`,
   },
 } as const
 
