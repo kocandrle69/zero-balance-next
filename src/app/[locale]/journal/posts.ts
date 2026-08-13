@@ -248,7 +248,7 @@ export const POSTS: PostMeta[] = [
     date: '2026-08-04',
     cover: '/images/Journal-Ashram-Return.jpg',
     coverBanner: true,
-    langs: ['cs', 'en', 'hi'],
+    langs: ['cs', 'en', 'hi', 'fr', 'es', 'de'],
     meta: {
       cs: {
         rubric: 'Z cesty',
@@ -278,6 +278,38 @@ export const POSTS: PostMeta[] = [
           हुए। यह वीडियो नई दिल्ली में उतरने से लेकर मिनीबस से उतरते ही फूलों से हुए हार्दिक
           स्वागत तक की हमारी यात्रा को दर्शाता है। हम आश्रम में अब कई बार लौट चुके हैं, और
           इस बार भी यहाँ कुछ सप्ताह आध्यात्मिक साधना में बिताएँगे।`,
+      },
+      fr: {
+        rubric: 'Sur la route',
+        title: 'Retour à l’ashram',
+        titleEm: 'De la Tchéquie à Karauli',
+        perex: `Le 26 juillet 2026, nous sommes une nouvelle fois partis de République
+          tchèque pour rejoindre l’ashram de Karauli Sarkar. La vidéo retrace notre
+          voyage, de notre atterrissage à New Delhi jusqu’à l’accueil chaleureux avec
+          des fleurs lorsque nous sommes descendus du minibus. Nous revenons à l’ashram
+          pour la énième fois et, cette fois encore, nous y passerons plusieurs semaines
+          consacrées à la pratique spirituelle.`,
+      },
+      es: {
+        rubric: 'En el camino',
+        title: 'Regreso al ashram',
+        titleEm: 'De Chequia de vuelta a Karauli',
+        perex: `El 26 de julio de 2026 partimos una vez más desde la República Checa
+          hacia el ashram de Karauli Sarkar. El vídeo recoge nuestro viaje desde el
+          aterrizaje en Nueva Delhi hasta la cálida bienvenida con flores al bajar del
+          minibús. Regresamos al ashram una vez más y, también esta vez, pasaremos
+          aquí varias semanas dedicadas a la práctica espiritual.`,
+      },
+      de: {
+        rubric: 'Unterwegs',
+        title: 'Rückkehr in den Ashram',
+        titleEm: 'Von Tschechien zurück nach Karauli',
+        perex: `Am 26. Juli 2026 machten wir uns erneut von der Tschechischen Republik
+          auf den Weg zum Karauli Sarkar ashram. Das Video zeigt unsere Reise von der
+          Landung in Neu-Delhi bis zum herzlichen Empfang mit Blumen, als wir aus dem
+          Minibus stiegen. Wir kehren nun schon zum wiederholten Mal in den ashram
+          zurück und werden auch diesmal mehrere Wochen hier der spirituellen Praxis
+          widmen.`,
       },
     },
   },
