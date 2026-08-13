@@ -4,6 +4,7 @@ import { useRef, useState } from 'react'
 import styles from './MediaSection.module.css'
 import { useScrollRevealAll } from '../hooks/useScrollReveal'
 import { useLang } from '../contexts/LangContext'
+import { Link } from '../i18n/navigation'
 
 // ─── Kategorie ────────────────────────────────────────────────────────────────
 export type VideoCategory =
@@ -557,9 +558,9 @@ export default function MediaSection() {
 
       {/* CTA to /media */}
       <div className={`${styles.mediaCta} r`} style={{ transitionDelay: '0.3s' }}>
-        <a href="/media" className={styles.ctaBtn}>
+        <Link href="/media" className={styles.ctaBtn}>
           {hi ? 'सभी वीडियो' : cs ? 'Všechna videa' : 'All videos'}
-        </a>
+        </Link>
         <a
           href="https://www.youtube.com/@Zero-BalanceSociety"
           target="_blank"

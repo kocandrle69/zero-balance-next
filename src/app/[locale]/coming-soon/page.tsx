@@ -1,9 +1,15 @@
-import Navbar from '../../components/Navbar'
-import Footer from '../../components/Footer'
-import styles from '../../components/subpage.module.css'
+import Navbar from '../../../components/Navbar'
+import Footer from '../../../components/Footer'
+import styles from '../../../components/subpage.module.css'
+import { hreflangAlternates } from '../../../i18n/seo'
+import type { AppLocale } from '../../../i18n/routing'
+import type { Metadata } from 'next'
 
-export const metadata = {
-  title: 'Coming Soon · Zero Balance Society',
+// Obsah stránky je zatím jen anglicky natvrdo, proto zůstává i titulek
+// jednojazyčný — jen doplňujeme hreflang, aby nebyla ve výsledku bez alternates.
+export async function generateMetadata({ params }: PageProps<'/[locale]/coming-soon'>): Promise<Metadata> {
+  const { locale } = await params
+  return { title: 'Coming Soon · Zero Balance Society', alternates: hreflangAlternates('/coming-soon', locale as AppLocale) }
 }
 
 export default function ComingSoonPage() {

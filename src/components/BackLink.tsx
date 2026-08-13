@@ -1,6 +1,6 @@
 'use client'
 
-import { useRouter } from 'next/navigation'
+import { useRouter } from '../i18n/navigation'
 import { useLang } from '../contexts/LangContext'
 import styles from './BackLink.module.css'
 

@@ -2,10 +2,10 @@
 
 import { useState } from 'react'
 import { useSearchParams } from 'next/navigation'
-import { useLang } from '../../contexts/LangContext'
-import Navbar from '../../components/Navbar'
-import Footer from '../../components/Footer'
-import { VIDEOS, CATEGORIES, watchUrl, type VideoCategory } from '../../components/MediaSection'
+import { useLang } from '../../../contexts/LangContext'
+import Navbar from '../../../components/Navbar'
+import Footer from '../../../components/Footer'
+import { VIDEOS, CATEGORIES, watchUrl, type VideoCategory } from '../../../components/MediaSection'
 import styles from './media.module.css'
 
 export default function MediaContent() {

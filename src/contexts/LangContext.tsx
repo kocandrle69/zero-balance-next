@@ -1,45 +1,41 @@
 'use client'
 
-import { createContext, useContext, useState, useEffect, type ReactNode } from 'react'
+import { createContext, useContext, useEffect, type ReactNode } from 'react'
 import { T, type Lang, type TranslationKey } from '../lib/translations'
 
 interface LangContextType {
   lang: Lang
   t: (key: TranslationKey) => string
   tHTML: (key: TranslationKey) => { __html: string }
-  setLang: (lang: Lang) => void
 }
 
 const LangContext = createContext<LangContextType>({
   lang: 'en',
   t: (key) => T.en[key],
   tHTML: (key) => ({ __html: T.en[key] }),
-  setLang: () => {},
 })
 
-export function LangProvider({ children }: { children: ReactNode }) {
-  const [lang, setLangState] = useState<Lang>('en')
-  const [mounted, setMounted] = useState(false)
-
+/**
+ * `lang` je teď odvozený z URL (segment `[locale]` v app routeru), ne z
+ * localStorage — server layout ho čte z adresy a pošle sem jako
+ * `initialLang`. To zajišťuje next-intl proxy (src/proxy.ts): detekuje
+ * jazyk, přesměruje na prefixovanou adresu a zapamatuje si volbu do
+ * cookie sám, takže tu vlastní localStorage logiku už nepotřebujeme.
+ *
+ * Přepnutí jazyka (Navbar) = navigace na jinou URL přes next-intl's
+ * `useRouter`, ne volání settera tady — díky tomu zůstává obsah stránky
+ * vždy v souladu s tím, co je v adrese, i pro prvotní server-rendered HTML.
+ */
+export function LangProvider({ children, initialLang }: { children: ReactNode; initialLang: Lang }) {
   useEffect(() => {
-    setMounted(true)
-    const saved = localStorage.getItem('zbs_lang') as Lang | null
-    if (saved && T[saved]) setLangState(saved)
-  }, [])
+    document.documentElement.lang = initialLang
+  }, [initialLang])
 
-  const setLang = (l: Lang) => {
-    setLangState(l)
-    if (typeof window !== 'undefined') {
-      localStorage.setItem('zbs_lang', l)
-      document.documentElement.lang = l
-    }
-  }
-
-  const t = (key: TranslationKey): string => T[lang][key] ?? key
-  const tHTML = (key: TranslationKey) => ({ __html: T[lang][key] ?? key })
+  const t = (key: TranslationKey): string => T[initialLang][key] ?? key
+  const tHTML = (key: TranslationKey) => ({ __html: T[initialLang][key] ?? key })
 
   return (
-    <LangContext.Provider value={{ lang, t, tHTML, setLang }}>
+    <LangContext.Provider value={{ lang: initialLang, t, tHTML }}>
       {children}
     </LangContext.Provider>
   )

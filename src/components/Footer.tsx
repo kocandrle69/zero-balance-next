@@ -1,7 +1,7 @@
 'use client'
 
 import { useState } from 'react'
-import Link from 'next/link'
+import { Link } from '../i18n/navigation'
 import styles from './Footer.module.css'
 import { useLang } from '../contexts/LangContext'
 
@@ -92,12 +92,12 @@ export default function Footer() {
         <div className={styles.footerCol}>
           <h5>{t('foot_nav')}</h5>
           <ul>
-            <li><a href="/about">{t('foot_about')}</a></li>
-            <li><a href="/#philosophy">{t('foot_phil')}</a></li>
-            <li><a href="/#activities">{t('foot_act')}</a></li>
-            <li><a href="/#india">{t('foot_india')}</a></li>
-            <li><a href="/#events">{t('foot_events')}</a></li>
-            <li><a href="/journal">{t('foot_journal')}</a></li>
+            <li><Link href="/about">{t('foot_about')}</Link></li>
+            <li><Link href="/#philosophy">{t('foot_phil')}</Link></li>
+            <li><Link href="/#activities">{t('foot_act')}</Link></li>
+            <li><Link href="/#india">{t('foot_india')}</Link></li>
+            <li><Link href="/#events">{t('foot_events')}</Link></li>
+            <li><Link href="/journal">{t('foot_journal')}</Link></li>
           </ul>
         </div>
 

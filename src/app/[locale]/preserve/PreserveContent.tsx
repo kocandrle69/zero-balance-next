@@ -1,11 +1,11 @@
 'use client'
 
-import Navbar from '../../components/Navbar'
-import Footer from '../../components/Footer'
-import BackLink from '../../components/BackLink'
-import { useLang } from '../../contexts/LangContext'
-import styles from '../../components/subpage.module.css'
-import IMG from '../../lib/images'
+import Navbar from '../../../components/Navbar'
+import Footer from '../../../components/Footer'
+import BackLink from '../../../components/BackLink'
+import { useLang } from '../../../contexts/LangContext'
+import styles from '../../../components/subpage.module.css'
+import IMG from '../../../lib/images'
 
 const CONTENT = {
   en: {

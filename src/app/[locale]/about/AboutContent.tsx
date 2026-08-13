@@ -1,11 +1,12 @@
 'use client'
 
-import Navbar from '../../components/Navbar'
-import Footer from '../../components/Footer'
-import BackLink from '../../components/BackLink'
-import { useLang } from '../../contexts/LangContext'
-import styles from '../../components/subpage.module.css'
-import IMG from '../../lib/images'
+import Navbar from '../../../components/Navbar'
+import Footer from '../../../components/Footer'
+import BackLink from '../../../components/BackLink'
+import { useLang } from '../../../contexts/LangContext'
+import styles from '../../../components/subpage.module.css'
+import IMG from '../../../lib/images'
+import { Link } from '../../../i18n/navigation'
 
 const CONTENT = {
   en: {
@@ -241,7 +242,7 @@ export default function AboutContent() {
           </section>
 
           <section className={styles.section} style={{ display: 'flex', flexDirection: 'column', gap: '16px', alignItems: 'flex-start' }}>
-            <a href="/lineage" className={styles.subpageCtaLink}>{C.philLink}</a>
+            <Link href="/lineage" className={styles.subpageCtaLink}>{C.philLink}</Link>
             <a href={lang === 'hi' ? '/Zero Balance Society (hi).pdf' : lang === 'cs' ? '/Zero Balance Society (cs).pdf' : '/Zero Balance Society (eng).pdf'} target="_blank" rel="noopener noreferrer" className={styles.subpageCtaLink} style={{ opacity: 0.7 }}>{C.pdfLink}</a>
           </section>
 

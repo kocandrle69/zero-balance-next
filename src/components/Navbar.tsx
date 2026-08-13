@@ -4,7 +4,7 @@ import { useEffect, useState, useRef } from 'react'
 import styles from './Navbar.module.css'
 import { useLang } from '../contexts/LangContext'
 import type { Lang } from '../lib/translations'
-import Link from 'next/link'
+import { Link, useRouter, usePathname } from '../i18n/navigation'
 
 const LANGUAGES = [
   { code: 'en' as Lang, flag: '🇬🇧', name: 'English',   soon: false },
@@ -16,11 +16,17 @@ const LANGUAGES = [
 ]
 
 export default function Navbar({ translucent = false }: { translucent?: boolean }) {
-  const { lang, t, setLang } = useLang()
+  const { lang, t } = useLang()
+  const router = useRouter()
+  const pathname = usePathname()
   const [scrolled,   setScrolled]   = useState(false)
   const [langOpen,   setLangOpen]   = useState(false)
   const [menuOpen,   setMenuOpen]   = useState(false)
   const dropRef = useRef<HTMLDivElement>(null)
+
+  // Přepnutí jazyka = navigace na stejnou stránku pod jiným locale prefixem,
+  // ne jen změna stavu — obsah se má vždy shodovat s URL.
+  const switchLang = (code: Lang) => router.replace(pathname, { locale: code })
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 50)
@@ -78,7 +84,7 @@ export default function Navbar({ translucent = false }: { translucent?: boolean 
         {/* Desktop nav links */}
         <ul className={styles.navLinks}>
           {navLinks.map(l => (
-            <li key={l.key}><a href={l.href}>{t(l.key)}</a></li>
+            <li key={l.key}><Link href={l.href}>{t(l.key)}</Link></li>
           ))}
         </ul>
 
@@ -99,7 +105,7 @@ export default function Navbar({ translucent = false }: { translucent?: boolean 
               <div
                 key={l.code}
                 className={`${styles.langItem} ${l.code === lang ? styles.active : ''} ${l.soon ? styles.disabled : ''}`}
-                onClick={() => !l.soon && setLang(l.code)}
+                onClick={() => !l.soon && switchLang(l.code)}
               >
                 <span className={styles.langFlag}>{l.flag}</span>
                 <div className={styles.langInfo}>
@@ -130,7 +136,7 @@ export default function Navbar({ translucent = false }: { translucent?: boolean 
           <ul className={styles.mobileLinks}>
             {navLinks.map(l => (
               <li key={l.key}>
-                <a href={l.href} onClick={() => setMenuOpen(false)}>{t(l.key)}</a>
+                <Link href={l.href} onClick={() => setMenuOpen(false)}>{t(l.key)}</Link>
               </li>
             ))}
           </ul>
@@ -140,7 +146,7 @@ export default function Navbar({ translucent = false }: { translucent?: boolean 
               <button
                 key={l.code}
                 className={`${styles.mobileLangBtn} ${l.code === lang ? styles.mobileLangActive : ''}`}
-                onClick={() => { setLang(l.code); setMenuOpen(false) }}
+                onClick={() => { switchLang(l.code); setMenuOpen(false) }}
               >
                 <span>{l.flag}</span> {l.code.toUpperCase()}
               </button>

@@ -1,7 +1,7 @@
 'use client'
 
 import { useRef } from 'react'
-import Link from 'next/link'
+import { Link } from '../i18n/navigation'
 import styles from './PurposeSection.module.css'
 import { useLang } from '../contexts/LangContext'
 import { useScrollRevealAll } from '../hooks/useScrollReveal'
