@@ -6,6 +6,11 @@ import { INDIA_2026 } from './india2026'
 import { PHOTOGRAPHERS } from './photographers'
 import type { PostLang } from '../posts'
 
+/** Galerie zatím existuje jen v cs/en/hi — fr/es/de spadnou na angličtinu. */
+function toGalleryLang(lang: PostLang): 'cs' | 'en' | 'hi' {
+  return lang === 'cs' || lang === 'hi' ? lang : 'en'
+}
+
 const UI = {
   cs: {
     close: 'Zavřít', prev: 'Předchozí', next: 'Další', lens: 'Objektivem',
@@ -42,7 +47,7 @@ const ALL_PHOTOS = SECTIONS.flatMap(s => s.photos)
 const PHOTO_INDEX = new Map(ALL_PHOTOS.map((p, i) => [p.thumb, i]))
 
 export default function India2026Gallery({ lang }: { lang: PostLang }) {
-  const t = UI[lang]
+  const t = UI[toGalleryLang(lang)]
   const [open, setOpen] = useState<number | null>(null)
 
   useEffect(() => {

@@ -6,12 +6,15 @@ import Footer from '../../../components/Footer'
 import BackLink from '../../../components/BackLink'
 import styles from './journal.module.css'
 import { useLang } from '../../../contexts/LangContext'
-import { POSTS, formatDate, toPostLang } from './posts'
+import { POSTS, formatDate, toPostLang, getMeta } from './posts'
 
 const UI = {
   cs: { title: 'Časopis', sub: 'Prostor pro slovo, reflexi a sdílení naší cesty.', more: 'Číst dále' },
   en: { title: 'Journal', sub: 'A space for words, reflection and sharing our journey.', more: 'Read more' },
   hi: { title: 'पत्रिका', sub: 'शब्द, चिंतन और हमारी यात्रा साझा करने का एक स्थान।', more: 'आगे पढ़ें' },
+  fr: { title: 'Journal', sub: 'Un espace pour la parole, la réflexion et le partage de notre chemin.', more: 'Lire la suite' },
+  es: { title: 'Revista', sub: 'Un espacio para la palabra, la reflexión y compartir nuestro camino.', more: 'Leer más' },
+  de: { title: 'Journal', sub: 'Ein Raum für Worte, Reflexion und das Teilen unseres Weges.', more: 'Weiterlesen' },
 } as const
 
 export default function JournalIndex() {
@@ -44,7 +47,7 @@ export default function JournalIndex() {
         {/* ── Archiv vydání ─────────────────────────────────── */}
         <div className={styles.archive}>
           {posts.map(post => {
-            const meta = post.meta[lang]
+            const meta = getMeta(post, lang)
             return (
               <Link key={post.slug} href={`/journal/${post.slug}`} className={styles.card}>
                 <div className={styles.cardImg}>

@@ -4,7 +4,8 @@ export interface PhotographerInfo {
   photo?: string
   /** object-position fotky v kruhovém výřezu, pokud výchozí střed nesedí */
   photoPos?: string
-  bio?: Record<PostLang, string>
+  /** Zatím jen cs/en/hi; fr/es/de dostanou anglický fallback (viz India2026Gallery.tsx). */
+  bio?: Partial<Record<PostLang, string>>
 }
 
 /**

@@ -46,7 +46,7 @@ export async function generateMetadata({ params }: PageProps<'/[locale]/journal'
     // na webu do něj nepromítne — držíme ho česky, podle většiny čtenářů.
     openGraph: {
       title: 'Časopis · Zero Balance Society',
-      description: oneLine(latest.meta.cs.perex),
+      description: oneLine(latest.meta.cs!.perex),
       images: [latest.cover],
       locale: 'cs_CZ',
       type: 'website',

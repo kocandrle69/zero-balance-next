@@ -3,6 +3,11 @@
 import styles from '../journal.module.css'
 import type { PostLang } from '../posts'
 
+/** Článek zatím existuje jen v cs/en/hi — fr/es/de spadnou na angličtinu. */
+function toArticleLang(lang: PostLang): 'cs' | 'en' | 'hi' {
+  return lang === 'cs' || lang === 'hi' ? lang : 'en'
+}
+
 const CONTENT = {
   cs: {
     lead: `Dne 19. června 2026 byl v Krakovanech podepsán zakladatelský dokument
@@ -182,7 +187,7 @@ const CONTENT = {
 } as const
 
 export default function FoundingArticle({ lang }: { lang: PostLang }) {
-  const c = CONTENT[lang]
+  const c = CONTENT[toArticleLang(lang)]
 
   return (
     <>

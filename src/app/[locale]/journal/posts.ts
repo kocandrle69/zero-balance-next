@@ -11,16 +11,17 @@
  * Nové vydání = nová položka na začátku POSTS + nová komponenta těla.
  */
 
-export type PostLang = 'cs' | 'en' | 'hi'
+export type PostLang = 'cs' | 'en' | 'hi' | 'fr' | 'es' | 'de'
 
 /**
- * Journal zatím existuje jen v cs/en/hi. Web jako celek má i fr/es/de
- * (viz src/lib/translations.ts), ale žurnál na ně překlad ještě nemá — tahle
- * funkce je na hranici mezi "jazyk webu" a "jazyk žurnálu" a mapuje je na
- * angličtinu, stejně jako bodyLang() dělá pro chybějící hi překlad článku.
+ * PostLang teď pokrývá stejnou množinu jako Lang (viz src/lib/translations.ts)
+ * — žurnál dostává fr/es/de překlady postupně, článek po článku. Dokud
+ * konkrétní vydání fr/es/de tělo/meta nemá, `bodyLang()`/`getMeta()` prostě
+ * spadnou na angličtinu, přesně jako dřív dělaly pro chybějící hi.
  */
 export function toPostLang(lang: string): PostLang {
-  return lang === 'cs' || lang === 'hi' ? lang : 'en'
+  const valid: readonly PostLang[] = ['cs', 'en', 'hi', 'fr', 'es', 'de']
+  return (valid as readonly string[]).includes(lang) ? (lang as PostLang) : 'en'
 }
 
 export interface PostMeta {
@@ -46,14 +47,18 @@ export interface PostMeta {
   wide?: boolean
   /** Jazyky, ve kterých existuje TĚLO článku. Ostatní se odbaví fallbackem. */
   langs: PostLang[]
-  /** Rubrika, titulek, kurzívní dovětek titulku a perex — pro každý jazyk */
-  meta: Record<PostLang, {
+  /**
+   * Rubrika, titulek, kurzívní dovětek titulku a perex — pro každý jazyk.
+   * Partial: staré články mají zatím jen cs/en/hi, meta pro fr/es/de se
+   * dopisuje postupně. Chybějící jazyk vyřeší getMeta() fallbackem na en.
+   */
+  meta: Partial<Record<PostLang, {
     rubric: string
     title: string
     /** Druhý řádek titulku, sázený kurzívou zlatě. Volitelné. */
     titleEm?: string
     perex: string
-  }>
+  }>>
 }
 
 export const POSTS: PostMeta[] = [
@@ -62,7 +67,7 @@ export const POSTS: PostMeta[] = [
     date: '2026-08-07',
     cover: '/images/Karma.jpg',
     coverBanner: true,
-    langs: ['cs', 'en', 'hi'],
+    langs: ['cs', 'en', 'hi', 'fr', 'es', 'de'],
     meta: {
       cs: {
         rubric: 'Promluvy - Sensei',
@@ -84,6 +89,27 @@ export const POSTS: PostMeta[] = [
         titleEm: 'कर्म और कर्म भोग के तीन प्रकार',
         perex: `सेंसेई राजीव संचित कर्म, प्रारब्ध कर्म और क्रियमाण कर्म पर — आसक्ति,
           कर्तव्य के रूप में चेतावनी और ज़ीरो बैलेंस के अर्थ पर।`,
+      },
+      fr: {
+        rubric: 'Discours - Sensei',
+        title: 'Les discours de Sensei',
+        titleEm: 'Le karma et les trois sortes de karma bhog',
+        perex: `Sensei Rajeev sur sanchit karma, prarabdh karma et kriyaman karma — sur
+          l’attachement, le reproche comme devoir, et ce que signifie réellement zero balance.`,
+      },
+      es: {
+        rubric: 'Discursos - Sensei',
+        title: 'Discursos de Sensei',
+        titleEm: 'El karma y los tres tipos de karma bhog',
+        perex: `Sensei Rajeev sobre sanchit karma, prarabdh karma y kriyaman karma — sobre
+          el apego, la amonestación como deber y lo que realmente significa zero balance.`,
+      },
+      de: {
+        rubric: 'Diskurse - Sensei',
+        title: 'Senseis Vorträge',
+        titleEm: 'Karma und die drei Arten von Karma Bhog',
+        perex: `Sensei Rajeev über sanchit karma, prarabdh karma und kriyaman karma — über
+          Anhaftung, Ermahnung als Pflicht und darüber, was zero balance wirklich bedeutet.`,
       },
     },
   },
@@ -381,9 +407,19 @@ export function bodyLang(post: PostMeta, lang: PostLang): PostLang {
   return post.langs[0]
 }
 
+/** Meta (rubrika/titulek/perex) pro daný jazyk, s fallbackem na en → cs. */
+export function getMeta(post: PostMeta, lang: PostLang) {
+  return post.meta[lang] ?? post.meta.en ?? post.meta.cs!
+}
+
 /** Datum vypsané v jazyce čtenáře. */
 export function formatDate(iso: string, lang: PostLang): string {
-  const locale = lang === 'cs' ? 'cs-CZ' : lang === 'hi' ? 'hi-IN' : 'en-GB'
+  const locale =
+    lang === 'cs' ? 'cs-CZ' :
+    lang === 'hi' ? 'hi-IN' :
+    lang === 'fr' ? 'fr-FR' :
+    lang === 'es' ? 'es-ES' :
+    lang === 'de' ? 'de-DE' : 'en-GB'
   return new Date(iso).toLocaleDateString(locale, {
     day: 'numeric', month: 'long', year: 'numeric',
   })

@@ -6,7 +6,7 @@ import Footer from '../../../../components/Footer'
 import BackLink from '../../../../components/BackLink'
 import styles from '../journal.module.css'
 import { useLang } from '../../../../contexts/LangContext'
-import { getPost, bodyLang, formatDate, toPostLang, type PostLang } from '../posts'
+import { getPost, bodyLang, formatDate, toPostLang, getMeta, type PostLang } from '../posts'
 import ArticleBody from '../ArticleBody'
 import FoundingArticle from '../posts/FoundingArticle'
 import India2026Gallery from '../gallery/India2026Gallery'
@@ -26,6 +26,9 @@ const UI = {
   cs: { archive: 'Všechna vydání', fallback: 'Český překlad tohoto článku se připravuje. Zatím jej nabízíme v angličtině.' },
   en: { archive: 'All issues',     fallback: 'An English translation of this article is being prepared. For now it is offered in Czech.' },
   hi: { archive: 'सभी अंक',        fallback: 'इस लेख का हिंदी अनुवाद तैयार किया जा रहा है। फ़िलहाल यह अंग्रेज़ी में उपलब्ध है।' },
+  fr: { archive: 'Tous les numéros', fallback: 'La traduction française de cet article est en préparation. En attendant, il est proposé en anglais.' },
+  es: { archive: 'Todos los números', fallback: 'La traducción al español de este artículo está en preparación. Por ahora se ofrece en inglés.' },
+  de: { archive: 'Alle Ausgaben', fallback: 'Eine deutsche Übersetzung dieses Artikels wird vorbereitet. Bis dahin ist er auf Englisch verfügbar.' },
 } as const
 
 export default function JournalPost({ slug, body }: { slug: string; body: Record<PostLang, Block[]> | null }) {
@@ -36,7 +39,7 @@ export default function JournalPost({ slug, body }: { slug: string; body: Record
   if (!post || (!body && !Body)) return null
 
   const ui = UI[lang]
-  const meta = post.meta[lang]
+  const meta = getMeta(post, lang)
   const bl = bodyLang(post, lang)
 
   const kicker = (
