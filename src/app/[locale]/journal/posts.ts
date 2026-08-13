@@ -442,7 +442,7 @@ export const POSTS: PostMeta[] = [
     date: '2026-07-29',
     cover: '/images/Journal-Photo1.jpg',
     coverPos: 'center 40%',
-    langs: ['cs', 'en', 'hi'],
+    langs: ['cs', 'en', 'hi', 'fr'],
     meta: {
       cs: {
         rubric: 'Promluvy - Gurudév',
@@ -468,6 +468,16 @@ export const POSTS: PostMeta[] = [
         perex: `गुरु पूर्णिमा के पावन अवसर पर गुरुदेव ने संस्कारों और आचरण पर प्रवचन दिया —
           कि अगली पीढ़ी हमारे शब्द नहीं, बल्कि हमारा जीवन ग्रहण करती है। यहाँ मुख्य प्रवचन,
           दोनों दृष्टांत तथा अखाड़े के सचिव और मुख्य महंत के वचन प्रस्तुत हैं।`,
+      },
+      fr: {
+        rubric: 'Discours - Gurudev',
+        title: 'Guru Purnima 2026',
+        titleEm: 'Discours et rassemblements avec les disciples',
+        perex: `À l'occasion de la fête de Guru Purnima, Gurudev a parlé des samskaras et
+          de la conduite — la génération suivante n'hérite pas de nos paroles, mais de la
+          manière dont nous vivons nous-mêmes. Voici la traduction du discours principal,
+          des deux paraboles, ainsi que des paroles du secrétaire de l'Akhara et du
+          mukhya mahant.`,
       },
     },
   },
