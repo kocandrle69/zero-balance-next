@@ -13,6 +13,16 @@
 
 export type PostLang = 'cs' | 'en' | 'hi'
 
+/**
+ * Journal zatím existuje jen v cs/en/hi. Web jako celek má i fr/es/de
+ * (viz src/lib/translations.ts), ale žurnál na ně překlad ještě nemá — tahle
+ * funkce je na hranici mezi "jazyk webu" a "jazyk žurnálu" a mapuje je na
+ * angličtinu, stejně jako bodyLang() dělá pro chybějící hi překlad článku.
+ */
+export function toPostLang(lang: string): PostLang {
+  return lang === 'cs' || lang === 'hi' ? lang : 'en'
+}
+
 export interface PostMeta {
   /** URL segment — /journal/<slug> */
   slug: string

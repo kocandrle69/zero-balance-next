@@ -6,7 +6,7 @@ import Footer from '../../../../components/Footer'
 import BackLink from '../../../../components/BackLink'
 import styles from '../journal.module.css'
 import { useLang } from '../../../../contexts/LangContext'
-import { getPost, bodyLang, formatDate, type PostLang } from '../posts'
+import { getPost, bodyLang, formatDate, toPostLang, type PostLang } from '../posts'
 import ArticleBody from '../ArticleBody'
 import FoundingArticle from '../posts/FoundingArticle'
 import India2026Gallery from '../gallery/India2026Gallery'
@@ -29,7 +29,8 @@ const UI = {
 } as const
 
 export default function JournalPost({ slug, body }: { slug: string; body: Record<PostLang, Block[]> | null }) {
-  const { lang } = useLang()
+  const { lang: siteLang } = useLang()
+  const lang = toPostLang(siteLang)
   const post = getPost(slug)
   const Body = BODIES[slug]
   if (!post || (!body && !Body)) return null

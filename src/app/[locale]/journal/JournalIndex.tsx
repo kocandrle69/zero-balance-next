@@ -6,7 +6,7 @@ import Footer from '../../../components/Footer'
 import BackLink from '../../../components/BackLink'
 import styles from './journal.module.css'
 import { useLang } from '../../../contexts/LangContext'
-import { POSTS, formatDate } from './posts'
+import { POSTS, formatDate, toPostLang } from './posts'
 
 const UI = {
   cs: { title: 'Časopis', sub: 'Prostor pro slovo, reflexi a sdílení naší cesty.', more: 'Číst dále' },
@@ -15,7 +15,8 @@ const UI = {
 } as const
 
 export default function JournalIndex() {
-  const { lang } = useLang()
+  const { lang: siteLang } = useLang()
+  const lang = toPostLang(siteLang)
   const ui = UI[lang]
 
   const posts = [...POSTS].sort((a, b) => b.date.localeCompare(a.date))

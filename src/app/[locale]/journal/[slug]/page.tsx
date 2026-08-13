@@ -3,7 +3,7 @@ import path from 'node:path'
 import { notFound } from 'next/navigation'
 import type { Metadata } from 'next'
 import JournalPost from './JournalPost'
-import { POSTS, getPost, type PostLang } from '../posts'
+import { POSTS, getPost, toPostLang, type PostLang } from '../posts'
 import { parseMarkdown, type Block } from '../markdown'
 import { routing, type AppLocale } from '../../../../i18n/routing'
 import { hreflangAlternates } from '../../../../i18n/seo'
@@ -39,7 +39,9 @@ export async function generateMetadata({ params }: PageProps<'/[locale]/journal/
   const post = getPost(slug)
   if (!post) return {}
 
-  const { title, perex } = post.meta[locale as AppLocale]
+  // Meta (rubrika/titulek/perex) existuje jen pro cs/en/hi — fr/es/de
+  // dostanou anglickou verzi, dokud journal nemá vlastní překlad.
+  const { title, perex } = post.meta[toPostLang(locale)]
   return {
     title: `${title} · Zero Balance Society`,
     description: perex.replace(/\s+/g, ' ').trim(),

@@ -16,6 +16,18 @@ const META: Record<AppLocale, { title: string; description: string }> = {
     title: 'हमारे बारे में · Zero Balance Society',
     description: 'Zero Balance Society — भारतीय ज्ञान परंपराओं में निहित एक अलाभकारी सांस्कृतिक एवं आध्यात्मिक संस्था। चेक गणराज्य में स्थित।',
   },
+  fr: {
+    title: 'À propos · Zero Balance Society',
+    description: 'Zero Balance Society — une association culturelle et spirituelle à but non lucratif ancrée dans les traditions de sagesse indiennes. Basée en République tchèque.',
+  },
+  es: {
+    title: 'Sobre nosotros · Zero Balance Society',
+    description: 'Zero Balance Society — una asociación cultural y espiritual sin ánimo de lucro arraigada en las tradiciones de sabiduría de la India. Con sede en la República Checa.',
+  },
+  de: {
+    title: 'Über uns · Zero Balance Society',
+    description: 'Zero Balance Society — eine gemeinnützige Kultur- und spirituelle Gesellschaft, verwurzelt in indischen Weisheitstraditionen. Mit Sitz in der Tschechischen Republik.',
+  },
 }
 
 export async function generateMetadata({ params }: PageProps<'/[locale]/about'>): Promise<Metadata> {

@@ -16,6 +16,18 @@ const META: Record<AppLocale, { title: string; description: string }> = {
     title: 'प्रामाणिक परंपरा · Zero Balance Society',
     description: 'श्री राधारमण जी मिश्र की आध्यात्मिक विरासत — तंत्र क्रिया योग, पवित्र ज्ञान और जीवंत परंपरा की एक अखंड शृंखला।',
   },
+  fr: {
+    title: 'Une lignée authentique · Zero Balance Society',
+    description: 'L’héritage spirituel de Shri Radharaman Ji Mishra — une lignée ininterrompue de Tantra Kriya Yoga, de connaissance sacrée et de tradition vivante.',
+  },
+  es: {
+    title: 'Un linaje auténtico · Zero Balance Society',
+    description: 'El legado espiritual de Shri Radharaman Ji Mishra — un linaje ininterrumpido de Tantra Kriya Yoga, conocimiento sagrado y tradición viva.',
+  },
+  de: {
+    title: 'Authentische Tradition · Zero Balance Society',
+    description: 'Das spirituelle Erbe von Shri Radharaman Ji Mishra — eine ununterbrochene Linie von Tantra Kriya Yoga, heiligem Wissen und lebendiger Tradition.',
+  },
 }
 
 export async function generateMetadata({ params }: PageProps<'/[locale]/lineage'>): Promise<Metadata> {

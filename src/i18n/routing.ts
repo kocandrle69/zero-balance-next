@@ -18,12 +18,13 @@ import { defineRouting } from 'next-intl/routing'
  * /en/about — proxy to dělá automaticky, ale je to jeden redirect navíc
  * pro staré odkazy/záložky.
  *
- * fr/es/de zatím chybí, protože pro ně není hotový obsah — až budou
- * překlady hotové, stačí je přidat do `locales` a do Navbaru přepnout
- * `soon: false`, routing už na ně bude připravený.
+ * fr/es/de: UI texty (nav, hero, patičky…) jsou hotové v translations.ts.
+ * Prozaický obsah podstránek (About, Lineage, Serve…) a journal zatím
+ * překlad nemají — na těch místech se automaticky použije anglický text
+ * (stejný fallback mechanismus jako u chybějících hi překladů v journalu).
  */
 export const routing = defineRouting({
-  locales: ['en', 'cs', 'hi'],
+  locales: ['en', 'cs', 'hi', 'fr', 'es', 'de'],
   defaultLocale: 'en',
   localePrefix: 'always',
 })

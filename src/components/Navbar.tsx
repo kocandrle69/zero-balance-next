@@ -10,9 +10,9 @@ const LANGUAGES = [
   { code: 'en' as Lang, flag: '🇬🇧', name: 'English',   soon: false },
   { code: 'cs' as Lang, flag: '🇨🇿', name: 'Čeština',   soon: false },
   { code: 'hi' as Lang, flag: '🇮🇳', name: 'हिन्दी',     soon: false },
-  { code: 'es' as Lang, flag: '🇪🇸', name: 'Español',   soon: true  },
-  { code: 'fr' as Lang, flag: '🇫🇷', name: 'Français',  soon: true  },
-  { code: 'de' as Lang, flag: '🇩🇪', name: 'Deutsch',   soon: true  },
+  { code: 'es' as Lang, flag: '🇪🇸', name: 'Español',   soon: false },
+  { code: 'fr' as Lang, flag: '🇫🇷', name: 'Français',  soon: false },
+  { code: 'de' as Lang, flag: '🇩🇪', name: 'Deutsch',   soon: false },
 ]
 
 export default function Navbar({ translucent = false }: { translucent?: boolean }) {

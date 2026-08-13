@@ -16,6 +16,18 @@ const META: Record<AppLocale, { title: string; description: string }> = {
     title: 'अभ्यास, शिक्षा और समुदाय के लिए स्थान · Zero Balance Society',
     description: 'Zero Balance Society ऐसे स्थान बनाती है जहाँ आध्यात्मिक खोज, व्यक्तिगत विकास और सार्थक मानवीय जुड़ाव पनप सकें।',
   },
+  fr: {
+    title: 'Un espace de pratique, d’apprentissage et de communauté · Zero Balance Society',
+    description: 'Zero Balance Society crée des espaces où l’exploration spirituelle, l’épanouissement personnel et les liens humains authentiques peuvent grandir.',
+  },
+  es: {
+    title: 'Un espacio para la práctica, el aprendizaje y la comunidad · Zero Balance Society',
+    description: 'Zero Balance Society crea espacios donde pueden florecer la exploración espiritual, el crecimiento personal y la conexión humana auténtica.',
+  },
+  de: {
+    title: 'Raum für Praxis, Lernen und Gemeinschaft · Zero Balance Society',
+    description: 'Zero Balance Society schafft Räume, in denen spirituelle Erkundung, persönliches Wachstum und echte menschliche Verbindung gedeihen können.',
+  },
 }
 
 export async function generateMetadata({ params }: PageProps<'/[locale]/community'>): Promise<Metadata> {

@@ -1,4 +1,4 @@
-export type Lang = 'en' | 'cs' | 'hi'
+export type Lang = 'en' | 'cs' | 'hi' | 'fr' | 'es' | 'de'
 
 export const T = {
   en: {
@@ -265,6 +265,272 @@ export const T = {
     foot_sub_ok:  'आप सदस्य हैं — यात्रा में आपका स्वागत है।',
     foot_email_invalid: 'कृपया एक वैध ई-मेल पता दर्ज करें।',
     foot_copy:    '© 2025 Zero Balance Society · सर्वाधिकार सुरक्षित · चेक गणराज्य',
+  },
+
+  fr: {
+    // Navigation
+    nav_about:      'À propos',
+    nav_philosophy: 'Philosophie',
+    nav_activities: 'Activités',
+    nav_india:      'Inde',
+    nav_events:     'Événements',
+    nav_media:      'Médias',
+    nav_journal:    'Journal',
+    nav_join:       'Rejoindre la Société',
+
+    hero_label: 'Un espace pour',
+    hero_title: 'Méditation<span class="dot">.</span><br><em>Culture.</em><br>Communauté<span class="dot">.</span>',
+    hero_btn1:  'Découvrir',
+    hero_btn2:  'Voir la présentation',
+    hero_desc:  'Nous préparons la venue exceptionnelle de <strong>Gurudev Shri Karauli Shankar Mahadev Ji</strong> en République tchèque en 2027. Inscrivez-vous pour manifester votre intérêt et être parmi les premiers à recevoir les informations.',
+    scroll:     'Défiler',
+
+    purpose_label: 'Notre raison d’être',
+    purpose_title: 'Ancrés dans la tradition.<br><em>Ouverts sur le monde.</em>',
+    purpose_desc:  'Nous faisons vivre la pratique contemplative, l’épanouissement personnel et la compréhension des cultures à travers la communauté, le partage des savoirs et l’expérience vécue.',
+
+    // 5 pillar cards
+    pill1_keyword: 'Préserver',
+    pill1_title:   'Sagesse\nVivante',
+    pill1_sub:     'Préserver les traditions spirituelles, culturelles et méditatives.',
+
+    pill2_keyword: 'Inspiré par',
+    pill2_title:   'Une lignée\nauthentique',
+    pill2_sub:     'Guidée par les enseignements de Shri Radharaman Ji Mishra.',
+
+    pill3_keyword: 'Créer',
+    pill3_title:   'Un espace de\nrencontre',
+    pill3_sub:     'Pratique. Apprentissage. Communauté.',
+
+    pill4_keyword: 'Servir',
+    pill4_title:   'Une association\nà but non lucratif',
+    pill4_sub:     'Toutes nos ressources servent notre mission.',
+
+    pill5_keyword: 'À propos',
+    pill5_title:   'Une Société.\nUn mouvement.',
+    pill5_sub:     'Qui nous sommes et pourquoi nous existons.',
+
+    act_label: 'Ce que nous faisons',
+    act_title: 'Activités &amp;<br><span class="acc">Propositions</span>',
+    act_desc:  'Nous proposons différentes activités pour prendre soin du corps, de l’esprit et de l’être — inspirées des traditions indiennes et adaptées à notre époque et à notre contexte en Europe centrale.',
+    act1_tag: 'Pratique essentielle', act1_title: 'Méditation',                  act1_desc: 'Méditation guidée avec Gurudev — ouverte à tous, sans expérience préalable.',
+    act2_tag: 'Enseignement',         act2_title: 'Enseignements de Gurudev',    act2_desc: 'Rencontres régulières et sessions en ligne avec Gurudev — ouvertes à tous, ancrées dans la pratique et la présence.',
+    act3_tag: 'Pèlerinage',           act3_title: 'Voyages en Inde',             act3_desc: 'Retraites immersives et découvertes culturelles',
+    act4_tag: 'Connaissance',         act4_title: 'Étude &amp; Échange',        act4_desc: 'Courtes leçons vidéo sur la sagesse et la philosophie indiennes avec Sensei Rajeev Sinha — accessibles et concrètes.',
+    act5_tag: 'Pratique sacrée',      act5_title: 'Cérémonies',                  act5_desc: 'Rituels, havans et aarti de l’ashram de Karauli Shankar',
+
+    india_label: 'La Source',
+    india_title: 'Inde —<br>Notre plus profonde<br><span class="acc">Inspiration</span>',
+    india_s1: 'Source d’inspiration', india_s2: 'Rajeev Sinha',
+    india_s3: 'Voyager en Inde',     india_s4: 'Pratique quotidienne',
+    india_v1: 'Ashram', india_v2: 'Sagesse',
+    india_v3: 'Inde',  india_v4: 'Sadhana',
+    india_sub1: 'Voyages en Inde', india_sub2: 'La sagesse de l’Inde',
+    india_sub3: 'Vie à l’ashram',  india_sub4: 'Sadhana',
+    india_p1: 'Pour nous, l’Inde n’est pas simplement une destination — c’est la source vivante de notre inspiration. Les anciennes traditions contemplatives, la profondeur de sa culture et la chaleur de ses habitants ont façonné tout ce que représente Zero Balance Society.',
+    india_p2: 'Chaque année, nous organisons des voyages en groupe en Inde — pour permettre à nos membres de découvrir ces traditions par l’expérience directe, et pas seulement par la théorie.',
+
+    quote: '"Dans le silence du vide,<br>la vibration naît.<br>Dans la vibration, <strong>l’équilibre</strong>.<br>Dans l’équilibre, nous nous retrouvons."',
+
+    ev_label: 'À venir',
+    ev_title: 'Événements &amp;<br><span class="acc">Rencontres</span>',
+    ev1_date: '21–23 juin 2025 · République tchèque', ev1_title: 'Zero Balance Gathering',    ev1_desc: 'Trois jours pour vivre une expérience immersive de méditation, de rencontre, d’inspiration et de croissance collective. Ouvert à tous les membres et amis.', ev_more1: 'Voir les détails',
+    ev2_date: 'Septembre 2025 · Inde',                 ev2_title: 'Voyage d’automne en Inde', ev2_desc: 'Un voyage de groupe mêlant pèlerinage et immersion culturelle, à la découverte des traditions vivantes qui inspirent notre Société. Places limitées.',    ev_more2: 'En savoir plus',
+    ev3_date: 'Chaque mois · Prague',                  ev3_title: 'Soirées de satsang',        ev3_desc: 'Des soirées régulières de méditation partagée, d’échange et de communauté — chaque mois à Prague et en ligne pour les membres à distance.',           ev_more3: 'Nous rejoindre',
+
+    join_label: 'Une invitation',
+    join_title: 'Venez &amp;<br><em>soyez avec nous.</em>',
+    join_desc:  'Zero Balance Society est une communauté ouverte — pour celles et ceux qui recherchent le calme intérieur, la profondeur culturelle et des liens humains authentiques. Que vous découvriez la méditation ou que vous suiviez cette voie depuis des années, vous avez votre place parmi nous.',
+    join_ashram_cta: 'Vous souhaitez visiter l’ashram de Kanpur, en Inde ? Contactez-nous ci-dessous.',
+    join_btn1: 'Devenir membre', join_btn2: 'Découvrir les activités', join_btn3: 'Nous écrire',
+
+    foot_desc:    'Une association culturelle à but non lucratif inspirée des traditions indiennes. Basée en République tchèque, ouverte sur le monde.',
+    foot_nav:     'Navigation', foot_conn:    'Nous rejoindre',        foot_stay:   'Restez avec nous',
+    foot_about:   'À propos',   foot_phil:    'Philosophie',           foot_act:    'Activités',
+    foot_india:   'Inde',       foot_events:  'Événements',            foot_journal:'Journal',
+    foot_contact: 'Contact',    foot_join:    'Rejoindre la Société',  foot_donate: 'Faire un don', foot_media: 'Médias',
+    foot_nl:      'Abonnez-vous à notre newsletter et accompagnez-nous sur notre chemin vers l’équilibre et une communauté consciente.',
+    foot_email:   'Votre adresse e-mail',
+    foot_sub:     'S’abonner',
+    foot_sub_ok:    'Vous êtes inscrit — bienvenue parmi nous.',
+    foot_email_invalid: 'Veuillez saisir une adresse e-mail valide.',
+    foot_copy:    '© 2025 Zero Balance Society · Tous droits réservés · République tchèque',
+  },
+
+  es: {
+    nav_about:      'Sobre nosotros',
+    nav_philosophy: 'Filosofía',
+    nav_activities: 'Actividades',
+    nav_india:      'India',
+    nav_events:     'Eventos',
+    nav_media:      'Medios',
+    nav_journal:    'Revista',
+    nav_join:       'Unirse a la Sociedad',
+
+    hero_label: 'Un espacio para',
+    hero_title: 'Meditación<span class="dot">.</span><br><em>Cultura.</em><br>Comunidad<span class="dot">.</span>',
+    hero_btn1:  'Descubrir más',
+    hero_btn2:  'Ver presentación',
+    hero_desc:  'Estamos preparando la visita extraordinaria de <strong>Gurudev Shri Karauli Shankar Mahadev Ji</strong> a la República Checa en 2027. Déjanos tus datos y sé de los primeros en recibir información.',
+    scroll:     'Desplazar',
+
+    purpose_label: 'Nuestro propósito',
+    purpose_title: 'Arraigados en la tradición.<br><em>Abiertos al mundo.</em>',
+    purpose_desc:  'Apoyamos la práctica contemplativa, el crecimiento personal y la comprensión cultural a través de la comunidad, el conocimiento compartido y la experiencia directa.',
+
+    pill1_keyword: 'Preservar',
+    pill1_title:   'Sabiduría\nViva',
+    pill1_sub:     'Preservar las tradiciones espirituales, culturales y meditativas.',
+
+    pill2_keyword: 'Inspirados por',
+    pill2_title:   'Un linaje\nauténtico',
+    pill2_sub:     'Guiado por las enseñanzas de Shri Radharaman Ji Mishra.',
+
+    pill3_keyword: 'Crear',
+    pill3_title:   'Un espacio para\nconectar',
+    pill3_sub:     'Práctica. Aprendizaje. Comunidad.',
+
+    pill4_keyword: 'Servir',
+    pill4_title:   'Una organización\nsin ánimo de lucro',
+    pill4_sub:     'Todos los recursos apoyan nuestra misión.',
+
+    pill5_keyword: 'Sobre nosotros',
+    pill5_title:   'Una Sociedad.\nUn movimiento.',
+    pill5_sub:     'Quiénes somos y por qué existimos.',
+
+    act_label: 'Lo que hacemos',
+    act_title: 'Actividades &amp;<br><span class="acc">Propuestas</span>',
+    act_desc:  'Organizamos diversas actividades que apoyan el cuerpo, la mente y el espíritu — inspiradas en las tradiciones de la India y adaptadas a nuestro tiempo y a nuestro contexto en Europa Central.',
+    act1_tag: 'Práctica esencial', act1_title: 'Meditación',                act1_desc: 'Meditación guiada con Gurudev — abierta a todos, sin necesidad de experiencia previa.',
+    act2_tag: 'Enseñanza',         act2_title: 'Enseñanzas de Gurudev',     act2_desc: 'Encuentros y sesiones online regulares con Gurudev — abiertos a todos, basados en la práctica y la presencia.',
+    act3_tag: 'Peregrinación',     act3_title: 'Viajes a India',            act3_desc: 'Retiros transformadores e inmersiones culturales',
+    act4_tag: 'Conocimiento',      act4_title: 'Estudio &amp; Diálogo',    act4_desc: 'Breves lecciones en vídeo sobre la sabiduría y la filosofía de la India con Sensei Rajeev Sinha — accesibles y prácticas.',
+    act5_tag: 'Práctica sagrada',  act5_title: 'Ceremonias',                act5_desc: 'Rituales, havans y aarti del ashram de Karauli Shankar',
+
+    india_label: 'La Fuente',
+    india_title: 'India —<br>Nuestra mayor<br><span class="acc">Inspiración</span>',
+    india_s1: 'Fuente de inspiración', india_s2: 'Rajeev Sinha',
+    india_s3: 'Viajar por India',        india_s4: 'Práctica diaria',
+    india_v1: 'Ashram', india_v2: 'Sabiduría',
+    india_v3: 'India',  india_v4: 'Sadhana',
+    india_sub1: 'Viajes a India', india_sub2: 'Sabiduría de India',
+    india_sub3: 'Vida en el ashram', india_sub4: 'Sadhana',
+    india_p1: 'Para nosotros, India no es simplemente un destino — es la fuente viva de nuestra inspiración. Las antiguas tradiciones contemplativas, la profundidad de su cultura y la calidez de su gente han dado forma a todo lo que representa Zero Balance Society.',
+    india_p2: 'Cada año organizamos viajes en grupo a India — para acercar a nuestros miembros a estas tradiciones a través de la experiencia directa, no solo de la teoría.',
+
+    quote: '"En la quietud del vacío,<br>nace la vibración.<br>En la vibración, <strong>equilibrio</strong>.<br>En el equilibrio, nos encontramos."',
+
+    ev_label: 'Próximamente',
+    ev_title: 'Eventos &amp;<br><span class="acc">Encuentros</span>',
+    ev1_date: '21–23 de junio de 2025 · República Checa', ev1_title: 'Zero Balance Gathering',    ev1_desc: 'Tres días para vivir una experiencia inmersiva de meditación, conexión, inspiración y crecimiento colectivo. Abierto a todos los miembros y amigos.', ev_more1: 'Ver detalles',
+    ev2_date: 'Septiembre de 2025 · India',                ev2_title: 'Viaje de otoño a India',    ev2_desc: 'Un viaje en grupo que combina peregrinación e inmersión cultural para descubrir las tradiciones vivas que inspiran a nuestra Sociedad. Plazas limitadas.', ev_more2: 'Más información',
+    ev3_date: 'Cada mes · Praga',                          ev3_title: 'Tardes de satsang',         ev3_desc: 'Encuentros mensuales de meditación compartida, diálogo y comunidad — en Praga y online para quienes no pueden estar presentes.',                    ev_more3: 'Unirse',
+
+    join_label: 'Una invitación',
+    join_title: 'Ven &amp;<br><em>quédate con nosotros.</em>',
+    join_desc:  'Zero Balance Society es una comunidad abierta — para quienes buscan quietud, profundidad cultural y una conexión humana auténtica. Tanto si estás empezando a meditar como si llevas años recorriendo este camino, aquí tienes un lugar.',
+    join_ashram_cta: '¿Te interesa visitar el ashram de Kanpur, India? Contáctanos a continuación.',
+    join_btn1: 'Hazte miembro', join_btn2: 'Explorar actividades', join_btn3: 'Escríbenos',
+
+    foot_desc:    'Una asociación cultural sin ánimo de lucro inspirada en las tradiciones de la India. Con sede en la República Checa y abierta al mundo.',
+    foot_nav:     'Navegar',   foot_conn:    'Conectar',              foot_stay:   'Mantente cerca',
+    foot_about:   'Sobre nosotros', foot_phil: 'Filosofía',           foot_act:    'Actividades',
+    foot_india:   'India',     foot_events:  'Eventos',               foot_journal:'Revista',
+    foot_contact: 'Contacto',  foot_join:    'Unirse a la Sociedad',  foot_donate: 'Donar', foot_media: 'Medios',
+    foot_nl:      'Suscríbete a nuestro boletín y acompáñanos en nuestro camino hacia el equilibrio y una comunidad consciente.',
+    foot_email:   'Tu dirección de correo electrónico',
+    foot_sub:     'Suscribirse',
+    foot_sub_ok:    'Ya estás suscrito — bienvenido al camino.',
+    foot_email_invalid: 'Introduce una dirección de correo electrónico válida.',
+    foot_copy:    '© 2025 Zero Balance Society · Todos los derechos reservados · República Checa',
+  },
+
+  de: {
+    nav_about:      'Über uns',
+    nav_philosophy: 'Philosophie',
+    nav_activities: 'Aktivitäten',
+    nav_india:      'Indien',
+    nav_events:     'Veranstaltungen',
+    nav_media:      'Medien',
+    nav_journal:    'Journal',
+    nav_join:       'Der Gesellschaft beitreten',
+
+    hero_label: 'Ein Raum für',
+    hero_title: 'Meditation<span class="dot">.</span><br><em>Kultur.</em><br>Gemeinschaft<span class="dot">.</span>',
+    hero_btn1:  'Mehr entdecken',
+    hero_btn2:  'Einführung ansehen',
+    hero_desc:  'Wir bereiten den außergewöhnlichen Besuch von <strong>Gurudev Shri Karauli Shankar Mahadev Ji</strong> in der Tschechischen Republik im Jahr 2027 vor. Hinterlasse dein Interesse und gehöre zu den Ersten, die weitere Informationen erhalten.',
+    scroll:     'Scrollen',
+
+    purpose_label: 'Unser Anliegen',
+    purpose_title: 'In der Tradition verwurzelt.<br><em>Der Welt offen.</em>',
+    purpose_desc:  'Wir fördern kontemplative Praxis, persönliches Wachstum und kulturelles Verständnis durch Gemeinschaft, geteiltes Wissen und gelebte Erfahrung.',
+
+    pill1_keyword: 'Bewahren',
+    pill1_title:   'Lebendige\nWeisheit',
+    pill1_sub:     'Spirituelle, kulturelle und meditative Traditionen bewahren.',
+
+    pill2_keyword: 'Inspiriert von',
+    pill2_title:   'Authentische\nTradition',
+    pill2_sub:     'Begleitet von den Lehren von Shri Radharaman Ji Mishra.',
+
+    pill3_keyword: 'Schaffen',
+    pill3_title:   'Raum für\nVerbindung',
+    pill3_sub:     'Praxis. Lernen. Gemeinschaft.',
+
+    pill4_keyword: 'Dienen',
+    pill4_title:   'Gemeinnützig',
+    pill4_sub:     'Alle Ressourcen dienen unserer Mission.',
+
+    pill5_keyword: 'Über uns',
+    pill5_title:   'Eine Gesellschaft.\nEine Bewegung.',
+    pill5_sub:     'Wer wir sind und warum es uns gibt.',
+
+    act_label: 'Was wir tun',
+    act_title: 'Aktivitäten &amp;<br><span class="acc">Angebote</span>',
+    act_desc:  'Wir bieten verschiedene Aktivitäten an, die Körper, Geist und Seele stärken — inspiriert von indischen Traditionen und angepasst an unsere Zeit und unseren Kontext in Mitteleuropa.',
+    act1_tag: 'Zentrale Praxis', act1_title: 'Meditation',              act1_desc: 'Geführte Meditation mit Gurudev — offen für alle, ohne Vorkenntnisse.',
+    act2_tag: 'Lehre',           act2_title: 'Lehren von Gurudev',       act2_desc: 'Regelmäßige Treffen und Online-Sitzungen mit Gurudev — offen für alle, getragen von Praxis und Präsenz.',
+    act3_tag: 'Pilgerreise',     act3_title: 'Reisen nach Indien',       act3_desc: 'Transformative Retreats und kulturelle Erfahrungen',
+    act4_tag: 'Wissen',          act4_title: 'Studium &amp; Austausch', act4_desc: 'Kurze Videolektionen über indische Weisheit und Philosophie mit Sensei Rajeev Sinha — verständlich und praxisnah.',
+    act5_tag: 'Heilige Praxis',  act5_title: 'Zeremonien',               act5_desc: 'Rituale, havans und aarti aus dem Karauli Shankar ashram',
+
+    india_label: 'Die Quelle',
+    india_title: 'Indien —<br>Unsere tiefste<br><span class="acc">Inspiration</span>',
+    india_s1: 'Quelle der Inspiration', india_s2: 'Rajeev Sinha',
+    india_s3: 'Unterwegs in Indien',       india_s4: 'Tägliche Praxis',
+    india_v1: 'Ashram', india_v2: 'Weisheit',
+    india_v3: 'Indien',  india_v4: 'Sadhana',
+    india_sub1: 'Reisen nach Indien', india_sub2: 'Weisheit Indiens',
+    india_sub3: 'Leben im Ashram',    india_sub4: 'Sadhana',
+    india_p1: 'Indien ist für uns nicht einfach ein Reiseziel — es ist die lebendige Quelle unserer Inspiration. Die alten kontemplativen Traditionen, die Tiefe seiner Kultur und die Herzlichkeit seiner Menschen haben alles geprägt, wofür Zero Balance Society steht.',
+    india_p2: 'Jedes Jahr organisieren wir Gruppenreisen nach Indien — und ermöglichen unseren Mitgliedern, diese Traditionen unmittelbar zu erfahren, statt sie nur theoretisch kennenzulernen.',
+
+    quote: '"In der Stille der Leere<br>beginnt die Schwingung.<br>In der Schwingung, <strong>Gleichgewicht</strong>.<br>Im Gleichgewicht finden wir zusammen."',
+
+    ev_label: 'Demnächst',
+    ev_title: 'Veranstaltungen &amp;<br><span class="acc">Begegnungen</span>',
+    ev1_date: '21.–23. Juni 2025 · Tschechische Republik', ev1_title: 'Zero Balance Gathering',       ev1_desc: 'Drei Tage, um Meditation, Verbindung, Inspiration und gemeinsames Wachstum in einer intensiven Erfahrung zu erleben. Offen für alle Mitglieder und Freunde.', ev_more1: 'Details ansehen',
+    ev2_date: 'September 2025 · Indien',                   ev2_title: 'Herbstreise nach Indien',       ev2_desc: 'Eine gemeinsame Reise, die Pilgerfahrt und kulturelles Eintauchen verbindet und uns zu den lebendigen Traditionen führt, die unsere Gesellschaft inspirieren. Begrenzte Plätze.', ev_more2: 'Mehr erfahren',
+    ev3_date: 'Monatlich · Prag',                          ev3_title: 'Satsang-Abende',                ev3_desc: 'Regelmäßige Abende mit gemeinsamer Meditation, Austausch und Gemeinschaft — jeden Monat in Prag und online für Mitglieder, die nicht vor Ort sein können.', ev_more3: 'Dabei sein',
+
+    join_label: 'Eine Einladung',
+    join_title: 'Komm &amp;<br><em>sei bei uns.</em>',
+    join_desc:  'Zero Balance Society ist eine offene Gemeinschaft — für Menschen, die Stille, kulturelle Tiefe und echte menschliche Verbindung suchen. Ganz gleich, ob du neu in der Meditation bist oder diesen Weg seit Jahren gehst, hier ist ein Platz für dich.',
+    join_ashram_cta: 'Du möchtest den ashram in Kanpur, Indien, besuchen? Kontaktiere uns gerne.',
+    join_btn1: 'Mitglied werden', join_btn2: 'Aktivitäten entdecken', join_btn3: 'Schreib uns',
+
+    foot_desc:    'Eine gemeinnützige Kulturgesellschaft, inspiriert von indischen Traditionen. Mit Sitz in der Tschechischen Republik, offen für die Welt.',
+    foot_nav:     'Navigation', foot_conn:    'Kontakt',                       foot_stay:   'Verbunden bleiben',
+    foot_about:   'Über uns',   foot_phil:    'Philosophie',                   foot_act:    'Aktivitäten',
+    foot_india:   'Indien',     foot_events:  'Veranstaltungen',               foot_journal:'Journal',
+    foot_contact: 'Kontakt',    foot_join:    'Der Gesellschaft beitreten',    foot_donate: 'Spenden', foot_media: 'Medien',
+    foot_nl:      'Abonniere unseren Newsletter und begleite uns auf unserem Weg zu Gleichgewicht und einer bewussten Gemeinschaft.',
+    foot_email:   'Deine E-Mail-Adresse',
+    foot_sub:     'Abonnieren',
+    foot_sub_ok:    'Du bist angemeldet — willkommen auf unserem gemeinsamen Weg.',
+    foot_email_invalid: 'Bitte gib eine gültige E-Mail-Adresse ein.',
+    foot_copy:    '© 2025 Zero Balance Society · Alle Rechte vorbehalten · Tschechische Republik',
   },
 } as const
 

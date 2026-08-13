@@ -16,6 +16,18 @@ const META: Record<AppLocale, { title: string; description: string }> = {
     title: 'लाभ के बिना सेवा · Zero Balance Society',
     description: 'Zero Balance Society एक अलाभकारी संस्था है। सेवा हमारे हर कार्य के केंद्र में है — मानवता को समर्पित, व्यावसायिक लाभ को नहीं।',
   },
+  fr: {
+    title: 'Au service, sans but lucratif · Zero Balance Society',
+    description: 'Zero Balance Society est une association à but non lucratif. Le service est au cœur de tout ce que nous faisons — dédié à l’humain, non au profit.',
+  },
+  es: {
+    title: 'Al servicio, sin ánimo de lucro · Zero Balance Society',
+    description: 'Zero Balance Society es una asociación sin ánimo de lucro. El servicio está en el centro de todo lo que hacemos — dedicado a las personas, no al beneficio comercial.',
+  },
+  de: {
+    title: 'Im Dienst, ohne Gewinnabsicht · Zero Balance Society',
+    description: 'Zero Balance Society ist ein gemeinnütziger Verein. Dienst steht im Mittelpunkt all unseres Tuns — den Menschen gewidmet, nicht dem kommerziellen Gewinn.',
+  },
 }
 
 export async function generateMetadata({ params }: PageProps<'/[locale]/serve'>): Promise<Metadata> {

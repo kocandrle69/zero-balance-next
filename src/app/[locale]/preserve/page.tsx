@@ -16,6 +16,18 @@ const META: Record<AppLocale, { title: string; description: string }> = {
     title: 'जीवित ज्ञान का संरक्षण · Zero Balance Society',
     description: 'Zero Balance Society जीवंत आध्यात्मिक, सांस्कृतिक और ध्यान विरासत के संरक्षण, प्रचार और संचरण के लिए समर्पित है।',
   },
+  fr: {
+    title: 'Préserver une sagesse vivante · Zero Balance Society',
+    description: 'Zero Balance Society se consacre à préserver, faire connaître et transmettre un héritage spirituel, culturel et méditatif vivant.',
+  },
+  es: {
+    title: 'Preservar una sabiduría viva · Zero Balance Society',
+    description: 'Zero Balance Society se dedica a preservar, difundir y transmitir el patrimonio espiritual, cultural y meditativo vivo.',
+  },
+  de: {
+    title: 'Lebendige Weisheit bewahren · Zero Balance Society',
+    description: 'Zero Balance Society widmet sich der Bewahrung, Förderung und Weitergabe des lebendigen spirituellen, kulturellen und meditativen Erbes.',
+  },
 }
 
 export async function generateMetadata({ params }: PageProps<'/[locale]/preserve'>): Promise<Metadata> {

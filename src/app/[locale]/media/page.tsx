@@ -17,6 +17,18 @@ const META: Record<AppLocale, { title: string; description: string }> = {
     title: 'मीडिया · Zero Balance Society',
     description: 'गुरुदेव के साथ निर्देशित ध्यान, आश्रम के दृश्य, हवन और अनुष्ठान, भारत की यात्राएँ तथा योग-ज्ञान के वीडियो पाठ।',
   },
+  fr: {
+    title: 'Médias · Zero Balance Society',
+    description: 'Méditations guidées avec Gurudev, images de l’ashram, havans et rituels, voyages à travers le Bharat, et leçons vidéo de sagesse yogique.',
+  },
+  es: {
+    title: 'Medios · Zero Balance Society',
+    description: 'Meditaciones guiadas con Gurudev, imágenes del ashram, havans y rituales, viajes por Bharat y lecciones en vídeo de sabiduría yóguica.',
+  },
+  de: {
+    title: 'Medien · Zero Balance Society',
+    description: 'Geführte Meditationen mit Gurudev, Aufnahmen aus dem Ashram, havans und Rituale, Reisen durch Bharat und Videolektionen yogischer Weisheit.',
+  },
 }
 
 export async function generateMetadata({ params }: PageProps<'/[locale]/media'>): Promise<Metadata> {
