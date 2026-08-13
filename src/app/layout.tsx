@@ -1,6 +1,7 @@
 import './globals.css'
 import { LangProvider } from '../contexts/LangContext'
 import type { Viewport } from 'next'
+import Script from 'next/script'
 
 export const metadata = {
   // Bez metadataBase se relativní cesty v openGraph.images překládají proti
@@ -23,6 +24,19 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <LangProvider>
           {children}
         </LangProvider>
+        {/* Google tag (gtag.js) — loads on every route, once per session */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-2MM4YED57Y"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-2MM4YED57Y');
+          `}
+        </Script>
       </body>
     </html>
   )
