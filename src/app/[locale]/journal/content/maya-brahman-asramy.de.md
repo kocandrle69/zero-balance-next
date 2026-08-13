@@ -1,0 +1,111 @@
+!> **Redaktionelle Anmerkung:** Dies ist die Transkription eines informellen Gesprächs zwischen Gurudev und seinen Schülern, veröffentlicht in einer möglichst authentischen Form. Einzelne Sätze wurden entsprechend der sprechenden Person und des jeweiligen Themas zu zusammenhängenden Absätzen verbunden, und Dialoge sind mit den Namen der Sprecher gekennzeichnet. Kurze Bestätigungen der Zuhörer („Ja.“, „Genau.“) wurden zur besseren Lesbarkeit in Gurudevs Rede integriert oder weggelassen. Nur eindeutig erkennbare Fehler der automatischen Transkription wurden aus dem Kontext korrigiert — tatsächlich unklare oder unsichere Passagen bleiben dagegen ungeglättet und sind direkt im Text in Klammern gekennzeichnet. Gesänge, Anredeformen und technische Anweisungen für das Ritual wurden ausgelassen.
+
+***
+
+### Über das Entstehen der Liebe zum Guru
+
+**Gurudev:** Selbst wenn ich morgen dreitausend Kilometer weit weggehen würde, eure Form bleibt fest in eurem Bewusstsein verankert. Nun sind also drei Monate vergangen. In euch ist eine sehr tiefe Liebe zu Shri Adi Shankaracharya entstanden. Sie hat sich bereits gefestigt.
+
+**Fragesteller:** Das habe ich erst jetzt erkannt, Sir.
+
+**Gurudev:** Nein, sie hat sich noch nicht vollständig gefestigt. Beide Seiten stehen vor uns. *(Der erste Satz ist teilweise unklar.)* Sie wollten damit beweisen, dass die Gesellschaft die Bindung an maya *(Illusion)* schafft. Schließlich hört ihr das jeden Tag. Zuerst wurde es akzeptiert und erst danach öffentlich gemacht. *(Dieser Satz ist in der Transkription unklar.)* Hier ist Baba Nagaraj Ji … Baba Nagaraj. Dort haben sie eine falsche Interpretation vorgenommen. *(Wörtlich: „eine falsche Interpretation gemacht“.)*
+
+***
+
+### Macht wird durch Energie erkannt
+
+**Gurudev:** Während Shankaracharya schreibt: Brahma satyam *(Brahman ist die Wirklichkeit)*. Er unterscheidet zwischen dem Ewigen *(nitya)* und dem Vergänglichen *(anitya)*. Er nennt dasjenige wirklich, was ewig ist. Die Überschrift ist Wahrheit. *(Dieses Fragment ist in der Transkription unklar — möglicherweise eine verfälschte Wiedergabe des englischen Wortes „heading“.)* Das, was veränderlich ist, was sich gerade verändert … *(der Zusammenhang dieses Fragments mit dem umgebenden Text ist unsicher)*. Nur durch das Öl wird die Überschrift erkannt. *(Unklares Fragment, wahrscheinlich im Zusammenhang mit der folgenden Analogie.)* Wie erkennt man Öl? *(Das Beispiel ist in der Transkription unklar; wahrscheinlich handelt es sich um eine Analogie.)* Genauso, wie Macht durch ihre Energie erkannt wird. Was sich als Energie manifestiert, manifestiert sich auch als Macht. Genau durch die Energie erkennen wir die Macht. Wenn sich das Leben in euch allen manifestiert, kann es sich nur deshalb manifestieren, weil ihm ein Körper zur Verfügung steht. Das ist Energie *(shakti)*. Und durch sie kann Macht erkannt werden. Macht manifestiert sich auf diese Weise. Ohne Energie kann sie sich nicht manifestieren. Wenn sie sich nicht manifestiert, kann sie nicht bewiesen werden. Wenn ein Generator läuft, aber hier kein Strom ankommt, kann man nicht beweisen, dass der Generator tatsächlich funktioniert. Energie ist nicht sichtbar. Und in dem Moment, in dem eine Verbindung hergestellt wird, manifestiert sich die Energie, das Licht geht an und alle elektrischen Geräte beginnen zu funktionieren. Das bedeutet, dass die Macht bewiesen ist. Wenn sich nirgendwo etwas bewegt … *(der letzte Teil des Satzes ist unklar)*, beweist sich Macht dennoch immer durch Energie.
+
+Wenn du die Energie leugnest, wenn du nicht lernst und keine Prüfungen ablegst — wie sollte dann jemand feststellen, was du weißt? Ohne eine Prüfung kann niemand behaupten, etwas gemeistert zu haben. *(Wörtlich ein volkstümliches Sprichwort darüber, dass man etwas nicht Pferd nennen kann, ohne es geprüft zu haben — die Transkription ist hier verstümmelt.)* Warum ist das so? Was tun wir eigentlich?
+
+***
+
+### Die vier ashramas und das Verständnis von maya
+
+**Gurudev:** Wie könnt ihr maya *(Illusion)* überwinden, ohne sie zu verstehen? Ohne maya zu verstehen, kann Brahman nicht verstanden werden. Genau deshalb wurden die vier ashramas *(Lebensstufen)* geschaffen. Zuerst kommt brahmacharya *(Studentenleben)*, dann grihasthashram *(Leben als Haushalter)*, danach vanaprastha *(Rückzug in die Abgeschiedenheit)* und schließlich sannyasa *(Entsagung)*. *(Die Reihenfolge in der Transkription der Aufnahme ist teilweise fehlerhaft; die Bedeutung entspricht den traditionellen vier ashramas.)* Deshalb haben die großen Weisen dieses ganze System geschaffen — alle vier Lebensstufen zusammen … *(der Rest des Satzes ist in der Transkription unklar)*. Es heißt, dass die Zeit von vanaprastha ungefähr im Alter von fünfzig bis sechzig Jahren beginnt.
+
+Unsere großen Weisen haben jede einzelne Sache auf eine sehr wissenschaftliche Weise untersucht, sie verstanden und sie dann in die Praxis umgesetzt. Und danach haben sie sie den Menschen vorgestellt und gesagt: „So ist es.“ Deshalb lebt ein Mensch zunächst in brahmacharya und lernt die Theorie. Sobald er die Theorie verstanden hat, tritt er in das Leben als Haushalter ein. Dort geht er bereits in die Praxis über. Er tritt in maya ein. Und erst dann erfährt er, welche Hindernisse und Schwierigkeiten vor ihm liegen.
+
+Schaut euch Bhagavan Shankaracharya an. Er ging direkt von brahmacharya in sannyasa über. Bhagavan Adi Shankaracharya gab der Gesellschaft eine sehr wichtige Botschaft — dass ein Mensch alle vier ashramas durchlaufen sollte. *(Die Transkription enthält mehrere unklare Wörter, aber die Bedeutung entspricht dieser Aussage.)* Ich selbst war dazu bestimmt, in das Leben als Haushalter einzutreten. Erst als Adi Shankaracharya in das Leben als Haushalter eingetreten war, konnte er diese Tatsache vollständig verstehen. Erst dann verstand er maya.
+
+***
+
+### Maya als Lehrerin, nicht als Täuscherin
+
+**Gurudev:** Es heißt: **„Maya ist eine große Täuscherin — das habe ich erkannt.“** *(Anspielung auf einen bekannten Sanskrit-Spruch/-Vers: „माया महा ठगनी हम जानी“.)* Aber maya ist nicht da, um euch zu täuschen. Maya gibt euch Lektionen für das Leben. Sie versucht euch dabei zu helfen, die einzelnen Seiten des Lebens, die vier Abschnitte des Lebensweges zu verstehen, und hilft euch, sie zu erfüllen und sie in ihrer Tiefe zu leben. *(Das Ende des Satzes ist in der Transkription teilweise unklar.)* Das Wesen von maya ist ständige Veränderung — alles, was existiert, verändert sich in jedem Augenblick. Durch maya selbst wird das Leben gelebt.
+
+Warum führt ein Wissenschaftler immer wieder Experimente durch? Weil das, was er gerade untersucht und prüft … bereits im nächsten Augenblick verändert ist. Eine Sekunde später ist es wieder anders. Man darf es nicht einfach in Stücke zerlegen — man muss es Teil für Teil betrachten. Wenn du es in einzelne Teile aufteilst, wirst du die Gesamtwirkung nicht sehen. Übrig bleibt nur die Wirkung der einzelnen Teile, nicht die Wirkung des Ganzen.
+
+***
+
+### Das Ganze und seine Teile: das Beispiel der Rakete
+
+**Gurudev:** Nehmen wir ein Beispiel. Wenn wir etwas überprüfen wollen … wenn eine Art Fahrzeug von hier gestartet wird *(das Wort „yaan“ in der Transkription kann Rakete oder Raumfahrzeug bedeuten)* … Wenn sie es starten, verfolgen sie den Ort, an dem es landen soll. Sie zielen nicht direkt auf den Ort, an dem es landen soll — sie berechnen den Zeitpunkt, an dem sich der Zielort an der richtigen Position befindet und wann die Rakete von diesem Ort aus dort ankommen wird. Wenn du direkt auf den Ort zieltest, den du erreichen möchtest, würde die Rakete dort nicht ankommen, sondern irgendwo anders herunterkommen. Genauso ist es beim Testen: Das, was du jetzt testest, landet am Ende an einem völlig anderen Punkt, und dann interpretiert jemand anderes die Ergebnisse dieses Tests, und die Menschen halten sie für richtig. *(Dieser Teil der Transkription ist an mehreren Stellen unklar.)*
+
+Auf dieselbe Weise präsentierten unsere großen Weisen ihre Lehre zusammen mit ihrer eigenen Erfahrung als Beweis. Was zeigte das? Wenn wir selbst nicht durch das Leben als Haushalter gegangen wären, nicht in die Gesellschaft eingetreten wären und nicht die Erfahrung des Lebens als Haushalter geteilt hätten und nicht durch die Zeit von vanaprastha gegangen wären … *(die Transkription enthält mehrere unklare Wörter)*, dann müssten viele Dinge erst erarbeitet und vermutet werden. Durch den Eintritt in einen anderen Körper verstand Adi Shankaracharya das Leben als Haushalter vollständig und lebte es wirklich. *(Anspielung auf die traditionelle Geschichte des parakaya-pravesha — des Eintritts in den Körper eines anderen.)* Und dann sagt jemand, er habe das Leben als Haushalter nie gelebt, er habe es vermieden — das ist Unsinn. Nein, er ist tatsächlich hindurchgegangen und hat es vollständig gelebt. Wenn es nicht notwendig gewesen wäre, hätte es keinen Grund gegeben, in einen anderen Körper einzutreten. Wozu hätte ein anderer Körper überhaupt gebraucht werden sollen? Es hätte genügt, ihn zu verlassen, es zu verstehen und es zu sehen. Hier liegt ein sehr feiner Unterschied. Das waren große Weise — sie sammelten diese Erfahrung und gaben den Beweis weiter.
+
+Welches Prinzip folgt daraus? Dass ein Mensch alle vier ashramas durchlaufen sollte. Von brahmacharya sollte er in das Leben als Haushalter eintreten, dann die Zeit von vanaprastha durchlaufen und schließlich in sannyasa eintreten. Manche Menschen ziehen sich bereits als Kinder in die Askese zurück oder nehmen sannyasa, aber dann wissen sie nicht, was dazwischen liegt — und das ist nicht das Ideal, das uns die großen Weisen gezeigt haben. Genau darin liegt ihr Vermächtnis.
+
+***
+
+### Die Hinwendung zur Meditation
+
+**Gurudev:** Gut, gut. Also los, Brüder, jetzt zeige ich euch etwas. Das Verständnis ist bereits in der Meditation entstanden. *(Wörtlich: „Das Verständnis fand in der Meditation statt.“)* Bitte, macht euch bereit.
+
+***
+
+### Die Erfahrung eines Schülers: Der Körper dehnt sich aus
+
+**Gurudev:** Horizont … *(das erste Wort steht in der Transkription auf Englisch: „Horizon“).* Und obwohl derjenige, der all dies beobachtet, derselbe bleibt, entsteht ein Gefühl, dass der Körper sehr, sehr, sehr … *(das letzte Wort ist in der automatischen Transkription unklar — es lässt sich keinem sinnvollen Hindi-Wort zuordnen; dem Kontext nach könnte etwas wie „sehr subtil“, „sehr leicht“ oder „als würde er verschwinden“ gemeint gewesen sein, aber dies lässt sich aus der Aufnahme nicht zuverlässig bestimmen)*. Dein eigenes Wesen *(wörtlich „Körper“ in der Transkription — sharira)* hat zehn Aktivitäten. Diese fünf Bereiche deines Lebens — atma *(Seele)*, buddhi *(Intellekt)*, chitta, vritti und Geist — bilden die fünf Teile, und innerhalb jedes dieser fünf Teile finden jeweils zwei Aktivitäten statt.
+
+***
+
+### Die fünf Teile des Lebens und ihre zweifachen Aktivitäten
+
+![Handgezeichnetes Diagramm aus dem Vortrag — der Weg von Sinneseindrücken über buddhi, chitta und vritti bis zum Geist und zur Welt](/images/Budhi-Citta-Vritti.jpeg "plain")
+
+**Gurudev:** Im Geist *(manas)* gibt es zwei Aktivitäten — prüfen und auswählen. Nur diese beiden: Prüfen und Auswählen finden in deinem Geist statt. Ebenso gibt es zwei Aktivitäten in vritti: analysieren und vergleichen — das sind die beiden Aktivitäten von vritti.
+
+Genauso gibt es zwei Aktivitäten im nächsten Teil, nämlich chitta. In chitta gibt es zwei Aktivitäten: Die erste ist chintan *(Kontemplation)* und die zweite ist chitram. Die Wörter chintan *(Kontemplation)* und chinta *(Sorge)* klingen ähnlich, aber ihre Bedeutung ist unterschiedlich. Wenn wir uns Sorgen machen *(chinta)*, sorgen wir uns um den Körper, um die Zukunft — Sorge kann im gegenwärtigen Moment nicht existieren; sich zu sorgen bedeutet, dass du nicht in der Gegenwart bist. Kontemplation *(chintan)* bedeutet dagegen, dass du im gegenwärtigen Moment bist. Das ist der ganze Unterschied zwischen Sorge und Kontemplation. In chitta gibt es also zwei Aktivitäten — Kontemplation und chitram.
+
+Was ist chitram? Wenn wir etwas erschaffen, zum Beispiel eine Zeichnung. Wir stellen uns beispielsweise vor, dass ein Haus, sobald wir es gebaut haben, vier Räume haben wird, hier wird die Küche sein, dort der Garten … all das wird im Geist erschaffen, das ist chitram. Und wenn das Haus gebaut ist und eine Farbe ausgewählt wird, stellen wir uns innerlich vor: Sollen wir es rot, blau, grün oder weiß streichen? Hier würde dies besser aussehen, dort würde jenes besser aussehen. So stellst du dir verschiedene Möglichkeiten vor. All diese Aktivitäten finden in chitta statt.
+
+Deine Wünsche befinden sich in chitta. Alle deine Erinnerungen sind in chitta gespeichert — alle Informations-Erinnerungen und alle Erinnerungen an Erfahrungen werden genau in chitta gespeichert. Keine Erinnerung bleibt im Gehirn — merkt euch das, niemals. Keine Erinnerung bleibt in eurem Körper. Das Gedächtnis einzelner Organe bleibt nur in diesen Organen, solange das Leben im Körper fortbesteht — dank des Lichts des Lebens sind diese Erinnerungen aktiv; deshalb funktioniert der Körper und deshalb funktionieren alle seine Organe. Aber sobald das Leben den Körper verlässt und sein Licht aus dem Körper verschwindet, beginnt sich Dunkelheit auszubreiten — die Organe, die den Körper funktionsfähig gehalten haben, gehen in die Ruhe über und ihre Erinnerung erlischt. Deshalb bestehen alle Erinnerungen durch chitta fort, weil chitta einer der Teile des Lebens ist — der Kausalkörper *(karana sharira)*. Chitta hat also zwei Aktivitäten.
+
+Ebenso gibt es zwei Aktivitäten in buddhi. Der vierte Teil ist buddhi, oberhalb von chitta. In buddhi gibt es zwei Aktivitäten — eine heißt ritambhara *(die Transkription enthält eine verstümmelte Wiedergabe dieses Begriffs, aber offensichtlich ist der Sanskrit-Begriff ऋतम्भरा — ritambhara, „mit Wahrheit erfüllt“ — gemeint)*, die andere heißt bodha *(Erkenntnis, Verwirklichung)*. Wenn wir etwas als wahre Erkenntnis *(bodha)* erlangen, sind wir vollständig darauf ausgerichtet — unser Wille wird stärker und von diesem Moment an handeln wir dauerhaft entsprechend dieser Entschlossenheit. Sobald wir verstanden haben, dass dies die Wahrheit ist, weichen wir nicht mehr davon ab. Sobald bodha entsteht, ist die zweite Aktivität von buddhi ritambhara — eine von Wahrheit erfüllte Entschlossenheit, nur von Wahrheit. Das sind die beiden Aktivitäten von buddhi.
+
+Ebenso gibt es zwei Aktivitäten in atman. Einer der fünf Bereiche des Lebens ist atma — die fünf Bereiche: atma, buddhi, chitta, vritti und Geist. Auch in atman gibt es zwei Aktivitäten: Die erste ist Erfahrung *(anubhava)* und die zweite ist Beweis *(pramana)*. In dem Moment, in dem du etwas wirklich erfährst, hast du zuerst bodha erreicht — das Wissen, dass es wahr ist. Wie ist dieses Wissen entstanden? Durch direkte Erkenntnis, durch direkte Erfahrung *(sakshatkara)*. Wenn du lange über etwas nachdenkst — ob es richtig oder falsch ist — gelangst du schließlich zu der Erkenntnis: „Nein, das ist nicht richtig.“ Du entscheidest: „Das werde ich nicht mehr tun.“ Und der Beweis ist deine eigene Erfahrung — dass du es tatsächlich nicht mehr tust. Du hast also sowohl die Erfahrung als auch den Beweis, dass du es nicht mehr tust — das bedeutet, dass es zu deiner Realität geworden ist. Nach bodha und ritambhara trittst du in atman ein, wo es zwei Aktivitäten gibt: Die erste ist Erfahrung, und in dem Moment, in dem die Erfahrung entsteht, erscheint unmittelbar auch der Beweis. Das sind die beiden Aktivitäten von atman.
+
+Und nun die zweite Sache. Du sagst, du hast das Gefühl, dass sich dein Körper immer weiter ausdehnt. Aber du bleibst nur einer. Wenn du dich ausdehnst, wer beobachtet das? Wer sieht, dass sich etwas ausdehnt? Dann gäbe es zwei — einen, der sieht, und einen anderen, der gesehen wird. Es gibt zwei Dinge: das, was gesehen wird, und den, der sieht; den Meditierenden und das Objekt der Meditation. Das bedeutet, dass du in die Dualität *(dvaita)* eingetreten bist. Und die großen Weisen sagen: „Prem gali ati sankari, ja men dvaya na samae.“ *(Die Gasse der Liebe ist sehr eng — zwei passen nicht hinein.)* In einem Zustand der Dualität kannst du dort nicht eintreten. Da ist Trennung *(dvandva)*, und dann gibt es Vereinigung *(fusion)* — man kann dort nicht als zwei weitergehen.
+
+Was bleibt also? Nehmen wir an, du meditierst und stellst plötzlich fest: „Warum bin ich denn in Bombay gelandet?“ Wie bin ich dorthin gekommen? Gut, meditieren wir noch einmal … Und wieder bist du in Bombay. Wer ist es wirklich, der dich dort sieht? Wer beobachtet dich? An der Oberfläche scheint es zwei zu geben. Aber das ist nicht so. Das muss man verstehen: Oberhalb des Geistes beobachtet vritti den Blick des Geistes, oberhalb von vritti beobachtet chitta den Blick von vritti, oberhalb von chitta beobachtet buddhi den Blick von chitta. Und oberhalb von buddhi, in seiner Ganzheit, wer beobachtet? Atma. Das ist der Zeuge *(drashta)*, in seiner Ganzheit. Atma beobachtet buddhi von oben, buddhi beobachtet chitta, chitta beobachtet vritti, vritti beobachtet den Geist und der Geist beobachtet die Welt. So entsteht der gesamte Kreislauf.
+
+***
+
+### Wer ist der Beobachter: atma als Zeuge
+
+**Gurudev:** Was du gesehen hast, ist vollkommen wahr. Denn wer ist es, der sieht? Es ist dein Zustand als Zeuge *(drashta-bhava)*, es ist dein Bewusstsein des Zeugeseins *(sakshi-bhava)*. Es ist das, was dich beobachtet, das, was dich sieht. Du hast es vollkommen richtig gesehen, es ist überhaupt nicht falsch. Du hast recht, hundertprozentig recht. Du hast es sehr schön gesehen, du hast ihm während der Meditation auf sehr schöne Weise deine Aufmerksamkeit geschenkt. Vielen Dank.
+
+***
+
+### Die Erfahrung eines Schülers: Die Reise zum Nabel
+
+**Gurudev:** Genauso, genauso … dieser Junge hat gerade seine Erfahrung beschrieben. Er hat sie vollständig beschrieben. Am Ende sagte ich: Reise in deinen Nabel, in deinen Nabel — nicht: Konzentriere dich auf den Nabel. Und was geschah? Das war seine Erfahrung, es ist eine sehr schöne Erfahrung.
+
+**Erfahrung eines Schülers:** Er schreibt hier: „Gurudev schickte mich durch seine Meditation zum Nabel. Zuerst konnte ich jedoch nicht hineingehen, ich konnte nicht eintreten, ich konnte nicht nach innen reisen. Dann hatte ich das Gefühl, dass sich am Nabel eine Tür öffnete, ein Tor, das mich nach innen zog. Als ich in den Nabel hineingegangen und dort angekommen war, sah ich Tausende von Toren. Hinter jedem dieser Tore befindet sich im feinstofflichen Körper eine der tausend nadis *(Energiekanäle)*. Also sah ich Tausende von Toren und wusste nicht, wohin ich gehen sollte. Aber dann trat ich gleichzeitig durch all diese Tausenden von Toren ein. Und all diese Tore öffneten sich vor mir.“ *(Das Ende des Satzes ist in der Transkription etwas unklar.)* „Ich trat gleichzeitig durch all die Tausenden von Toren ein. Ich reiste nicht nur durch ein Tor — ich ging durch alle, ich durchquerte alle nadis. Ich durchquerte gleichzeitig den ganzen Körper, auf tausend Wegen, all diese Wege zur selben Zeit. Und auf diesen tausend Wegen kam ich an einen Ort. Und dort war nichts … überhaupt nichts. Da war etwas, das wie nichts war, irgendeine Art von Substanz, die den Eindruck vermittelte, nichts zu sein. Es fühlte sich für mich wie Wasser an. Ich ging hindurch und kehrte dann auf denselben tausend Wegen zurück, ich kehrte immer wieder zwischen den einzelnen Organen zurück, durch die verschiedenen Durchgänge zwischen ihnen. Schließlich kam ich wieder am Nabel an. Aber ich hatte das Gefühl, dass von außen das Tor des Nabels bereits geschlossen war. Ich blieb dort gefangen und konnte nicht heraus. Vielleicht hast du mich dann durch dieses Tor zurückgezogen, und so kam ich heraus.“
+
+**Gurudev:** Als er dort steckenblieb, rief ich ihn zurück, und da kam er wieder heraus. Auch das ist eine der Erfahrungen — so wie wir euch bereits viele Male erfahren lassen haben, eure eigenen Organe von innen zu sehen. Ihr habt selbst gesehen, welches Organ krank und welches gesund ist; ihr habt dies während der Meditation durch eure eigene Erfahrung gesehen. Als ich es euch gezeigt habe, habt ihr es selbst gesehen — worauf immer ihr eure Aufmerksamkeit richtet, wohin immer ihr das Licht richtet, das seht ihr. Deshalb ist euer Zustand als Beobachter, der Zustand des Zeugen *(sakshi-bhava)*, genau atma. Atma ist der Zeuge, atma ist der Beobachter.
+
+***
+
+### Atma reist niemals — nur Erinnerungen reisen
+
+**Gurudev:** Aber denkt an eines — atma reist niemals. Was manche Bücher als reisend beschreiben, ist nicht atma. Nur Erinnerungen reisen. Wenn es in dir keine Erinnerung an Indonesien gibt, kannst du nicht dorthin reisen, du kannst nicht einmal an Indonesien denken. Du kannst nur dorthin zurückkehren, wo du bereits gewesen bist. Das Leben dagegen ist überall gegenwärtig, denn das Leben ist Strahlung — es ist Teil des Unendlichen, es ist absolut überall verbreitet. Warum sollte es also reisen müssen? Nur das, was an einem Ort existiert, kann reisen; was überall verbreitet ist — warum sollte es reisen?
+
+Der Raum erstreckt sich in alle Richtungen, deshalb reist der Raum niemals. Innerhalb des Raumes reisen die Sonne, der Mond, die Sterne, die Erde, die Planeten und die Sternbilder, aber der Raum selbst reist niemals. Genauso ist atma Teil dieses unendlichen Raumes — deshalb reist atma niemals. Es sind die Erinnerungen, die reisen, und alle Erinnerungen reisen gleichzeitig. Von diesen werden die negativen, kranken Erinnerungen durch euren sankalpa *(bewusste Entschlossenheit)* zerstört, durch eure Meditationspraxis zerstört. Deshalb heißt es, dass der einzige Weg — der höchste Weg — die Früchte des karma *(karmabhoga)* und die damit verbundenen Erinnerungen zu zerstören, Meditation ist, und zwar nur Meditation. Nur während der Meditation lösen sich eure karmischen Rückstände durch die Gnade des Guru auf. Es gibt keinen anderen Weg.
+
+***
+
+### Abschließende Anweisungen
+
+**Gurudev:** Heute haben wir uns das alles gegenseitig sehr gut erklärt. Morgen treffen wir uns wieder. Wir wünschen, dass ihr euch morgen früh alle zum Rudrabhishek hinsetzt — ihr alle werdet euch ab halb vier Uhr morgens zum Rudrabhishek hinsetzen, jeder Einzelne von euch.

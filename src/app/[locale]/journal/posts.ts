@@ -183,7 +183,7 @@ export const POSTS: PostMeta[] = [
     slug: 'maya-brahman-asramy',
     date: '2026-08-05',
     cover: '/images/Citta-Vritti.jpg',
-    langs: ['cs', 'en', 'fr', 'es'],
+    langs: ['cs', 'en', 'fr', 'es', 'de'],
     meta: {
       cs: {
         rubric: 'Promluvy - Gurudév',
@@ -230,6 +230,16 @@ export const POSTS: PostMeta[] = [
           Brahman a los cuatro ashramas del recorrido de la vida y después a una
           explicación de las cinco partes de la conciencia: mente, vritti, chitta,
           buddhi y atman.`,
+      },
+      de: {
+        rubric: 'Diskurse - Gurudev',
+        title: 'Gurudevs Vorträge',
+        titleEm: 'Die vier Ashramas und Maya',
+        perex: `Ein informelles Gespräch zwischen Gurudev und seinen Schülern, so
+          unverfälscht wie möglich bewahrt — unbearbeitet und ungeglättet. Das Gespräch
+          führt von maya und Brahman über die vier ashramas des Lebensweges bis hin zu
+          einer Darstellung der fünf Bereiche des Bewusstseins: Geist, vritti, chitta,
+          buddhi und atman.`,
       },
     },
   },
