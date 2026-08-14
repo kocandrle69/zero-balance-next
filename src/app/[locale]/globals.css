@@ -7,13 +7,14 @@
  * Soubory jsou beze změny to, co by stejně poslal Google Fonts — jen
  * bez závislosti na externí síťové žádosti a bez bundleru mezi tím.
  *
- * KONVENCE VÁHY NADPISŮ (Cormorant Garamond): 300 (light) je finální stav,
- * odsouhlasený po vyzkoušení 400 i 500 na journal listing/article titles,
- * homepage sekcích (Purpose/Activities/Events/India/Media) a Media page
- * titulcích — zpátky na 300. Neměnit bez výslovné žádosti; ať se to
- * znovu neřeší od nuly. Font soubory pro 400/500/600/700 zůstávají
- * self-hostnuté (variabilní font, viz níže) pro jiné use-case (odstavce,
- * emphasis přes <strong>), jen nadpisy je nepoužívají.
+ * KONVENCE VÁHY NADPISŮ (Cormorant Garamond): 500 je finální stav (13. 8. 2026).
+ * Historie: 300 → 400 → 500 → 300 → 500. Testováno na journal listing/article
+ * titles, homepage sekcích (Purpose/Activities/Events/India/Media) a Media page
+ * titulcích. Předposlední krok zpět na 300 byla komunikační chyba (ne skutečné
+ * odsouhlasení), proto se to vrátilo na 500 ještě jednou. Neměnit bez výslovné
+ * žádosti; ať se to znovu neřeší od nuly. Font soubory pro 300/400/600/700
+ * zůstávají self-hostnuté (variabilní font, viz níže) pro jiné use-case
+ * (odstavce, emphasis přes <strong>), jen nadpisy je nepoužívají.
  */
 /* latin-ext */
 @font-face {
