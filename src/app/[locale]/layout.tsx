@@ -6,6 +6,7 @@ import { NextIntlClientProvider } from 'next-intl'
 import { setRequestLocale } from 'next-intl/server'
 import type { Viewport, Metadata } from 'next'
 import Script from 'next/script'
+import CookieConsent from '../../components/CookieConsent'
 
 export function generateStaticParams() {
   return routing.locales.map(locale => ({ locale }))
@@ -40,6 +41,7 @@ export default async function RootLayout({ children, params }: LayoutProps<'/[lo
         <NextIntlClientProvider locale={locale} messages={{}}>
           <LangProvider initialLang={locale as AppLocale}>
             {children}
+            <CookieConsent />
           </LangProvider>
         </NextIntlClientProvider>
         {/* Google tag (gtag.js) — loads on every route, once per session */}
@@ -51,6 +53,22 @@ export default async function RootLayout({ children, params }: LayoutProps<'/[lo
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
+
+            // Consent Mode v2 — výchozí stav je "vše zamítnuto", dokud se
+            // uživatel nerozhodne (nebo dokud si nenačteme jeho dřívější
+            // volbu z localStorage, klíč zbs_consent = 'granted' | 'denied').
+            // Musí být pushnuto PŘED 'config', jinak GA stihne odeslat
+            // hit ještě v nezúženém režimu.
+            var zbsConsent = 'denied';
+            try { if (localStorage.getItem('zbs_consent') === 'granted') zbsConsent = 'granted'; } catch (e) {}
+            gtag('consent', 'default', {
+              ad_storage: zbsConsent,
+              ad_user_data: zbsConsent,
+              ad_personalization: zbsConsent,
+              analytics_storage: zbsConsent,
+              wait_for_update: 500
+            });
+
             gtag('js', new Date());
             gtag('config', 'G-2MM4YED57Y');
           `}

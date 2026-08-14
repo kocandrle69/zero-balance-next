@@ -1,0 +1,78 @@
+.bar {
+  position: fixed;
+  left: 0; right: 0; bottom: 0;
+  z-index: 1000;
+  background: var(--ink2);
+  border-top: 1px solid rgba(184,146,42,0.25);
+  padding: 20px clamp(16px, 4vw, 40px);
+  padding-bottom: max(20px, env(safe-area-inset-bottom, 20px));
+}
+
+.inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+
+.text { flex: 1 1 420px; min-width: 260px; }
+
+.title {
+  font-family: 'Cinzel', serif;
+  font-size: 11px; letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--gold-text);
+  margin: 0 0 6px;
+}
+
+.desc {
+  font-size: 14px; font-weight: 300;
+  line-height: 1.65;
+  color: rgba(255,255,255,0.72);
+  margin: 0;
+}
+
+.actions {
+  display: flex;
+  gap: 12px;
+  flex: 0 0 auto;
+}
+
+.reject, .accept {
+  font-family: inherit;
+  font-size: 13px;
+  letter-spacing: 0.02em;
+  padding: 11px 22px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+  white-space: nowrap;
+}
+
+.reject {
+  background: transparent;
+  color: rgba(255,255,255,0.75);
+  border: 1px solid rgba(255,255,255,0.25);
+}
+.reject:hover { border-color: rgba(255,255,255,0.5); color: #fff; }
+
+.accept {
+  background: var(--gold);
+  color: var(--ink2);
+  border: 1px solid var(--gold);
+  font-weight: 500;
+}
+.accept:hover { background: var(--gold-text); border-color: var(--gold-text); }
+
+.reject:focus-visible, .accept:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 2px;
+}
+
+@media (max-width: 560px) {
+  .inner { gap: 16px; }
+  .actions { width: 100%; }
+  .reject, .accept { flex: 1; text-align: center; }
+}

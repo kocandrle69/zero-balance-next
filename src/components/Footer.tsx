@@ -147,7 +147,17 @@ export default function Footer() {
       </div>
 
       <div className={styles.footerBottom}>
-        <p>{t('foot_copy')}</p>
+        <p>
+          {t('foot_copy')}
+          {' · '}
+          <button
+            type="button"
+            className={styles.cookieSettingsBtn}
+            onClick={() => window.dispatchEvent(new Event('zbs:cookie-settings'))}
+          >
+            {t('cookie_settings')}
+          </button>
+        </p>
         <div className={styles.socials}>
           {/* Sociální sítě — zatím pouze YouTube a Email */}
           <a href="https://www.youtube.com/@Zero-BalanceSociety" target="_blank" rel="noopener noreferrer" title="YouTube">▶</a>

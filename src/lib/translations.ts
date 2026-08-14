@@ -88,6 +88,12 @@ export const T = {
     foot_sub_ok:    'You are subscribed — welcome to the journey.',
     foot_email_invalid: 'Please enter a valid e-mail address.',
     foot_copy:    '© 2025 Zero Balance Society · All rights reserved · Czech Republic',
+
+    cookie_title:    'Cookies & privacy',
+    cookie_desc:     'We use Google Analytics to better understand site traffic. Analytics cookies are set only with your consent.',
+    cookie_accept:   'Accept',
+    cookie_reject:   'Decline',
+    cookie_settings: 'Cookie settings',
   },
 
   cs: {
@@ -177,6 +183,12 @@ export const T = {
     foot_sub_ok:    'Jste přihlášeni — vítejte na naší cestě.',
     foot_email_invalid: 'Zadejte prosím platnou e-mailovou adresu.',
     foot_copy:    '© 2025 Zero Balance Society · Všechna práva vyhrazena · Česká republika',
+
+    cookie_title:    'Cookies a soukromí',
+    cookie_desc:     'Používáme Google Analytics, abychom lépe rozuměli návštěvnosti webu. Analytické cookies nastavíme jen s vaším souhlasem.',
+    cookie_accept:   'Souhlasím',
+    cookie_reject:   'Odmítnout',
+    cookie_settings: 'Nastavení cookies',
   },
 
   hi: {
@@ -265,6 +277,12 @@ export const T = {
     foot_sub_ok:  'आप सदस्य हैं — यात्रा में आपका स्वागत है।',
     foot_email_invalid: 'कृपया एक वैध ई-मेल पता दर्ज करें।',
     foot_copy:    '© 2025 Zero Balance Society · सर्वाधिकार सुरक्षित · चेक गणराज्य',
+
+    cookie_title:    'कुकीज़ और गोपनीयता',
+    cookie_desc:     'हम साइट ट्रैफ़िक को बेहतर समझने के लिए Google Analytics का उपयोग करते हैं। एनालिटिक्स कुकीज़ केवल आपकी सहमति से सेट की जाती हैं।',
+    cookie_accept:   'स्वीकार करें',
+    cookie_reject:   'अस्वीकार करें',
+    cookie_settings: 'कुकी सेटिंग्स',
   },
 
   fr: {
@@ -355,6 +373,12 @@ export const T = {
     foot_sub_ok:    'Vous êtes inscrit — bienvenue parmi nous.',
     foot_email_invalid: 'Veuillez saisir une adresse e-mail valide.',
     foot_copy:    '© 2025 Zero Balance Society · Tous droits réservés · République tchèque',
+
+    cookie_title:    'Cookies et confidentialité',
+    cookie_desc:     'Nous utilisons Google Analytics pour mieux comprendre la fréquentation du site. Les cookies analytiques ne sont déposés qu’avec votre consentement.',
+    cookie_accept:   'Accepter',
+    cookie_reject:   'Refuser',
+    cookie_settings: 'Paramètres des cookies',
   },
 
   es: {
@@ -443,6 +467,12 @@ export const T = {
     foot_sub_ok:    'Ya estás suscrito — bienvenido al camino.',
     foot_email_invalid: 'Introduce una dirección de correo electrónico válida.',
     foot_copy:    '© 2025 Zero Balance Society · Todos los derechos reservados · República Checa',
+
+    cookie_title:    'Cookies y privacidad',
+    cookie_desc:     'Utilizamos Google Analytics para comprender mejor el tráfico del sitio. Las cookies analíticas solo se activan con su consentimiento.',
+    cookie_accept:   'Aceptar',
+    cookie_reject:   'Rechazar',
+    cookie_settings: 'Configuración de cookies',
   },
 
   de: {
@@ -531,6 +561,12 @@ export const T = {
     foot_sub_ok:    'Du bist angemeldet — willkommen auf unserem gemeinsamen Weg.',
     foot_email_invalid: 'Bitte gib eine gültige E-Mail-Adresse ein.',
     foot_copy:    '© 2025 Zero Balance Society · Alle Rechte vorbehalten · Tschechische Republik',
+
+    cookie_title:    'Cookies & Datenschutz',
+    cookie_desc:     'Wir verwenden Google Analytics, um die Nutzung der Website besser zu verstehen. Analyse-Cookies werden nur mit Ihrer Zustimmung gesetzt.',
+    cookie_accept:   'Zustimmen',
+    cookie_reject:   'Ablehnen',
+    cookie_settings: 'Cookie-Einstellungen',
   },
 } as const
 

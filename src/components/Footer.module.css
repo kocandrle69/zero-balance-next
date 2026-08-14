@@ -86,6 +86,17 @@
   letter-spacing: 0.16em; color: rgba(255,255,255,0.2); text-transform: uppercase;
 }
 
+.cookieSettingsBtn {
+  font: inherit;
+  letter-spacing: inherit;
+  text-transform: inherit;
+  background: none; border: none; padding: 0; cursor: pointer;
+  color: rgba(255,255,255,0.2);
+  text-decoration: underline; text-underline-offset: 2px;
+  transition: color 0.15s;
+}
+.cookieSettingsBtn:hover, .cookieSettingsBtn:focus-visible { color: var(--gold-text); }
+
 .socials { display: flex; gap: 12px; }
 .socials a {
   width: 35px; height: 35px; border-radius: 50%;
