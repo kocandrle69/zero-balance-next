@@ -320,7 +320,14 @@ export const POSTS: PostMeta[] = [
     coverPos: 'center 20%',
     coverBanner: true,
     wide: true,
-    langs: ['cs', 'en', 'hi'],
+    // langs zde neznamená "tělo článku existuje jako .md v tomhle jazyce"
+    // (bharat-2026 nemá .md tělo vůbec, viz BODIES v JournalPost.tsx) —
+    // řídí ale i to, na co bodyLang() zúží `lang`, než ho pošle do
+    // India2026Gallery.tsx. Když tu chyběly fr/es/de, komponenta dostala
+    // vždy jen 'en' bez ohledu na to, že uvnitř už fr/es/de uměla —
+    // proto se galerie/medailonek Andrey nepřekládaly i po opravě
+    // v gallery/*.tsx. Musí sedět se skutečně podporovanými jazyky tam.
+    langs: ['cs', 'en', 'hi', 'fr', 'es', 'de'],
     meta: {
       cs: {
         rubric: 'Reportáž',
