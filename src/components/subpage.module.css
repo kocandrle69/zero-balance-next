@@ -83,8 +83,12 @@
   font-size: clamp(19px, 2.2vw, 24px);
   font-weight: 300; line-height: 1.75;
   color: var(--ink2);
-  padding-bottom: 48px;
-  border-bottom: 1px solid rgba(184,146,42,0.12);
+  /* Dřív měl .lead vlastní border-bottom rovnou nad rovnou dalším
+     .sectionHead::after linkou o pár desítek px níž — na stránce to
+     četlo jako zdvojená zlatá čára (zpětná vazba 14. 8. 2026, About/
+     Philosophy/Preserve atd. — všechny podstránky sdílející tenhle
+     modul). Mezera samotná (margin-bottom) stačí, druhá čára u nadpisu
+     další sekce je dost.  */
   margin-bottom: 56px;
 }
 

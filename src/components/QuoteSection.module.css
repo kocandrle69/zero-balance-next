@@ -57,7 +57,12 @@
 .quoteBannerContent blockquote :global(strong) {
   font-style: normal;
   font-weight: 500;
-  color: var(--gold-text);
+  /* Světlejší zlatá než globální --gold-text (#856416) — ten je na tmavém
+     fotografickém pozadí s bílým textem kolem špatně čitelný, viz zpětná
+     vazba 14. 8. 2026. Barva je záměrně jen lokální pro tenhle banner,
+     jinde na webu (nadpisy na světlém "paper" pozadí) --gold-text funguje
+     dobře a měnit se nemá. */
+  color: #d9b46a;
 }
 
 .quoteAttr {
