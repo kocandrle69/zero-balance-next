@@ -1,7 +1,13 @@
 .bar {
   position: fixed;
   left: 0; right: 0; bottom: 0;
-  z-index: 1000;
+  /* 850 — mezi .nav (800) a mobilním fullscreen menu (.mobileMenu, 900) v
+     Navbar.module.css. Dřív tu bylo 1000, stejně jako hamburger tlačítko,
+     takže lišta ležela NAD otevřeným mobilním menu a zakrývala/blokovala
+     scroll k jazykovému přepínači na malých displejích (nahlášeno
+     14. 8. 2026, iOS Safari i Chrome). Takhle mobilní menu při otevření
+     lištu překryje celou. */
+  z-index: 850;
   background: var(--ink2);
   border-top: 1px solid rgba(184,146,42,0.25);
   padding: 20px clamp(16px, 4vw, 40px);
