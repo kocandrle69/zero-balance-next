@@ -1,7 +1,10 @@
 import { routing, type AppLocale } from './routing'
 import { getPathname } from './navigation'
 
-const SITE = 'https://zero-balance.org'
+// www, ne apex — apex na www přesměrovává (307), takže canonical/hreflang
+// na apex je z pohledu Googlu neplatný odkaz (vede přes redirect, ne na
+// skutečně servírovanou stránku). Potvrzeno PageSpeed auditem 17. 8. 2026.
+const SITE = 'https://www.zero-balance.org'
 
 /**
  * hreflang alternates pro danou stránku napříč všemi podporovanými jazyky
