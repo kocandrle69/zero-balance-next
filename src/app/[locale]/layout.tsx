@@ -37,6 +37,20 @@ export default async function RootLayout({ children, params }: LayoutProps<'/[lo
 
   return (
     <html lang={locale}>
+      {/* Hero titulek ("Meditaci. Kulturu. Komunitu.") je vždy první text,
+          co uživatel vidí — Cormorant Garamond 600 (normální slova) + 400
+          italic (zvýrazněné slovo v <em>), latinský unicode-range. Bez
+          preloadu prohlížeč font objeví až při parsování inlinovaného CSS,
+          takže krátce bliká systémovým fontem (FOUT); s preloadem stihne
+          soubor začít stahovat prakticky hned s HTML. Jen tyhle dvě
+          konkrétní řezy — zbytek vah/jazyků (Hindi apod.) nechává normální
+          lazy discovery, ať se nepředstahuje zbytečně.
+          next/font/google se tu záměrně nepoužívá — fonty jsou self-hostnuté
+          v public/fonts/ kvůli historickému bugu (viz komentář v
+          globals.css: produkční Turbopack build externí @import tiše
+          ztrácel + problém s českou diakritikou v Safari). */}
+      <link rel="preload" as="font" type="font/woff2" href="/fonts/ac5feb9532.woff2" crossOrigin="anonymous" />
+      <link rel="preload" as="font" type="font/woff2" href="/fonts/880eabe202.woff2" crossOrigin="anonymous" />
       <body>
         <NextIntlClientProvider locale={locale} messages={{}}>
           <LangProvider initialLang={locale as AppLocale}>

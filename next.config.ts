@@ -14,6 +14,17 @@ const nextConfig: NextConfig = {
   turbopack: {
     root: path.resolve(__dirname),
   },
+  experimental: {
+    // Render-blocking <link rel="stylesheet"> requests (3 chunks, ~20KB
+    // gzip) byly na Lighthouse/Ad Grants mobile auditu hlavní brzdou FCP —
+    // browser musí HTML doparsovat, teprve pak CSS objevit a stáhnout.
+    // inlineCss vloží styly přímo do <head> jako <style>, takže dorazí
+    // spolu s HTML v jedné odpovědi. Cena: první návštěva nekešuje CSS
+    // zvlášť (re-download při každé nové HTML stránce) — u webu, kde
+    // organic/Ads návštěvník nejčastěji přistane jednou na landing page,
+    // je to čistý zisk. Prod-only (funguje jen v `next build`, ne v dev).
+    inlineCss: true,
+  },
 };
 
 export default withNextIntl(nextConfig);
