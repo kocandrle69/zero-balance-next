@@ -316,8 +316,14 @@ export const POSTS: PostMeta[] = [
   {
     slug: 'bharat-2026',
     date: '2026-08-03',
-    cover: '/images/india-2026/andrea/thumb/028.webp',
-    coverPos: 'center 20%',
+    cover: '/images/india-2026/andrea/full/028.webp',
+    // Na mobilu leží přes horní ~30 % banneru silný krémový scrim (viz
+    // `.heroBanner .heroOverlay` v journal.module.css, kvůli čitelnosti
+    // tlačítka Zpět) — u téhle fotky jsou tam bohužel obličeje. 'center 20%'
+    // je posouvalo ještě víc nahoru do nejsilnější části scrimu; 'center 0%'
+    // (crop od úplně vršku zdrojové fotky) je při krátkém poměru stran
+    // banneru posune dolů, mimo nejhorší část přechodu.
+    coverPos: 'center 0%',
     coverBanner: true,
     wide: true,
     // langs zde neznamená "tělo článku existuje jako .md v tomhle jazyce"
