@@ -55,8 +55,8 @@ export default function Hero() {
               fill
               sizes="100vw"
               quality={80}
-              priority={i === 0}
-              loading={i === 0 ? undefined : 'lazy'}
+              loading={i === 0 ? 'eager' : 'lazy'}
+              fetchPriority={i === 0 ? 'high' : undefined}
               className={`${styles.heroBgImg} ${
                 i === current
                   ? fading ? styles.imgFadingOut : styles.imgVisible
