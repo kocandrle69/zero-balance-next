@@ -134,6 +134,8 @@ function VideoCard({ video, cs, hi, fr, es, de }: { video: typeof VIDEOS[0]; cs:
               src={`https://img.youtube.com/vi/${video.id}/hqdefault.jpg`}
               alt={title}
               className={styles.thumbImg}
+              loading="lazy"
+              decoding="async"
             />
             <div className={styles.thumbOverlay} />
             <button className={styles.cardPlayBtn} aria-label={hi ? 'चलाएं' : cs ? 'Přehrát' : fr ? 'Lire' : es ? 'Reproducir' : de ? 'Abspielen' : 'Play'}>

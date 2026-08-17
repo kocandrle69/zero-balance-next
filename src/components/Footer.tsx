@@ -17,6 +17,10 @@ const CONTACT_MAILTO =
 const MEMBERSHIP_MAILTO =
   'mailto:jan@zero-balance.org?cc=jiri@zero-balance.org&subject=Z%C3%A1jem%20o%20%C4%8Dlenstv%C3%AD%20%E2%80%93%20Zero%20Balance%20Society'
 
+// TODO: nahradit odkazem na skutečnou donate stránku/platební bránu, až bude hotová.
+const DONATE_MAILTO =
+  'mailto:jan@zero-balance.org?cc=jiri@zero-balance.org&subject=Z%C3%A1jem%20o%20dar%20%E2%80%93%20Zero%20Balance%20Society'
+
 export default function Footer() {
   const { t, lang } = useLang()
 
@@ -86,6 +90,7 @@ export default function Footer() {
             </div>
           </Link>
           <p>{t('foot_desc')}</p>
+          <p className={styles.footerReg}>{t('foot_reg')}</p>
         </div>
 
         {/* Navigate */}
@@ -107,8 +112,7 @@ export default function Footer() {
           <ul>
             <li><a href={CONTACT_MAILTO}>{t('foot_contact')}</a></li>
             <li><a href={MEMBERSHIP_MAILTO}>{t('foot_join')}</a></li>
-            {/* Donate page does not exist yet — placeholder */}
-            <li><a href="#" aria-disabled="true" style={{ opacity: 0.45, pointerEvents: 'none' }}>{t('foot_donate')}</a></li>
+            <li><a href={DONATE_MAILTO}>{t('foot_donate')}</a></li>
             <li><a href="https://www.youtube.com/@Zero-BalanceSociety" target="_blank" rel="noopener noreferrer">{t('foot_media')}</a></li>
           </ul>
         </div>

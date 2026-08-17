@@ -1,6 +1,7 @@
 'use client'
 
 import { Fragment, type ReactNode } from 'react'
+import Image from 'next/image'
 import styles from './journal.module.css'
 import type { Block } from './markdown'
 
@@ -52,7 +53,16 @@ export default function ArticleBody({ blocks }: { blocks: Block[] }) {
           case 'fig':
             return (
               <figure key={i} className={FIG_CLASS[b.side]}>
-                <img src={b.src} alt={b.alt} />
+                {b.side === 'plain' ? (
+                  <img src={b.src} alt={b.alt} loading="lazy" />
+                ) : (
+                  <Image
+                    src={b.src}
+                    alt={b.alt}
+                    fill
+                    sizes={b.side === 'full' ? '(min-width: 700px) 700px, 100vw' : '260px'}
+                  />
+                )}
               </figure>
             )
           default:
