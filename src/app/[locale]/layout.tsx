@@ -12,10 +12,18 @@ export function generateStaticParams() {
   return routing.locales.map(locale => ({ locale }))
 }
 
+// Cokoliv mimo generateStaticParams (např. /robots.txt, /llms.txt — nemáme
+// pro ně vlastní route, takže je Next zkouší matchovat jako [locale]) má bez
+// tohohle za následek 500: generateMetadata na jednotlivých stránkách čte
+// T[locale]/META[locale] bez ochrany, a ten `notFound()` o pár řádků níž
+// v tomhle souboru se stihne spustit až PO generateMetadata, takže nestačí.
+// dynamicParams=false vrátí čisté 404 dřív, než se cokoliv z toho spustí.
+export const dynamicParams = false
+
 export const metadata: Metadata = {
   // Bez metadataBase se relativní cesty v openGraph.images překládají proti
   // localhost:3000 a náhledy na WhatsAppu/Facebooku zůstanou bez obrázku.
-  metadataBase: new URL('https://zero-balance.org'),
+  metadataBase: new URL('https://www.zero-balance.org'),
   title: 'Zero Balance Society',
   description: 'A non-profit association inspired by Indian spiritual traditions. A space for meditation, culture and community.',
 }
