@@ -1,5 +1,6 @@
 'use client'
 
+import Image from 'next/image'
 import { Link } from '../../../i18n/navigation'
 import Navbar from '../../../components/Navbar'
 import Footer from '../../../components/Footer'
@@ -51,9 +52,11 @@ export default function JournalIndex() {
             return (
               <Link key={post.slug} href={`/journal/${post.slug}`} className={styles.card}>
                 <div className={styles.cardImg}>
-                  <img
+                  <Image
                     src={post.cover}
                     alt={meta.title}
+                    fill
+                    sizes="260px"
                     style={post.coverPos ? { objectPosition: post.coverPos } : undefined}
                   />
                 </div>

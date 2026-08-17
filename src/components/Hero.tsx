@@ -1,6 +1,7 @@
 'use client'
 
 import { useEffect, useRef, useState } from 'react'
+import Image from 'next/image'
 import styles from './Hero.module.css'
 import { useLang } from '../contexts/LangContext'
 
@@ -46,11 +47,16 @@ export default function Hero() {
       <div className={styles.heroBgFull}>
         <div ref={bgRef} className={styles.heroBgInner}>
           {SLIDES.map((src, i) => (
-            <img
+            <Image
               key={src}
               src={src}
               alt=""
               aria-hidden="true"
+              fill
+              sizes="100vw"
+              quality={80}
+              priority={i === 0}
+              loading={i === 0 ? undefined : 'lazy'}
               className={`${styles.heroBgImg} ${
                 i === current
                   ? fading ? styles.imgFadingOut : styles.imgVisible

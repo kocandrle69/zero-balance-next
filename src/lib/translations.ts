@@ -77,7 +77,8 @@ export const T = {
     join_ashram_cta: 'Interested in visiting the ashram in Kanpur, India? Contact us below.',
     join_btn1: 'Become a Member', join_btn2: 'Explore Activities', join_btn3: 'Write to Us',
 
-    foot_desc:    'A non-profit cultural association inspired by Indian traditions. Based in Czech Republic, open to the world.',
+    foot_desc:    'Zero Balance Society, z.s. (registered association) · A non-profit cultural association inspired by Indian traditions. Based in the Czech Republic, open to the world.',
+    foot_reg:     'Reg. No. (IČO): 297 75 060',
     foot_nav:     'Navigate',    foot_conn:    'Connect',          foot_stay:   'Stay Connected',
     foot_about:   'About Us',    foot_phil:    'Philosophy',       foot_act:    'Activities',
     foot_india:   'India',       foot_events:  'Events',           foot_journal:'Journal',
@@ -87,7 +88,7 @@ export const T = {
     foot_sub:     'Subscribe',
     foot_sub_ok:    'You are subscribed — welcome to the journey.',
     foot_email_invalid: 'Please enter a valid e-mail address.',
-    foot_copy:    '© 2025 Zero Balance Society · All rights reserved · Czech Republic',
+    foot_copy:    '© 2025 Zero Balance Society, z.s. · All rights reserved · Czech Republic',
 
     cookie_title:    'Cookies & privacy',
     cookie_desc:     'We use Google Analytics to better understand site traffic. Analytics cookies are set only with your consent.',
@@ -172,7 +173,8 @@ export const T = {
     join_ashram_cta: 'Máte zájem o návštěvu ášrámu v Kanpur, Indie? Napište nám níže.',
     join_btn1: 'Stát se členem', join_btn2: 'Prozkoumat aktivity', join_btn3: 'Napište nám',
 
-    foot_desc:    'Nezisková kulturní asociace inspirovaná indickými tradicemi. Sídlíme v České republice, otevřeni světu.',
+    foot_desc:    'Zero Balance Society, z.s. · Nezisková kulturní asociace inspirovaná indickými tradicemi. Sídlíme v České republice, otevřeni světu.',
+    foot_reg:     'IČO: 297 75 060',
     foot_nav:     'Navigace',    foot_conn:    'Kontakt',      foot_stay:   'Zůstaňte v kontaktu',
     foot_about:   'O nás',       foot_phil:    'Filozofie',    foot_act:    'Aktivity',
     foot_india:   'Indie',       foot_events:  'Události',     foot_journal:'Časopis',
@@ -182,7 +184,7 @@ export const T = {
     foot_sub:     'Přihlásit',
     foot_sub_ok:    'Jste přihlášeni — vítejte na naší cestě.',
     foot_email_invalid: 'Zadejte prosím platnou e-mailovou adresu.',
-    foot_copy:    '© 2025 Zero Balance Society · Všechna práva vyhrazena · Česká republika',
+    foot_copy:    '© 2025 Zero Balance Society, z.s. · Všechna práva vyhrazena · Česká republika',
 
     cookie_title:    'Cookies a soukromí',
     cookie_desc:     'Používáme Google Analytics, abychom lépe rozuměli návštěvnosti webu. Analytické cookies nastavíme jen s vaším souhlasem.',
@@ -266,7 +268,8 @@ export const T = {
     join_ashram_cta: 'क्या आप कानपुर, भारत के आश्रम में आना चाहते हैं? नीचे हमसे संपर्क करें।',
     join_btn1: 'सदस्य बनें', join_btn2: 'गतिविधियां देखें', join_btn3: 'हमें लिखें',
 
-    foot_desc:    'भारतीय परंपराओं से प्रेरित एक अलाभकारी सांस्कृतिक संस्था। चेक गणराज्य में स्थित, दुनिया के लिए खुली।',
+    foot_desc:    'Zero Balance Society, z.s. (पंजीकृत संस्था) · भारतीय परंपराओं से प्रेरित एक अलाभकारी सांस्कृतिक संस्था। चेक गणराज्य में स्थित, दुनिया के लिए खुली।',
+    foot_reg:     'पंजीकरण संख्या (IČO): 297 75 060',
     foot_nav:     'नेविगेट',        foot_conn:  'जुड़ें',         foot_stay:   'संपर्क में रहें',
     foot_about:   'हमारे बारे में', foot_phil:  'दर्शन',         foot_act:    'गतिविधियां',
     foot_india:   'भारत',           foot_events:'कार्यक्रम',     foot_journal:'पत्रिका',
@@ -276,7 +279,7 @@ export const T = {
     foot_sub:     'सदस्यता लें',
     foot_sub_ok:  'आप सदस्य हैं — यात्रा में आपका स्वागत है।',
     foot_email_invalid: 'कृपया एक वैध ई-मेल पता दर्ज करें।',
-    foot_copy:    '© 2025 Zero Balance Society · सर्वाधिकार सुरक्षित · चेक गणराज्य',
+    foot_copy:    '© 2025 Zero Balance Society, z.s. · सर्वाधिकार सुरक्षित · चेक गणराज्य',
 
     cookie_title:    'कुकीज़ और गोपनीयता',
     cookie_desc:     'हम साइट ट्रैफ़िक को बेहतर समझने के लिए Google Analytics का उपयोग करते हैं। एनालिटिक्स कुकीज़ केवल आपकी सहमति से सेट की जाती हैं।',
@@ -362,7 +365,8 @@ export const T = {
     join_ashram_cta: 'Vous souhaitez visiter l’ashram de Kanpur, en Inde ? Contactez-nous ci-dessous.',
     join_btn1: 'Devenir membre', join_btn2: 'Découvrir les activités', join_btn3: 'Nous écrire',
 
-    foot_desc:    'Une association culturelle à but non lucratif inspirée des traditions indiennes. Basée en République tchèque, ouverte sur le monde.',
+    foot_desc:    "Zero Balance Society, z.s. (association enregistrée) · Une association culturelle à but non lucratif inspirée par les traditions indiennes. Basée en République tchèque, ouverte sur le monde.",
+    foot_reg:     "N° d'enregistrement (IČO) : 297 75 060",
     foot_nav:     'Navigation', foot_conn:    'Nous rejoindre',        foot_stay:   'Restez avec nous',
     foot_about:   'À propos',   foot_phil:    'Philosophie',           foot_act:    'Activités',
     foot_india:   'Inde',       foot_events:  'Événements',            foot_journal:'Journal',
@@ -372,7 +376,7 @@ export const T = {
     foot_sub:     'S’abonner',
     foot_sub_ok:    'Vous êtes inscrit — bienvenue parmi nous.',
     foot_email_invalid: 'Veuillez saisir une adresse e-mail valide.',
-    foot_copy:    '© 2025 Zero Balance Society · Tous droits réservés · République tchèque',
+    foot_copy:    '© 2025 Zero Balance Society, z.s. · Tous droits réservés · République tchèque',
 
     cookie_title:    'Cookies et confidentialité',
     cookie_desc:     'Nous utilisons Google Analytics pour mieux comprendre la fréquentation du site. Les cookies analytiques ne sont déposés qu’avec votre consentement.',
@@ -456,7 +460,8 @@ export const T = {
     join_ashram_cta: '¿Te interesa visitar el ashram de Kanpur, India? Contáctanos a continuación.',
     join_btn1: 'Hazte miembro', join_btn2: 'Explorar actividades', join_btn3: 'Escríbenos',
 
-    foot_desc:    'Una asociación cultural sin ánimo de lucro inspirada en las tradiciones de la India. Con sede en la República Checa y abierta al mundo.',
+    foot_desc:    'Zero Balance Society, z.s. (asociación registrada) · Una asociación cultural sin ánimo de lucro inspirada en las tradiciones de la India. Con sede en la República Checa, abierta al mundo.',
+    foot_reg:     'N.º de registro (IČO): 297 75 060',
     foot_nav:     'Navegar',   foot_conn:    'Conectar',              foot_stay:   'Mantente cerca',
     foot_about:   'Sobre nosotros', foot_phil: 'Filosofía',           foot_act:    'Actividades',
     foot_india:   'India',     foot_events:  'Eventos',               foot_journal:'Revista',
@@ -466,7 +471,7 @@ export const T = {
     foot_sub:     'Suscribirse',
     foot_sub_ok:    'Ya estás suscrito — bienvenido al camino.',
     foot_email_invalid: 'Introduce una dirección de correo electrónico válida.',
-    foot_copy:    '© 2025 Zero Balance Society · Todos los derechos reservados · República Checa',
+    foot_copy:    '© 2025 Zero Balance Society, z.s. · Todos los derechos reservados · República Checa',
 
     cookie_title:    'Cookies y privacidad',
     cookie_desc:     'Utilizamos Google Analytics para comprender mejor el tráfico del sitio. Las cookies analíticas solo se activan con su consentimiento.',
@@ -550,7 +555,8 @@ export const T = {
     join_ashram_cta: 'Du möchtest den ashram in Kanpur, Indien, besuchen? Kontaktiere uns gerne.',
     join_btn1: 'Mitglied werden', join_btn2: 'Aktivitäten entdecken', join_btn3: 'Schreib uns',
 
-    foot_desc:    'Eine gemeinnützige Kulturgesellschaft, inspiriert von indischen Traditionen. Mit Sitz in der Tschechischen Republik, offen für die Welt.',
+    foot_desc:    'Zero Balance Society, z.s. (eingetragener Verein) · Ein gemeinnütziger Kulturverein, inspiriert von indischen Traditionen. Ansässig in der Tschechischen Republik, offen für die Welt.',
+    foot_reg:     'Registriernummer (IČO): 297 75 060',
     foot_nav:     'Navigation', foot_conn:    'Kontakt',                       foot_stay:   'Verbunden bleiben',
     foot_about:   'Über uns',   foot_phil:    'Philosophie',                   foot_act:    'Aktivitäten',
     foot_india:   'Indien',     foot_events:  'Veranstaltungen',               foot_journal:'Journal',
@@ -560,7 +566,7 @@ export const T = {
     foot_sub:     'Abonnieren',
     foot_sub_ok:    'Du bist angemeldet — willkommen auf unserem gemeinsamen Weg.',
     foot_email_invalid: 'Bitte gib eine gültige E-Mail-Adresse ein.',
-    foot_copy:    '© 2025 Zero Balance Society · Alle Rechte vorbehalten · Tschechische Republik',
+    foot_copy:    '© 2025 Zero Balance Society, z.s. · Alle Rechte vorbehalten · Tschechische Republik',
 
     cookie_title:    'Cookies & Datenschutz',
     cookie_desc:     'Wir verwenden Google Analytics, um die Nutzung der Website besser zu verstehen. Analyse-Cookies werden nur mit Ihrer Zustimmung gesetzt.',

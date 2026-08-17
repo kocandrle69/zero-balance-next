@@ -1,6 +1,7 @@
 'use client'
 
 import { useRef } from 'react'
+import Image from 'next/image'
 import { Link } from '../i18n/navigation'
 import styles from './PurposeSection.module.css'
 import { useLang } from '../contexts/LangContext'
@@ -113,9 +114,13 @@ export default function PurposeSection() {
             <Link key={p.href} href={p.href} className={styles.card}>
 
               {/* Fotka pozadí */}
-              <div
+              <Image
+                src={p.img}
+                alt=""
+                fill
+                sizes="(min-width: 860px) 20vw, (min-width: 600px) 33vw, 45vw"
                 className={styles.cardImg}
-                style={{ backgroundImage: `url(${p.img})` }}
+                style={{ objectFit: 'cover', objectPosition: 'center 30%' }}
               />
 
               {/* Tmavý overlay */}

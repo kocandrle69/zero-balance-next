@@ -5,7 +5,9 @@
 
 .indiaBg {
   position: absolute; inset: 0;
-  background-size: cover; background-position: center 25%;
+}
+.indiaBg img {
+  object-fit: cover; object-position: center 25%;
   filter: saturate(0.65) brightness(0.72);
   transform: scale(1.02);
 }

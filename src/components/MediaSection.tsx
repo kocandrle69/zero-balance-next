@@ -798,6 +798,8 @@ export default function MediaSection() {
                 src={`https://img.youtube.com/vi/${featured.id}/hqdefault.jpg`}
                 alt={vTitle(featured)}
                 className={styles.thumbImg}
+                loading="lazy"
+                decoding="async"
               />
               <div className={styles.thumbOverlay} />
               <button className={styles.playBtn} aria-label={hi ? 'वीडियो चलाएं' : cs ? 'Přehrát video' : fr ? 'Lire la vidéo' : es ? 'Reproducir vídeo' : de ? 'Video abspielen' : 'Play video'}>
@@ -881,6 +883,8 @@ function VideoCard({ video, delay, cs, hi, fr, es, de }: { video: typeof VIDEOS[
               src={`https://img.youtube.com/vi/${video.id}/hqdefault.jpg`}
               alt={title}
               className={styles.thumbImg}
+              loading="lazy"
+              decoding="async"
             />
             <div className={styles.thumbOverlay} />
             <button className={styles.cardPlayBtn} aria-label={hi ? 'चलाएं' : cs ? 'Přehrát' : fr ? 'Lire' : es ? 'Reproducir' : de ? 'Abspielen' : 'Play'}>

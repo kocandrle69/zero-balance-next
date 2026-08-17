@@ -1,5 +1,6 @@
 'use client'
 
+import Image from 'next/image'
 import styles from '../journal.module.css'
 import type { PostLang } from '../posts'
 
@@ -419,7 +420,7 @@ export default function FoundingArticle({ lang }: { lang: PostLang }) {
           {c.members.map((m, i) => (
             <div key={i} className={`${styles.memberRow} ${i % 2 === 1 ? styles.memberRowReverse : ''}`}>
               <div className={styles.memberRowImg}>
-                <img src={m.photo} alt={m.name} style={{ objectPosition: m.imgPos }} />
+                <Image src={m.photo} alt={m.name} fill sizes="180px" style={{ objectPosition: m.imgPos }} />
               </div>
               <div className={styles.memberRowText}>
                 <span className={styles.memberRole}>{m.role}</span>

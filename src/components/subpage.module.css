@@ -211,6 +211,7 @@
 
 .personImg {
   flex-shrink: 0;
+  position: relative;
   width: 220px;
   height: 280px;
   border-radius: 20px;

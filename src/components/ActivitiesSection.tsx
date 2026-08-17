@@ -1,6 +1,7 @@
 'use client'
 
 import { useRef } from 'react'
+import Image from 'next/image'
 import styles from './ActivitiesSection.module.css'
 import { useLang } from '../contexts/LangContext'
 import { useScrollRevealAll } from '../hooks/useScrollReveal'
@@ -42,7 +43,13 @@ export default function ActivitiesSection() {
           const link = CARD_LINKS[card.imgKey]
           const inner = (
             <>
-              <img src={IMG[card.imgKey]} alt={t(card.titleKey)} style={card.imgKey === 'act4' ? { objectPosition: '40% center' } : undefined} />
+              <Image
+                src={IMG[card.imgKey]}
+                alt={t(card.titleKey)}
+                fill
+                sizes={card.large ? '(min-width: 900px) 40vw, 90vw' : '(min-width: 900px) 20vw, 45vw'}
+                style={card.imgKey === 'act4' ? { objectPosition: '40% center' } : undefined}
+              />
               <div className={styles.actCardOverlay} />
               <div className={styles.actCardContent}>
                 <span className={styles.actTag}>{t(card.tagKey)}</span>

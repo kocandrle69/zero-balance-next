@@ -17,6 +17,12 @@
   max-width: 280px; margin-top: 16px;
 }
 
+.footerBrand .footerReg {
+  font-size: 12px; font-weight: 300;
+  color: rgba(255,255,255,0.42);
+  margin-top: 8px;
+}
+
 .footerLogo { display: flex; align-items: center; gap: 14px; text-decoration: none; }
 .logoText { display: flex; flex-direction: column; line-height: 1.2; }
 .logoName {

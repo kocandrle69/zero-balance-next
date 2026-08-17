@@ -1,5 +1,6 @@
 'use client'
 
+import Image from 'next/image'
 import Navbar from '../../../components/Navbar'
 import Footer from '../../../components/Footer'
 import BackLink from '../../../components/BackLink'
@@ -287,7 +288,7 @@ export default function AboutContent() {
 
           <section className={`${styles.section} ${styles.personFloat}`}>
             <div className={styles.personImg}>
-              <img src="/images/Gurudev.jpg" alt="Gurudev Shri Karauli Shankar Mahadev Ji" style={{ objectPosition: '10% 15%' }} />
+              <Image src="/images/Gurudev.jpg" alt="Gurudev Shri Karauli Shankar Mahadev Ji" fill sizes="(min-width: 700px) 220px, 100vw" style={{ objectPosition: '10% 15%' }} />
             </div>
             <h2 className={styles.sectionHead}>{C.gurudevHead}</h2>
             <p>{C.gurudevP1}</p>
@@ -297,7 +298,7 @@ export default function AboutContent() {
 
           <section className={`${styles.section} ${styles.personFloat} ${styles.personFloatReverse}`}>
             <div className={styles.personImg}>
-              <img src="/images/Sensei4.jpg" alt="Sensei Rajeev Sinha, PhD" style={{ objectPosition: 'center 15%' }} />
+              <Image src="/images/Sensei4.jpg" alt="Sensei Rajeev Sinha, PhD" fill sizes="(min-width: 700px) 220px, 100vw" style={{ objectPosition: 'center 15%' }} />
             </div>
             <h2 className={styles.sectionHead}>{C.senseiHead}</h2>
             <p>{C.senseiP1}</p>
@@ -308,7 +309,7 @@ export default function AboutContent() {
 
           <section className={`${styles.section} ${styles.personFloat}`}>
             <div className={styles.personImg}>
-              <img src="/images/Jan_ashram.jpg" alt="Jan Kočandrle" style={{ objectPosition: 'center 20%' }} />
+              <Image src="/images/Jan_ashram.jpg" alt="Jan Kočandrle" fill sizes="(min-width: 700px) 220px, 100vw" style={{ objectPosition: 'center 20%' }} />
             </div>
             <h2 className={styles.sectionHead}>{C.janHead}</h2>
             <p>{C.janP1}</p>
@@ -319,7 +320,7 @@ export default function AboutContent() {
 
           <section className={`${styles.section} ${styles.personFloat} ${styles.personFloatReverse}`}>
             <div className={styles.personImg}>
-              <img src="/images/Jirka_ashram.jpg" alt="PhDr. Jiří Kočandrle" style={{ objectPosition: 'center 20%' }} />
+              <Image src="/images/Jirka_ashram.jpg" alt="PhDr. Jiří Kočandrle" fill sizes="(min-width: 700px) 220px, 100vw" style={{ objectPosition: 'center 20%' }} />
             </div>
             <h2 className={styles.sectionHead}>{C.jiriHead}</h2>
             <p>{C.jiriP1}</p>
@@ -328,7 +329,7 @@ export default function AboutContent() {
 
           <section className={`${styles.section} ${styles.personFloat}`}>
             <div className={styles.personImg}>
-              <img src="/images/Franta_ashram.jpg" alt="Ing. František Filouš" style={{ objectPosition: 'center 20%' }} />
+              <Image src="/images/Franta_ashram.jpg" alt="Ing. František Filouš" fill sizes="(min-width: 700px) 220px, 100vw" style={{ objectPosition: 'center 20%' }} />
             </div>
             <h2 className={styles.sectionHead}>{C.frantaHead}</h2>
             <p>{C.frantaP1}</p>
@@ -336,7 +337,7 @@ export default function AboutContent() {
 
           <section className={`${styles.section} ${styles.personFloat} ${styles.personFloatReverse}`}>
             <div className={styles.personImg}>
-              <img src="/images/Pavlina_ashram.jpg" alt="Pavlína Muchová" style={{ objectPosition: 'center 20%' }} />
+              <Image src="/images/Pavlina_ashram.jpg" alt="Pavlína Muchová" fill sizes="(min-width: 700px) 220px, 100vw" style={{ objectPosition: 'center 20%' }} />
             </div>
             <h2 className={styles.sectionHead}>{C.pavlinaHead}</h2>
             <p>{C.pavlinaP1}</p>
@@ -344,7 +345,7 @@ export default function AboutContent() {
 
           <section className={`${styles.section} ${styles.personFloat}`}>
             <div className={styles.personImg}>
-              <img src="/images/Pavel_ashram.jpg" alt="Pavel Znamenáček" style={{ objectPosition: 'center 20%' }} />
+              <Image src="/images/Pavel_ashram.jpg" alt="Pavel Znamenáček" fill sizes="(min-width: 700px) 220px, 100vw" style={{ objectPosition: 'center 20%' }} />
             </div>
             <h2 className={styles.sectionHead}>{C.pavelHead}</h2>
             <p>{C.pavelP1}</p>
@@ -352,9 +353,11 @@ export default function AboutContent() {
 
           <section className={`${styles.section} ${styles.personFloat} ${styles.personFloatReverse}`}>
             <div className={`${styles.personImg} ${styles.groupImg}`}>
-              <img
+              <Image
                 src="/images/Zakladatele_ashram.jpg"
                 alt={C.foundersAlt}
+                fill
+                sizes="(min-width: 700px) 300px, 100vw"
                 style={{ objectPosition: 'center 8%' }}
               />
             </div>

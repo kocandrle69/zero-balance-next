@@ -1,6 +1,7 @@
 'use client'
 
 import { useRef } from 'react'
+import Image from 'next/image'
 import styles from './IndiaSection.module.css'
 import { useLang } from '../contexts/LangContext'
 import { useScrollRevealAll } from '../hooks/useScrollReveal'
@@ -14,10 +15,9 @@ export default function IndiaSection() {
 
   return (
     <section className={styles.india} id="india" ref={ref}>
-      <div
-        className={styles.indiaBg}
-        style={{ backgroundImage: `url('${IMG.indiaBg}')` }}
-      />
+      <div className={styles.indiaBg}>
+        <Image src={IMG.indiaBg} alt="" fill sizes="100vw" quality={70} />
+      </div>
 
       <div className={styles.indiaContent}>
         <div className="r">
@@ -55,8 +55,8 @@ export default function IndiaSection() {
           <p>{t('india_p1')}</p>
           <p>{t('india_p2')}</p>
           <div className={styles.indiaGallery}>
-            <div className={styles.indiaGalleryImg}><img src={IMG.indiaGal1} alt="Gathering" /></div>
-            <div className={styles.indiaGalleryImg}><img src={IMG.indiaGal2} alt="India" /></div>
+            <div className={styles.indiaGalleryImg}><Image src={IMG.indiaGal1} alt="Gathering" fill sizes="(min-width: 900px) 25vw, 45vw" /></div>
+            <div className={styles.indiaGalleryImg}><Image src={IMG.indiaGal2} alt="India" fill sizes="(min-width: 900px) 25vw, 45vw" /></div>
           </div>
         </div>
       </div>
