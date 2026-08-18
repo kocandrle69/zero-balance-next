@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import Image from 'next/image'
 import Navbar from '../../../components/Navbar'
 import Footer from '../../../components/Footer'
 import BackLink from '../../../components/BackLink'
@@ -162,7 +163,16 @@ export default function DonateContent() {
       <main className={styles.page}>
 
         <div className={styles.hero}>
-          <div className={styles.heroBg} style={{ backgroundImage: 'url(/images/purpose-serve.jpg)', transform: 'none' }} />
+          <Image
+            src="/images/donate.webp"
+            alt=""
+            fill
+            priority
+            sizes="100vw"
+            quality={82}
+            className={styles.heroBg}
+            style={{ objectFit: 'cover', objectPosition: 'center 30%', transform: 'none' }}
+          />
           <div className={styles.heroOverlay} />
           <BackLink />
           <div className={styles.heroContent}>
