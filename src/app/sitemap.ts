@@ -7,7 +7,7 @@ const SITE = 'https://www.zero-balance.org'
 
 // Statické cesty, které existují ve všech jazycích. `coming-soon` je
 // záměrně vynechaná — je to placeholder stránka, ne obsah k indexování.
-const STATIC_PATHS = ['', '/about', '/lineage', '/serve', '/preserve', '/community', '/media', '/journal']
+const STATIC_PATHS = ['', '/about', '/lineage', '/serve', '/preserve', '/community', '/media', '/journal', '/donate']
 
 /**
  * app/sitemap.ts — na kořeni `app/`, mimo `[locale]`, ze stejného důvodu
