@@ -14,6 +14,14 @@ const nextConfig: NextConfig = {
   turbopack: {
     root: path.resolve(__dirname),
   },
+  images: {
+    // Next 16 default zúžil povolené `quality` hodnoty na next/image jen na
+    // [75] — jakákoli jiná (viz Hero.tsx quality={80}, IndiaSection.tsx
+    // quality={70}, DonateContent.tsx quality={82}) se beze slova/chyby
+    // přepočítá na nejbližší povolenou, tzn. v praxi vždy na 75. Bez týhle
+    // sekce jsou tedy ty ostatní hodnoty mrtvý/matoucí kód, co nic nedělá.
+    qualities: [70, 75, 80, 82],
+  },
   experimental: {
     // Render-blocking <link rel="stylesheet"> requests (3 chunks, ~20KB
     // gzip) byly na Lighthouse/Ad Grants mobile auditu hlavní brzdou FCP —
