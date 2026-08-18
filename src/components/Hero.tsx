@@ -4,6 +4,7 @@ import { useEffect, useRef, useState } from 'react'
 import Image from 'next/image'
 import styles from './Hero.module.css'
 import { useLang } from '../contexts/LangContext'
+import { Link } from '../i18n/navigation'
 
 const SLIDES = [
   '/images/WEB1.jpg',
@@ -105,9 +106,12 @@ export default function Hero() {
         </div>
 
         <div className={styles.heroDescSide}>
-          <a href="#events" style={{ textDecoration: 'none', color: 'inherit' }}>
+          {/* Vedlo na #events (scroll na sekci Eventy) — teď míří rovnou na
+              registrační formulář, protože přesně to je záměr téhle výzvy
+              k akci ("Zaregistrujte svůj zájem" v hero_desc textu). */}
+          <Link href="/registrace-gurudev" style={{ textDecoration: 'none', color: 'inherit' }}>
             <p style={{ cursor: 'pointer' }} dangerouslySetInnerHTML={{ __html: t('hero_desc') }} />
-          </a>
+          </Link>
         </div>
       </div>
 
