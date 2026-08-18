@@ -6,7 +6,19 @@ import { useLang } from '../contexts/LangContext'
 import { useScrollRevealAll } from '../hooks/useScrollReveal'
 
 const BREVO_API_KEY = process.env.NEXT_PUBLIC_BREVO_API_KEY ?? ''
-const GURUDEV_LIST_ID = 8 // "Zájem o návštěvu Gurudeva 2027"
+
+// Jeden list přes všechny jazyky nešel použít jako spouštěč automatizace —
+// Brevo (na tomhle plánu) umí automatizaci navázat jen na "kontakt přidán
+// do listu", ne na segment. Řešení: jeden list na jazyk, každý se svou
+// vlastní automatizací. Chybějící jazyk → spadne do EN listu.
+const GURUDEV_LIST_IDS: Partial<Record<'cs' | 'en' | 'hi' | 'fr' | 'es' | 'de', number>> = {
+  cs: 11,
+  en: 12,
+  hi: 13,
+  es: 14,
+  fr: 15,
+  de: 16,
+}
 
 const EVENTS = [
   {
@@ -119,6 +131,9 @@ function GurudevCard({ cs, hi, fr, es, de }: LangFlags) {
   const [email, setEmail] = useState('')
   const [status, setStatus] = useState<'idle' | 'loading' | 'ok' | 'err'>('idle')
 
+  const lang = hi ? 'hi' : cs ? 'cs' : fr ? 'fr' : es ? 'es' : de ? 'de' : 'en'
+  const listId = GURUDEV_LIST_IDS[lang] ?? GURUDEV_LIST_IDS.en!
+
   async function handleSubmit() {
     if (!email || !/\S+@\S+\.\S+/.test(email)) {
       setStatus('err')
@@ -135,8 +150,8 @@ function GurudevCard({ cs, hi, fr, es, de }: LangFlags) {
       const res = await fetch('https://api.brevo.com/v3/contacts', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json', 'api-key': BREVO_API_KEY },
-        body: JSON.stringify({ email, listIds: [GURUDEV_LIST_ID], updateEnabled: true,
-          attributes: { LANGUAGE: hi ? 'hi' : cs ? 'cs' : fr ? 'fr' : es ? 'es' : de ? 'de' : 'en' } }),
+        body: JSON.stringify({ email, listIds: [listId], updateEnabled: true,
+          attributes: { LANGUAGE: lang } }),
       })
       if (res.ok || res.status === 204) {
         setStatus('ok')
