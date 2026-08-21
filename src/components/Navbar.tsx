@@ -84,11 +84,27 @@ export default function Navbar({ translucent = false }: { translucent?: boolean 
           </div>
         </Link> 
 
-        {/* Desktop nav links */}
+        {/* Desktop nav links — YouTube je poslední položka v seznamu (za
+            Journal), ne samostatná ikona za jazykovým přepínačem. Ten musí
+            zůstat úplně vpravo. */}
         <ul className={styles.navLinks}>
           {navLinks.map(l => (
             <li key={l.key}><Link href={l.href}>{t(l.key)}</Link></li>
           ))}
+          <li>
+            <a
+              href={YOUTUBE_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className={styles.ytLink}
+              aria-label="YouTube"
+              title="YouTube"
+            >
+              <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16">
+                <path d="M23.5 6.2a3 3 0 0 0-2.11-2.13C19.51 3.5 12 3.5 12 3.5s-7.51 0-9.39.57A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.11 2.13c1.88.57 9.39.57 9.39.57s7.51 0 9.39-.57a3 3 0 0 0 2.11-2.13A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8ZM9.6 15.6V8.4l6.4 3.6-6.4 3.6Z"/>
+              </svg>
+            </a>
+          </li>
         </ul>
 
         {/* Desktop lang dropdown */}
@@ -121,23 +137,6 @@ export default function Navbar({ translucent = false }: { translucent?: boolean 
             ))}
           </div>
         </div>
-
-        {/* YouTube — samostatná ikona mimo navLinks, ne další textová
-            položka do už tak nabité řady (7 odkazů). Lišta je position:fixed,
-            takže je "stále přístupná" i po scrollu, přesně jak chtěl bratr,
-            aniž by bylo nutné cokoliv ze stávajícího menu vyhazovat. */}
-        <a
-          href={YOUTUBE_URL}
-          target="_blank"
-          rel="noopener noreferrer"
-          className={styles.ytLink}
-          aria-label="YouTube"
-          title="YouTube"
-        >
-          <svg viewBox="0 0 24 24" fill="currentColor" width="15" height="15">
-            <path d="M23.5 6.2a3 3 0 0 0-2.11-2.13C19.51 3.5 12 3.5 12 3.5s-7.51 0-9.39.57A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.11 2.13c1.88.57 9.39.57 9.39.57s7.51 0 9.39-.57a3 3 0 0 0 2.11-2.13A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8ZM9.6 15.6V8.4l6.4 3.6-6.4 3.6Z"/>
-          </svg>
-        </a>
 
         {/* Mobile hamburger */}
         <button
