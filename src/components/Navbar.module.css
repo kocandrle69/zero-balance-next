@@ -112,6 +112,24 @@
 .langSoon  { font-family: 'Cinzel', serif; font-size: 7.5px; letter-spacing: 0.15em; color: var(--gold-text); background: rgba(184,146,42,0.1); border: 1px solid rgba(184,146,42,0.2); border-radius: 4px; padding: 2px 6px; text-transform: uppercase; }
 .langDot   { width: 6px; height: 6px; border-radius: 50%; background: var(--gold); box-shadow: 0 0 6px rgba(184,146,42,0.5); }
 
+/* ── YouTube (desktop icon) ──────────────────────────────────────────────
+   Záměrně mimo .navLinks — 8. textová položka do řady, co má na 1100–1440px
+   šířky sotva místo na 7, by lištu přetlačila. Vlastní ikona vedle
+   jazykového přepínače zabere minimum místa a zůstává "stále přístupná"
+   (nav je position:fixed), i kdyby se seznam odkazů časem měnil. */
+.ytLink {
+  display: flex; align-items: center; justify-content: center;
+  width: 34px; height: 34px; flex-shrink: 0; margin-left: 10px;
+  border: 1px solid rgba(184,146,42,0.2); border-radius: 100px;
+  color: var(--muted);
+  transition: all 0.25s;
+}
+.ytLink:hover {
+  color: var(--gold-text);
+  border-color: rgba(184,146,42,0.45);
+  background: rgba(184,146,42,0.04);
+}
+
 /* ── Hamburger ── */
 .hamburger {
   display: none;
@@ -160,6 +178,20 @@
   transition: color 0.25s;
 }
 .mobileLinks a:hover { color: var(--gold-text); }
+
+.mobileYt {
+  display: flex; align-items: center; justify-content: center; gap: 8px;
+  margin-top: 24px;
+  padding: 13px 36px;
+  background: var(--gold); color: #fff;
+  font-family: 'Cinzel', serif; font-size: 10px;
+  letter-spacing: 0.22em; text-transform: uppercase;
+  text-decoration: none; border-radius: 100px;
+  font-weight: 600;
+  box-shadow: 0 4px 20px rgba(184,146,42,0.3);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.mobileYt:hover { transform: translateY(-1px); box-shadow: 0 6px 24px rgba(184,146,42,0.4); }
 
 .mobileJoin {
   margin-top: 24px;
