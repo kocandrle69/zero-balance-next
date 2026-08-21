@@ -250,14 +250,57 @@
 .watchLink::after { content: '→'; transition: transform 0.3s; }
 .watchLink:hover::after { transform: translateX(3px); }
 
+/* ── Partner credit (ElevenLabs) ───────────────────────────────────────────
+   Klidný, tichý kredit dole na stránce — ne sponzorský banner. Vlastní
+   .divider nahoře odděluje od poslední sekce videí (stejný vzor jako mezi
+   kategoriemi), pak jen věta + logo, obojí vycentrované. */
+.partnerCredit {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 8px 80px 72px;
+  text-align: center;
+}
+
+.partnerCreditText {
+  font-size: 13px;
+  font-weight: 300;
+  color: var(--muted);
+  line-height: 1.7;
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+.partnerCreditLink {
+  color: var(--muted);
+  text-decoration: underline;
+  text-decoration-color: rgba(184,146,42,0.35);
+  text-underline-offset: 2px;
+  transition: color 0.3s;
+}
+.partnerCreditLink:hover { color: var(--gold-text); }
+
+.partnerCreditLogo {
+  display: inline-flex;
+  /* Clear space kolem loga ~ výška loga, ať dýchá i vůči vlastnímu textu nad ním. */
+  margin-top: 20px;
+  opacity: 0.75;
+  transition: opacity 0.3s;
+}
+.partnerCreditLogo:hover { opacity: 1; }
+.partnerCreditLogo img {
+  height: 20px;
+  width: auto;
+  display: block;
+}
+
 /* ── Responsive ─────────────────────────────────────────────────────────── */
 @media (max-width: 900px) {
-  .pageHeader, .filterBar, .categorySection { padding: 0 28px; }
+  .pageHeader, .filterBar, .categorySection, .partnerCredit { padding-left: 28px; padding-right: 28px; }
   .videoGrid { grid-template-columns: 1fr 1fr; }
 }
 
 @media (max-width: 600px) {
-  .pageHeader, .filterBar, .categorySection { padding: 0 20px; }
+  .pageHeader, .filterBar, .categorySection, .partnerCredit { padding-left: 20px; padding-right: 20px; }
   .videoGrid { grid-template-columns: 1fr; }
   .page { padding-top: 90px; }
 }
