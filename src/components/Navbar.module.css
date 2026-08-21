@@ -114,13 +114,21 @@
 
 /* ── YouTube icon — poslední položka v .navLinks (za Journal) ───────────
    Ikona, ne text, takže i jako 8. položka v řadě zabere jen zlomek šířky
-   textového odkazu. .navLinks a::after (podtržítko při hoveru) by pod
-   samotnou ikonou vypadalo divně, proto se pro .ytLink potlačuje a
-   nahrazuje jen změnou barvy — stejný princip, jiné provedení. */
+   textového odkazu. Zpočátku jako holý glyf v barvě textu splývala a
+   vizuálně "plavala" mimo textovou osu řádku — zlatý kroužek (stejný
+   princip jako .mobileYt na mobilu) jí dá vlastní pevnou vizuální váhu,
+   takže vypadá jako záměrný prvek, ne rozjetý text. .navLinks a::after
+   (podtržítko při hoveru) by pod ikonou v kroužku nedávalo smysl, proto
+   se pro .ytLink potlačuje úplně. */
 .navLinks .ytLink {
   display: flex; align-items: center; justify-content: center;
-  width: 16px; height: 16px;
+  width: 28px; height: 28px; flex-shrink: 0;
+  border-radius: 100%;
+  background: var(--gold);
+  color: #fff;
+  transition: background 0.25s, transform 0.25s;
 }
+.navLinks .ytLink:hover { background: #C9A84C; color: #fff; transform: scale(1.06); }
 .navLinks .ytLink::after { display: none; }
 
 /* ── Hamburger ── */
