@@ -105,6 +105,35 @@ export default function MediaContent() {
           )
         })}
 
+        {/* Partner credit — jazykové verze/dabing videí reálně vznikají přes
+            ElevenLabs (ElevenLabs Impact Program), tenhle blok je podmínka
+            partnerství. Drží se stejného ternárního i18n vzoru jako zbytek
+            stránky — žádné nové klíče v i18n slovnících. */}
+        <div className={styles.partnerCredit}>
+          <p className={styles.partnerCreditText}>
+            {hi
+              ? <>हमारे वीडियो के भाषा संस्करण और डबिंग <a href="https://elevenlabs.io" target="_blank" rel="noopener noreferrer" className={styles.partnerCreditLink}>ElevenLabs</a> के सहयोग से तैयार किए जाते हैं।</>
+              : cs
+              ? <>Jazykové verze a dabing našich videí vznikají ve spolupráci se společností <a href="https://elevenlabs.io" target="_blank" rel="noopener noreferrer" className={styles.partnerCreditLink}>ElevenLabs</a>.</>
+              : fr
+              ? <>Les versions linguistiques et le doublage de nos vidéos sont réalisés en collaboration avec <a href="https://elevenlabs.io" target="_blank" rel="noopener noreferrer" className={styles.partnerCreditLink}>ElevenLabs</a>.</>
+              : es
+              ? <>Las versiones en varios idiomas y el doblaje de nuestros vídeos se realizan en colaboración con <a href="https://elevenlabs.io" target="_blank" rel="noopener noreferrer" className={styles.partnerCreditLink}>ElevenLabs</a>.</>
+              : de
+              ? <>Die Sprachfassungen und die Synchronisation unserer Videos entstehen in Zusammenarbeit mit <a href="https://elevenlabs.io" target="_blank" rel="noopener noreferrer" className={styles.partnerCreditLink}>ElevenLabs</a>.</>
+              : <>Language versions and dubbing of our videos are produced in collaboration with <a href="https://elevenlabs.io" target="_blank" rel="noopener noreferrer" className={styles.partnerCreditLink}>ElevenLabs</a>.</>}
+          </p>
+          <a
+            href="https://elevenlabs.io"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="ElevenLabs"
+            className={styles.partnerCreditLogo}
+          >
+            <img src="/images/elevenlabs-logo-black.svg" alt="ElevenLabs" width={154} height={20} />
+          </a>
+        </div>
+
       </main>
       <Footer />
     </>
