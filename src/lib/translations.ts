@@ -78,7 +78,7 @@ export const T = {
     join_btn1: 'Become a Member', join_btn2: 'Explore Activities', join_btn3: 'Write to Us',
 
     foot_desc:    'Zero Balance Society, z.s. (registered association) · A non-profit cultural association inspired by Indian traditions. Based in the Czech Republic, open to the world.',
-    foot_reg:     'Reg. No. (IČO): 297 75 060',
+    foot_reg:     'Zero Balance Society, z.s. · Krakovany 352, 281 27 Krakovany, Czech Republic · Reg. No. (IČO): 29775060 · File No.: L 82293, Municipal Court in Prague',
     foot_nav:     'Navigate',    foot_conn:    'Connect',          foot_stay:   'Stay Connected',
     foot_about:   'About Us',    foot_phil:    'Philosophy',       foot_act:    'Activities',
     foot_india:   'India',       foot_events:  'Events',           foot_journal:'Journal',
@@ -174,7 +174,7 @@ export const T = {
     join_btn1: 'Stát se členem', join_btn2: 'Prozkoumat aktivity', join_btn3: 'Napište nám',
 
     foot_desc:    'Zero Balance Society, z.s. · Nezisková kulturní asociace inspirovaná indickými tradicemi. Sídlíme v České republice, otevřeni světu.',
-    foot_reg:     'IČO: 297 75 060',
+    foot_reg:     'Zero Balance Society, z.s. · Krakovany 352, 281 27 Krakovany, Česká republika · IČO: 29775060 · Spisová značka: L 82293 vedená u Městského soudu v Praze',
     foot_nav:     'Navigace',    foot_conn:    'Kontakt',      foot_stay:   'Zůstaňte v kontaktu',
     foot_about:   'O nás',       foot_phil:    'Filozofie',    foot_act:    'Aktivity',
     foot_india:   'Indie',       foot_events:  'Události',     foot_journal:'Časopis',
@@ -269,7 +269,7 @@ export const T = {
     join_btn1: 'सदस्य बनें', join_btn2: 'गतिविधियां देखें', join_btn3: 'हमें लिखें',
 
     foot_desc:    'Zero Balance Society, z.s. (पंजीकृत संस्था) · भारतीय परंपराओं से प्रेरित एक अलाभकारी सांस्कृतिक संस्था। चेक गणराज्य में स्थित, दुनिया के लिए खुली।',
-    foot_reg:     'पंजीकरण संख्या (IČO): 297 75 060',
+    foot_reg:     'Zero Balance Society, z.s. · Krakovany 352, 281 27 Krakovany, चेक गणराज्य · पंजीकरण संख्या (IČO): 29775060 · फ़ाइल सं.: L 82293, प्राग की नगर अदालत',
     foot_nav:     'नेविगेट',        foot_conn:  'जुड़ें',         foot_stay:   'संपर्क में रहें',
     foot_about:   'हमारे बारे में', foot_phil:  'दर्शन',         foot_act:    'गतिविधियां',
     foot_india:   'भारत',           foot_events:'कार्यक्रम',     foot_journal:'पत्रिका',
@@ -366,7 +366,7 @@ export const T = {
     join_btn1: 'Devenir membre', join_btn2: 'Découvrir les activités', join_btn3: 'Nous écrire',
 
     foot_desc:    "Zero Balance Society, z.s. (association enregistrée) · Une association culturelle à but non lucratif inspirée par les traditions indiennes. Basée en République tchèque, ouverte sur le monde.",
-    foot_reg:     "N° d'enregistrement (IČO) : 297 75 060",
+    foot_reg:     "Zero Balance Society, z.s. · Krakovany 352, 281 27 Krakovany, République tchèque · N° d'enregistrement (IČO) : 29775060 · N° de dossier : L 82293, Tribunal municipal de Prague",
     foot_nav:     'Navigation', foot_conn:    'Nous rejoindre',        foot_stay:   'Restez avec nous',
     foot_about:   'À propos',   foot_phil:    'Philosophie',           foot_act:    'Activités',
     foot_india:   'Inde',       foot_events:  'Événements',            foot_journal:'Journal',
@@ -461,7 +461,7 @@ export const T = {
     join_btn1: 'Hazte miembro', join_btn2: 'Explorar actividades', join_btn3: 'Escríbenos',
 
     foot_desc:    'Zero Balance Society, z.s. (asociación registrada) · Una asociación cultural sin ánimo de lucro inspirada en las tradiciones de la India. Con sede en la República Checa, abierta al mundo.',
-    foot_reg:     'N.º de registro (IČO): 297 75 060',
+    foot_reg:     'Zero Balance Society, z.s. · Krakovany 352, 281 27 Krakovany, República Checa · N.º de registro (IČO): 29775060 · N.º de expediente: L 82293, Tribunal Municipal de Praga',
     foot_nav:     'Navegar',   foot_conn:    'Conectar',              foot_stay:   'Mantente cerca',
     foot_about:   'Sobre nosotros', foot_phil: 'Filosofía',           foot_act:    'Actividades',
     foot_india:   'India',     foot_events:  'Eventos',               foot_journal:'Revista',
@@ -556,7 +556,7 @@ export const T = {
     join_btn1: 'Mitglied werden', join_btn2: 'Aktivitäten entdecken', join_btn3: 'Schreib uns',
 
     foot_desc:    'Zero Balance Society, z.s. (eingetragener Verein) · Ein gemeinnütziger Kulturverein, inspiriert von indischen Traditionen. Ansässig in der Tschechischen Republik, offen für die Welt.',
-    foot_reg:     'Registriernummer (IČO): 297 75 060',
+    foot_reg:     'Zero Balance Society, z.s. · Krakovany 352, 281 27 Krakovany, Tschechische Republik · Registriernummer (IČO): 29775060 · Aktenzeichen: L 82293, Stadtgericht Prag',
     foot_nav:     'Navigation', foot_conn:    'Kontakt',                       foot_stay:   'Verbunden bleiben',
     foot_about:   'Über uns',   foot_phil:    'Philosophie',                   foot_act:    'Aktivitäten',
     foot_india:   'Indien',     foot_events:  'Veranstaltungen',               foot_journal:'Journal',
