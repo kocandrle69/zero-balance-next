@@ -5,6 +5,20 @@ import styles from './MediaSection.module.css'
 import { useScrollRevealAll } from '../hooks/useScrollReveal'
 import { useLang } from '../contexts/LangContext'
 import { Link } from '../i18n/navigation'
+import type { Lang } from '../lib/translations'
+
+/**
+ * Featured video (homepage) existuje jako tři samostatná nahrání na YouTube —
+ * jedno na jazyk, ne jedno video s YouTube vícejazyčným audiem (YouTube to
+ * u běžného nahrání neumožňuje bez multi-track audio nastavení, které tu
+ * zatím neřešíme). Chybějící jazyk (fr/es/de) padá na EN, stejný vzor jako
+ * FORM_EMBEDS na registrační stránce.
+ */
+const FEATURED_VIDEO_IDS: Partial<Record<Lang, string>> = {
+  cs: '_y-ojfA7Tpc',
+  en: 'wErgHAtRXTM',
+  hi: 'Z1LvEeqEGHY',
+}
 
 // ─── Kategorie ────────────────────────────────────────────────────────────────
 export type VideoCategory =
@@ -41,30 +55,34 @@ export function watchUrl(video: { id: string; list?: string; channelUrl?: string
 // ─── Video data ───────────────────────────────────────────────────────────────
 // Pořadí na hlavní stránce: featured = Sadhana, preview[0] = Moudrost Indie, preview[1] = Ášrám
 export const VIDEOS = [
-  // 1. FEATURED — Sadhana s českým překladem
+  // 1. FEATURED — homepage swaps the actual video by language (viz
+  // FEATURED_VIDEO_IDS výše); tenhle `id` je jen fallback/výchozí pro
+  // ostatní místa, co VIDEOS[0] čtou beze změny jazyka (např. grid na
+  // /media). Text už neříká "s českým dabingem" — dřív to bylo jedno
+  // video pro všechny, teď každý jazyk slyší svůj vlastní dabing.
   {
-    id: 'hlnSuJFnywA',
-    titleCS: 'Dhyan Sadhana — s českým dabingem',
-    titleEN: 'Dhyan Sadhana — with Czech dubbing',
-    descCS:  'Vedená sadhana s přímým přenosem učení Gurudeva — s českým dabingem pro naši komunitu.',
-    descEN:  'Guided sadhana with direct transmission from Gurudev — with Czech dubbing for our community.',
+    id: 'wErgHAtRXTM',
+    titleCS: 'Dhyan Sadhana',
+    titleEN: 'Dhyan Sadhana',
+    descCS:  'Ranní meditace s hudbou — vedená praxe pro začátek týdne v tichu a vědomí.',
+    descEN:  'Morning meditation with music — a guided practice to start your week in stillness and awareness.',
     date:    '2025',
     dateEN:  '2025',
     category: 'sadhana' as const,
     categories: ['sadhana', 'meditation'] as VideoCategory[],
     tag:     'SADHANA',
     tagEN:   'SADHANA',
-    titleHI: 'ध्यान साधना — चेक डबिंग के साथ',
-    descHI:  'गुरुदेव के प्रत्यक्ष प्रसारण के साथ निर्देशित साधना — हमारी समुदाय के लिए चेक डबिंग के साथ।',
+    titleHI: 'ध्यान साधना',
+    descHI:  'संगीत के साथ प्रातःकालीन ध्यान — सप्ताह की शुरुआत शांति और जागरूकता में करने के लिए एक निर्देशित अभ्यास।',
     tagHI:   'साधना',
-    titleFR: 'Dhyan Sadhana — avec doublage en tchèque',
-    descFR:  'Sadhana guidée avec transmission directe de Gurudev — avec doublage en tchèque pour notre communauté.',
+    titleFR: 'Dhyan Sadhana',
+    descFR:  'Méditation matinale avec musique — une pratique guidée pour commencer la semaine dans le calme et la présence.',
     tagFR:   'SADHANA',
-    titleES: 'Dhyan Sadhana — con doblaje en checo',
-    descES:  'Sadhana guiada con transmisión directa de Gurudev — con doblaje en checo para nuestra comunidad.',
+    titleES: 'Dhyan Sadhana',
+    descES:  'Meditación matutina con música — una práctica guiada para comenzar la semana con quietud y atención.',
     tagES:   'SADHANA',
-    titleDE: 'Dhyan Sadhana — mit tschechischer Synchronisation',
-    descDE:  'Geführte Sadhana mit direkter Übertragung von Gurudev — mit tschechischer Synchronisation für unsere Gemeinschaft.',
+    titleDE: 'Dhyan Sadhana',
+    descDE:  'Meditation am Morgen mit Musik — eine geführte Praxis, um die Woche in Stille und Achtsamkeit zu beginnen.',
     tagDE:   'SADHANA',
   },
   // 2. PREVIEW — Moudrost Indie: Úvod (lekce 1)
@@ -757,7 +775,9 @@ export default function MediaSection() {
   const es = lang === 'es'
   const de = lang === 'de'
 
-  const featured = VIDEOS[0]
+  // Featured video existuje jako tři samostatná nahrání (cs/en/hi) — jen
+  // .id se mění podle jazyka, titulek/popis/datum zůstávají ze VIDEOS[0].
+  const featured = { ...VIDEOS[0], id: FEATURED_VIDEO_IDS[lang] ?? FEATURED_VIDEO_IDS.en! }
   const preview  = VIDEOS.slice(1, 3)
 
   const vTitle = (v: typeof VIDEOS[0]) => hi ? v.titleHI : cs ? v.titleCS : fr ? v.titleFR : es ? v.titleES : de ? v.titleDE : v.titleEN
