@@ -15,9 +15,9 @@ import type { Lang } from '../lib/translations'
  * FORM_EMBEDS na registrační stránce.
  */
 const FEATURED_VIDEO_IDS: Partial<Record<Lang, string>> = {
-  cs: '_y-ojfA7Tpc',
-  en: 'wErgHAtRXTM',
-  hi: 'Z1LvEeqEGHY',
+  cs: 'gqx6myXfg4E',
+  en: '1-dBIZMvcXs',
+  hi: 'iDhVyNM5hj4',
 }
 
 // ─── Kategorie ────────────────────────────────────────────────────────────────
@@ -61,7 +61,7 @@ export const VIDEOS = [
   // /media). Text už neříká "s českým dabingem" — dřív to bylo jedno
   // video pro všechny, teď každý jazyk slyší svůj vlastní dabing.
   {
-    id: 'wErgHAtRXTM',
+    id: '1-dBIZMvcXs',
     titleCS: 'Dhyan Sadhana',
     titleEN: 'Dhyan Sadhana',
     descCS:  'Ranní meditace s hudbou — vedená praxe pro začátek týdne v tichu a vědomí.',
@@ -761,6 +761,37 @@ export const VIDEOS = [
     titleDE: 'Wunderschöne Aarti von Babaji — Karauli Sarkar',
     descDE:  'Zeremonielle Aarti von Babaji aus dem Karauli Sarkar ashram, dargeboten von Vishal Chaurasia.',
     tagDE:   'AARTI',
+  },
+
+  // Původní jednojazyčné nahrání Dhyan Sadhany (český dabing, žádné jazykové
+  // přepínání) — nahrazeno na homepage novými verzemi výše, ale zůstává
+  // dohledatelné v plné mřížce na /media. Záměrně na konci pole, ne hned za
+  // featured záznamem — MediaSection.tsx bere VIDEOS.slice(1,3) jako dva
+  // "preview" kartičky vedle featured, a tenhle záznam by je odsunul.
+  {
+    id: 'hlnSuJFnywA',
+    titleCS: 'Dhyan Sadhana — s českým dabingem',
+    titleEN: 'Dhyan Sadhana — with Czech dubbing',
+    descCS:  'Vedená sadhana s přímým přenosem učení Gurudeva — s českým dabingem pro naši komunitu.',
+    descEN:  'Guided sadhana with direct transmission from Gurudev — with Czech dubbing for our community.',
+    date:    '2025',
+    dateEN:  '2025',
+    category: 'sadhana' as const,
+    categories: ['sadhana', 'meditation'] as VideoCategory[],
+    tag:     'SADHANA',
+    tagEN:   'SADHANA',
+    titleHI: 'ध्यान साधना — चेक डबिंग के साथ',
+    descHI:  'गुरुदेव के प्रत्यक्ष प्रसारण के साथ निर्देशित साधना — हमारी समुदाय के लिए चेक डबिंग के साथ।',
+    tagHI:   'साधना',
+    titleFR: 'Dhyan Sadhana — avec doublage en tchèque',
+    descFR:  'Sadhana guidée avec transmission directe de Gurudev — avec doublage en tchèque pour notre communauté.',
+    tagFR:   'SADHANA',
+    titleES: 'Dhyan Sadhana — con doblaje en checo',
+    descES:  'Sadhana guiada con transmisión directa de Gurudev — con doblaje en checo para nuestra comunidad.',
+    tagES:   'SADHANA',
+    titleDE: 'Dhyan Sadhana — mit tschechischer Synchronisation',
+    descDE:  'Geführte Sadhana mit direkter Übertragung von Gurudev — mit tschechischer Synchronisation für unsere Gemeinschaft.',
+    tagDE:   'SADHANA',
   },
 
 ]
