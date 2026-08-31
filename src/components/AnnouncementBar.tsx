@@ -41,7 +41,10 @@ export default function AnnouncementBar() {
 
   return (
     <div className={styles.bar}>
-      <Link href="/registrace-gurudev" className={styles.link}>
+      {/* /registrace-gurudev (Airtable) je zatím jen na dev — dokud nejde
+          na main, lišta vede na Brevo capture formulář v Events kartě
+          na homepage, stejně jako to dřív dělal hero_desc odkaz. */}
+      <Link href="/#events" className={styles.link}>
         <span className={styles.text}>{t('announce_text')}</span>
         <span className={styles.cta}>{t('announce_cta')} →</span>
       </Link>

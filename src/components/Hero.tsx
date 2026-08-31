@@ -4,6 +4,7 @@ import { useEffect, useRef, useState } from 'react'
 import Image from 'next/image'
 import styles from './Hero.module.css'
 import { useLang } from '../contexts/LangContext'
+import { Link } from '../i18n/navigation'
 
 const SLIDES = [
   '/images/WEB1.jpg',
@@ -105,9 +106,12 @@ export default function Hero() {
         </div>
 
         <div className={styles.heroDescSide}>
-          <a href="#events" style={{ textDecoration: 'none', color: 'inherit' }}>
+          {/* /registrace-gurudev (Airtable formulář) je zatím jen na dev —
+              dokud nejde na main, vede tenhle CTA na Brevo capture formulář
+              v Events kartě ("Notify me"), ne na stránku, co tam ještě není. */}
+          <Link href="/#events" style={{ textDecoration: 'none', color: 'inherit' }}>
             <p style={{ cursor: 'pointer' }} dangerouslySetInnerHTML={{ __html: t('hero_desc') }} />
-          </a>
+          </Link>
         </div>
       </div>
 
