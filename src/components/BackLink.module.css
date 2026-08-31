@@ -1,6 +1,8 @@
 .back {
   position: absolute;
-  top: 108px;
+  /* 108px = odsazení od fixní hlavičky (Navbar); +var(--announce-h) ať
+     to sedí i s oznamovacím pruhem nad menu (0px, když je pruh zavřený). */
+  top: calc(108px + var(--announce-h, 40px));
   left: 80px;
   z-index: 5;
   background: none;
@@ -25,5 +27,5 @@
 }
 .back:hover .arrow { transform: translateX(-3px); }
 
-@media (max-width: 860px) { .back { left: 40px; top: 104px; } }
-@media (max-width: 600px) { .back { left: 24px; top: 100px; } }
+@media (max-width: 860px) { .back { left: 40px; top: calc(104px + var(--announce-h, 40px)); } }
+@media (max-width: 600px) { .back { left: 24px; top: calc(100px + var(--announce-h, 40px)); } }

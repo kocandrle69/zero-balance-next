@@ -504,6 +504,12 @@
 }
 
 :root {
+  /* Výška AnnouncementBar.tsx — všechno, co lištu musí "obcházet"
+     (Navbar, BackLink, hero bannery na podstránkách…), čte tohle, ne
+     napevno. Default 40px odpovídá liště zobrazené — AnnouncementBar
+     ho po načtení přepíše na 0px, pokud ji uživatel dřív zavřel, ať
+     nezůstane díra nahoře. */
+  --announce-h:    40px;
   --bg:            #F7F3EC;
   --bg2:           #F0EBE1;
   --surface:       #FFFFFF;

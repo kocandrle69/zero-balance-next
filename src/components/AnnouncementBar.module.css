@@ -1,0 +1,79 @@
+/* Tenký oznamovací pruh nad hlavní navigací. Výška je záměrně napevno
+   40px na všech breakpointech (na mobilu se schová popisný text, ne že
+   by se pruh zvýšil na dva řádky) — Navbar i pár podstránkových hero
+   bannerů/BackLink pozic čte stejnou výšku přes CSS proměnnou
+   --announce-h (viz AnnouncementBar.tsx), takže musí být pořád stejná
+   napříč jazyky/šířkami, jinak by se něco na webu posunulo víc/míň, než
+   se čeká. */
+.bar {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  z-index: 810; /* nad .nav (800), pod mobilním overlay menu (900) —
+                   otevřené menu tak pruh přirozeně překryje */
+  height: 40px;
+  background: var(--ink);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  max-width: calc(100% - 56px);
+  padding: 0 16px;
+  height: 100%;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+.text {
+  color: var(--bg);
+  font-family: 'DM Sans', sans-serif;
+  font-size: 12.5px;
+  font-weight: 300;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  opacity: 0.9;
+  transition: opacity 0.25s;
+}
+
+.cta {
+  flex-shrink: 0;
+  color: var(--gold);
+  font-family: 'Cinzel', serif;
+  font-size: 10px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-weight: 600;
+  white-space: nowrap;
+  transition: color 0.25s;
+}
+
+.link:hover .text { opacity: 1; }
+.link:hover .cta  { color: #fff; }
+
+.close {
+  position: absolute;
+  right: 12px; top: 50%;
+  transform: translateY(-50%);
+  width: 24px; height: 24px;
+  display: flex; align-items: center; justify-content: center;
+  background: none; border: none; cursor: pointer;
+  color: var(--bg);
+  opacity: 0.5;
+  font-size: 20px;
+  line-height: 1;
+  transition: opacity 0.2s;
+}
+.close:hover { opacity: 1; }
+
+/* Na mobilu se popisná věta nevejde na jeden řádek u delších jazyků
+   (DE/FR) — místo zalomení na dva řádky (což by rozbilo pevnou výšku
+   40px) se schová a zůstane jen samotná výzva k akci. */
+@media (max-width: 640px) {
+  .text { display: none; }
+  .link { justify-content: center; max-width: calc(100% - 48px); }
+}

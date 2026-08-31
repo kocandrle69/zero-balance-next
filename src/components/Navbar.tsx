@@ -5,6 +5,7 @@ import styles from './Navbar.module.css'
 import { useLang } from '../contexts/LangContext'
 import type { Lang } from '../lib/translations'
 import { Link, useRouter, usePathname } from '../i18n/navigation'
+import AnnouncementBar from './AnnouncementBar'
 
 const LANGUAGES = [
   { code: 'en' as Lang, flag: '🇬🇧', name: 'English',   soon: false },
@@ -68,6 +69,8 @@ export default function Navbar({ translucent = false }: { translucent?: boolean 
 
   return (
     <>
+      <AnnouncementBar />
+
       <nav className={`${styles.nav} ${scrolled ? styles.scrolled : (translucent ? styles.translucent : '')}`} id="nav">
 
         {/* Logo */}
