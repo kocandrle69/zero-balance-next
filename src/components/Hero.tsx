@@ -106,10 +106,10 @@ export default function Hero() {
         </div>
 
         <div className={styles.heroDescSide}>
-          {/* Vedlo na #events (scroll na sekci Eventy) — teď míří rovnou na
-              registrační formulář, protože přesně to je záměr téhle výzvy
-              k akci ("Zaregistrujte svůj zájem" v hero_desc textu). */}
-          <Link href="/registrace-gurudev" style={{ textDecoration: 'none', color: 'inherit' }}>
+          {/* /registrace-gurudev (Airtable formulář) je zatím jen na dev —
+              dokud nejde na main, vede tenhle CTA na Brevo capture formulář
+              v Events kartě ("Notify me"), ne na stránku, co tam ještě není. */}
+          <Link href="/#events" style={{ textDecoration: 'none', color: 'inherit' }}>
             <p style={{ cursor: 'pointer' }} dangerouslySetInnerHTML={{ __html: t('hero_desc') }} />
           </Link>
         </div>
