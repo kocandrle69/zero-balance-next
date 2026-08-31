@@ -108,9 +108,13 @@ export default function Hero() {
         <div className={styles.heroDescSide}>
           {/* /registrace-gurudev (Airtable formulář) je zatím jen na dev —
               dokud nejde na main, vede tenhle CTA na Brevo capture formulář
-              v Events kartě ("Notify me"), ne na stránku, co tam ještě není. */}
+              v Events kartě ("Notify me"), ne na stránku, co tam ještě není.
+              CTA je záměrně mimo dangerouslySetInnerHTML text, samostatný
+              blok pod odstavcem — dřív bylo "Registrovat zájem" slité na
+              konci věty, špatně čitelné. */}
           <Link href="/#events" style={{ textDecoration: 'none', color: 'inherit' }}>
-            <p style={{ cursor: 'pointer' }} dangerouslySetInnerHTML={{ __html: t('hero_desc') }} />
+            <p dangerouslySetInnerHTML={{ __html: t('hero_desc') }} />
+            <span className={styles.heroDescCta}>{t('announce_cta')} →</span>
           </Link>
         </div>
       </div>
