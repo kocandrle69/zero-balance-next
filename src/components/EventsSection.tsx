@@ -4,7 +4,6 @@ import { useRef, useState } from 'react'
 import styles from './EventsSection.module.css'
 import { useLang } from '../contexts/LangContext'
 import { useScrollRevealAll } from '../hooks/useScrollReveal'
-import { Link } from '../i18n/navigation'
 
 const BREVO_API_KEY = process.env.NEXT_PUBLIC_BREVO_API_KEY ?? ''
 
@@ -244,19 +243,20 @@ function GurudevCard({ cs, hi, fr, es, de }: LangFlags) {
         </div>
       </div>
 
-      {/* Primární CTA — plná registrace přes Airtable formulář na samostatné
-          stránce. Rychlý e-mailový capture (Brevo) níž zůstává jako lehčí
-          druhá možnost pro ty, co se ještě jen chtějí nechat informovat. */}
-      <Link href="/registrace-gurudev" className={styles.gurudevBtn} style={{ display: 'block', textAlign: 'center', textDecoration: 'none', marginBottom: 10 }}>
-        {hi ? 'पंजीकरण करें' : cs ? 'Registrovat se' : fr ? 'S’inscrire' : es ? 'Registrarse' : de ? 'Registrieren' : 'Register'}
-      </Link>
-
+      {/* Zatím jen registrace ZÁJMU (Brevo e-mail capture) — žádná závazná
+          přihláška, dokud není potvrzený termín. Tlačítko na
+          /registrace-gurudev (Airtable, závazná přihláška) sem záměrně
+          nepatří, i když ta stránka existuje (zatím jen na dev). Až bude
+          termín jistý, vrátit/nahradit tímhle tlačítkem znovu. */}
       {status === 'ok' ? (
         <p className={styles.gurudevSuccess}>
           {hi ? '✦ पंजीकृत — हम आपको सूचित करेंगे' : cs ? '✦ Zaregistrováno — budeme vás informovat' : fr ? '✦ Inscription confirmée — nous vous tiendrons informé(e)' : es ? '✦ Registrado — te mantendremos informado/a' : de ? '✦ Angemeldet — wir halten dich auf dem Laufenden' : '✦ Registered — we will keep you informed'}
         </p>
       ) : (
         <div className={styles.gurudevForm}>
+          <p style={{ fontSize: 11, color: 'var(--muted)', margin: '0 0 2px', textAlign: 'center' }}>
+            {hi ? 'रुचि दर्ज करने के लिए अपना ई-मेल दर्ज करें:' : cs ? 'Zadejte e-mail a zaregistrujte svůj zájem:' : fr ? 'Indiquez votre e-mail pour manifester votre intérêt :' : es ? 'Indica tu email para registrar tu interés:' : de ? 'Gib deine E-Mail ein, um dein Interesse anzumelden:' : 'Enter your email to register your interest:'}
+          </p>
           <input
             type="email"
             placeholder={hi ? 'आपका ई-मेल' : cs ? 'Váš e-mail' : fr ? 'Votre e-mail' : es ? 'Tu email' : de ? 'Deine E-Mail' : 'Your email'}
