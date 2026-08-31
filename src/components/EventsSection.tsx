@@ -4,6 +4,7 @@ import { useRef, useState } from 'react'
 import styles from './EventsSection.module.css'
 import { useLang } from '../contexts/LangContext'
 import { useScrollRevealAll } from '../hooks/useScrollReveal'
+import { Link } from '../i18n/navigation'
 
 const BREVO_API_KEY = process.env.NEXT_PUBLIC_BREVO_API_KEY ?? ''
 
@@ -130,6 +131,7 @@ type LangFlags = { cs: boolean; hi: boolean; fr: boolean; es: boolean; de: boole
 function GurudevCard({ cs, hi, fr, es, de }: LangFlags) {
   const [email, setEmail] = useState('')
   const [status, setStatus] = useState<'idle' | 'loading' | 'ok' | 'err'>('idle')
+  const [expanded, setExpanded] = useState(false)
 
   const lang = hi ? 'hi' : cs ? 'cs' : fr ? 'fr' : es ? 'es' : de ? 'de' : 'en'
   const listId = GURUDEV_LIST_IDS[lang] ?? GURUDEV_LIST_IDS.en!
@@ -176,41 +178,9 @@ function GurudevCard({ cs, hi, fr, es, de }: LangFlags) {
       <div className={styles.eventTitle}>
         {hi ? 'गुरुदेव का चेक गणराज्य दौरा' : cs ? 'Příjezd Gurudeva do ČR' : fr ? 'La venue de Gurudev en République tchèque' : es ? 'Visita de Gurudev a la República Checa' : de ? 'Gurudevs Besuch in der Tschechischen Republik' : 'Gurudev Visits Czech Republic'}
       </div>
-      {/* Odstavec 1 — kdo přijíždí + titul (Pattábhišék v Haridváru, duben
-          2026). Terminologie záměrně "uveden do úřadu"/"installed", nikdy
-          "korunovace"/"coronation" — viz brief. */}
-      <p className={styles.eventDesc}>
-        {hi
-          ? 'अप्रैल 2026 में, हरिद्वार में पट्टाभिषेक समारोह के दौरान, श्री श्री 1008 करौली शंकर महादेव महाराज को श्री पंचायती अखाड़ा नया उदासीन निर्वाण — भारत के सबसे सम्मानित मठवासी अखाड़ों में से एक — के महामंडलेश्वर पद पर प्रतिष्ठित किया गया। महामंडलेश्वर की उपाधि अखाड़े के भीतर सर्वोच्च आध्यात्मिक पद है और उनके द्वारा प्रवाहित परंपरा की प्रामाणिकता की गारंटी है।'
-          : cs
-          ? 'V dubnu 2026 byl Sri Sri 1008 Karauli Shankar Mahadev Maharaj při obřadu Pattábhišék v Haridváru uveden do úřadu Mahámandaléšvary řádu Shri Panchayati Akhada Naya Udasin Nirvan — jednoho z nejváženějších mnišských řádů (ákhád) v Indii. Titul Mahámandaléšvary je nejvyšší duchovní hodnost v rámci ákhády a zárukou autenticity předávané tradice.'
-          : fr
-          ? 'En avril 2026, lors de la cérémonie du Pattabhishek à Haridwar, Sri Sri 1008 Karauli Shankar Mahadev Maharaj a été intronisé Mahamandaleshwar du Shri Panchayati Akhada Naya Udasin Nirvan — l’un des ordres monastiques (akhadas) les plus respectés d’Inde. Le titre de Mahamandaleshwar est le rang spirituel le plus élevé au sein d’un akhada et garantit l’authenticité de la tradition qu’il transmet.'
-          : es
-          ? 'En abril de 2026, durante la ceremonia del Pattabhishek en Haridwar, Sri Sri 1008 Karauli Shankar Mahadev Maharaj fue instalado como Mahamandaleshwar del Shri Panchayati Akhada Naya Udasin Nirvan — una de las órdenes monásticas (akhadas) más respetadas de la India. El título de Mahamandaleshwar es el rango espiritual más alto dentro de un akhada y garantiza la autenticidad de la tradición que transmite.'
-          : de
-          ? 'Im April 2026 wurde Sri Sri 1008 Karauli Shankar Mahadev Maharaj bei der Pattabhishek-Zeremonie in Haridwar als Mahamandaleshwar des Shri Panchayati Akhada Naya Udasin Nirvan eingesetzt — einem der angesehensten monastischen Orden (Akhadas) Indiens. Der Titel des Mahamandaleshwar ist der höchste spirituelle Rang innerhalb eines Akhada und eine Garantie für die Authentizität der von ihm getragenen Tradition.'
-          : 'In April 2026, at the Pattabhishek ceremony in Haridwar, Sri Sri 1008 Karauli Shankar Mahadev Maharaj was installed as Mahamandaleshwar of the Shri Panchayati Akhada Naya Udasin Nirvan — one of the most respected monastic orders (akhadas) in India. The title of Mahamandaleshwar is the highest spiritual rank within an akhada and a guarantee of the authenticity of the tradition he carries.'}
-      </p>
-
-      {/* Odstavec 2 — co se chystá, bez konkrétních slibů (žádná města,
-          počet dní, termíny v květnu, kapacita…) */}
-      <p className={styles.eventDesc}>
-        {hi
-          ? 'मई 2027 में, Zero Balance Society भारतीय चिंतनशील परंपरा पर एक सांस्कृतिक एवं शैक्षिक कार्यक्रम की तैयारी कर रही है — जिसमें व्यापक जनसमुदाय के लिए खुला एक सार्वजनिक भाग, एक गहन अभ्यास-आधारित भाग, तथा उपशीर्षक सहित खुला ऑनलाइन प्रसारण शामिल होगा। विस्तृत कार्यक्रम, स्थान और तिथियाँ बाद में घोषित की जाएँगी।'
-          : cs
-          ? 'V květnu 2027 připravuje Zero Balance Society kulturně-vzdělávací program o indické kontemplativní tradici — s veřejnou částí přístupnou širší veřejnosti, hlubší praktickou částí a otevřeným online přenosem s titulky. Podrobný program, místa a termíny upřesníme.'
-          : fr
-          ? 'En mai 2027, Zero Balance Society prépare un programme culturel et éducatif sur la tradition contemplative indienne — comprenant une partie publique ouverte à un large public, une partie plus approfondie axée sur la pratique, ainsi qu’une diffusion en ligne ouverte avec sous-titres. Le programme détaillé, les lieux et les dates seront annoncés.'
-          : es
-          ? 'En mayo de 2027, Zero Balance Society está preparando un programa cultural y educativo sobre la tradición contemplativa de la India — con una parte pública abierta a un público más amplio, una parte más profunda basada en la práctica, y una transmisión en línea abierta con subtítulos. El programa detallado, los lugares y las fechas se anunciarán próximamente.'
-          : de
-          ? 'Im Mai 2027 bereitet die Zero Balance Society ein kulturelles und pädagogisches Programm über die indische kontemplative Tradition vor — mit einem öffentlichen Teil für ein breiteres Publikum, einem vertieften, praxisorientierten Teil und einer offenen Online-Übertragung mit Untertiteln. Das detaillierte Programm, die Orte und Termine werden noch bekannt gegeben.'
-          : 'In May 2027, Zero Balance Society is preparing a cultural and educational programme on the Indian contemplative tradition — with a public part open to a wider audience, a deeper practice-based part, and an open online broadcast with subtitles. The detailed programme, locations and dates will be announced.'}
-      </p>
-
-      {/* Odstavec 3 — proč se registrovat, čestně (žádné "limited capacity"/
-          "early-bird", jen "dozvíte se jako první") */}
+      {/* Krátký teaser — vždy vidět, drží kartu v rozumné výšce vedle
+          Sankalp/Dhyan Sadhana. Detail (kdo přijíždí + co se chystá) jde
+          za "Zjistit více", ne natvrdo do karty. */}
       <p className={styles.eventDesc}>
         {hi
           ? 'जो लोग अपनी रुचि दर्ज करेंगे, उन्हें कार्यक्रम, तिथियाँ और विवरण पुष्टि होते ही सबसे पहले प्राप्त होंगे।'
@@ -224,6 +194,62 @@ function GurudevCard({ cs, hi, fr, es, de }: LangFlags) {
           ? 'Wer sein Interesse anmeldet, erhält das Programm, die Termine und die Details als Erster, sobald diese bestätigt sind.'
           : 'Those who register their interest will be the first to receive the programme, dates and details as soon as they are confirmed.'}
       </p>
+
+      <button
+        type="button"
+        onClick={() => setExpanded(v => !v)}
+        className={styles.gurudevMoreToggle}
+        aria-expanded={expanded}
+      >
+        {expanded
+          ? (hi ? 'कम दिखाएं' : cs ? 'Skrýt' : fr ? 'Réduire' : es ? 'Mostrar menos' : de ? 'Weniger anzeigen' : 'Show less')
+          : (hi ? 'अधिक जानें' : cs ? 'Zjistit více' : fr ? 'En savoir plus' : es ? 'Leer más' : de ? 'Mehr erfahren' : 'Read more')}
+        <span className={expanded ? styles.gurudevMoreArrowOpen : styles.gurudevMoreArrow}>↓</span>
+      </button>
+
+      <div className={`${styles.gurudevMore} ${expanded ? styles.gurudevMoreOpen : ''}`}>
+        <div className={styles.gurudevMoreInner}>
+          {/* Odstavec 1 — kdo přijíždí + titul (Pattábhišék v Haridváru,
+              duben 2026). Terminologie záměrně "uveden do úřadu"/
+              "installed", nikdy "korunovace"/"coronation" — viz brief. */}
+          <p className={styles.eventDesc}>
+            {hi
+              ? 'अप्रैल 2026 में, हरिद्वार में पट्टाभिषेक समारोह के दौरान, श्री श्री 1008 करौली शंकर महादेव महाराज को श्री पंचायती अखाड़ा नया उदासीन निर्वाण — भारत के सबसे सम्मानित मठवासी अखाड़ों में से एक — के महामंडलेश्वर पद पर प्रतिष्ठित किया गया। महामंडलेश्वर की उपाधि अखाड़े के भीतर सर्वोच्च आध्यात्मिक पद है और उनके द्वारा प्रवाहित परंपरा की प्रामाणिकता की गारंटी है।'
+              : cs
+              ? 'V dubnu 2026 byl Sri Sri 1008 Karauli Shankar Mahadev Maharaj při obřadu Pattábhišék v Haridváru uveden do úřadu Mahámandaléšvary řádu Shri Panchayati Akhada Naya Udasin Nirvan — jednoho z nejváženějších mnišských řádů (ákhád) v Indii. Titul Mahámandaléšvary je nejvyšší duchovní hodnost v rámci ákhády a zárukou autenticity předávané tradice.'
+              : fr
+              ? 'En avril 2026, lors de la cérémonie du Pattabhishek à Haridwar, Sri Sri 1008 Karauli Shankar Mahadev Maharaj a été intronisé Mahamandaleshwar du Shri Panchayati Akhada Naya Udasin Nirvan — l’un des ordres monastiques (akhadas) les plus respectés d’Inde. Le titre de Mahamandaleshwar est le rang spirituel le plus élevé au sein d’un akhada et garantit l’authenticité de la tradition qu’il transmet.'
+              : es
+              ? 'En abril de 2026, durante la ceremonia del Pattabhishek en Haridwar, Sri Sri 1008 Karauli Shankar Mahadev Maharaj fue instalado como Mahamandaleshwar del Shri Panchayati Akhada Naya Udasin Nirvan — una de las órdenes monásticas (akhadas) más respetadas de la India. El título de Mahamandaleshwar es el rango espiritual más alto dentro de un akhada y garantiza la autenticidad de la tradición que transmite.'
+              : de
+              ? 'Im April 2026 wurde Sri Sri 1008 Karauli Shankar Mahadev Maharaj bei der Pattabhishek-Zeremonie in Haridwar als Mahamandaleshwar des Shri Panchayati Akhada Naya Udasin Nirvan eingesetzt — einem der angesehensten monastischen Orden (Akhadas) Indiens. Der Titel des Mahamandaleshwar ist der höchste spirituelle Rang innerhalb eines Akhada und eine Garantie für die Authentizität der von ihm getragenen Tradition.'
+              : 'In April 2026, at the Pattabhishek ceremony in Haridwar, Sri Sri 1008 Karauli Shankar Mahadev Maharaj was installed as Mahamandaleshwar of the Shri Panchayati Akhada Naya Udasin Nirvan — one of the most respected monastic orders (akhadas) in India. The title of Mahamandaleshwar is the highest spiritual rank within an akhada and a guarantee of the authenticity of the tradition he carries.'}
+          </p>
+
+          {/* Odstavec 2 — co se chystá, bez konkrétních slibů (žádná města,
+              počet dní, termíny v květnu, kapacita…) */}
+          <p className={styles.eventDesc}>
+            {hi
+              ? 'मई 2027 में, Zero Balance Society भारतीय चिंतनशील परंपरा पर एक सांस्कृतिक एवं शैक्षिक कार्यक्रम की तैयारी कर रही है — जिसमें व्यापक जनसमुदाय के लिए खुला एक सार्वजनिक भाग, एक गहन अभ्यास-आधारित भाग, तथा उपशीर्षक सहित खुला ऑनलाइन प्रसारण शामिल होगा। विस्तृत कार्यक्रम, स्थान और तिथियाँ बाद में घोषित की जाएँगी।'
+              : cs
+              ? 'V květnu 2027 připravuje Zero Balance Society kulturně-vzdělávací program o indické kontemplativní tradici — s veřejnou částí přístupnou širší veřejnosti, hlubší praktickou částí a otevřeným online přenosem s titulky. Podrobný program, místa a termíny upřesníme.'
+              : fr
+              ? 'En mai 2027, Zero Balance Society prépare un programme culturel et éducatif sur la tradition contemplative indienne — comprenant une partie publique ouverte à un large public, une partie plus approfondie axée sur la pratique, ainsi qu’une diffusion en ligne ouverte avec sous-titres. Le programme détaillé, les lieux et les dates seront annoncés.'
+              : es
+              ? 'En mayo de 2027, Zero Balance Society está preparando un programa cultural y educativo sobre la tradición contemplativa de la India — con una parte pública abierta a un público más amplio, una parte más profunda basada en la práctica, y una transmisión en línea abierta con subtítulos. El programa detallado, los lugares y las fechas se anunciarán próximamente.'
+              : de
+              ? 'Im Mai 2027 bereitet die Zero Balance Society ein kulturelles und pädagogisches Programm über die indische kontemplative Tradition vor — mit einem öffentlichen Teil für ein breiteres Publikum, einem vertieften, praxisorientierten Teil und einer offenen Online-Übertragung mit Untertiteln. Das detaillierte Programm, die Orte und Termine werden noch bekannt gegeben.'
+              : 'In May 2027, Zero Balance Society is preparing a cultural and educational programme on the Indian contemplative tradition — with a public part open to a wider audience, a deeper practice-based part, and an open online broadcast with subtitles. The detailed programme, locations and dates will be announced.'}
+          </p>
+        </div>
+      </div>
+
+      {/* Primární CTA — plná registrace přes Airtable formulář na samostatné
+          stránce. Rychlý e-mailový capture (Brevo) níž zůstává jako lehčí
+          druhá možnost pro ty, co se ještě jen chtějí nechat informovat. */}
+      <Link href="/registrace-gurudev" className={styles.gurudevBtn} style={{ display: 'block', textAlign: 'center', textDecoration: 'none', marginBottom: 10 }}>
+        {hi ? 'पंजीकरण करें' : cs ? 'Registrovat se' : fr ? 'S’inscrire' : es ? 'Registrarse' : de ? 'Registrieren' : 'Register'}
+      </Link>
 
       {status === 'ok' ? (
         <p className={styles.gurudevSuccess}>

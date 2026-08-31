@@ -58,6 +58,35 @@
 
 .eventDesc { font-size: 14px; color: var(--muted); line-height: 1.7; margin-bottom: 24px; }
 
+/* ── Gurudev card "Zjistit více" — drží kartu vedle Sankalp/Dhyan Sadhana
+   v rozumné výšce; historický + programový odstavec se schovává sem
+   místo aby byl v kartě natvrdo vidět celý. ───────────────────────── */
+.gurudevMoreToggle {
+  display: inline-flex; align-items: center; gap: 6px;
+  margin: 0 0 16px;
+  padding: 0;
+  background: none; border: none; cursor: pointer;
+  font-family: 'Cinzel', serif; font-size: 9.5px;
+  letter-spacing: 0.2em; text-transform: uppercase;
+  color: var(--gold-mid, var(--gold));
+  transition: color 0.3s;
+}
+.gurudevMoreToggle:hover { color: var(--gold-text); }
+.gurudevMoreArrow, .gurudevMoreArrowOpen {
+  display: inline-block; font-size: 11px;
+  transition: transform 0.3s;
+}
+.gurudevMoreArrowOpen { transform: rotate(180deg); }
+
+.gurudevMore {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.45s ease;
+}
+.gurudevMoreOpen { max-height: 900px; }
+.gurudevMoreInner { padding-top: 2px; }
+.gurudevMoreInner .eventDesc:last-child { margin-bottom: 20px; }
+
 .eventLink {
   font-family: 'Cinzel', serif; font-size: 9.5px;
   letter-spacing: 0.2em; color: var(--gold-mid);
