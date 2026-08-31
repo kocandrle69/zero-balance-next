@@ -67,6 +67,7 @@ export const POSTS: PostMeta[] = [
     date: '2026-08-31',
     cover: '/images/Gurudev-Talk-Order.jpg',
     coverBanner: true,
+    coverPos: 'center 0%',
     langs: ['cs', 'en', 'hi', 'fr', 'es', 'de'],
     meta: {
       cs: {
