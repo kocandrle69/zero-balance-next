@@ -63,6 +63,74 @@ export interface PostMeta {
 
 export const POSTS: PostMeta[] = [
   {
+    slug: 'order-we-forgot',
+    date: '2026-08-31',
+    cover: '/images/Gurudev-Talk-Order.jpg',
+    coverBanner: true,
+    langs: ['cs', 'en', 'hi', 'fr', 'es', 'de'],
+    meta: {
+      cs: {
+        rubric: 'Promluvy - Gurudév',
+        title: 'Gurudévovy promluvy',
+        titleEm: 'Řád, který jsme zapomněli vidět',
+        perex: `Přepis neformálního setkání Gurudéva se žáky o řádu existence, strachu
+          a chamtivosti a síle, která se řídí tím, čím jsme. Promluva vede od vztahu
+          člověka k přírodě přes rozdíl mezi nasloucháním a přemýšlením až k
+          praktickému významu sádhany jako návratu k rovnováze.`,
+      },
+      en: {
+        rubric: 'Discourses - Gurudev',
+        title: "Gurudev's Talks",
+        titleEm: 'The Order We Forgot to See',
+        perex: `A transcript of an informal gathering between Gurudev and his
+          disciples on the order of existence, fear and greed, and the power that
+          follows what we ourselves are. The talk moves from humanity's relationship
+          with nature, through the difference between listening and thinking, to the
+          practical meaning of Sadhana as a return to balance.`,
+      },
+      hi: {
+        rubric: 'प्रवचन - गुरुदेव',
+        title: 'गुरुदेव के प्रवचन',
+        titleEm: 'वह व्यवस्था जिसे हमने देखना भूल दिया',
+        perex: `गुरुदेव और शिष्यों के बीच एक अनौपचारिक सत्र का प्रतिलेख — अस्तित्व की
+          व्यवस्था, भय और लालच, तथा उस शक्ति पर जो हम जैसे हैं वैसी ही ढल जाती है।
+          बातचीत प्रकृति से मनुष्य के संबंध से होकर, श्रवण और मनन के भेद से गुज़रते
+          हुए, संतुलन की ओर लौटने के रूप में साधना के व्यावहारिक अर्थ तक पहुँचती है।`,
+      },
+      fr: {
+        rubric: 'Discours - Gurudev',
+        title: 'Les discours de Gurudev',
+        titleEm: "L'ordre que nous avons oublié de voir",
+        perex: `Transcription d'une rencontre informelle entre Gurudev et ses
+          disciples sur l'ordre de l'existence, la peur et l'avidité, et la puissance
+          qui prend la forme de ce que nous sommes. L'enseignement passe de la
+          relation de l'être humain avec la nature, par la différence entre écouter
+          et penser, jusqu'à la signification pratique de la Sadhana comme retour à
+          l'équilibre.`,
+      },
+      es: {
+        rubric: 'Discursos - Gurudev',
+        title: 'Discursos de Gurudev',
+        titleEm: 'El orden que hemos olvidado ver',
+        perex: `Transcripción de un encuentro informal entre Gurudev y sus discípulos
+          sobre el orden de la existencia, el miedo y la codicia, y la fuerza que se
+          adapta a lo que somos. La charla pasa de la relación del ser humano con la
+          naturaleza, por la diferencia entre escuchar y pensar, hasta el significado
+          práctico de la Sadhana como regreso al equilibrio.`,
+      },
+      de: {
+        rubric: 'Diskurse - Gurudev',
+        title: 'Gurudevs Vorträge',
+        titleEm: 'Die Ordnung, die wir vergessen haben zu sehen',
+        perex: `Transkription eines informellen Treffens zwischen Gurudev und seinen
+          Schülern über die Ordnung der Existenz, Angst und Gier sowie die Kraft, die
+          die Form dessen annimmt, was wir sind. Der Vortrag führt von der Beziehung
+          des Menschen zur Natur über den Unterschied zwischen Zuhören und Denken bis
+          zur praktischen Bedeutung von Sadhana als Rückkehr zum Gleichgewicht.`,
+      },
+    },
+  },
+  {
     slug: 'karma-tri-druhy',
     date: '2026-08-07',
     cover: '/images/Karma.jpg',
