@@ -1,7 +1,9 @@
 .page {
   min-height: 100vh;
   background: var(--bg);
-  padding-top: 120px;
+  /* 120px = odsazení od fixní hlavičky (tahle stránka má neprůhledný
+     Navbar, ne přes hero fotku); +var(--announce-h) pro oznamovací pruh. */
+  padding-top: calc(120px + var(--announce-h, 40px));
 }
 
 .pageHeader {
@@ -302,5 +304,5 @@
 @media (max-width: 600px) {
   .pageHeader, .filterBar, .categorySection, .partnerCredit { padding-left: 20px; padding-right: 20px; }
   .videoGrid { grid-template-columns: 1fr; }
-  .page { padding-top: 90px; }
+  .page { padding-top: calc(90px + var(--announce-h, 40px)); }
 }
