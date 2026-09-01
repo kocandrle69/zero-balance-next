@@ -5,8 +5,16 @@
   top: calc(108px + var(--announce-h, 40px));
   left: 80px;
   z-index: 5;
-  background: none;
-  border: none;
+  /* Tmavá 60% varianta se na světlejších/pestrých obálkách ztrácela —
+     místo pevného zlatého "odznaku" (působilo lacině) jde o jemnou
+     poloprůhlednou skleněnou destičku, která drží čitelnost na
+     libovolné fotce a zlatě zvýrazní až při najetí myší. */
+  padding: 7px 16px 7px 13px;
+  border-radius: 999px;
+  background: rgba(28,24,16,0.32);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border: 1px solid rgba(255,255,255,0.14);
   cursor: pointer;
   display: inline-flex;
   align-items: center;
@@ -15,11 +23,15 @@
   font-size: 10px;
   letter-spacing: 0.2em;
   text-transform: uppercase;
-  color: rgba(28,24,16,0.6);
+  color: rgba(255,255,255,0.92);
   text-decoration: none;
-  transition: color 0.25s ease;
+  transition: color 0.25s ease, background 0.25s ease, border-color 0.25s ease;
 }
-.back:hover { color: var(--gold-text); }
+.back:hover {
+  color: var(--gold);
+  background: rgba(28,24,16,0.46);
+  border-color: rgba(184,146,42,0.4);
+}
 
 .arrow {
   display: inline-block;
