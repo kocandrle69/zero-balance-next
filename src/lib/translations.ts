@@ -20,7 +20,7 @@ export const T = {
     announce_text: 'May 2027 — the first official European journey of Mahamandaleshwar Karauli Shankar Mahadev Maharaj.',
     // Kratší varianta jen pro mobil (announce_text se tam nevejde ani s
     // ellipsis, aniž by z něj zbyl nesrozumitelný útržek) — viz AnnouncementBar.tsx.
-    announce_text_mobile: "Gurudev's Visit — Register",
+    announce_text_mobile: "Gurudev's Visit",
     announce_cta:  'Register your interest',
 
     purpose_label: 'Our Purpose',
@@ -119,7 +119,7 @@ export const T = {
     hero_desc:  'Historicky první krok do Evropy. <strong>Sri Sri 1008 Mahámandaléšvar Karauli Shankar Mahadev Maharaj</strong> poprvé přináší autentickou indickou kontemplativní tradici do střední Evropy — Česká republika, květen 2027.',
     scroll:     'Scrollovat',
     announce_text: 'Květen 2027 — první oficiální evropská cesta Mahámandaléšvary Karauli Shankar Mahadev Maharaje.',
-    announce_text_mobile: 'Návštěva Gurudéva — registrujte se',
+    announce_text_mobile: 'Návštěva Gurudéva',
     announce_cta:  'Registrovat zájem',
 
     purpose_label: 'Naše poslání',
@@ -218,7 +218,7 @@ export const T = {
     hero_desc:  'यूरोप के लिए एक ऐतिहासिक पहला कदम। <strong>श्री श्री 1008 महामंडलेश्वर करौली शंकर महादेव महाराज</strong> पहली बार भारत की प्रामाणिक चिंतनशील परंपरा मध्य यूरोप में ला रहे हैं — चेक गणराज्य, मई 2027।',
     scroll:     'स्क्रॉल',
     announce_text: 'मई 2027 — महामंडलेश्वर करौली शंकर महादेव महाराज की पहली आधिकारिक यूरोप यात्रा।',
-    announce_text_mobile: 'गुरुदेव की यात्रा — पंजीकरण करें',
+    announce_text_mobile: 'गुरुदेव की यात्रा',
     announce_cta:  'रुचि दर्ज करें',
 
     purpose_label: 'हमारा उद्देश्य',
@@ -317,7 +317,7 @@ export const T = {
     hero_desc:  'Un premier pas historique en Europe. <strong>Sri Sri 1008 Mahamandaleshwar Karauli Shankar Mahadev Maharaj</strong> apporte pour la première fois la tradition contemplative indienne authentique en Europe centrale — République tchèque, mai 2027.',
     scroll:     'Défiler',
     announce_text: 'Mai 2027 — le premier voyage officiel en Europe du Mahamandaleshwar Karauli Shankar Mahadev Maharaj.',
-    announce_text_mobile: 'Visite de Gurudev — Inscrivez-vous',
+    announce_text_mobile: 'Visite de Gurudev',
     announce_cta:  'Manifester votre intérêt',
 
     purpose_label: 'Notre raison d’être',
@@ -416,7 +416,7 @@ export const T = {
     hero_desc:  'Un primer paso histórico en Europa. <strong>Sri Sri 1008 Mahamandaleshwar Karauli Shankar Mahadev Maharaj</strong> trae por primera vez la auténtica tradición contemplativa india a Europa Central — República Checa, mayo de 2027.',
     scroll:     'Desplazar',
     announce_text: 'Mayo de 2027 — el primer viaje oficial a Europa del Mahamandaleshwar Karauli Shankar Mahadev Maharaj.',
-    announce_text_mobile: 'Visita de Gurudev — Regístrate',
+    announce_text_mobile: 'Visita de Gurudev',
     announce_cta:  'Registrar interés',
 
     purpose_label: 'Nuestro propósito',
@@ -514,7 +514,7 @@ export const T = {
     hero_desc:  'Ein historischer erster Schritt nach Europa. <strong>Sri Sri 1008 Mahamandaleshwar Karauli Shankar Mahadev Maharaj</strong> bringt die authentische indische kontemplative Tradition zum ersten Mal nach Mitteleuropa — Tschechische Republik, Mai 2027.',
     scroll:     'Scrollen',
     announce_text: 'Mai 2027 — die erste offizielle Europareise von Mahamandaleshwar Karauli Shankar Mahadev Maharaj.',
-    announce_text_mobile: 'Gurudevs Besuch — Registrieren',
+    announce_text_mobile: 'Gurudevs Besuch',
     announce_cta:  'Interesse anmelden',
 
     purpose_label: 'Unser Anliegen',
