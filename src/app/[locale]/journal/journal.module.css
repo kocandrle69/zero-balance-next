@@ -66,20 +66,6 @@
   background: var(--gold); margin: 0 auto;
 }
 
-/* ── Obálka jako pruh (coverBanner) ──────────────────────────────
-   Pro fotky, které už samy nesou text nebo jsou detailním portrétem
-   bez volného místa — vlastní titulek by se s nimi rval. Obálka je
-   kratší a bez overlay textu, kicker/titulek jdou pod ni. */
-/* Kombinovaný selektor kvůli specificitě — jinak ho přebije .hero
-   uvnitř mediálního dotazu níž (pořadí v souboru, stejná specificita). */
-.hero.heroBanner { min-height: clamp(200px, 32vw, 400px); }
-
-.bannerHeader {
-  max-width: 720px; margin: 0 auto;
-  padding: 44px 40px 8px;
-  text-align: center;
-}
-
 /* ── Article ───────────────────────────────────────────────────── */
 .article {
   max-width: 740px; margin: 0 auto;
@@ -526,25 +512,10 @@
   .memberRowImg { width: 100%; height: 320px; }
   .pendingRow { flex-direction: column; gap: 24px; }
   .hero { min-height: 400px; }
-  /* Na mobilu je pruh nutně nízký (viz clamp výše), takže tlačítko Zpět
-     sedí téměř na obrázku samém, bez ohledu na to, co zrovna ořez ukáže.
-     Silnější scrim nahoře drží kontrast pro Zpět/navigaci vždy, i když
-     odznak nebo titulek z fotky vyjdou pod ním jen napůl vidět — to už
-     nese hlavní titulek pod pruhem. */
-  .heroBanner .heroOverlay {
-    background: linear-gradient(
-      to bottom,
-      rgba(247,243,236,0.82) 0%,
-      rgba(247,243,236,0.15) 30%,
-      rgba(247,243,236,0.05) 60%,
-      rgba(247,243,236,0.92) 100%
-    );
-  }
 }
 
 @media (max-width: 640px) {
   .mastheadInner { padding: 0 24px 40px; }
-  .bannerHeader { padding: 32px 24px 4px; }
   .article { padding: 48px 24px 60px; }
   .articleFooter { padding: 0 24px 60px; }
   .pullquote { padding: 24px 24px; }
