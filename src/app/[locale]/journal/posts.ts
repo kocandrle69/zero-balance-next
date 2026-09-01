@@ -34,13 +34,6 @@ export interface PostMeta {
   /** object-position obálky, pokud výchozí střed nesedí */
   coverPos?: string
   /**
-   * Obálka nese vlastní text nebo je to detailní portrét bez "prázdného" místa
-   * (video náhled apod.) — přebitý vlastním titulkem by kolidoval se vším, co
-   * je už na fotce. V tomto režimu je obálka jen krátký pruh bez titulku
-   * a kicker/titulek/datum se vysází pod ní na běžném pozadí stránky.
-   */
-  coverBanner?: boolean
-  /**
    * Tělo je obrazové (galerie), ne text — sloupec pro čtecí text (740px) by
    * fotky zbytečně svazoval. Rozšíří `.article` na `.articleWide`.
    */
@@ -66,7 +59,6 @@ export const POSTS: PostMeta[] = [
     slug: 'order-we-forgot',
     date: '2026-08-31',
     cover: '/images/Gurudev-Talk-Order.jpg',
-    coverBanner: true,
     coverPos: 'center 100%',
     langs: ['cs', 'en', 'hi', 'fr', 'es', 'de'],
     meta: {
@@ -135,7 +127,6 @@ export const POSTS: PostMeta[] = [
     slug: 'karma-tri-druhy',
     date: '2026-08-07',
     cover: '/images/Karma.jpg',
-    coverBanner: true,
     langs: ['cs', 'en', 'hi', 'fr', 'es', 'de'],
     meta: {
       cs: {
@@ -316,7 +307,6 @@ export const POSTS: PostMeta[] = [
     slug: 'ashram-return-2026',
     date: '2026-08-04',
     cover: '/images/Journal-Ashram-Return.jpg',
-    coverBanner: true,
     langs: ['cs', 'en', 'hi', 'fr', 'es', 'de'],
     meta: {
       cs: {
@@ -386,14 +376,9 @@ export const POSTS: PostMeta[] = [
     slug: 'bharat-2026',
     date: '2026-08-03',
     cover: '/images/india-2026/andrea/full/028.webp',
-    // Na mobilu leží přes horní ~30 % banneru silný krémový scrim (viz
-    // `.heroBanner .heroOverlay` v journal.module.css, kvůli čitelnosti
-    // tlačítka Zpět) — u téhle fotky jsou tam bohužel obličeje. 'center 20%'
-    // je posouvalo ještě víc nahoru do nejsilnější části scrimu; 'center 0%'
-    // (crop od úplně vršku zdrojové fotky) je při krátkém poměru stran
-    // banneru posune dolů, mimo nejhorší část přechodu.
+    // Crop od úplně vršku zdrojové fotky — 'center 50%' (výchozí) i
+    // 'center 20%' řezaly přímo přes obličeje dětí uprostřed záběru.
     coverPos: 'center 0%',
-    coverBanner: true,
     wide: true,
     // langs zde neznamená "tělo článku existuje jako .md v tomhle jazyce"
     // (bharat-2026 nemá .md tělo vůbec, viz BODIES v JournalPost.tsx) —
@@ -458,8 +443,10 @@ export const POSTS: PostMeta[] = [
     slug: 'youtube-channel',
     date: '2026-08-02',
     cover: '/images/YouTube-Channel.jpg',
-    coverPos: 'left center',
-    coverBanner: true,
+    // Vlastní titulek obrázku ("Our journey") běží přes skoro celou výšku —
+    // 'left top' aspoň v archivní kartě drží čitelný titulek (X=left) a v
+    // hero minimalizuje překryv s titulkem webu (Y=top, ne uprostřed).
+    coverPos: 'left top',
     langs: ['cs', 'en', 'hi', 'fr', 'es', 'de'],
     meta: {
       cs: {
@@ -528,7 +515,6 @@ export const POSTS: PostMeta[] = [
     date: '2026-08-01',
     cover: '/images/Journal-Sensei-Vedomi.jpg',
     coverPos: 'center 0%',
-    coverBanner: true,
     langs: ['cs', 'en', 'hi', 'fr', 'es', 'de'],
     meta: {
       cs: {

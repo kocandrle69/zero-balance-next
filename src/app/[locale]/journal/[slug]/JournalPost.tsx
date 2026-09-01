@@ -68,34 +68,16 @@ export default function JournalPost({ slug, body }: { slug: string; body: Record
       <main className={styles.page}>
 
         {/* ── Obálka článku ─────────────────────────────────── */}
-        {post.coverBanner ? (
-          <>
-            {/* Obálka nese vlastní text/grafiku nebo je to detailní portrét —
-                titulek by se s ní přebíjel, proto jde jako krátký pruh a
-                kicker/titulek se vysází pod ním na běžném pozadí stránky. */}
-            <div className={`${styles.hero} ${styles.heroBanner}`}>
-              {coverImg}
-              <div className={styles.heroOverlay} />
-              <BackLink />
-            </div>
-            <div className={styles.bannerHeader}>
-              {kicker}
-              {title}
-              <div className={styles.mastheadRule} />
-            </div>
-          </>
-        ) : (
-          <div className={styles.hero}>
-            {coverImg}
-            <div className={styles.heroOverlay} />
-            <BackLink />
-            <div className={styles.mastheadInner}>
-              {kicker}
-              {title}
-              <div className={styles.mastheadRule} />
-            </div>
+        <div className={styles.hero}>
+          {coverImg}
+          <div className={styles.heroOverlay} />
+          <BackLink />
+          <div className={styles.mastheadInner}>
+            {kicker}
+            {title}
+            <div className={styles.mastheadRule} />
           </div>
-        )}
+        </div>
 
         {/* ── Text ──────────────────────────────────────────── */}
         <article className={post.wide ? `${styles.article} ${styles.articleWide}` : styles.article}>
