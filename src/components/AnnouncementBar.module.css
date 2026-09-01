@@ -31,7 +31,7 @@
 .text {
   /* min-width:0 je nutné, aby flex položka směla zmenšit svou šířku pod
      obsah a text-overflow:ellipsis vůbec zabral — jinak text container
-     jen přeteče (proto se dřív na mobilu radši úplně skrýval). */
+     jen přeteče. */
   flex: 1 1 auto;
   min-width: 0;
   color: var(--bg);
@@ -44,6 +44,11 @@
   opacity: 0.9;
   transition: opacity 0.25s;
 }
+
+/* Plná věta vs. krátká mobilní varianta — přepínané čistě přes CSS
+   (viz media query níž), aby nehrozil hydration mismatch mezi
+   SSR/klientem tak jako u JS/matchMedia řešení. */
+.textShort { display: none; }
 
 .cta {
   flex-shrink: 0;
@@ -76,12 +81,13 @@
 .close:hover { opacity: 1; }
 
 /* Na mobilu se popisná věta nevejde na jeden řádek u delších jazyků
-   (DE/FR). Dřív se proto úplně skrývala — zůstávalo jen samotné
-   "Registrovat zájem →" bez kontextu, o co vlastně jde. Teď se místo
-   zalomení na dva řádky (což by rozbilo pevnou výšku 40px) jen zkrátí
-   přes ellipsis — vidět je aspoň začátek ("Květen 2027 — první…"),
-   ne jen prázdná výzva k akci. */
+   (DE/FR) a ani zkrácení přes ellipsis nedávalo dost kontextu (zbyl
+   nesrozumitelný útržek věty, nebo dřív úplně nic — jen holé
+   "Registrovat zájem →"). Místo toho jde na mobil krátká samostatná
+   varianta ("Návštěva Gurudéva — registrujte se"), ne zkrácená dlouhá. */
 @media (max-width: 640px) {
   .link { max-width: calc(100% - 48px); }
   .text { font-size: 11.5px; }
+  .textFull { display: none; }
+  .textShort { display: inline; }
 }
