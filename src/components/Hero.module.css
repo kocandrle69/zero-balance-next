@@ -348,6 +348,13 @@
 /* ── Tablet ── */
 @media (max-width: 900px) {
   .hero { height: auto; min-height: 100svh; min-height: 100vh; }
+  /* Orby jsou pozicované v % vůči celému .hero, laděné na širokou
+     desktopovou plochu vedle skleněné karty. Na mobilu .heroBottom
+     přechází na column layout a karta zabírá celou šířku, takže orby
+     (pevná px velikost, 70–200px) skončí přímo na kartě/textu — proto
+     je na užších obrazovkách raději skrýt, než dolaďovat pozice pro
+     každou šířku zvlášť. */
+  .orb { display: none; }
   .heroBottom {
     flex-direction: column;
     padding: 0 20px 40px;
