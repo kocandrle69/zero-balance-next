@@ -59,7 +59,9 @@ export const POSTS: PostMeta[] = [
     slug: 'order-we-forgot',
     date: '2026-08-31',
     cover: '/images/Gurudev-Talk-Order.jpg',
-    coverPos: 'center 100%',
+    // Zarovnáno na horní hranu zdrojové fotky — obálka se tak posune dolů
+    // (víc oblohy nahoře, hlavní scéna níž). Zvolený vzor pro nové obálky.
+    coverPos: 'center 0%',
     langs: ['cs', 'en', 'hi', 'fr', 'es', 'de'],
     meta: {
       cs: {
@@ -514,7 +516,11 @@ export const POSTS: PostMeta[] = [
     slug: 'beyond-the-body',
     date: '2026-08-01',
     cover: '/images/Journal-Sensei-Vedomi.jpg',
-    coverPos: 'center 0%',
+    // Video-still portrét, ne panorama — v tomhle širokém hero nejde ukázat
+    // celý obličej bez extrémního přiblížení. 'center 15%' je nejlepší
+    // kompromis, co jsme našli: je vidět hlava/čelo, ne jen temeno, ale
+    // ještě to nesjede do zvětšených očí zpola vybledlých přechodem.
+    coverPos: 'center 15%',
     langs: ['cs', 'en', 'hi', 'fr', 'es', 'de'],
     meta: {
       cs: {
