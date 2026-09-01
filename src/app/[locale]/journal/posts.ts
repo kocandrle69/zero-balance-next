@@ -126,10 +126,13 @@ export const POSTS: PostMeta[] = [
     slug: 'karma-tri-druhy',
     date: '2026-08-07',
     cover: '/images/Karma.jpg',
-    // Nová obálka nese vlastní titulek "KARMA" + tagline — zarovnáno na
-    // horní hranu (stejný vzor jako order-we-forgot), foto se posune dolů
-    // a titulek zůstane jen jako slabý dozvuk nahoře pod přechodem.
-    coverPos: 'center 0%',
+    // Nová obálka nese vlastní titulek "KARMA" + tagline, umístěný vlevo.
+    // X=right ořízne přesně tuhle levou polovinu s textem — na širokém
+    // desktop hero se X stejně neprojeví (obrázek je width-bound, žádný
+    // horizontální ořez), ale na užším/vyšším mobilním hero se container
+    // stává height-bound a ukáže skoro celou výšku fotky i s textem,
+    // pokud X zůstane na středu. Y=top drží nad textem čistou oblohu.
+    coverPos: 'right 0%',
     langs: ['cs', 'en', 'hi', 'fr', 'es', 'de'],
     meta: {
       cs: {
