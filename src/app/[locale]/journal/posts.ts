@@ -126,6 +126,10 @@ export const POSTS: PostMeta[] = [
     slug: 'karma-tri-druhy',
     date: '2026-08-07',
     cover: '/images/Karma.jpg',
+    // Nová obálka nese vlastní titulek "KARMA" + tagline — zarovnáno na
+    // horní hranu (stejný vzor jako order-we-forgot), foto se posune dolů
+    // a titulek zůstane jen jako slabý dozvuk nahoře pod přechodem.
+    coverPos: 'center 0%',
     langs: ['cs', 'en', 'hi', 'fr', 'es', 'de'],
     meta: {
       cs: {
