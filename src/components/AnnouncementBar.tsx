@@ -45,7 +45,14 @@ export default function AnnouncementBar() {
           na main, lišta vede na Brevo capture formulář v Events kartě
           na homepage, stejně jako to dřív dělal hero_desc odkaz. */}
       <Link href="/#events" className={styles.link}>
-        <span className={styles.text}>{t('announce_text')}</span>
+        {/* Plný text se na mobilu nevejde ani se zkrácením přes ellipsis
+            čitelně (zbyl by nesrozumitelný útržek věty) — místo toho tam
+            jde krátká samostatná varianta, přepnutá čistě přes CSS
+            (žádný JS/media-query stav, aby nehrozil hydration mismatch). */}
+        <span className={styles.text}>
+          <span className={styles.textFull}>{t('announce_text')}</span>
+          <span className={styles.textShort}>{t('announce_text_mobile')}</span>
+        </span>
         <span className={styles.cta}>{t('announce_cta')} →</span>
       </Link>
       <button
