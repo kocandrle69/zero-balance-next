@@ -67,7 +67,7 @@ export const POSTS: PostMeta[] = [
     date: '2026-08-31',
     cover: '/images/Gurudev-Talk-Order.jpg',
     coverBanner: true,
-    coverPos: 'center 0%',
+    coverPos: 'center 100%',
     langs: ['cs', 'en', 'hi', 'fr', 'es', 'de'],
     meta: {
       cs: {
@@ -527,7 +527,7 @@ export const POSTS: PostMeta[] = [
     slug: 'beyond-the-body',
     date: '2026-08-01',
     cover: '/images/Journal-Sensei-Vedomi.jpg',
-    coverPos: 'center 45%',
+    coverPos: 'center 0%',
     coverBanner: true,
     langs: ['cs', 'en', 'hi', 'fr', 'es', 'de'],
     meta: {
