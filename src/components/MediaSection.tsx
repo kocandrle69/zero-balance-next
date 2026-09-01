@@ -14,7 +14,7 @@ import type { Lang } from '../lib/translations'
  * zatím neřešíme). Chybějící jazyk (fr/es/de) padá na EN, stejný vzor jako
  * FORM_EMBEDS na registrační stránce.
  */
-const FEATURED_VIDEO_IDS: Partial<Record<Lang, string>> = {
+export const FEATURED_VIDEO_IDS: Partial<Record<Lang, string>> = {
   cs: 'gqx6myXfg4E',
   en: '1-dBIZMvcXs',
   hi: 'iDhVyNM5hj4',

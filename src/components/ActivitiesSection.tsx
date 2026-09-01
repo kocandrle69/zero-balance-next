@@ -6,6 +6,7 @@ import styles from './ActivitiesSection.module.css'
 import { useLang } from '../contexts/LangContext'
 import { useScrollRevealAll } from '../hooks/useScrollReveal'
 import IMG from '../lib/images'
+import { FEATURED_VIDEO_IDS } from './MediaSection'
 
 const CARDS = [
   { imgKey: 'act1' as const, tagKey: 'act1_tag', titleKey: 'act1_title', descKey: 'act1_desc', large: true,  delay: '0s'    },
@@ -15,18 +16,23 @@ const CARDS = [
   { imgKey: 'act5' as const, tagKey: 'act5_tag', titleKey: 'act5_title', descKey: 'act5_desc', large: false, delay: '0.16s' },
 ] as const
 
-const CARD_LINKS: Record<string, string> = {
-  act1: 'https://www.youtube.com/watch?v=hlnSuJFnywA',
-  act2: '/media?category=gurudev',
-  act3: '/media?category=journeys,ashram',
-  act4: '/media?category=wisdom',
-  act5: '/media?category=rituals',
-}
-
 export default function ActivitiesSection() {
-  const { t, tHTML } = useLang()
+  const { t, tHTML, lang } = useLang()
   const ref = useRef<HTMLElement>(null)
   useScrollRevealAll(ref)
+
+  // act1 ("Základní praxe" / Meditace) dřív mířila natvrdo na starou verzi
+  // Dhyan Sadhany (hlnSuJFnywA, špatný formát/rozlišení, viz MediaSection.tsx)
+  // — teď stejná jazyková mapa nových přenahraných videí jako featured slot
+  // na Media sekci, se stejným fallbackem na EN.
+  const meditationVideoId = FEATURED_VIDEO_IDS[lang] ?? FEATURED_VIDEO_IDS.en!
+  const CARD_LINKS: Record<string, string> = {
+    act1: `https://www.youtube.com/watch?v=${meditationVideoId}`,
+    act2: '/media?category=gurudev',
+    act3: '/media?category=journeys,ashram',
+    act4: '/media?category=wisdom',
+    act5: '/media?category=rituals',
+  }
 
   return (
     <section className={styles.activities} id="activities" ref={ref}>
