@@ -53,16 +53,16 @@ export default function MediaContent() {
           </h1>
           <p className={styles.pageSub}>
             {hi
-              ? 'आश्रम, समारोहों और तीर्थयात्राओं की रिकॉर्डिंग — हमारे अभ्यास के हृदय के प्रामाणिक क्षण।'
+              ? 'यह केवल स्थानों की यात्रा नहीं है — यह ज्ञान, अभ्यास और उन लोगों की खोज है, जिनसे हम राह में मिलते हैं।'
               : cs
-              ? 'Záznamy z ášrámu, obřadů a poutí — autentické okamžiky ze srdce naší praxe.'
+              ? 'Víc než cesta po místech — objevování moudrosti, praxe a lidí, které na cestě potkáváme.'
               : fr
-              ? 'Enregistrements depuis l’ashram, des cérémonies et des pèlerinages — des moments authentiques au cœur de notre pratique.'
+              ? 'Plus qu’un simple voyage à travers des lieux — une exploration de la sagesse, de la pratique et des personnes que nous rencontrons en chemin.'
               : es
-              ? 'Grabaciones desde el ashram, ceremonias y peregrinaciones — momentos auténticos en el corazón de nuestra práctica.'
+              ? 'Más que un viaje por lugares — una exploración de la sabiduría, la práctica y las personas que encontramos en el camino.'
               : de
-              ? 'Aufnahmen aus dem Ashram, von Zeremonien und Pilgerreisen — authentische Momente aus dem Herzen unserer Praxis.'
-              : 'Recordings from the ashram, ceremonies and pilgrimages — authentic moments from the heart of our practice.'}
+              ? 'Mehr als eine Reise durch Orte — eine Erkundung von Weisheit, Praxis und den Menschen, denen wir unterwegs begegnen.'
+              : 'More than a journey through places — an exploration of wisdom, practice and the people we meet along the way.'}
           </p>
         </div>
 
