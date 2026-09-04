@@ -488,7 +488,7 @@
 .figLeft  { float: left;  margin-right: 32px; }
 .figRight { float: right; margin-left: 32px; }
 
-/* ── Raw transcript toggle (order-we-forgot appendix) ───────────── */
+/* ── Raw transcript link + standalone page (order-we-forgot appendix) ── */
 .transcriptWrap {
   margin-top: 56px;
   padding-top: 28px;
@@ -496,27 +496,26 @@
 }
 .transcriptToggle {
   display: inline-flex; align-items: center; gap: 6px;
-  padding: 0; margin: 0;
-  background: none; border: none; cursor: pointer;
   font-family: 'Cinzel', serif; font-size: 9.5px;
   letter-spacing: 0.2em; text-transform: uppercase;
   color: var(--gold-mid, var(--gold));
+  text-decoration: none;
   transition: color 0.3s;
 }
 .transcriptToggle:hover { color: var(--gold-text); }
-.transcriptArrow, .transcriptArrowOpen {
+.transcriptArrow {
   display: inline-block; font-size: 11px;
   transition: transform 0.3s;
 }
-.transcriptArrowOpen { transform: rotate(180deg); }
+.transcriptToggle:hover .transcriptArrow { transform: translateX(4px); }
 
-.transcriptPanel {
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.45s ease;
+/* Hlavička samostatné stránky přepisu — bez cover fotky, na rozdíl od .hero. */
+.transcriptHero {
+  position: relative;
+  padding: 140px 40px 56px;
+  max-width: 740px; margin: 0 auto;
 }
-.transcriptPanelOpen { max-height: none; }
-.transcriptInner { padding-top: 24px; }
+.transcriptHeroInner { margin-top: 24px; }
 
 .transcriptBadge {
   display: inline-block;
