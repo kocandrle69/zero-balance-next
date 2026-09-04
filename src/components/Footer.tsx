@@ -159,8 +159,9 @@ export default function Footer() {
           </button>
         </p>
         <div className={styles.socials}>
-          {/* Sociální sítě — zatím pouze YouTube a Email */}
+          {/* Sociální sítě — YouTube, Facebook a Email */}
           <a href="https://www.youtube.com/@Zero-BalanceSociety" target="_blank" rel="noopener noreferrer" title="YouTube">▶</a>
+          <a href="https://www.facebook.com/ZeroBalanceSociety" target="_blank" rel="noopener noreferrer" title="Facebook">f</a>
           <a href={CONTACT_MAILTO} title="Email">✉</a>
         </div>
       </div>

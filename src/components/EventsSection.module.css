@@ -58,6 +58,13 @@
 
 .eventDesc { font-size: 14px; color: var(--muted); line-height: 1.7; margin-bottom: 24px; }
 
+/* Podmínka účasti (např. Sankalp — jen po dikše) — odlišená od popisu, ať
+   nezanikne, ale bez lekacího "warning" vzhledu. */
+.eventNote {
+  font-size: 12px; font-style: italic; color: var(--faint);
+  line-height: 1.6; margin: -14px 0 24px;
+}
+
 /* ── Gurudev card "Zjistit více" — drží kartu vedle Sankalp/Dhyan Sadhana
    v rozumné výšce; historický + programový odstavec se schovává sem
    místo aby byl v kartě natvrdo vidět celý. ───────────────────────── */

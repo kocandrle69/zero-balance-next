@@ -4,6 +4,7 @@ import { useRef, useState } from 'react'
 import styles from './EventsSection.module.css'
 import { useLang } from '../contexts/LangContext'
 import { useScrollRevealAll } from '../hooks/useScrollReveal'
+import { FEATURED_VIDEO_IDS } from './MediaSection'
 
 const BREVO_API_KEY = process.env.NEXT_PUBLIC_BREVO_API_KEY ?? ''
 
@@ -22,6 +23,7 @@ const GURUDEV_LIST_IDS: Partial<Record<'cs' | 'en' | 'hi' | 'fr' | 'es' | 'de', 
 
 const EVENTS = [
   {
+    id: 'sankalp' as const,
     dateEN: 'Every Saturday · Afternoon',
     dateCS: 'Každou sobotu · odpoledne',
     dateHI: 'प्रत्येक शनिवार · दोपहर',
@@ -46,7 +48,16 @@ const EVENTS = [
     linkFR:  'Voir sur YouTube',
     linkES:  'Ver en YouTube',
     linkDE:  'Auf YouTube ansehen',
-    url:     'https://www.youtube.com/@karaulisarkarofficial',
+    url:     'https://www.youtube.com/watch?v=cmcITWGTO-0',
+    // Deeksha gate — Sankalp praxi lze provádět jen po mantra/tantra dikše
+    // u Karauli Shankar Mahadev Dham; bratr klienta trval na tom, že tahle
+    // podmínka musí být u karty výslovně uvedená, ne jen předpokládaná.
+    noteEN:  'This practice is only for those who have received mantra or tantra diksha (initiation) from Karauli Shankar Mahadev Dham.',
+    noteCS:  'Tato praxe je určena pouze těm, kdo přijali mantra nebo tantra dikšu (iniciaci) od Karauli Shankar Mahadev Dham.',
+    noteHI:  'यह अभ्यास केवल उन्हीं के लिए है जिन्होंने करौली शंकर महादेव धाम से मंत्र या तंत्र दीक्षा (आरंभ) प्राप्त की हो।',
+    noteFR:  'Cette pratique est réservée à celles et ceux ayant reçu la mantra ou tantra diksha (initiation) du Karauli Shankar Mahadev Dham.',
+    noteES:  'Esta práctica está reservada a quienes han recibido la mantra o tantra diksha (iniciación) del Karauli Shankar Mahadev Dham.',
+    noteDE:  'Diese Praxis ist nur für jene bestimmt, die die Mantra- oder Tantra-Diksha (Einweihung) vom Karauli Shankar Mahadev Dham erhalten haben.',
     tag:     'WEEKLY',
     tagHI:   'साप्ताहिक',
     tagFR:   'HEBDOMADAIRE',
@@ -56,6 +67,7 @@ const EVENTS = [
     type:    'link' as const,
   },
   {
+    id: 'dhyan-sadhana' as const,
     dateEN: 'Every Sunday · Morning',
     dateCS: 'Každou neděli · ráno',
     dateHI: 'प्रत्येक रविवार · प्रातः',
@@ -90,6 +102,7 @@ const EVENTS = [
     type:    'link' as const,
   },
   {
+    id: 'ashram-visit' as const,
     dateEN: 'Jul 25 – Aug 10, 2026 · India',
     dateCS: '25. 7. – 10. 8. 2026 · Indie',
     dateHI: '25 जुलाई – 10 अगस्त 2026 · भारत',
@@ -307,29 +320,43 @@ export default function EventsSection() {
 
       <div className={styles.eventsGrid}>
         <GurudevCard cs={cs} hi={hi} fr={fr} es={es} de={de} />
-        {EVENTS.map((ev, i) => (
-          <div
-            key={i}
-            className={`${styles.eventCard} r`}
-            style={{ transitionDelay: `${(i + 1) * 0.08}s` }}
-          >
-            <div className={styles.eventTop}>
-              <span className={styles.eventTag}>{hi ? ev.tagHI : fr ? ev.tagFR : es ? ev.tagES : de ? ev.tagDE : ev.tag}</span>
-              <span className={styles.eventIcon}>{ev.icon}</span>
-            </div>
-            <span className={styles.eventDate}>{hi ? ev.dateHI : cs ? ev.dateCS : fr ? ev.dateFR : es ? ev.dateES : de ? ev.dateDE : ev.dateEN}</span>
-            <div className={styles.eventTitle}>{hi ? ev.titleHI : cs ? ev.titleCS : fr ? ev.titleFR : es ? ev.titleES : de ? ev.titleDE : ev.titleEN}</div>
-            <p className={styles.eventDesc}>{hi ? ev.descHI : cs ? ev.descCS : fr ? ev.descFR : es ? ev.descES : de ? ev.descDE : ev.descEN}</p>
-            <a
-              href={ev.url}
-              className={styles.eventLink}
-              target={ev.url.startsWith('http') ? '_blank' : undefined}
-              rel={ev.url.startsWith('http') ? 'noopener noreferrer' : undefined}
+        {EVENTS.map((ev, i) => {
+          // Dhyan Sadhana odkazuje na naše vlastní vícejazyčné video (stejná
+          // mapa jako homepage hero a karta "Meditace" v Aktivitách), ne na
+          // obecný YouTube kanál — jinak jazyková verze nesedí s tím, co si
+          // čtenář pustí.
+          const url = ev.id === 'dhyan-sadhana'
+            ? `https://www.youtube.com/watch?v=${FEATURED_VIDEO_IDS[lang] ?? FEATURED_VIDEO_IDS.en!}`
+            : ev.url
+          const note = 'noteEN' in ev
+            ? (hi ? ev.noteHI : cs ? ev.noteCS : fr ? ev.noteFR : es ? ev.noteES : de ? ev.noteDE : ev.noteEN)
+            : null
+
+          return (
+            <div
+              key={i}
+              className={`${styles.eventCard} r`}
+              style={{ transitionDelay: `${(i + 1) * 0.08}s` }}
             >
-              {hi ? ev.linkHI : cs ? ev.linkCS : fr ? ev.linkFR : es ? ev.linkES : de ? ev.linkDE : ev.linkEN}
-            </a>
-          </div>
-        ))}
+              <div className={styles.eventTop}>
+                <span className={styles.eventTag}>{hi ? ev.tagHI : fr ? ev.tagFR : es ? ev.tagES : de ? ev.tagDE : ev.tag}</span>
+                <span className={styles.eventIcon}>{ev.icon}</span>
+              </div>
+              <span className={styles.eventDate}>{hi ? ev.dateHI : cs ? ev.dateCS : fr ? ev.dateFR : es ? ev.dateES : de ? ev.dateDE : ev.dateEN}</span>
+              <div className={styles.eventTitle}>{hi ? ev.titleHI : cs ? ev.titleCS : fr ? ev.titleFR : es ? ev.titleES : de ? ev.titleDE : ev.titleEN}</div>
+              <p className={styles.eventDesc}>{hi ? ev.descHI : cs ? ev.descCS : fr ? ev.descFR : es ? ev.descES : de ? ev.descDE : ev.descEN}</p>
+              {note && <p className={styles.eventNote}>{note}</p>}
+              <a
+                href={url}
+                className={styles.eventLink}
+                target={url.startsWith('http') ? '_blank' : undefined}
+                rel={url.startsWith('http') ? 'noopener noreferrer' : undefined}
+              >
+                {hi ? ev.linkHI : cs ? ev.linkCS : fr ? ev.linkFR : es ? ev.linkES : de ? ev.linkDE : ev.linkEN}
+              </a>
+            </div>
+          )
+        })}
       </div>
     </section>
   )
