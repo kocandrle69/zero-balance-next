@@ -495,27 +495,37 @@
   border-top: 1px solid rgba(184,146,42,0.15);
 }
 .transcriptToggle {
-  display: inline-flex; align-items: center; gap: 6px;
+  display: inline-flex; align-items: center; gap: 8px;
   font-family: 'Cinzel', serif; font-size: 9.5px;
   letter-spacing: 0.2em; text-transform: uppercase;
-  color: var(--gold-mid, var(--gold));
+  color: var(--gold-text);
   text-decoration: none;
-  transition: color 0.3s;
+  background: rgba(184,146,42,0.08);
+  border: 1px solid rgba(184,146,42,0.25);
+  border-radius: 999px;
+  padding: 10px 18px;
+  transition: background 0.3s, border-color 0.3s;
 }
-.transcriptToggle:hover { color: var(--gold-text); }
+.transcriptToggle:hover { background: var(--glass-gold); border-color: var(--gold); }
 .transcriptArrow {
   display: inline-block; font-size: 11px;
   transition: transform 0.3s;
 }
 .transcriptToggle:hover .transcriptArrow { transform: translateX(4px); }
 
-/* Hlavička samostatné stránky přepisu — bez cover fotky, na rozdíl od .hero. */
+/* Hlavička samostatné stránky přepisu — bez cover fotky, na rozdíl od .hero.
+   Nesmí mít max-width: BackLink je uvnitř position: absolute vůči nejbližšímu
+   position: relative rodiči, a počítá left/top od kraje obrazovky (stejně
+   jako v .hero) — kdyby byl tenhle wrapper už zúžený na sloupec, BackLink by
+   se posunul dovnitř a překrýval by obsah pod sebou. */
 .transcriptHero {
   position: relative;
-  padding: 140px 40px 56px;
-  max-width: 740px; margin: 0 auto;
+  padding: 140px 0 56px;
 }
-.transcriptHeroInner { margin-top: 24px; }
+.transcriptHeroInner {
+  max-width: 740px; margin: 0 auto;
+  padding: 0 40px;
+}
 
 .transcriptBadge {
   display: inline-block;
