@@ -827,16 +827,16 @@ export default function MediaSection() {
         </h2>
         <p className={styles.headerDesc}>
           {hi
-            ? 'यह केवल स्थानों की यात्रा नहीं है — यह ज्ञान, अभ्यास और उन लोगों की खोज है, जिनसे हम राह में मिलते हैं।'
+            ? 'वीडियो जो भारत और इसकी परंपराओं के साथ हमारे अनुभव को आपके करीब लाते हैं।'
             : cs
-            ? 'Víc než cesta po místech — objevování moudrosti, praxe a lidí, které na cestě potkáváme.'
+            ? 'Videa, která přibližují naši zkušenost s Indií a jejími tradicemi.'
             : fr
-            ? 'Plus qu’un simple voyage à travers des lieux — une exploration de la sagesse, de la pratique et des personnes que nous rencontrons en chemin.'
+            ? 'Des vidéos qui vous rapprochent de notre expérience de l’Inde et de ses traditions.'
             : es
-            ? 'Más que un viaje por lugares — una exploración de la sabiduría, la práctica y las personas que encontramos en el camino.'
+            ? 'Vídeos que acercan nuestra experiencia de la India y sus tradiciones.'
             : de
-            ? 'Mehr als eine Reise durch Orte — eine Erkundung von Weisheit, Praxis und den Menschen, denen wir unterwegs begegnen.'
-            : 'More than a journey through places — an exploration of wisdom, practice and the people we meet along the way.'}
+            ? 'Videos, die unsere Erfahrung mit Indien und seinen Traditionen näherbringen.'
+            : 'Videos that bring you closer to our experience of India and its traditions.'}
         </p>
       </div>
 
