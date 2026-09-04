@@ -10,6 +10,15 @@ import { getPost, bodyLang, formatDate, toPostLang, getMeta, type PostLang } fro
 import ArticleBody from '../ArticleBody'
 import FoundingArticle from '../posts/FoundingArticle'
 import India2026Gallery from '../gallery/India2026Gallery'
+import RawTranscriptToggle from '../posts/RawTranscriptToggle'
+
+/**
+ * Vydání, kam se za `ArticleBody` (nebo místo/po `Body`) dopisuje jeden
+ * malý extra blok navíc — na rozdíl od `BODIES` toto tělo nenahrazuje.
+ */
+const EXTRAS: Record<string, (p: { lang: PostLang }) => React.ReactNode> = {
+  'order-we-forgot': RawTranscriptToggle,
+}
 import type { Block } from '../markdown'
 
 /**
@@ -36,6 +45,7 @@ export default function JournalPost({ slug, body }: { slug: string; body: Record
   const lang = toPostLang(siteLang)
   const post = getPost(slug)
   const Body = BODIES[slug]
+  const Extra = EXTRAS[slug]
   if (!post || (!body && !Body)) return null
 
   const ui = UI[lang]
@@ -83,6 +93,7 @@ export default function JournalPost({ slug, body }: { slug: string; body: Record
         <article className={post.wide ? `${styles.article} ${styles.articleWide}` : styles.article}>
           {bl !== lang && <p className={styles.langNotice}>{ui.fallback}</p>}
           {body ? <ArticleBody blocks={body[bl]} /> : <Body lang={bl} />}
+          {Extra && <Extra lang={bl} />}
         </article>
 
         <div className={styles.articleFooter}>

@@ -488,6 +488,63 @@
 .figLeft  { float: left;  margin-right: 32px; }
 .figRight { float: right; margin-left: 32px; }
 
+/* ── Raw transcript toggle (order-we-forgot appendix) ───────────── */
+.transcriptWrap {
+  margin-top: 56px;
+  padding-top: 28px;
+  border-top: 1px solid rgba(184,146,42,0.15);
+}
+.transcriptToggle {
+  display: inline-flex; align-items: center; gap: 6px;
+  padding: 0; margin: 0;
+  background: none; border: none; cursor: pointer;
+  font-family: 'Cinzel', serif; font-size: 9.5px;
+  letter-spacing: 0.2em; text-transform: uppercase;
+  color: var(--gold-mid, var(--gold));
+  transition: color 0.3s;
+}
+.transcriptToggle:hover { color: var(--gold-text); }
+.transcriptArrow, .transcriptArrowOpen {
+  display: inline-block; font-size: 11px;
+  transition: transform 0.3s;
+}
+.transcriptArrowOpen { transform: rotate(180deg); }
+
+.transcriptPanel {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.45s ease;
+}
+.transcriptPanelOpen { max-height: none; }
+.transcriptInner { padding-top: 24px; }
+
+.transcriptBadge {
+  display: inline-block;
+  font-family: 'Cinzel', serif; font-size: 8.5px;
+  letter-spacing: 0.2em; color: var(--gold-text);
+  background: rgba(184,146,42,0.08);
+  border: 1px solid rgba(184,146,42,0.2);
+  border-radius: 100px; padding: 3px 10px;
+  text-transform: uppercase; margin-bottom: 12px;
+}
+.transcriptNote {
+  font-size: 13px; font-weight: 300; font-style: italic;
+  line-height: 1.7; color: var(--muted);
+  margin-bottom: 28px;
+}
+.transcriptTurn { margin-bottom: 20px; }
+.transcriptSpeaker {
+  display: block;
+  font-family: 'Cinzel', serif; font-size: 9px;
+  letter-spacing: 0.2em; color: var(--faint);
+  text-transform: uppercase; margin-bottom: 6px;
+}
+.transcriptText {
+  font-size: 14px; font-weight: 300;
+  line-height: 1.85; color: var(--muted);
+  margin-bottom: 10px;
+}
+
 /* ── Responsive ────────────────────────────────────────────────── */
 @media (max-width: 860px) {
   .card { gap: 28px; }
