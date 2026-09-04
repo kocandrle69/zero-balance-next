@@ -36,12 +36,14 @@ const EVENTS = [
     titleFR: 'Sankalp',
     titleES: 'Sankalp',
     titleDE: 'Sankalp',
-    descEN:  'Live satsang and spiritual practice with Gurudev, broadcast every Saturday afternoon.',
-    descCS:  'Živý satsang a duchovní praxe s Gurudevem, každou sobotu odpoledne.',
-    descHI:  'गुरुदेव के साथ लाइव सत्संग और आध्यात्मिक अभ्यास, प्रत्येक शनिवार दोपहर प्रसारित।',
-    descFR:  'Satsang en direct et pratique spirituelle avec Gurudev, diffusés chaque samedi après-midi.',
-    descES:  'Satsang en directo y práctica espiritual con Gurudev, todos los sábados por la tarde.',
-    descDE:  'Live-Satsang und spirituelle Praxis mit Gurudev, jeden Samstagnachmittag.',
+    // Bratr klienta upozornil, že "satsang" tu byl zavádějící — tahle
+    // aktivita se jmenuje a je Sankalp, ne satsang. Popis to nesmí naznačovat.
+    descEN:  'Live spiritual practice with Gurudev, broadcast every Saturday afternoon.',
+    descCS:  'Živá duchovní praxe s Gurudevem, vysílaná každou sobotu odpoledne.',
+    descHI:  'गुरुदेव के साथ लाइव आध्यात्मिक अभ्यास, प्रत्येक शनिवार दोपहर प्रसारित।',
+    descFR:  'Pratique spirituelle en direct avec Gurudev, diffusée chaque samedi après-midi.',
+    descES:  'Práctica espiritual en directo con Gurudev, transmitida todos los sábados por la tarde.',
+    descDE:  'Live-spirituelle Praxis mit Gurudev, jeden Samstagnachmittag übertragen.',
     linkEN:  'Watch on YouTube',
     linkCS:  'Sledovat na YouTube',
     linkHI:  'YouTube पर देखें',
@@ -80,12 +82,12 @@ const EVENTS = [
     titleFR: 'Dhyan Sadhana',
     titleES: 'Dhyan Sadhana',
     titleDE: 'Dhyan Sadhana',
-    descEN:  'Morning meditation with music — a guided practice to start your week in stillness and awareness.',
-    descCS:  'Ranní meditace s hudbou — vedená praxe pro začátek týdne v tichu a vědomí.',
-    descHI:  'संगीत के साथ प्रातःकालीन ध्यान — सप्ताह की शुरुआत शांति और जागरूकता में करने के लिए एक निर्देशित अभ्यास।',
-    descFR:  'Méditation matinale avec musique — une pratique guidée pour commencer la semaine dans le calme et la présence.',
-    descES:  'Meditación matutina con música — una práctica guiada para comenzar la semana con quietud y atención.',
-    descDE:  'Meditation am Morgen mit Musik — eine geführte Praxis, um die Woche in Stille und Achtsamkeit zu beginnen.',
+    descEN:  'A music meditation led by Gurudev — a morning practice to start the week in stillness and awareness.',
+    descCS:  'Hudební meditace vedená Gurudévem — ranní praxe pro začátek týdne v tichu a vědomí.',
+    descHI:  'गुरुदेव द्वारा निर्देशित संगीतमय ध्यान — सप्ताह की शुरुआत शांति और जागरूकता में करने के लिए एक प्रातःकालीन अभ्यास।',
+    descFR:  'Une méditation musicale guidée par Gurudev — une pratique matinale pour commencer la semaine dans le calme et la présence.',
+    descES:  'Una meditación musical guiada por Gurudev — una práctica matutina para comenzar la semana con quietud y atención.',
+    descDE:  'Eine musikalische Meditation, geleitet von Gurudev — eine morgendliche Praxis, um die Woche in Stille und Achtsamkeit zu beginnen.',
     linkEN:  'Watch on YouTube',
     linkCS:  'Sledovat na YouTube',
     linkHI:  'YouTube पर देखें',
@@ -333,10 +335,13 @@ export default function EventsSection() {
             : null
 
           return (
-            <div
+            <a
               key={i}
+              href={url}
               className={`${styles.eventCard} r`}
               style={{ transitionDelay: `${(i + 1) * 0.08}s` }}
+              target={url.startsWith('http') ? '_blank' : undefined}
+              rel={url.startsWith('http') ? 'noopener noreferrer' : undefined}
             >
               <div className={styles.eventTop}>
                 <span className={styles.eventTag}>{hi ? ev.tagHI : fr ? ev.tagFR : es ? ev.tagES : de ? ev.tagDE : ev.tag}</span>
@@ -346,15 +351,10 @@ export default function EventsSection() {
               <div className={styles.eventTitle}>{hi ? ev.titleHI : cs ? ev.titleCS : fr ? ev.titleFR : es ? ev.titleES : de ? ev.titleDE : ev.titleEN}</div>
               <p className={styles.eventDesc}>{hi ? ev.descHI : cs ? ev.descCS : fr ? ev.descFR : es ? ev.descES : de ? ev.descDE : ev.descEN}</p>
               {note && <p className={styles.eventNote}>{note}</p>}
-              <a
-                href={url}
-                className={styles.eventLink}
-                target={url.startsWith('http') ? '_blank' : undefined}
-                rel={url.startsWith('http') ? 'noopener noreferrer' : undefined}
-              >
+              <span className={styles.eventLink}>
                 {hi ? ev.linkHI : cs ? ev.linkCS : fr ? ev.linkFR : es ? ev.linkES : de ? ev.linkDE : ev.linkEN}
-              </a>
-            </div>
+              </span>
+            </a>
           )
         })}
       </div>

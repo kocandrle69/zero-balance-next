@@ -30,6 +30,10 @@
   border: 1px solid rgba(184,146,42,0.1);
   border-radius: 22px; transition: all 0.4s;
   position: relative; overflow: hidden;
+  /* Sankalp/Dhyan Sadhana/Ashram Visit karty jsou teď celé <a> — nejen ta
+     malá "Watch on YouTube" patička dole. Bez týhle trojice by zdědily
+     podtržení a modrou barvu odkazu z prohlížeče. */
+  display: block; text-decoration: none; color: inherit;
 }
 .eventCard::before {
   content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px;
@@ -100,9 +104,11 @@
   text-transform: uppercase; text-decoration: none;
   display: flex; align-items: center; gap: 8px; transition: color 0.3s;
 }
-.eventLink:hover { color: var(--gold-text); }
 .eventLink::after { content: '→'; transition: transform 0.3s; }
-.eventLink:hover::after { transform: translateX(4px); }
+/* Hover je teď na celé kartě (viz .eventCard:hover výše), ne na téhle
+   patičce samotné. */
+.eventCard:hover .eventLink { color: var(--gold-text); }
+.eventCard:hover .eventLink::after { transform: translateX(4px); }
 
 .eventTop {
   display: flex; justify-content: space-between;
