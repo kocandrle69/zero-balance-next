@@ -16,8 +16,9 @@ import RawTranscriptToggle from '../posts/RawTranscriptToggle'
  * Vydání, kam se za `ArticleBody` (nebo místo/po `Body`) dopisuje jeden
  * malý extra blok navíc — na rozdíl od `BODIES` toto tělo nenahrazuje.
  */
-const EXTRAS: Record<string, (p: { lang: PostLang }) => React.ReactNode> = {
+const EXTRAS: Record<string, (p: { lang: PostLang; slug: string }) => React.ReactNode> = {
   'order-we-forgot': RawTranscriptToggle,
+  'cesta-proti-proudu': RawTranscriptToggle,
 }
 import type { Block } from '../markdown'
 
@@ -93,7 +94,7 @@ export default function JournalPost({ slug, body }: { slug: string; body: Record
         <article className={post.wide ? `${styles.article} ${styles.articleWide}` : styles.article}>
           {bl !== lang && <p className={styles.langNotice}>{ui.fallback}</p>}
           {body ? <ArticleBody blocks={body[bl]} /> : <Body lang={bl} />}
-          {Extra && <Extra lang={bl} />}
+          {Extra && <Extra lang={bl} slug={slug} />}
         </article>
 
         <div className={styles.articleFooter}>

@@ -5,8 +5,8 @@ import { getPost, getMeta, toPostLang } from '../../posts'
 import { routing, type AppLocale } from '../../../../../i18n/routing'
 import { hreflangAlternates } from '../../../../../i18n/seo'
 
-/** Zatím existuje surový přepis jen pro jedno vydání. */
-const TRANSCRIPT_SLUGS = ['order-we-forgot']
+/** Vydání, ke kterým existuje i surový nezpracovaný přepis. */
+const TRANSCRIPT_SLUGS = ['order-we-forgot', 'cesta-proti-proudu']
 
 export function generateStaticParams() {
   return routing.locales.flatMap(locale => TRANSCRIPT_SLUGS.map(slug => ({ locale, slug })))
