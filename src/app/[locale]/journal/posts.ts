@@ -56,6 +56,31 @@ export interface PostMeta {
 
 export const POSTS: PostMeta[] = [
   {
+    slug: 'cesta-proti-proudu',
+    date: '2026-09-14',
+    cover: '/images/Vedomosti.jpg',
+    langs: ['cs', 'en'],
+    meta: {
+      cs: {
+        rubric: 'Promluvy - Sensei',
+        title: 'Senseiovy promluvy',
+        titleEm: 'Sádhana jako plavba proti proudu vzpomínek',
+        perex: `Sensei Rajeev Sinha v rozhovoru s PhDr. Jiřím Kočandrlem o tom, proč je
+          lidský život jen shluk vzpomínek, proč bez realizovaného gurua nemáte na cestě
+          k osvobození žádnou šanci, a proč i mistr může padnout, pokud ztratí bdělost.`,
+      },
+      en: {
+        rubric: 'Discourses - Sensei',
+        title: "Sensei's Talks",
+        titleEm: 'Sadhana as Swimming Against the Current of Memory',
+        perex: `Sensei Rajeev Sinha in conversation with PhDr. Jiří Kočandrle on why human
+          life is just a bunch of memories, why you have no chance on the path to
+          liberation without a realized guru, and why even a master can fall if he loses
+          his vigilance.`,
+      },
+    },
+  },
+  {
     slug: 'order-we-forgot',
     date: '2026-08-31',
     cover: '/images/Moksa.jpg',
