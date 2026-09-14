@@ -1,5 +1,5 @@
 /**
- * Raw unedited transcript of the two "Sensei Talks" conversations between
+ * Raw unedited transcript of the "Sensei Talks" conversation between
  * PhDr. Jiří Kočandrle and Sensei Rajeev Sinha, kept verbatim (speaker turns
  * as recorded, English original) rather than run through the usual editorial
  * cleanup — see AGENTS.md re: Gurudev/Sensei transcript conventions, which
