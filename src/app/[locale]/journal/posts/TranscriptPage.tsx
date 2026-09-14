@@ -7,7 +7,8 @@ import { Link } from '../../../../i18n/navigation'
 import styles from '../journal.module.css'
 import { useLang } from '../../../../contexts/LangContext'
 import { getPost, getMeta, toPostLang } from '../posts'
-import { TURNS } from './orderWeForgotTranscript'
+import { TURNS as ORDER_WE_FORGOT_TURNS } from './orderWeForgotTranscript'
+import { TURNS as SENSEI_TALKS_TURNS } from './senseiTalksTranscript'
 
 const UI = {
   cs: { back: 'Zpět na článek' },
@@ -18,11 +19,19 @@ const UI = {
   de: { back: 'Zurück zum Artikel' },
 } as const
 
+/** Zdrojový jazyk surového přepisu se liší vydání od vydání (Gurudévovy
+ * hovory bývají hindsky, Senseiovy anglicky) — proto badge i data podle slugu. */
+const TRANSCRIPTS: Record<string, { turns: { speaker: string; paragraphs: string[] }[]; badge: string }> = {
+  'order-we-forgot': { turns: ORDER_WE_FORGOT_TURNS, badge: 'Raw transcript · Hindi' },
+  'cesta-proti-proudu': { turns: SENSEI_TALKS_TURNS, badge: 'Raw transcript · English' },
+}
+
 export default function TranscriptPage({ slug }: { slug: string }) {
   const { lang: siteLang } = useLang()
   const lang = toPostLang(siteLang)
   const post = getPost(slug)
-  if (!post) return null
+  const transcript = TRANSCRIPTS[slug]
+  if (!post || !transcript) return null
 
   const meta = getMeta(post, lang)
   const ui = UI[lang] ?? UI.en
@@ -34,7 +43,7 @@ export default function TranscriptPage({ slug }: { slug: string }) {
         <div className={styles.transcriptHero}>
           <BackLink />
           <div className={styles.transcriptHeroInner}>
-            <span className={styles.transcriptBadge}>Raw transcript · Hindi</span>
+            <span className={styles.transcriptBadge}>{transcript.badge}</span>
             <h1 className={styles.postTitle}>{meta.title}</h1>
             <p className={styles.transcriptNote}>
               Unedited transcription from the original online meeting.
@@ -43,7 +52,7 @@ export default function TranscriptPage({ slug }: { slug: string }) {
         </div>
 
         <article className={styles.article}>
-          {TURNS.map((turn, i) => (
+          {transcript.turns.map((turn, i) => (
             <div key={i} className={styles.transcriptTurn}>
               <span className={styles.transcriptSpeaker}>{turn.speaker}:</span>
               {turn.paragraphs.map((p, j) => (

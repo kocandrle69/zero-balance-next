@@ -12,10 +12,10 @@ const UI = {
 } as const
 
 /** Odkaz na samostatnou stránku s celým surovým přepisem — viz `[slug]/transcript/page.tsx`. */
-export default function RawTranscriptToggle({ lang }: { lang: PostLang }) {
+export default function RawTranscriptToggle({ lang, slug }: { lang: PostLang; slug: string }) {
   return (
     <div className={styles.transcriptWrap}>
-      <Link href="/journal/order-we-forgot/transcript" className={styles.transcriptToggle}>
+      <Link href={`/journal/${slug}/transcript`} className={styles.transcriptToggle}>
         {UI[lang] ?? UI.en}
         <span className={styles.transcriptArrow}>→</span>
       </Link>
