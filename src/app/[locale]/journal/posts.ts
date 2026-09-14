@@ -64,19 +64,22 @@ export const POSTS: PostMeta[] = [
       cs: {
         rubric: 'Promluvy - Sensei',
         title: 'Senseiovy promluvy',
-        titleEm: 'Sádhana jako plavba proti proudu vzpomínek',
-        perex: `Sensei Rajeev Sinha v rozhovoru s PhDr. Jiřím Kočandrlem o tom, proč je
-          lidský život jen shluk vzpomínek, proč bez realizovaného gurua nemáte na cestě
-          k osvobození žádnou šanci, a proč i mistr může padnout, pokud ztratí bdělost.`,
+        titleEm: 'Proč nestačí jen vědět',
+        perex: `Jak přejít od přemýšlení o duchovní cestě ke skutečné praxi — a jak pro ni
+          najít prostor ve světě plném informací, technologií a povinností? Sensei Rajeev
+          Sinha v rozhovoru s PhDr. Jiřím Kočandrlem o zahlcené mysli, vlivu vzpomínek a
+          ega, a o tom, proč plavání proti proudu k prameni znamená víc, než nechat se jen
+          unášet životem.`,
       },
       en: {
         rubric: 'Discourses - Sensei',
         title: "Sensei's Talks",
-        titleEm: 'Sadhana as Swimming Against the Current of Memory',
-        perex: `Sensei Rajeev Sinha in conversation with PhDr. Jiří Kočandrle on why human
-          life is just a bunch of memories, why you have no chance on the path to
-          liberation without a realized guru, and why even a master can fall if he loses
-          his vigilance.`,
+        titleEm: 'Why Knowing Isn’t Enough',
+        perex: `How do you move from thinking about the spiritual path to actually
+          practicing it — and find room for it in a world full of information,
+          technology and daily obligations? Sensei Rajeev Sinha talks with PhDr. Jiří
+          Kočandrle about a mind overwhelmed by memory and ego, and why the image of
+          swimming upstream to the source means more than simply drifting through life.`,
       },
     },
   },
