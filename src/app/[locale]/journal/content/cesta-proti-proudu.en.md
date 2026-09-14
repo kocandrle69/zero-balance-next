@@ -1,4 +1,4 @@
-> A transcript of two conversations between PhDr. Jiří Kočandrle and Sensei Rajeev Sinha on why knowing isn't enough — on a mind overwhelmed by memory, the ego, and swimming upstream to the source on the path to liberation. Greetings and ritual address have been left out; the talks are lightly edited for readability.
+> A transcript of a conversation between PhDr. Jiří Kočandrle and Sensei Rajeev Sinha on why knowing isn't enough — on a mind overwhelmed by memory, the ego, and swimming upstream to the source on the path to liberation. Greetings and ritual address have been left out; the talk is lightly edited for readability.
 
 ### Is there any point in watching old spiritual films?
 

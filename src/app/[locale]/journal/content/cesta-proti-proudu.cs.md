@@ -1,4 +1,4 @@
-> Přepis dvou rozhovorů PhDr. Jiřího Kočandrleho se Senseiem Rajeevem Sinhou o tom, proč samo vědění nestačí — o zahlcené mysli, vzpomínkách, egu a plavání proti proudu k prameni na cestě k osvobození. Pozdravy a rituální oslovení jsou vynechány, promluvy jsou lehce upraveny pro plynulost čtení.
+> Přepis rozhovoru PhDr. Jiřího Kočandrleho se Senseiem Rajeevem Sinhou o tom, proč samo vědění nestačí — o zahlcené mysli, vzpomínkách, egu a plavání proti proudu k prameni na cestě k osvobození. Pozdravy a rituální oslovení jsou vynechány, promluvy jsou lehce upraveny pro plynulost čtení.
 
 ### Má smysl sledovat staré duchovní filmy?
 
