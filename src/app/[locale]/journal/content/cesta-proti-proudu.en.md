@@ -1,165 +1,349 @@
-> A transcript of a conversation between PhDr. Jiří Kočandrle and Sensei Rajeev Sinha on why knowing isn't enough — on a mind overwhelmed by memory, the ego, and swimming upstream to the source on the path to liberation. Greetings and ritual address have been left out; the talk is lightly edited for readability.
+> A transcript of a conversation between PhDr. Jiří Kočandrle and Sensei Rajeev Sinha on why knowledge alone is not enough — on an overloaded mind, memories, ego, and swimming upstream toward the source on the path to liberation. Greetings and ritual forms of address have been omitted; the talk has been lightly edited for ease of reading.
 
-### Is there any point in watching old spiritual films?
+### Does it make sense to watch old spiritual films?
 
-**PhDr. Jiří Kočandrle:** Let me ask you a question, which came up to me yesterday, because I noticed the movie *Awake*, which was available on Netflix only a few years back, is now available on YouTube. And the question is, as disciples of Karauli Shankar Mahadev, as yogis, does it make any sense to watch these old movies, which describe a situation maybe a hundred years ago?
+**PhDr. Jiří Kočandrle:** Let me ask you a question that occurred to me yesterday. I noticed that the film *Awake*, which only a few years ago was available only on Netflix, is now available on YouTube. And the question is: does it make any sense for us, as students of Karauli Shankar Mahadev and as yogis, to watch these old films that describe a situation from perhaps a hundred years ago?
 
-**Sensei Rajeev Sinha:** Before going into the details of it, let us explore the reality. Why does one need sadhana? Why should one be inspired to follow the stringent path of sadhana? The life we live in is already a bit too complex than what it was a year ago, a decade ago, or centuries ago — primarily because there is very little space left in the mind with the kind of distraction one lives in, in the current modern world. There is too much technological intrusion into the individual mind, and the mind is absolutely not free.
+**Sensei Rajeev Sinha:** Before we go into the details, let us examine the reality. Why does a person need sadhana? Why should a person be inspired to follow the difficult path of sadhana?
 
-Things prescribed a hundred years ago, if you follow them exactly the same way, first you will not be able to follow it, and if you are not able to follow it, it merely becomes just lip service — a set of information which will not allow you to get deeper into the practice. And unless and until you get deeper into the practice, it's really not going to work. The world has become very complex, and so has the mindset of people, because of technology. The process that's suggested is basically good for people who are completely empty and are ready to go as seekers of truth.
+The life we live is somewhat more complicated than it was a year ago, ten years ago, or centuries ago. Primarily because, with the level of distraction in which a person lives in today's modern world, there is very little space left in the mind. Technology interferes too much with the individual's mind, and the mind is not free at all.
 
-Whereas in the current time, a person has to maintain a tough physical life where he has to manage, live, compete, succeed, and still find time for the self to pursue the spiritual journey. How will you do that? The point is you have to have the current solution — sadhana, a path that is very contemporary, which solves problems of day-to-day life in such a manner that you are completely free from the clutches of the present time, successfully manage your general physical life, and still manage to find that fine gap and create the space to pursue your spiritual journey.
+Things that were prescribed a hundred years ago, if you follow them in exactly the same way, you will not be able to follow them. And if you cannot follow them, it becomes nothing more than empty talk, just a set of information that does not allow you to go deeper into practice. And until you go deeper into practice, it simply will not work.
 
-***
+The world has become very complicated, and because of technology, the structure of the human mind has also become very complicated. The approach that is being proposed is basically suitable for people who are completely empty and ready to set out as seekers of truth.
 
-### Human life is just a bunch of memories
+Today, however, a person has to manage a demanding physical life in which they have to manage things, live, compete, succeed, and find time for themselves so that they can actually embark on a spiritual path. How can they do that?
 
-One has to understand that human life is just the bunch of memories. The more memories you have, the greater complexity you have in your character, in your personality, in your day-to-day action. So how to clean that step by step? The relevant point is, you will have to start from the point where you have started from. The danger of watching something which does not suit the current environment, does not address the current challenges, is that it will become somewhat theoretical rather than practical.
+The point is that we need a contemporary solution — sadhana, a path that is very contemporary, that addresses the problems of everyday life in such a way that you are completely free from the grip of the present age and successfully manage yourself and your ordinary physical life, while still being able to find that subtle gap and create the space to embark on your spiritual journey.
 
-I would recommend everyone to actually pursue life in the direction he is supposed to, and while solving each of the problems within life, find the gap, and make the practice evidential in the form of results. The best formula for answering such questions is: whatever you listen to, whatever you do — does it produce a result? And if it does produce a result, is that result merely theoretical, or is it evidential? I firmly believe — and Darbar believes, Gurudev believes and propagates — that if there is no evidence, it means that is not relevant for you. And if you are on the right path, it will always produce evidence, and results will be evidential.
+### Human life is only a cluster of memories
 
-So, finally, the journey is existential exploration. It is an experiential journey, and that would produce evidential results. If that is not happening, it is just a simple poetic expression. As simple as that.
+In that case, it is necessary to understand that human life is only a cluster of memories. The more memories you have, the greater the complexity in your character, your personality, and your everyday actions.
 
-**PhDr. Jiří Kočandrle:** I have two more questions raised while listening to you. One, what is the evidence of a right path? And two, I understood from what you said that, given the circumstances of a modern world, these old paths a hundred years ago are kind of obsolete — and that these old memories can even hold you back. But each one of us perceives things a different way. So how do these old memories influence a human being, and how can the same memory influence two people in completely different ways?
+So how do you gradually clean it? The important thing is that you have to begin at the point from which you started.
 
-**Sensei Rajeev Sinha:** Yes, absolutely. You have to understand, human life — we — are nothing but a bunch of memories. Since our inception, as we evolved from nothing to something, to finally, over billions of years, into human, we accumulated memories of the entire journey, and that we have to get rid of. We have to get rid of all the memories when we start the journey backward to the root, to our origin. Any new memories in the process is not the right way, because that will yet convert into another memory dump yard. So it is to be cleansed, cleansed, and cleansed.
+The danger of following something that does not correspond to the present environment or to your current challenges is that it will be theoretical rather than practical.
 
-***
+I recommend that everyone truly live life in the direction they are meant to go, and while solving each of life's problems, find the space to make the practice demonstrable through results.
 
-### Defying gravity as a sign of cleansing
+The best way to find the answer to such questions is this: look at whatever you listen to, whatever you do — does it produce a result? And if it produces a result, is it merely theoretical, or is it demonstrable?
 
-What is cleansing? Your body gets lighter, as if you are defying gravity. Even if you weigh a hundred kilos, you will feel as if you weigh only twenty-five, as light as that — and eventually, you weigh only a hundred grams. That's your internal feeling. It is not that your physical mass or weight actually reduces, but you start defying gravity. That is the defiance of illusion, which one gets closer to through a deeper study of sadhana. What normally happens is, when the time changes and we try to find the solution from old texts, we will never get it. We will have to start from the point where we are.
+I firmly believe — and Darbar believes, Gurudev believes and proclaims — that if there is no evidence, it means that it is not relevant to you. And if you are on the right path, it will always produce evidence, and the results will be demonstrable.
 
-For example, you are in the Sahara desert, where the day temperature is over fifty-five, maybe sixty degrees Celsius, and you are wearing a jacket good enough for minus forty. That's not going to work — you have to remove it, because your behavior always has to be very contemporary in nature. You will have to look at how you have become a dump yard of other people's memories — things simply non-existent a century ago. You are watching television; television didn't exist earlier. Your sources have widened, and technology comes with the danger of converting you into a dump yard of memory.
+Ultimately, the path is an exploration of existence. It is a path of direct experience, and that will bring demonstrable results. If that does not happen, it is merely poetic expression. It is as simple as that.
 
-***
+### Resisting gravity as a sign of purification
+
+What is purification?
+
+Your body becomes lighter, as though you were resisting gravity. Even if you weigh one hundred kilograms, you will feel as though you weigh only twenty-five kilograms, so light. And eventually you weigh only one hundred grams. That is your inner feeling.
+
+It is not that your physical weight or volume becomes smaller, but you begin to resist gravity. This is resisting illusion, which a person approaches through deeper study of sadhana.
+
+What usually happens is that when the times change and we try to find solutions in old texts, we never find them. We have to begin at the point where you are.
+
+For example, you are in the Sahara, where the daytime temperature is over fifty-five, perhaps sixty degrees Celsius, and you are wearing a jacket that is good enough for minus forty degrees. It will not work. You have to take it off, because your behaviour must always correspond by its nature to the present.
+
+You have to look at how you have become a dumping ground for the memories of others, something that simply did not exist a century ago. You watch television. Television did not exist before. Your sources have expanded, and technology brings with it the danger of turning you into a dumping ground for memories.
 
 ### Digital distraction and a mind with no space
 
-Right now, the distraction — I call it digital distraction — is at its peak. You cannot live without it. Your mind has literally no space. All the complications and answers you look for come through that digital solution. The mind is overpowered, captured by the feedback you receive from various sources of information. What exactly is sadhana for? To get to yourself. To leave everything. For that purpose, one becomes a sannyasi — a renunciate, one who leaves the world. But now you can't leave the world; even in a Himalayan cave, the mobile network works there. Technology chases you, and you are so used to it that the mind automatically gets driven to it.
+Right now distraction — I call it digital distraction — is at its peak. You cannot live without it. Your mind literally has no space.
 
-The more information you dump, converting yourself into a dump yard of memories, the more you may appear intellectual — but you will be far away from wisdom. Techniques that worked wonders in a simpler time won't even let you take off now. When you close your eyes, thousands of questions come up that used not to be there, because you are already wandering within your own junkyard. Earlier, it was a clean field.
+All the complications and all the answers you try to find are sought through that digital solution. The mind is overwhelmed, completely captured by the feedback you receive from different sources of information.
 
-People think that they think. In reality, you don't think. Humans don't think — it's already there in the form of memories. You take one step forward, and from the cloud, you receive the identical thing.
+What exactly is sadhana for? To get to yourself. To leave everything behind. For this purpose, a person becomes a sannyasin, one who renounces, and leaves the world.
 
-***
+But now you cannot leave the world. Even if you are in a Himalayan cave, there is a mobile network. Technology really follows you, and you are so accustomed to it that the mind is automatically driven towards it.
 
-### The first step always begins in the present
+The more information you collect and the more you become a dumping ground for memories, it may be good for your physical life, in which you may appear intellectual, but you will be far from wisdom.
 
-So how do you start? The very first step is from your present. If you start from the past, you will never go anywhere. If you attempt to go into the future, you will never be able to start. You can start only from the present — the present complexity, the present problems, the present lifestyle. First you have to break the inner wall within you, and then gradually expand that breaking process to the outer layers. One day you will see that you have really got onto the right path of liberation. And at each stage, as you go on breaking the walls, there is evidence — not merely a feeling, but something quantifiable, measurable, realized.
+Techniques that once worked miracles will now not even allow you to take off. When you close your eyes, thousands of questions arise that did not exist before — because you are already wandering inside your own rubbish heap. Before, it was a clean field.
 
-***
+People think that they think. In reality, you do not think. People do not think. It is already there in the form of memories. You take one step forward and get the identical thing from the cloud.
 
-### The intellectual prison
+### The first step is always the present
 
-**PhDr. Jiří Kočandrle:** It's as simple as you say, but also very difficult. What I've noticed here in the Western world is that people think they're really interested in yoga, but only on an intellectual level — they like to talk about it, listen to things, and think they're making progress. But as soon as they realize it's not only the intellectual level, that they would have to do some practice, they get scared to leave their intellectual comfort, and they don't do anything. So how do you break that inner — intellectual — prison?
+So how do you begin? The very first step is from your present.
 
-**Sensei Rajeev Sinha:** That actually is the answer itself. Your question is embedded with the answer well within. You have to understand how to start. If a person is intellectually full and tries to bring in more intellectual information, nothing is going to go in. Sadhana is the first step — it begins with emptying yourself. Empty yourself. Empty yourself. If you empty yourself, then intellectual information will actually work; otherwise it will be ineffective and will only escalate your uncalled-for ego — thinking you know so many things, when in reality you know nothing.
+If you begin from the past, you will never get anywhere. If you try to go into the future, you will never be able to begin. You can begin only from the present — from the current complexity, current problems, current lifestyle.
 
-**PhDr. Jiří Kočandrle:** Exactly as you say — the intellect, the ego, doesn't even let you start with sadhana, because it thinks it knows, thinks it's already underway, and it doesn't let you start. And there's one more thing I hear almost every time: that when you meditate, or when you're enlightened, it happens without effort — that you stay there without doing anything. So people mistakenly think that doing nothing is exactly their way, that it's their karma, and everything is perfect. Could you elaborate on this for the layman?
+First you have to break through the inner wall within yourself. And then gradually expand this process of breaking through to the outer layers.
 
-**Sensei Rajeev Sinha:** This is very interesting. Not only in the Western world, but around the world, including India, people think: just float. Be like the river, and let it flow through, till it merges with the ocean. That is one approach, and it will never liberate you. Even if you go by it, you're just floating and letting it go. Look at the example of a river — when it flows downstream from the mountains, it hits rocks, is beaten up by them, changes its direction, and just floats through until it merges with the ocean. Many masters propagate this as a unique idea of meditation and spiritual life, but that's not reality — because the water will evaporate. Even when it merges, it evaporates, gets into a cloud, comes back as rain, and the cycle never ends.
+One day you will see that you have truly reached the right path to liberation. And at every stage, as you continue breaking through the walls, there is evidence — not merely a feeling, but something quantifiable, measurable, and achievable.
 
-***
+### Intellectual prison
+
+**PhDr. Jiří Kočandrle:** It is simple, as you say, but at the same time very difficult. What I have noticed here in the Western world is that people think they are really interested in yoga, but only on an intellectual level.
+
+They like talking about it and listening to things, and they think they are making progress. But as soon as they realise that it is not only an intellectual level, but that they would actually have to practise, they become afraid of leaving their intellectual comfort and do nothing.
+
+So how do we break through what I call the inner, actually intellectual, prison?
+
+**Sensei Rajeev Sinha:** That is actually the answer itself. Your question already contains the answer deep within it.
+
+You have to understand how to begin. If a person is intellectually full and tries to bring in more intellectual information, nothing gets inside.
+
+Sadhana is the first step. It begins with this: empty yourself. Empty yourself. Empty yourself.
+
+If you empty yourself, only then will intellectual information also work. Otherwise it will be ineffective and will only increase your inappropriate ego that you know so much, while in reality you know nothing.
+
+**PhDr. Jiří Kočandrle:** Exactly as you say, the intellect or ego does not even allow you to begin sadhana, because the intellect thinks it knows and thinks it is already on the path, and it does not allow you to begin.
+
+And there is another thing I hear almost every time: somehow the idea has spread that when you meditate, or when you are enlightened, it happens without effort.
+
+People mistakenly think — and it is a very common misconception — that doing nothing is exactly their path, that it is their karma and everything is perfect. Could you please elaborate on this so that it is clear to everyone, even a layperson?
 
 ### Sadhana means swimming upstream
 
-Sadhana actually means going to the source, to where the river originated, going to its origin — and it is hard swimming upstream, not downstream. That's where you have to very meticulously prepare yourself and go into the detail of how it goes, and that is how you pursue your journey upstream. At every stage there are temptations — you lose, you get exhausted, and you're pushed back downstream. You start the journey again, and then you need yet another push to go forward. In sadhana, too, there are many distractions that will always attempt, with tremendous force, to push you downstream, and you again make the effort, do the kriyas, the techniques blessed by the guru, the complete master, and then you're able to swim across and complete the journey upstream to your source. When I say source, I mean your origin — the time well before existence itself came into existence. That is actually liberation.
+**Sensei Rajeev Sinha:** That is very interesting. Not only in the Western world, but all over the world, including India, people think: just let yourself be carried along. Be like a river and let it flow until it merges with the ocean.
 
-***
+That is one approach that will never liberate you.
 
-### Four levels of existence, and the need for a complete master
+Just look at the example of a river. When it flows downstream from the mountains, it hits rocks, is battered against them, changes direction, and simply continues flowing until it merges with the ocean.
 
-**PhDr. Jiří Kočandrle:** Thank you very much, Sensei. It follows from the practice, and from what you said, that when you are on the right path you can see something showing you that. But these signs don't always have to be positive — sometimes old karma comes out, sometimes sickness. Could you elaborate?
+And many masters promote this as a unique idea of meditation and spiritual life. But that is not the reality, because the water evaporates. Even if it merges, it evaporates, reaches the clouds, returns as rain, and the cycle never ends.
 
-**Sensei Rajeev Sinha:** Practically, you cannot find this out yourself. There will always be temptation. People think they are inspired, but that's actually not the reality — because you think physical existence alone is the entirety of existence. That is not the reality. Well before the physical, there is astral existence; before astral, causal; well before causal, supercausal; and then eventually a state of non-existence. You will think you are probably on the right path, but some memory from the astral existence may actually be overpowering you, misdirecting you — and you will never know it. You will never know it even through any master, unless the master has himself proven that he is a complete master, and controls not only the physical, but the astral, causal, and supercausal existence too.
+In reality, sadhana means going to the source, to where the river began, going to its origin. It is difficult swimming upstream, not downstream.
 
-He has access to it, has the vision into it, can interfere with it, and is able to actually control it. Unless and until that happens, sadhana never succeeds. So what do you need? You need a company far superior — the company of someone who has himself experienced it over ages, over a long period of sadhana, and who makes you experience each of the words he speaks of. Not only makes you experience it — that experience becomes evidential for you. If that is happening, you are on the right path. Otherwise, on your own, perhaps one in a billion could manage it — but otherwise it is impossible.
+And there you have to prepare very carefully and go further into the details of how it works — and this is how you proceed on your journey upstream.
 
-That is why you will see that anyone we term a reincarnation of supreme consciousness also needed a guru, a master. Jesus needed a guru, Krishna needed a guru, Buddha needed a guru — everyone needed a master to guide him through, or else it becomes a land of pure wandering. Rama had a guru too — because the moment you are in a physical body, you are under the clutch of illusion. Anything that is visible is illusion, and to get out of that illusion you need a master who has himself traveled beyond it, into supreme consciousness. Simple.
+At every stage there are temptations. You lose, become exhausted, and are pushed back downstream. You set out again, and then once again you need another push to move forward.
 
-**PhDr. Jiří Kočandrle:** So it's actually the same thing as the first group of people we were talking about — who are fooled by their intellect, thinking they don't have to do anything, just flow downstream. So when you start practice and you're getting some signs, and you think you're on the right path, you might be very well mistaken, the same way, by maya. Without a real, full guru, a realized guru, you have no chance.
+In the same way, in sadhana there are many distractions that will always try with enormous force to push you downstream. And you again make the effort, perform kriyas, perform techniques blessed by the guru, the complete master, and then you are able to swim through and complete the journey upstream to your source.
 
-***
+When I say source, I mean your origin — a time long before existence itself began to exist. That is liberation.
 
-### The slavery of thought
+### Four levels of existence and the need for a complete master
 
-**Sensei Rajeev Sinha:** Absolutely no chance. There is a very interesting anecdote connected with such a mindset. You are moving into a one-room apartment and think that apartment itself is the universe — that's not the reality. Such intellectuals live with a hell of complications within them, and it is their choice. If your karma, your journey, has crossed that cycle many times, there will always be a sudden spark within you that drives you to the right path. Unless and until that happens, it's not going to happen the way one may think of. Such people are very good people, because they will be born again and again, and at least the world will always have some intellectual people around, because they never get liberated.
+**PhDr. Jiří Kočandrle:** Thank you very much, Sensei. It follows from practice and also from what you have said that when you are on the right path, you can see something that shows you how to recognise that you are on the right path. But these things do not necessarily have to be positive — sometimes old karma comes to the surface, sometimes illness. Could you elaborate on that?
 
-**PhDr. Jiří Kočandrle:** Yes, unless they get tempted to follow some not-fully-realized guru — someone who says he's a guru and can lead them completely astray. They can get sick; many things can happen to them. And I think this is a big danger now, especially in the Western world, where you have thousands of types of yoga, thousands of masters, a full internet, full YouTube. I think this is a very dangerous thing.
+**Sensei Rajeev Sinha:** You cannot determine it yourself in practice. There will always be temptation.
 
-**Sensei Rajeev Sinha:** It is. It's not only in the Czech Republic, it's in India as well, and there is only one reason: you become complacent, and that complacency is mainly because you are a born slave. You love slavery — slavery of thought. And that slavery takes you from being a slave of one thing to being a slave of something else. Liberation, the better way to proceed, is not through slavery but through revolt — where you learn to revolt, in order to learn further.
+People think they are inspired, but that is not actually reality. Because you think that physical existence itself is physical existence and that existence is all about that. That is not the reality.
 
-But what do people do? They see it, they feel "oh, it's good," and they stop there — and that stopping actually results in slavery. It's not because they stop primarily out of satisfaction, but because they carry, embedded within them, the memory of slavery accumulated over time. They are never liberated. Look at how we have been educated in the modern world — you are born a slave. First, you are born into a family, you carry the family legacy. Then you become a slave of the culture you were born into. Then you are confined to a city. And if you grow beyond that, you become tightly wired to the concept of a geographical boundary, which you call a country — and you never get out of it.
+Long before physical existence there is astral existence. Before astral there is causal existence. Long before causal there is super-causal, and then finally the state of non-existence.
 
-***
+You will think that you are on the right path, but it may turn out that you are actually being controlled by some memory from astral existence, that it accompanies you and leads you in the wrong direction, and you will never recognise it.
 
-### Geographical boundaries as a human invention
+You will never recognise it even through any master — until the master himself proves that he is a complete master and controls not only physical, but astral, causal and super-causal existence.
 
-Geographical boundaries are a man-made creation, not a natural process. They are good for regulating a democratic system to run well within them, but that boundary should not become a limitation. Yet we are made to treat it as one. We have lived ages at war — first the kingdom, one king fighting another, village chiefs, clans, kings, countries.
+He has access to it, insight into it, can intervene in it, and can truly control it.
 
-You are never merely human; you are never beyond the boundary. You are taught that way over time, and in the process, you have forgotten where you came from. You think you are supreme — and there is slavery in that thought, thinking you are liberated so you could do anything, even control nature. That's not the reality. Liberation means a deeper sense of coexistence — but that's a wider, deeper subject. One has to start emptying from the point where he is standing.
+Until that happens, sadhana will never succeed. So what do you need? You need the company of someone much higher — someone who has experienced sadhana for ages, for a long period of time, and allows you to experience every word he speaks about.
 
-***
+It is not only that he allows you to experience it; the experience becomes demonstrable for you. If this happens, you are on the right path. Otherwise, perhaps one in a billion could do it alone — but otherwise it is impossible.
 
-### Emptying yourself — even at the cost of revolting against your own teacher
+And that is why you would see that whoever we call an incarnation of the highest consciousness also needed a guru, a master. Jesus needed a guru, Krishna needed a guru, Buddha needed a guru, everyone needed a master to guide them, otherwise it becomes a land of wandering.
 
-You have to empty yourself. Keep on emptying. Do you think I am a slave of my master? I am not — I always revolt, to learn deeper, and that makes my guru very happy. That's how I have grown on my spiritual journey — I always used to revolt against my own teacher, only to learn further. And finally I got to the point where I found a Purna Guru, a complete master, who could satisfy me not through words but directly through action. And the best action is: if you have any complications in your body in this present life — tuk, it's gone. That's the first indicator.
+Rama had a guru — everyone needed a guru, because when you are in a physical body, you are in the grip of illusion. Everything that is visible is illusion.
 
-It's very interesting — you read about masters, about yogis, and those masters and yogis are running into hospitals, with so many complications. Are they liberated? Liberation is emptying yourself — of all diseases, all pain, agony, greed, anger. If you think you're floating intellectually, you're floating only to the point where you reach nowhere — you end up with a complication. So the best way to judge a person is not by what he is doing, but by the way he left his body. The last page is the most important page for judging a tradition.
+And to get out of that illusion, you need a master who has gone beyond illusion and can go beyond illusion into the highest consciousness. Simple.
 
-When I speak of our tradition, Babaji not only left the body — he went into Mahasamadhi, came out, went in again, closed it — and liberation means every one of his atoms was liberated. The body disappeared. It didn't die out over time; it simply vanished. That is liberation. You have liberated all the atoms, and all the memories connected with them. Everything gets liberated in one go. And that is possible only one way: empty yourself, empty yourself.
+### The slavery of thoughts
 
-If you get attracted to somebody, please do check — is he really capable of emptying you? Does time stop, so you become timeless in the sense of going beyond time? Do incidents stop being relevant to you? That is the evidence on your journey. You have to be very careful. And if that is not happening, learn to revolt. Don't become a slave.
+**PhDr. Jiří Kočandrle:** So it is actually the same as with the first group of people we talked about, whose intellect deceives them and who think they do not need to do anything, only flow downstream.
 
-***
+So when you begin practising and receive some signs and think you are on the right path, you can very well be mistaken in the same way, because of maya.
 
-### Knowing the limitations of your teachers — and moving on anyway
+Without a true, complete, realised guru, you have no chance.
 
-You don't have to be rude about it. I know the limitations of my father — that he could only teach me up to a certain point. I know the limitations of my middle-school teacher, my high-school teacher, my university professor. It doesn't mean I become rude and insensitive toward them — I thank them for taking me forward. But that doesn't stop my journey. It is an infinite journey to the origin. The journey to the origin is the path to liberation, nothing else.
+**Sensei Rajeev Sinha:** Absolutely no chance.
 
-**PhDr. Jiří Kočandrle:** So I understand you cannot reach where you're going with memories, with smriti. We started this conversation with memories, and we're finishing with memories — so everything starts and ends with memories.
+There is a very interesting story connected with such a state of mind. You move around in a one-room apartment and think that the apartment itself is the universe. That is not reality.
 
-**Sensei Rajeev Sinha:** Absolutely. There is nothing in this world except memories. And of course, the memories float in Atman, which is omnipresent, which does not go, which is not born. The deeper you go, the more it becomes an interesting, experiential exploration — you experience it, it's not mere hearsay. And step by step, you empty yourself. So it is recommended not to get into that dump yard — rather, clean that mess, clean that junkyard, and then the boundary that is there will be broken.
+Such intellectuals live with a tremendous number of complications inside themselves. And it is their choice.
 
-***
+If your karma, your journey, has gone through this cycle many times, a spark will always suddenly appear within you that will lead you onto the right path. Until that happens, it simply does not happen in the way a person may think.
 
-### The parable of the balloon
+Such people are very good people because they will be born again and again. And at least the world will always have some intellectual people around it, because they will never become liberated.
 
-Look at it this way: you take a balloon and blow it up. There is air inside the balloon and air outside the balloon — that is pure consciousness, both. And this is the human body. The memory of a balloon gives you the balloon. Now it's up to you: what do you want to be — a balloon, or the tire of a car, a truck, or a huge industrial dumper? These are the memories, the thickness, the layer of memories. The more you accumulate, the more imprisoned you get. And you have to blast it off — not so that it bursts and some part remains. Blasting means everything disappears; the entire conglomeration of atoms vanishes. That is a much deeper study, one that can only be experienced through sadhana. And these things can never be grasped through intellectual pondering — they have to be practiced. As simple as that.
+**PhDr. Jiří Kočandrle:** Yes, if they are not tempted to follow some incompletely realised guru, someone who says he is a guru and can lead them completely astray. They can become ill. Many things can happen to them.
 
-***
+And I think that this is a great danger now, especially in the Western world — you have thousands of kinds of yoga, thousands of masters, the internet full of them, YouTube full of them. I think this is actually a very dangerous thing.
+
+**Sensei Rajeev Sinha:** It is. It is not only in the Czech Republic, it is also in India. And there is only one reason for it: because you become complacently satisfied, and that complacency is mainly because you are born slaves.
+
+You love slavery. The slavery of thoughts.
+
+And that slavery takes you from being a slave to one thing to being a slave to another thing.
+
+Liberation, a better way to proceed, is not through slavery, but as a revolutionary, learning to rebel so that you can continue learning.
+
+### Geographical boundaries as a human creation
+
+What do people do? They see it, they feel it: oh, it is good, and they stop there.
+
+And that stopping actually leads to slavery. It is not that they stop primarily because they are satisfied — it is because they carry within themselves a memory of slavery accumulated over time.
+
+They are never liberated.
+
+Look at how we have been educated in the modern world. You are born as a slave. First you are born into a family and carry the family heritage. Then you become a slave to the culture in which you were born. Then you are limited to a city.
+
+And if you outgrow even that, you become very strongly attached to the idea of a geographical boundary that you call a country. And you never get out of it.
+
+Geographical boundaries are a human creation, not a natural process. They are useful for regulating a democratic system so that the system functions properly. But that geographical boundary should not be a limitation.
+
+Yet we are taught this. For ages we have lived through warfare — first it was kingdoms, one king fighting another, village chiefs, clans, kings, countries.
+
+You are never merely a human being. You are never beyond the boundary. You have been taught this all along, and in the process you have forgotten where you came from.
+
+You think you are supreme. And that is slavery — the slavery of the idea that you are liberated and therefore can do anything, even control nature.
+
+That is not reality. Liberation means a deeper sense of coexistence.
+
+But that is a broader and deeper subject. A person must begin emptying themselves from the point at which they stand at that moment.
+
+### Empty yourself — even at the cost of rebelling against your own teacher
+
+You must empty yourself. Continue emptying yourself.
+
+Do you think I am a slave to my master? I am not. I always rebel in order to know more deeply, and that makes my guru very happy.
+
+That is how I grew on my spiritual path — always rebelling against my own teacher simply so that I could continue learning.
+
+And finally I reached the point where I found a purna guru, a complete master, who could satisfy me immediately not with words, but through action itself.
+
+And the best action is this: if you have any complications in the body in your present life, tap, they are gone. That is the first indicator, the first sign.
+
+It is very interesting. You read about masters, about yogis. And those masters and yogis are running to hospitals, they have so many complications. Are they liberated?
+
+Liberation is emptying yourself of all illness, all pain, suffering, greed and anger.
+
+If you think you are swimming intellectually, you swim only to the point where you get nowhere. You end up with a complication.
+
+So the best way to judge a person is not to look at what they do, but to look at the way they leave their body.
+
+The last page is the most important page for judging a tradition.
+
+When I speak about our tradition as we know it: Babaji did not merely leave the body — he entered mahasamadhi, came out, entered again, closed it, and liberation means every one of his atoms.
+
+The body disappeared. It did not decay over time. It simply disappeared.
+
+That is liberation. You liberated all the atoms and all the memories associated with those atoms. Everything is liberated at once.
+
+And this is possible in only one way: empty yourself, empty yourself.
+
+If someone attracts you, please verify: are they truly capable of emptying you? Does time stop for you? Do you become timeless in the sense that you go beyond time? Do events cease to be relevant to you?
+
+That is the evidence on your path. You have to be very careful. And if this does not happen, learn to rebel. Do not become a slave.
+
+### Know the limitations of your teachers, but keep going
+
+You do not have to be rude.
+
+I know the limitations of my father — that he could teach me only up to a certain point. I know the limitations of my teacher at primary school, my secondary-school teacher, my university professor.
+
+That does not mean that I become rude or insensitive towards them. I thank them for moving me forward.
+
+But that does not stop my journey. It is an endless journey to the source. The journey to the source is precisely the journey to liberation. Nothing else.
+
+**PhDr. Jiří Kočandrle:** So I understand it as meaning that you cannot get where you are going with memories, with smriti. We began this conversation with memories and we end with memories. So everything begins and ends with memories.
+
+**Sensei Rajeev Sinha:** Exactly.
+
+There is nothing in this world except memories. And, of course, memories float in the Atman, which is omnipresent, which does not leave, which is not born.
+
+The deeper you go, the more interesting it becomes as an exploration and a journey of direct experience. You experience it; it is not merely something you have heard about.
+
+And step by step you empty yourself. So it is recommended not to enter that dumping ground. Rather, clean the mess, clean the rubbish heap. And then the boundary that is there will be broken.
+
+### The balloon analogy
+
+Look at it this way. You take a balloon and inflate it. Inside the balloon there is air, and outside the balloon there is air — that is pure consciousness, both.
+
+And this is the human body.
+
+The memory of a balloon gives you a balloon. Now it is up to you — what do you want to be? A balloon, or a tyre of a passenger car, a truck, or a huge industrial dump truck?
+
+That is what memories are — the thickness, the layer of memories. The more you collect, the more imprisoned you become.
+
+And you have to tear it apart — not so that it bursts and some part remains. Tearing means that everything disappears, the whole grouping of atoms disappears.
+
+That is a much deeper study, which can only be experienced through sadhana. And these things cannot be understood through intellectual speculation. They have to be practised. It is as simple as that.
 
 ### Perception develops through practice, not intellect
 
-**PhDr. Jiří Kočandrle:** Thank you very much, Sensei. There's one more thing we could talk about, and that's perception. How does it change throughout your sadhana, your practice? I believe that as you lose memories, your perception changes and widens. Could you elaborate on this as well?
+**PhDr. Jiří Kočandrle:** Thank you very much, Sensei. There is one more thing we could share, and that is perception. How does it change during your sadhana, during your practice? I think, I feel that as you lose memories, your perception changes and expands. Could you elaborate on that?
 
-**Sensei Rajeev Sinha:** Well, it's a much deeper subject, and it's best practiced through sadhana — it cannot be intellectually grasped. Intellectual information is only the signage. Like starting from Prague and having to go to Paris — you have the milestone, the signage: Paris, two thousand kilometers. It only lets you know that this is the route of your journey; that's not your destination. You have to keep stepping in, moving forward. Only then does it happen. It is more of an existential exploration, not existential gossiping. It is to be experienced through sadhana: here is the doctrine, you receive the doctrine, and right after that you put it into principle, into practice — and that's how your perception develops. Perception is the beginning point; without perception, sadhana cannot even take its start. You may think you're doing sadhana, dancing around, Hare Krishna, Hare Krishna — you are nowhere. The only difference is you are wearing different clothes.
+**Sensei Rajeev Sinha:** This is actually a much deeper subject and should best be practised through sadhana. It cannot be grasped intellectually.
 
-Everything else is the same. You are only dancing around — whether you're singing a carol or dancing in a church or a temple, it's not going anywhere. You have to move forward. And moving forward is not intellectual, but through practice: you understand doctrine A, you go back to practicing it, it becomes principle, you further practice it, it becomes your experience, and that becomes your perception. Unless that perception is achieved through your own journey, it will not be yours, and can disappear at any point — and you will find yourself sitting back at square one, sometimes even further back than where you started, in the worst condition. That's how I have seen a number of masters fall from their current position to a state worse than hell. That's a hard reality.
+Intellectual information is only a signpost — like when you leave Prague and have to drive to Paris, you have a sign saying: Paris, two thousand kilometres. It only tells you that this is the route of your journey. It is not your destination.
 
-***
+You have to step forward, move forward, continually move forward. Only then will it happen.
 
-### Even a master can fall — vigilance, twenty-four hours a day
+It is an exploration of existence rather than talking about existence. It has to be experienced through sadhana: here is the teaching, you receive the teaching, and immediately after that you put the teaching into principle, into practice.
 
-**PhDr. Jiří Kočandrle:** I think this is another thing people don't know — that even a master may fall all the way down. So we have to stay alert, alert, alert, and observe ourselves at all times.
+And that is how your perception develops. Perception is the starting point. Without perception, sadhana cannot even begin.
 
-**Sensei Rajeev Sinha:** Yes. Twenty-four hours a day, you have to be awakened — never rest. You are swimming upstream, and your swim has to be constant. Many a time, you won't be able to pass through the current, but you will at least stay where you are; other times you will be drawn back, and you push forward again. That's called practice. Through practice, practice, practice, you keep on moving forward. And here comes the blessing of Mother Nature and the complete master, who simply lifts you and puts you a hundred meters further up in the upstream journey. Without the blessings of the master and the Mother, sadhana can never even start.
+You think you are doing sadhana, dancing around, Hare Krishna, Hare Krishna — you are nowhere. The only difference is that you are wearing different clothes.
 
-***
+Everything is the same. You are just dancing around. Whether you sing a carol, or dance and sing in a church or temple, it leads nowhere.
+
+You have to move forward. And moving forward is not intellectual; it is through practice. You understand teaching A. Then you return to practising that teaching.
+
+It becomes a principle. You continue practising it. It becomes your experience, and that experience becomes your perception.
+
+Until you attain that perception through your own journey, it is not yours and it can disappear at any time.
+
+And you will find yourself sitting back at the beginning, where you started. And many times you will find yourself even further back, in the worst state.
+
+I have seen many masters fall from their present position into a state worse than hell.
+
+That is the hard reality.
+
+### Even a master can fall — awake twenty-four hours a day
+
+**PhDr. Jiří Kočandrle:** I think this is another thing people do not know — that even a master can fall down, completely down. So we have to remain alert, alert, alert, and constantly observe ourselves.
+
+**Sensei Rajeev Sinha:** Yes.
+
+Twenty-four hours a day you have to remain alert. Never rest.
+
+You are swimming upstream. Your swimming has to be continuous. Many times you cannot overcome the current, but at least you remain where you are.
+
+And many times you will see that you are being pulled backwards, and then you push yourself forward again. That is called practice.
+
+Through practice you continue moving forward. And here comes the blessing of the Mother, nature, and the complete master, who simply lifts you up and places you one hundred metres higher on the path upstream.
+
+Without the blessing of the master and the Mother, sadhana can never even begin.
 
 ### Purity as the first step of sadhana
 
-In the Western world, and even in India, across the world, people are filled with sexual thoughts — completely, and that is why their consciousness lives in the genital organ; they are not able to move upward. All they do is earn money, enjoy life, have sex, have multiple partners — and you think you will do sadhana? Impossible. The first step is to clean that up. Whatever is past is gone — now take a firm resolve, sticking to your life partner, and if that's not possible, then to no one, and both move ahead together from there. When you look at someone as a sex object, forget about moving forward — you go miles and miles downward. And eventually kundalini, the Mother herself, withdraws from it; she will not exist in you. You will think you're doing a great job, but the reality is you are deep in the negative. The world is completely misled by many masters who are not themselves free from sexual perception and thoughts.
+In the Western world, and even in India, all over the world, people are filled with sexual thoughts.
 
-***
+And that is why their consciousness continues to live in the sexual organ. They are unable to move upward.
 
-### The jugglery of words
+Making money, enjoying life, having sex, having multiple partners — and you think you are going to do sadhana? Impossible.
 
-And such masters teach and mislead any number of people — that's dangerous; they go to hell themselves and take millions of followers with them. I invite all of them: everybody is welcome to debate, to discuss, but based on evidence — on a live stream, you will see there is no way. It's just a jugglery of words that they have truly mastered, and people want something lighter, something to entertain them. In a way, it's better — better than dancing around and indulging in deep nuisance; at least dancing systematically, thinking you're elevating, at least you're moving forward, away from the nonsense — for the time being. That way it's okay.
+The first step is to clean this up. Whatever is in the past is gone. Make a firm decision — remain with your life partner, and if that is not possible, then with no one. And from there, both of you move forward.
 
-But if you think you will liberate yourself this way, that you will meditate and go beyond — I will say: not possible. You cannot even think beyond. The best way to judge yourself is: what ability have you gained to think beyond? Can you hold on to a new point brought before you, to really explore it — or do you simply reject it outright, without knowing it? That is the blockage so permanently created in you by the same cycle, by getting trapped in such a luxurious, comfortable jugglery of words. Get out of that. That is the only way.
+When you look at others as sexual objects, forget about moving forward; you are going miles and miles downward.
 
-**PhDr. Jiří Kočandrle:** Thank you very much. I hope to see you again soon, and that we could discuss a subject like consciousness, for example.
+And finally kundalini, the Mother herself, withdraws from it. She will not exist within you.
 
-**Sensei Rajeev Sinha:** Sure, we will do that.
+So you may think you are doing a great job, but the reality is that you are deeply in the negative.
+
+The world has been completely led astray by many masters who themselves are not free from sexual perception and thoughts.
+
+### Juggling with words
+
+And such people teach and lead many people astray. That is dangerous. They themselves go to hell and lead millions of people and followers to hell.
+
+I mean, I invite all such people. Welcome. Everyone is welcome to debate and discuss, but on the basis of evidence.
+
+In a live broadcast you will see that it does not work. It is only a juggling of words that they have really mastered. And people want something easier that entertains them.
+
+In a sense, that is better — it is much better than dancing around and indulging in deep improprieties. At least you are moving forward because, at least for the moment, you are away from nonsense.
+
+But if you think you will become liberated this way, you will meditate and go further — it is not possible.
+
+You cannot even think beyond the boundary. Can you hold on to a new idea if someone presents it to you so that you can truly examine it?
+
+You simply reject it immediately without knowing it. And that is the block that has been created within you so permanently by the same cycle in which you allow yourself to be caught in such luxurious, comfortable juggling with words.
+
+Get out of it. That is the only way.
+
+**PhDr. Jiří Kočandrle:** Thank you very much. I hope we will see each other again soon and that we might discuss a subject such as consciousness.
+
+**Sensei Rajeev Sinha:** Certainly, we will.

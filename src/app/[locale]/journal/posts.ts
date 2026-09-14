@@ -58,7 +58,7 @@ export const POSTS: PostMeta[] = [
   {
     slug: 'cesta-proti-proudu',
     date: '2026-09-14',
-    cover: '/images/Vedomosti.jpg',
+    cover: '/images/Vedomosti2.jpg',
     langs: ['cs', 'en'],
     meta: {
       cs: {
