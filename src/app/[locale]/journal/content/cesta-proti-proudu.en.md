@@ -1,5 +1,7 @@
 > A transcript of a conversation between PhDr. Jiří Kočandrle and Sensei Rajeev Sinha on why knowledge alone is not enough — on an overloaded mind, memories, ego, and swimming upstream toward the source on the path to liberation. Greetings and ritual forms of address have been omitted; the talk has been lightly edited for ease of reading.
 
+[Watch the full conversation on YouTube](https://www.youtube.com/watch?v=sA8Y9P8uGeY)
+
 ### Does it make sense to watch old spiritual films?
 
 **PhDr. Jiří Kočandrle:** Let me ask you a question that occurred to me yesterday. I noticed that the film *Awake*, which only a few years ago was available only on Netflix, is now available on YouTube. And the question is: does it make any sense for us, as students of Karauli Shankar Mahadev and as yogis, to watch these old films that describe a situation from perhaps a hundred years ago?

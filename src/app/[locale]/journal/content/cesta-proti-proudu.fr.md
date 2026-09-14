@@ -1,5 +1,7 @@
 > Transcription d'un entretien entre PhDr. Jiří Kočandrle et Sensei Rajeev Sinha sur les raisons pour lesquelles le savoir seul ne suffit pas — sur un esprit saturé, les souvenirs, l'ego et le fait de nager à contre-courant vers la source sur le chemin de la libération. Les salutations et formules rituelles ont été omises ; le discours a été légèrement adapté pour faciliter la lecture.
 
+[Regarder l'entretien complet sur YouTube](https://www.youtube.com/watch?v=sA8Y9P8uGeY)
+
 ### Est-il utile de regarder d'anciens films spirituels ?
 
 **PhDr. Jiří Kočandrle :** Permettez-moi de vous poser une question qui m'est venue hier, parce que j'ai remarqué que le film *Awake*, qui n'était encore disponible que sur Netflix il y a quelques années, est maintenant disponible sur YouTube. La question est donc : pour nous, en tant que disciples de Karauli Shankara Mahadeva, en tant que yogis, est-il utile de regarder ces anciens films qui décrivent une situation d'il y a, par exemple, cent ans ?

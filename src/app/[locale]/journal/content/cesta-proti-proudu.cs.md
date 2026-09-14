@@ -1,5 +1,7 @@
 > Přepis rozhovoru PhDr. Jiřího Kočandrleho se Senseiem Rajeevem Sinhou o tom, proč samo vědění nestačí — o zahlcené mysli, vzpomínkách, egu a plavání proti proudu k prameni na cestě k osvobození. Pozdravy a rituální oslovení jsou vynechány, promluvy jsou lehce upraveny pro plynulost čtení.
 
+[Sledovat celý rozhovor na YouTube](https://www.youtube.com/watch?v=sA8Y9P8uGeY)
+
 ### Má smysl sledovat staré duchovní filmy?
 
 **PhDr. Jiří Kočandrle:** Dovolte mi položit otázku, která mě napadla včera, protože jsem si všiml, že film Awake, který byl ještě před několika lety dostupný jen na Netflixu, je teď dostupný na YouTube. A otázka je: má pro nás jako žáky Karauli Shankara Mahadeva, jako jogíny, nějaký smysl sledovat tyto staré filmy, které popisují situaci třeba před sto lety?

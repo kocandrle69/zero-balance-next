@@ -1,5 +1,7 @@
 > Transcripción de una entrevista entre el PhDr. Jiří Kočandrle y Sensei Rajeev Sinha sobre por qué el conocimiento por sí solo no basta — sobre una mente saturada, los recuerdos, el ego y nadar contra la corriente hacia la fuente en el camino hacia la liberación. Se han omitido los saludos y las fórmulas rituales; la conversación ha sido ligeramente adaptada para facilitar la lectura.
 
+[Ver la entrevista completa en YouTube](https://www.youtube.com/watch?v=sA8Y9P8uGeY)
+
 ### ¿Tiene sentido ver antiguas películas espirituales?
 
 **PhDr. Jiří Kočandrle:** Permítame plantear una pregunta que me surgió ayer, porque me di cuenta de que la película *Awake*, que hasta hace unos años solo estaba disponible en Netflix, ahora está disponible en YouTube. Y la pregunta es: ¿tiene algún sentido para nosotros, como discípulos de Karauli Shankara Mahadeva, como yoguis, ver estas antiguas películas que describen una situación de hace quizá cien años?

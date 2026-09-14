@@ -1,5 +1,7 @@
 > Transkript eines Gesprächs zwischen PhDr. Jiří Kočandrle und Sensei Rajeev Sinha darüber, warum Wissen allein nicht genügt — über einen überfüllten Geist, Erinnerungen, das Ego und das Schwimmen gegen den Strom zur Quelle auf dem Weg zur Befreiung. Begrüßungen und rituelle Anreden wurden weggelassen; die gesprochenen Worte wurden lediglich leicht bearbeitet, um das Lesen flüssiger zu machen.
 
+[Das vollständige Gespräch auf YouTube ansehen](https://www.youtube.com/watch?v=sA8Y9P8uGeY)
+
 ### Macht es Sinn, alte spirituelle Filme anzusehen?
 
 **PhDr. Jiří Kočandrle:** Ich möchte eine Frage stellen, die mir gestern gekommen ist, weil ich bemerkt habe, dass der Film *Awake*, der noch vor einigen Jahren nur auf Netflix verfügbar war, jetzt auf YouTube verfügbar ist.
