@@ -59,7 +59,7 @@ export const POSTS: PostMeta[] = [
     slug: 'cesta-proti-proudu',
     date: '2026-09-14',
     cover: '/images/Vedomosti2.jpg',
-    langs: ['cs', 'en'],
+    langs: ['cs', 'en', 'hi', 'fr', 'es', 'de'],
     meta: {
       cs: {
         rubric: 'Promluvy - Sensei',
@@ -80,6 +80,49 @@ export const POSTS: PostMeta[] = [
           technology and daily obligations? Sensei Rajeev Sinha talks with PhDr. Jiří
           Kočandrle about a mind overwhelmed by memory and ego, and why the image of
           swimming upstream to the source means more than simply drifting through life.`,
+      },
+      hi: {
+        rubric: 'प्रवचन - सेंसेई',
+        title: 'सेंसेई के प्रवचन',
+        titleEm: 'केवल जानना ही पर्याप्त क्यों नहीं है',
+        perex: `आध्यात्मिक मार्ग के बारे में सोचने से उसे वास्तव में जीने तक कैसे पहुँचें —
+          और सूचना, तकनीक तथा दैनिक ज़िम्मेदारियों से भरी दुनिया में उसके लिए स्थान कैसे
+          खोजें? Sensei Rajeev Sinha, PhDr. Jiří Kočandrle के साथ बातचीत में स्मृतियों और
+          अहंकार से भरे मन की बात करते हैं, और बताते हैं कि स्रोत की ओर धारा के विपरीत
+          तैरने की छवि का अर्थ जीवन में बस बहते रहने से कहीं अधिक क्यों है।`,
+      },
+      fr: {
+        rubric: 'Discours - Sensei',
+        title: 'Les discours de Sensei',
+        titleEm: 'Pourquoi savoir ne suffit pas',
+        perex: `Comment passer de la réflexion sur le chemin spirituel à sa pratique
+          réelle — et comment lui trouver une place dans un monde saturé d'informations,
+          de technologies et d'obligations quotidiennes ? Sensei Rajeev Sinha s'entretient
+          avec le PhDr. Jiří Kočandrle d'un esprit submergé par les souvenirs et l'ego, et
+          explique pourquoi l'image de la nage à contre-courant vers la source signifie
+          bien plus que de simplement se laisser porter par la vie.`,
+      },
+      es: {
+        rubric: 'Discursos - Sensei',
+        title: 'Discursos de Sensei',
+        titleEm: 'Por qué no basta con saber',
+        perex: `¿Cómo se pasa de pensar en el camino espiritual a practicarlo
+          realmente — y cómo encontrarle espacio en un mundo lleno de información,
+          tecnología y obligaciones cotidianas? Sensei Rajeev Sinha conversa con el
+          PhDr. Jiří Kočandrle sobre una mente desbordada por los recuerdos y el ego, y
+          sobre por qué la imagen de nadar contra la corriente hacia la fuente significa
+          mucho más que dejarse llevar por la vida.`,
+      },
+      de: {
+        rubric: 'Diskurse - Sensei',
+        title: 'Senseis Vorträge',
+        titleEm: 'Warum Wissen allein nicht genügt',
+        perex: `Wie kommt man vom Nachdenken über den spirituellen Weg zu seiner
+          tatsächlichen Praxis — und wie findet man dafür Raum in einer Welt voller
+          Informationen, Technologie und alltäglicher Pflichten? Sensei Rajeev Sinha
+          spricht mit PhDr. Jiří Kočandrle über einen von Erinnerungen und Ego
+          überfüllten Geist und darüber, warum das Bild vom Schwimmen gegen den Strom
+          zur Quelle mehr bedeutet, als sich einfach vom Leben treiben zu lassen.`,
       },
     },
   },
