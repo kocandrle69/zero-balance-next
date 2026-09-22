@@ -214,7 +214,19 @@ La conversation relie ces activités aux modes de vie suivants : 4½ → saṃve
 
 Le but n'est pas de rejeter les quatre premières activités et demie et de vivre seulement à travers les cinq et demie restantes. L'orateur recommande de vivre à travers les dix. Il appelle une telle personne un yogi et souligne sadupayoga — l'utilisation correcte et bénéfique. Le sens pratique est expliqué par ses exemples : porter autant de vêtements que nécessaire ; utiliser ce qui est nécessaire et partager ce qui reste ; utiliser une aiguille là où une aiguille est nécessaire, et une épée là où une épée est nécessaire ; selon la tâche et les circonstances, choisir un hélicoptère, un avion privé, une charrette à bœufs ou un vélo. L'accent est mis sur l'utilisation correcte, non sur l'attachement exclusif à la jouissance ou au renoncement. Le schéma précédent plaçait samyak entre bhoga et tyāga, comme une utilisation correcte et équilibrée à mi-chemin entre la jouissance et le renoncement ; cela doit être compris comme une interprétation illustrative. Samyak signifie correctement, adéquatement ou pleinement ; « le milieu entre la jouissance et le renoncement » n'est pas son seul sens littéral. L'usage précis de ce mot ailleurs dans l'enregistrement n'a pas été vérifié indépendamment à partir de l'audio lors de cette révision.
 
-**4. Comparaison avec le yoga classique et le vedānta.** Le schéma des dix activités doit être distingué de la description védantique courante en quatre parties de l'antaḥkaraṇa — l'« instrument intérieur » : manas, qui porte attention à l'information et la pèse, considère des alternatives ou doute ; buddhi, qui discerne, comprend et décide ; ahaṃkāra, le sentiment du « je », l'identification à l'expérience comme quelque chose « à moi » ; et chitta, mémoire et souvenir, et dans certaines descriptions aussi la contemplation. Ce sont des aspects fonctionnels de l'instrument intérieur, pas nécessairement quatre organes séparés, et la terminologie diffère selon les traditions — en particulier, chitta a dans le yoga de Patañjali un sens plus large que la simple « mémoire » ([Swami Sivananda : Chitta et mémoire](https://www.sivanandaonline.org/?cmd=displaysection&section_id=870)). Dans le yoga de Patañjali, vritti désigne les activités ou modifications de la chitta. Les cinq types indiqués dans le Yoga-Sūtra 1.6 sont pramāṇa, viparyaya, vikalpa, nidrā et smṛti — connaissance valide, méprise, construction conceptuelle, sommeil et mémoire —, une division différente des cinq domaines à deux activités chacun ([Yoga-Sūtras 1.2 et 1.5–1.7](https://sanskritdocuments.org/doc_yoga/yogasuutra.html)).
+**4. Comparaison avec le yoga classique et le vedānta.** Le schéma des dix activités doit être distingué de la description védantique courante en quatre parties de l'antaḥkaraṇa — l'« instrument intérieur ».
+
+Manas, qui porte attention à l'information et la pèse, considère des alternatives ou doute.
+
+Buddhi, qui discerne, comprend et décide.
+
+Ahaṃkāra, le sentiment du « je », l'identification à l'expérience comme quelque chose « à moi ».
+
+Chitta, mémoire et souvenir, et dans certaines descriptions aussi la contemplation.
+
+Ce sont des aspects fonctionnels de l'instrument intérieur, pas nécessairement quatre organes séparés, et la terminologie diffère selon les traditions — en particulier, chitta a dans le yoga de Patañjali un sens plus large que la simple « mémoire » ([Swami Sivananda : Chitta et mémoire](https://www.sivanandaonline.org/?cmd=displaysection&section_id=870)).
+
+Dans le yoga de Patañjali, vritti désigne les activités ou modifications de la chitta. Les cinq types indiqués dans le Yoga-Sūtra 1.6 sont pramāṇa, viparyaya, vikalpa, nidrā et smṛti — connaissance valide, méprise, construction conceptuelle, sommeil et mémoire —, une division différente des cinq domaines à deux activités chacun ([Yoga-Sūtras 1.2 et 1.5–1.7](https://sanskritdocuments.org/doc_yoga/yogasuutra.html)).
 
 **5. Glossaire.**
 
