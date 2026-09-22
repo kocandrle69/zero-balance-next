@@ -202,19 +202,46 @@ Basé sur une conversation enregistrée dans GMT20260920-161948_Recording.m4a le
 
 Traduction française complète du matériel corrigé. Contient un aperçu, une explication de la division 4½ + 5½, une comparaison avec la terminologie classique et un glossaire. Il s'agit d'un outil d'étude, non d'une transcription littérale de la conversation.
 
-**1. Corrections principales.** Le mot précédemment transcrit comme « mislešan » est vishleṣaṇa — विश्लेषण — analyse. La nouvelle transcription automatique de l'enregistrement reconnaît ce terme approximativement à 1:16:59–1:17:15, où il forme une paire avec tulan / tulanā — comparaison. Dans l'explication suivante, on entend aussi le mot anglais « analyze ». L'orthographe standard est confirmée indépendamment par des textes publiés. Le précédent « testing and selecting — tester et sélectionner » se traduit plus précisément par « goûter ou savourer, et sélectionner ». Le terme hindi correspondant est āsvādana — आस्वादन. L'orateur l'explique par l'exemple d'un goût mémorisé et du choix de nourriture dans un magasin particulier. Les transcriptions automatiques enregistrent l'anglais parlé comme « testing », mais le terme hindi et les exemples soutiennent le sens de « tasting — goûter », et non un test technique.
+**1. Cinq domaines et dix activités.** L'ordre suivant correspond à l'aperçu tchèque précédent. Il s'agit d'une attribution de fonctions au sein de cet enseignement, non d'une localisation anatomique ni d'une affirmation sur des régions cérébrales spécifiques.
 
-**2. Cinq domaines et dix activités.** L'ordre suivant correspond à l'aperçu tchèque précédent. Il s'agit d'une attribution de fonctions au sein de cet enseignement, non d'une localisation anatomique ni d'une affirmation sur des régions cérébrales spécifiques. Manas — मनस् ; en hindi man, मन — comprend āsvādana — आस्वादन : goûter, savourer, l'expérience sensorielle, et cayana — चयन : sélectionner, choisir. Nous expérimentons quelque chose et sur cette base nous choisissons ; un exemple est le choix de nourriture selon un goût mémorisé. Chitta — citta, चित्त — comprend cintana — चिन्तन / चिंतन : penser, contempler, et chitraṇa — चित्रण : imaginer, former des images mentales. C'est penser à ce qu'est quelque chose et à ce que c'est ; imaginer des possibilités en utilisant la mémoire, par exemple les couleurs d'une pièce. Vritti — vṛtti, वृत्ति — comprend vishleṣaṇa — विश्लेषण : analyse, et tulana / tulanā — तुलन / तुलना : comparer, évaluer selon certains critères — préférence et bénéfice personnel, ou justice, dharma et vérité. Buddhi — बुद्धि — comprend bodha — बोध : compréhension, connaissance, et saṅkalpa — संकल्प : décision, intention, résolution. De la compréhension naît la résolution ferme : « C'est ainsi ; voilà ce que je vais faire. » Ātman — ātman, आत्मन् ; en hindi ātmā, आत्मा — comprend anubhava — अनुभव : expérience, perception ou connaissance directe, et pramāṇa — प्रमाण : confirmation, vérification. L'orateur relie l'expérience à sa confirmation ; « pramāṇa » ici ne doit pas être automatiquement compris comme une preuve scientifique. Cinq domaines multipliés par deux activités égalent dix activités. La distinction entre āsvādana au niveau du manas et anubhava au niveau de l'ātman est essentielle dans cette explication ; traduire les deux simplement par « expérience » brouillerait cette distinction.
+| Domaine | Première activité | Deuxième activité | Signification dans cette conversation |
+| --- | --- | --- | --- |
+| **Manas** — मनस् ; en hindi man, मन | Āsvādana (आस्वादन) : goûter, savourer, l'expérience sensorielle | Cayana (चयन) : sélectionner, choisir | Nous expérimentons quelque chose et sur cette base nous choisissons ; un exemple est le choix de nourriture selon un goût mémorisé. |
+| **Chitta** — citta, चित्त | Cintana (चिन्तन / चिंतन) : penser, contempler | Chitraṇa (चित्रण) : imaginer, former des images mentales | C'est penser à ce qu'est quelque chose et à ce que c'est ; imaginer des possibilités en utilisant la mémoire, par exemple les couleurs d'une pièce. |
+| **Vritti** — vṛtti, वृत्ति | Vishleṣaṇa (विश्लेषण) : analyse | Tulana / tulanā (तुलन / तुलना) : comparer, évaluer | Selon certains critères — préférence et bénéfice personnel, ou justice, dharma et vérité. |
+| **Buddhi** — बुद्धि | Bodha (बोध) : compréhension, connaissance | Saṅkalpa (संकल्प) : décision, intention, résolution | De la compréhension naît la résolution ferme : « C'est ainsi ; voilà ce que je vais faire. » |
+| **Ātman** — ātman, आत्मन् ; en hindi ātmā, आत्मा | Anubhava (अनुभव) : expérience, perception ou connaissance directe | Pramāṇa (प्रमाण) : confirmation, vérification | L'orateur relie l'expérience à sa confirmation ; « pramāṇa » ici ne doit pas être automatiquement compris comme une preuve scientifique. |
 
-**3. Comment s'articulent 4½ + 5½.** Comptées dans les 4½ : manas fournit āsvādana + cayana = 2 ; chitta fournit chitraṇa = 1 ; vritti fournit vishleṣaṇa + la moitié de tulana = 1½. Comptées dans les 5½ restantes : chitta fournit cintana = 1 ; l'autre moitié de tulana = ½ ; buddhi fournit bodha + saṅkalpa = 2 ; ātman fournit anubhava + pramāṇa = 2. Au total, 4½ plus 5½ font dix. La première moitié de la comparaison est décrite avec les termes priya–hita–lābha : ce qui est agréable ou cher, ce qui sert un certain intérêt ou bénéfice, et ce qui apporte un gain. La seconde moitié est décrite avec les termes nyāya–dharma–satya : justice, dharma et vérité. « Moitié » fait partie du schéma explicatif, et non d'une division précisément mesurée d'une faculté psychique. La formulation précédente restreignait trop priya–hita–lābha aux « personnes qui me sont proches ». L'orateur donne certes la famille et les amis comme exemples, mais les termes eux-mêmes incluent aussi la préférence, le bénéfice et le gain.
+Cinq domaines multipliés par deux activités égalent dix activités. La distinction entre āsvādana au niveau du manas et anubhava au niveau de l'ātman est essentielle dans cette explication ; traduire les deux simplement par « expérience » brouillerait cette distinction.
+
+**2. Comment s'articulent 4½ + 5½.**
+
+| Domaine | Compté dans 4½ | Compté dans les 5½ restants |
+| --- | --- | --- |
+| Manas | Āsvādana + cayana = 2 | — |
+| Chitta | Chitraṇa = 1 | Cintana = 1 |
+| Vritti | Vishleṣaṇa + moitié de tulana = 1½ | L'autre moitié de tulana = ½ |
+| Buddhi | — | Bodha + saṅkalpa = 2 |
+| Ātman | — | Anubhava + pramāṇa = 2 |
+| **Total** | **4½** | **5½** |
+
+La première moitié de la comparaison est décrite avec les termes priya–hita–lābha : ce qui est agréable ou cher, ce qui sert un certain intérêt ou bénéfice, et ce qui apporte un gain. La seconde moitié est décrite avec les termes nyāya–dharma–satya : justice, dharma et vérité. « Moitié » fait partie du schéma explicatif, et non d'une division précisément mesurée d'une faculté psychique. La formulation précédente restreignait trop priya–hita–lābha aux « personnes qui me sont proches ». L'orateur donne certes la famille et les amis comme exemples, mais les termes eux-mêmes incluent aussi la préférence, le bénéfice et le gain.
 
 Note sur une incohérence dans le texte : la transcription originale place explicitement l'imagination dans le 4½ et réserve la contemplation pour le 5½. La nouvelle reconnaissance vocale capture cintana dans le résumé aux alentours de 1:19:25–1:19:35. Cependant, un second modèle de reconnaissance capture aussi chitraṇa dans un résumé ultérieur, aux alentours de 1:19:49–1:20:07. Il peut s'agir d'un lapsus ou d'une erreur de reconnaissance ; cela ne peut pas être simplement attribué à l'ancienne traduction tchèque. Cet aperçu est une synthèse unifiée sur le plan éditorial, basée sur la distinction explicite et sur le décompte total des activités, et ne doit pas être présenté comme si toutes les répétitions dans l'enregistrement étaient parfaitement identiques.
 
-La conversation relie ces activités aux modes de vie suivants : 4½ → saṃvedanā → bhoga — ressenti sensoriel et jouissance, une vie où les besoins et préférences personnels sont au premier plan ; 5½ → saṃjñāna / saṃjñānitā → tyāga — connaissance ou conscience, que l'orateur relie au renoncement et à une orientation de vie plus large ; 4½ + 5½ = 10 → mānavīyatā → intégralité → sadupayoga — humanité, ou pleine vie humaine, qui s'exprime par l'utilisation correcte. Ces liens reflètent l'explication de l'orateur et ne sont pas des définitions universelles de dictionnaire de ces termes.
+| Portée | Principe | Mode de vie |
+| --- | --- | --- |
+| 4½ | saṃvedanā | bhoga — ressenti sensoriel et jouissance, une vie où les besoins et préférences personnels sont au premier plan. |
+| 5½ | saṃjñāna / saṃjñānitā | tyāga — connaissance ou conscience, que l'orateur relie au renoncement et à une orientation de vie plus large. |
+| 4½ + 5½ = 10 | mānavīyatā → intégralité | sadupayoga — humanité, ou pleine vie humaine, qui s'exprime par l'utilisation correcte. |
 
-Le but n'est pas de rejeter les quatre premières activités et demie et de vivre seulement à travers les cinq et demie restantes. L'orateur recommande de vivre à travers les dix. Il appelle une telle personne un yogi et souligne sadupayoga — l'utilisation correcte et bénéfique. Le sens pratique est expliqué par ses exemples : porter autant de vêtements que nécessaire ; utiliser ce qui est nécessaire et partager ce qui reste ; utiliser une aiguille là où une aiguille est nécessaire, et une épée là où une épée est nécessaire ; selon la tâche et les circonstances, choisir un hélicoptère, un avion privé, une charrette à bœufs ou un vélo. L'accent est mis sur l'utilisation correcte, non sur l'attachement exclusif à la jouissance ou au renoncement. Le schéma précédent plaçait samyak entre bhoga et tyāga, comme une utilisation correcte et équilibrée à mi-chemin entre la jouissance et le renoncement ; cela doit être compris comme une interprétation illustrative. Samyak signifie correctement, adéquatement ou pleinement ; « le milieu entre la jouissance et le renoncement » n'est pas son seul sens littéral. L'usage précis de ce mot ailleurs dans l'enregistrement n'a pas été vérifié indépendamment à partir de l'audio lors de cette révision.
+Ces liens reflètent l'explication de l'orateur et ne sont pas des définitions universelles de dictionnaire de ces termes.
 
-**4. Comparaison avec le yoga classique et le vedānta.** Le schéma des dix activités doit être distingué de la description védantique courante en quatre parties de l'antaḥkaraṇa — l'« instrument intérieur ».
+Le but n'est pas de rejeter les quatre premières activités et demie et de vivre seulement à travers les cinq et demie restantes. L'orateur recommande de vivre à travers les dix. Il appelle une telle personne un yogi et souligne sadupayoga — l'utilisation correcte et bénéfique. Le sens pratique est expliqué par ses exemples : porter autant de vêtements que nécessaire ; utiliser ce qui est nécessaire et partager ce qui reste ; utiliser une aiguille là où une aiguille est nécessaire, et une épée là où une épée est nécessaire ; selon la tâche et les circonstances, choisir un hélicoptère, un avion privé, une charrette à bœufs ou un vélo. L'accent est mis sur l'utilisation correcte, non sur l'attachement exclusif à la jouissance ou au renoncement.
+
+Le schéma précédent plaçait samyak entre bhoga et tyāga, comme une utilisation correcte et équilibrée à mi-chemin entre la jouissance et le renoncement ; cela doit être compris comme une interprétation illustrative. Samyak signifie correctement, adéquatement ou pleinement ; « le milieu entre la jouissance et le renoncement » n'est pas son seul sens littéral. L'usage précis de ce mot ailleurs dans l'enregistrement n'a pas été vérifié indépendamment à partir de l'audio lors de cette révision.
+
+**3. Comparaison avec le yoga classique et le vedānta.** Le schéma des dix activités doit être distingué de la description védantique courante en quatre parties de l'antaḥkaraṇa — l'« instrument intérieur ».
 
 Manas, qui porte attention à l'information et la pèse, considère des alternatives ou doute.
 
@@ -224,116 +251,68 @@ Ahaṃkāra, le sentiment du « je », l'identification à l'expérience comme q
 
 Chitta, mémoire et souvenir, et dans certaines descriptions aussi la contemplation.
 
-Ce sont des aspects fonctionnels de l'instrument intérieur, pas nécessairement quatre organes séparés, et la terminologie diffère selon les traditions — en particulier, chitta a dans le yoga de Patañjali un sens plus large que la simple « mémoire » ([Swami Sivananda : Chitta et mémoire](https://www.sivanandaonline.org/?cmd=displaysection&section_id=870)).
+Ce sont des aspects fonctionnels de l'instrument intérieur, pas nécessairement quatre organes séparés, et la terminologie diffère selon les traditions — en particulier, chitta a dans le yoga de Patañjali un sens plus large que la simple « mémoire ». [Swami Sivananda : Chitta et mémoire](https://www.sivanandaonline.org/?cmd=displaysection&section_id=870)
 
-Dans le yoga de Patañjali, vritti désigne les activités ou modifications de la chitta. Les cinq types indiqués dans le Yoga-Sūtra 1.6 sont pramāṇa, viparyaya, vikalpa, nidrā et smṛti — connaissance valide, méprise, construction conceptuelle, sommeil et mémoire —, une division différente des cinq domaines à deux activités chacun ([Yoga-Sūtras 1.2 et 1.5–1.7](https://sanskritdocuments.org/doc_yoga/yogasuutra.html)).
+Dans le yoga de Patañjali, vritti désigne les activités ou modifications de la chitta. Les cinq types indiqués dans le Yoga-Sūtra 1.6 sont pramāṇa, viparyaya, vikalpa, nidrā et smṛti — connaissance valide, méprise, construction conceptuelle, sommeil et mémoire —, une division différente des cinq domaines à deux activités chacun. [Yoga-Sūtras 1.2 et 1.5–1.7](https://sanskritdocuments.org/doc_yoga/yogasuutra.html)
 
-**5. Glossaire.**
+L'aperçu précédent distinguait donc correctement les différents systèmes, mais a trop vite présenté le modèle en dix parties comme une invention personnelle de l'orateur. Une désignation plus précise serait : « Le modèle des dix activités tel qu'enseigné par Gurudev, avec un parallèle documenté proche dans le Madhyasth Darshan / Jeevan Vidya. »
 
-Ātman ; en hindi ātmā (आत्मन् / आत्मा) — le Soi ; dans cette conversation relié à anubhava et pramāṇa.
+**4. Glossaire.** Les définitions suivantes traduisent et précisent des termes utilisés dans l'aperçu précédent. Les significations spécifiques à cette conversation sont indiquées comme telles. L'inclusion d'un terme ne signifie pas que chaque occurrence de celui-ci dans l'ensemble de l'enregistrement de trois heures a été vérifiée indépendamment.
 
-Anubhava (अनुभव) — expérience, perception ou connaissance directe.
+| Terme | Devanāgarī | Signification en français et note contextuelle |
+| --- | --- | --- |
+| **Ātman ; en hindi ātmā** | आत्मन् / आत्मा | le Soi ; dans cette conversation relié à anubhava et pramāṇa. |
+| **Anubhava** | अनुभव | expérience, perception ou connaissance directe. |
+| **Anubhūti** | अनुभूति | expérience ou vécu intérieur, apparenté par le sens à anubhava ; une distinction plus précise dépend de la manière dont l'orateur utilise les termes. |
+| **Pramāṇa** | प्रमाण | preuve, confirmation ou moyen de connaissance valide ; ici l'orateur le relie à la confirmation de l'expérience. |
+| **Manas ; en hindi man** | मनस् / मन | esprit ; dans ce modèle, le domaine d'āsvādana et de cayana. |
+| **Āsvādana** | आस्वादन | goûter, savourer, apprécier par l'expérience ; le pendant hindi manquant du précédent « testing ». |
+| **Cayana** | चयन | sélection, choix. |
+| **Buddhi** | बुद्धि | compréhension ou intelligence discernante ; dans ce modèle relié à bodha et saṅkalpa. |
+| **Bodha** | बोध | compréhension, prise de conscience, connaissance. |
+| **Saṅkalpa** | संकल्प | intention, résolution, décision ferme. |
+| **Ṛtambharā — lecture probable** | ऋतम्भरा | porteuse de vérité, ou emplie de vérité ; se cache probablement derrière une phrase endommagée dans l'explication du sankalpa. La nouvelle transcription capture un son similaire puis « intention emplie de vérité » ; cette lecture reste provisoire, et de la phrase endommagée, aucune autre affirmation sur Brahman ou la chitta ne doit être déduite. |
+| **Vikalpa** | विकल्प | alternative ou construction conceptuelle ; dans le Yoga-Sūtra 1.9, il a un sens technique spécifique, et le simple « doute » ne le rend pas là. |
+| **Chitta** | चित्त | esprit ou champ mental, avec une ampleur de sens variable selon les traditions ; ici relié à cintana et chitraṇa. |
+| **Cintana** | चिन्तन / चिंतन | penser, contempler, réflexion profonde. |
+| **Chitraṇa** | चित्रण | représenter, imaginer, créer une image mentale. |
+| **Vritti** | वृत्ति | activité, mode ou modification ; dans ce modèle, le domaine de l'analyse et de la comparaison, une attribution qui diffère de la classification de Patañjali. |
+| **Vishleṣaṇa ; en hindi vishleṣaṇ** | विश्लेषण | analyse, décomposition analytique ; précédemment l'incertain « mislešan ». |
+| **Tulana / tulanā** | तुलन / तुलना | comparaison, évaluation. |
+| **Priya–hita–lābha** | प्रिय–हित–लाभ | ce qui est agréable ou cher ; bénéfice ou intérêt ; gain ; critères d'un côté de la comparaison. |
+| **Nyāya–dharma–satya** | न्याय–धर्म–सत्य | justice ; dharma, c'est-à-dire l'ordre juste ou la conduite correcte ; vérité ; critères de l'autre côté de la comparaison. |
+| **Saṃskāra** | संस्कार | une empreinte ou disposition issue de l'expérience. |
+| **Smṛti** | स्मृति | mémoire ou souvenir ; ne doit pas être communément confondu avec saṃskāra, c'est-à-dire « empreinte ». |
+| **Antaḥkaraṇa** | अन्तःकरण | l'instrument intérieur ; dans la description védantique courante en quatre parties, il comprend manas, buddhi, ahaṃkāra et chitta. |
+| **Ahaṃkāra** | अहंकार | le « faiseur du je », identification à l'ego, ou appropriation de l'expérience comme « je » et « mien ». |
+| **Saṃvedanā** | संवेदना | ressentir, sensation, sensibilité ; dans cette conversation relié aux 4½ activités. |
+| **Saṃjñāna** | संज्ञान | cognition, conscience, connaissance de quelque chose. |
+| **Saṃjñānitā** | संज्ञानिता | une forme apparentée utilisée dans la transcription fournie ; ici elle désigne le mode de vie relié aux 5½ activités restantes, un contexte qu'il convient de conserver sans affirmer qu'il s'agit d'une définition technique universelle. |
+| **Mānavīyatā** | मानवीयता | humanité ; dans cette explication, vivre à travers les dix activités. |
+| **Bhoga** | भोग | jouissance, utilisation ou vécu des conditions mondaines. |
+| **Tyāga** | त्याग | renoncement, abandon, désistement. |
+| **Sadupayoga** | सदुपयोग | utilisation correcte, appropriée ou bénéfique. |
+| **Samyak** | सम्यक् | correctement, adéquatement, pleinement ; « équilibre » est une interprétation contextuelle. |
+| **Draṣṭā-bhāva** | द्रष्टा भाव | l'attitude de l'observateur ou du voyant. |
+| **Sākṣī-bhāva** | साक्षी भाव | l'attitude du témoin ; observer d'une manière où l'on ne s'identifie pas entièrement à ce que l'on observe. |
+| **Māyā** | माया | dans l'interprétation non duelle donnée dans la conversation, le principe relié à l'apparition de séparation ou de multiplicité. |
+| **Brahman** | ब्रह्मन् | la réalité suprême ou absolue ; dans la conversation, opposée à la séparation apparente. |
+| **Cetanā** | चेतना | conscience ; l'orateur ne considère pas la conscience individuelle et universelle comme qualitativement différentes. |
+| **Jñāna** | ज्ञान | connaissance, compréhension. |
+| **Śravaṇa** | श्रवण | écouter l'enseignement. |
+| **Manana** | मनन | réfléchir sur ce qui a été entendu. |
+| **Jñānendriya** | ज्ञानेन्द्रिय | une faculté ou un organe de perception ; les cinq traditionnels se rapportent à l'ouïe, au toucher, à la vue, au goût et à l'odorat. |
+| **Karmendriya** | कर्मेन्द्रिय | une faculté ou un organe d'action ; les cinq traditionnels se rapportent à la parole, à la préhension, au déplacement d'un lieu à l'autre, à l'excrétion et à la reproduction. |
+| **Prāṇa** | प्राण | le souffle ou la force vitale ; aussi le nom d'une de ses cinq composantes fonctionnelles principales — prāṇa, apāna, vyāna, udāna et samāna, les cinq composantes principales du prāṇa dans les descriptions traditionnelles ; le tableau des dix activités n'établit pas leurs fonctions détaillées. |
+| **Sādhanā** | साधना | pratique spirituelle ou développement spirituel soutenu. |
+| **Dhyāna** | ध्यान | méditation. |
+| **Dhyāna-sādhanā** | ध्यान साधना | pratique spirituelle méditative. |
+| **Samādhi** | समाधि | absorption méditative ; une définition plus précise dépend de la tradition. |
+| **Bhakti** | भक्ति | dévotion. |
+| **Kūṭastha** | कूटस्थ | ce qui est immuable ; la conversation précédente reliait ce terme à la zone entre les yeux, un lien spécifique à cet enseignement et non une définition littérale du mot. |
+| **Kāraṇa-śarīra** | कारण शरीर | le corps causal. |
+| **Kāraṇa-jagat** | कारण जगत् | le monde ou domaine causal. |
+| **Prakṛti** | प्रकृति | nature ou nature primordiale, selon le contexte. |
+| **Śakti** | शक्ति | pouvoir, capacité ou énergie ; dans certains contextes, pouvoir divin ; ne doit pas être automatiquement pris pour un nom propre. |
 
-Anubhūti (अनुभूति) — expérience ou vécu intérieur, apparenté par le sens à anubhava ; une distinction plus précise dépend de la manière dont l'orateur utilise les termes.
-
-Pramāṇa (प्रमाण) — preuve, confirmation ou moyen de connaissance valide ; ici l'orateur le relie à la confirmation de l'expérience.
-
-Manas ; en hindi man (मनस् / मन) — esprit ; dans ce modèle, le domaine d'āsvādana et de cayana.
-
-Āsvādana (आस्वादन) — goûter, savourer, apprécier par l'expérience ; le pendant hindi manquant du précédent « testing ».
-
-Cayana (चयन) — sélection, choix.
-
-Buddhi (बुद्धि) — compréhension ou intelligence discernante ; dans ce modèle relié à bodha et saṅkalpa.
-
-Bodha (बोध) — compréhension, prise de conscience, connaissance.
-
-Saṅkalpa (संकल्प) — intention, résolution, décision ferme.
-
-Ṛtambharā — lecture probable (ऋतम्भरा) — porteuse de vérité, ou emplie de vérité ; se cache probablement derrière une phrase endommagée dans l'explication du sankalpa. La nouvelle transcription capture un son similaire puis « intention emplie de vérité » ; cette lecture reste provisoire, et de la phrase endommagée, aucune autre affirmation sur Brahman ou la chitta ne doit être déduite.
-
-Vikalpa (विकल्प) — alternative ou construction conceptuelle ; dans le Yoga-Sūtra 1.9, il a un sens technique spécifique, et le simple « doute » ne le rend pas là.
-
-Chitta (चित्त) — esprit ou champ mental, avec une ampleur de sens variable selon les traditions ; ici relié à cintana et chitraṇa.
-
-Cintana (चिन्तन / चिंतन) — penser, contempler, réflexion profonde.
-
-Chitraṇa (चित्रण) — représenter, imaginer, créer une image mentale.
-
-Vritti (वृत्ति) — activité, mode ou modification ; dans ce modèle, le domaine de l'analyse et de la comparaison, une attribution qui diffère de la classification de Patañjali.
-
-Vishleṣaṇa ; en hindi vishleṣaṇ (विश्लेषण) — analyse, décomposition analytique ; précédemment l'incertain « mislešan ».
-
-Tulana / tulanā (तुलन / तुलना) — comparaison, évaluation.
-
-Priya–hita–lābha (प्रिय–हित–लाभ) — ce qui est agréable ou cher ; bénéfice ou intérêt ; gain ; critères d'un côté de la comparaison.
-
-Nyāya–dharma–satya (न्याय–धर्म–सत्य) — justice ; dharma, c'est-à-dire l'ordre juste ou la conduite correcte ; vérité ; critères de l'autre côté de la comparaison.
-
-Saṃskāra (संस्कार) — une empreinte ou disposition issue de l'expérience.
-
-Smṛti (स्मृति) — mémoire ou souvenir ; ne doit pas être communément confondu avec saṃskāra, c'est-à-dire « empreinte ».
-
-Antaḥkaraṇa (अन्तःकरण) — l'instrument intérieur ; dans la description védantique courante en quatre parties, il comprend manas, buddhi, ahaṃkāra et chitta.
-
-Ahaṃkāra (अहंकार) — le « faiseur du je », identification à l'ego, ou appropriation de l'expérience comme « je » et « mien ».
-
-Saṃvedanā (संवेदना) — ressentir, sensation, sensibilité ; dans cette conversation relié aux 4½ activités.
-
-Saṃjñāna (संज्ञान) — cognition, conscience, connaissance de quelque chose.
-
-Saṃjñānitā (संज्ञानिता) — une forme apparentée utilisée dans la transcription fournie ; ici elle désigne le mode de vie relié aux 5½ activités restantes, un contexte qu'il convient de conserver sans affirmer qu'il s'agit d'une définition technique universelle.
-
-Mānavīyatā (मानवीयता) — humanité ; dans cette explication, vivre à travers les dix activités.
-
-Bhoga (भोग) — jouissance, utilisation ou vécu des conditions mondaines.
-
-Tyāga (त्याग) — renoncement, abandon, désistement.
-
-Sadupayoga (सदुपयोग) — utilisation correcte, appropriée ou bénéfique.
-
-Samyak (सम्यक्) — correctement, adéquatement, pleinement ; « équilibre » est une interprétation contextuelle.
-
-Draṣṭā-bhāva (द्रष्टा भाव) — l'attitude de l'observateur ou du voyant.
-
-Sākṣī-bhāva (साक्षी भाव) — l'attitude du témoin ; observer d'une manière où l'on ne s'identifie pas entièrement à ce que l'on observe.
-
-Māyā (माया) — dans l'interprétation non duelle donnée dans la conversation, le principe relié à l'apparition de séparation ou de multiplicité.
-
-Brahman (ब्रह्मन्) — la réalité suprême ou absolue ; dans la conversation, opposée à la séparation apparente.
-
-Cetanā (चेतना) — conscience ; l'orateur ne considère pas la conscience individuelle et universelle comme qualitativement différentes.
-
-Jñāna (ज्ञान) — connaissance, compréhension.
-
-Śravaṇa (श्रवण) — écouter l'enseignement.
-
-Manana (मनन) — réfléchir sur ce qui a été entendu.
-
-Jñānendriya (ज्ञानेन्द्रिय) — une faculté ou un organe de perception ; les cinq traditionnels se rapportent à l'ouïe, au toucher, à la vue, au goût et à l'odorat.
-
-Karmendriya (कर्मेन्द्रिय) — une faculté ou un organe d'action ; les cinq traditionnels se rapportent à la parole, à la préhension, au déplacement d'un lieu à l'autre, à l'excrétion et à la reproduction.
-
-Prāṇa (प्राण) — le souffle ou la force vitale ; aussi le nom d'une de ses cinq composantes fonctionnelles principales — prāṇa, apāna, vyāna, udāna et samāna, les cinq composantes principales du prāṇa dans les descriptions traditionnelles ; le tableau des dix activités n'établit pas leurs fonctions détaillées.
-
-Sādhanā (साधना) — pratique spirituelle ou développement spirituel soutenu.
-
-Dhyāna (ध्यान) — méditation.
-
-Dhyāna-sādhanā (ध्यान साधना) — pratique spirituelle méditative.
-
-Samādhi (समाधि) — absorption méditative ; une définition plus précise dépend de la tradition.
-
-Bhakti (भक्ति) — dévotion.
-
-Kūṭastha (कूटस्थ) — ce qui est immuable ; la conversation précédente reliait ce terme à la zone entre les yeux, un lien spécifique à cet enseignement et non une définition littérale du mot.
-
-Kāraṇa-śarīra (कारण शरीर) — le corps causal.
-
-Kāraṇa-jagat (कारण जगत्) — le monde ou domaine causal.
-
-Prakṛti (प्रकृति) — nature ou nature primordiale, selon le contexte.
-
-Śakti (शक्ति) — pouvoir, capacité ou énergie ; dans certains contextes, pouvoir divin ; ne doit pas être automatiquement pris pour un nom propre.
-
-**6. Bref schéma d'étude.** Les dix activités se répartissent en cinq domaines à deux activités chacun : manas fournit āsvādana (expérimenter) et cayana (sélectionner) ; chitta fournit cintana (contempler) et chitraṇa (imaginer) ; vritti fournit vishleṣaṇa (analyser) et tulana (comparer) ; buddhi fournit bodha (comprendre) et saṅkalpa (résoudre) ; et ātman fournit anubhava (expérimenter) et pramāṇa (confirmer). Les 4½ activités réunissent les deux activités du manas, plus chitraṇa, plus vishleṣaṇa, plus la moitié de tulana. Les 5½ restantes réunissent cintana, l'autre moitié de tulana, les deux activités de la buddhi et les deux activités de l'ātman. Ensemble, les dix constituent l'utilisation complète de toutes les dix — sadupayoga.
+**5. Bref schéma d'étude.** Les dix activités se répartissent en cinq domaines à deux activités chacun : manas fournit āsvādana (expérimenter) et cayana (sélectionner) ; chitta fournit cintana (contempler) et chitraṇa (imaginer) ; vritti fournit vishleṣaṇa (analyser) et tulana (comparer) ; buddhi fournit bodha (comprendre) et saṅkalpa (résoudre) ; et ātman fournit anubhava (expérimenter) et pramāṇa (confirmer). Les 4½ activités réunissent les deux activités du manas, plus chitraṇa, plus vishleṣaṇa, plus la moitié de tulana. Les 5½ restantes réunissent cintana, l'autre moitié de tulana, les deux activités de la buddhi et les deux activités de l'ātman. Ensemble, les dix constituent l'utilisation complète de toutes les dix — sadupayoga.

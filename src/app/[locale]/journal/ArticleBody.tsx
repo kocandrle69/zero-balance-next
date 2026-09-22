@@ -50,6 +50,21 @@ export default function ArticleBody({ blocks }: { blocks: Block[] }) {
                 {b.t}
               </a>
             )
+          case 'table':
+            return (
+              <div key={i} className={styles.tableWrap}>
+                <table className={styles.table}>
+                  <thead>
+                    <tr>{b.headers.map((h, hi) => <th key={hi}>{inline(h)}</th>)}</tr>
+                  </thead>
+                  <tbody>
+                    {b.rows.map((row, ri) => (
+                      <tr key={ri}>{row.map((cell, ci) => <td key={ci}>{inline(cell)}</td>)}</tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            )
           case 'fig':
             return (
               <figure key={i} className={FIG_CLASS[b.side]}>
