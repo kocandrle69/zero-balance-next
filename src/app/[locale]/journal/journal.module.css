@@ -448,6 +448,38 @@
 .videoLink:hover { background: var(--glass-gold); border-color: var(--gold); }
 .videoIcon { font-size: 8px; }
 
+/* ── Tabulka (GFM `| a | b |` v markdownu) ─────────────────────── */
+.tableWrap {
+  clear: both;
+  overflow-x: auto;
+  margin-bottom: 28px;
+  border: 1px solid rgba(184,146,42,0.2);
+  border-radius: 12px;
+}
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 15px; font-weight: 300;
+  line-height: 1.6; color: var(--muted);
+}
+.table th, .table td {
+  padding: 12px 16px;
+  text-align: left;
+  vertical-align: top;
+  border-bottom: 1px solid rgba(184,146,42,0.15);
+}
+.table thead th {
+  font-family: 'Cinzel', serif; font-size: 10px;
+  letter-spacing: 0.1em; text-transform: uppercase;
+  color: var(--gold-text);
+  background: var(--glass-gold);
+  border-bottom: 1px solid rgba(184,146,42,0.3);
+  white-space: nowrap;
+}
+.table tbody tr:last-child td { border-bottom: none; }
+.table strong { font-weight: 500; color: var(--ink2); }
+.table em { font-style: italic; }
+
 /* ── Fotografie v textu ────────────────────────────────────────── */
 .figFull, .figLeft, .figRight, .figPlain { margin-bottom: 28px; }
 .figFull img, .figLeft img, .figRight img {

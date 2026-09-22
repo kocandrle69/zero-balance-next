@@ -200,19 +200,46 @@ Na základě rozhovoru zaznamenaného v GMT20260920-161948_Recording.m4a dne 20.
 
 Úplný český překlad opraveného anglického materiálu. Obsahuje přehled, vysvětlení rozdělení 4½ + 5½, srovnání s klasickou terminologií a slovníček. Jde o studijní pomůcku, nikoli o doslovný přepis rozhovoru.
 
-**1. Hlavní opravy.** Dříve nejasné slovo přepsané jako „mislešan“ je viśleṣaṇa — विश्लेषण — analýza. Nový automatický přepis nahrávky tento výraz rozpoznává v pasáži přibližně 1:16:59–1:17:15, kde tvoří dvojici s tulan / tulanā — porovnáváním. V následujícím vysvětlení zaznívá také anglické slovo „analyze“. Standardní pravopis nezávisle potvrzují publikované texty. Dřívější „testing and selecting — testování a vybírání“ je přesnější přeložit jako „ochutnávání či vychutnávání a vybírání“. Příslušný hindský výraz je āsvādana — आस्वादन. Řečník jej vysvětluje na příkladu zapamatované chuti a výběru jídla z konkrétního obchodu. Automatické přepisy zapisují mluvenou angličtinu jako „testing“, ale hindský výraz a příklady podporují význam „tasting — ochutnávání“, nikoli technické testování.
+**1. Pět oblastí a deset činností.** Následující pořadí odpovídá předchozímu přehledu. Jde o přiřazení funkcí v rámci daného učení, nikoli o anatomické umístění nebo tvrzení o konkrétních oblastech mozku.
 
-**2. Pět oblastí a deset činností.** Následující pořadí odpovídá předchozímu přehledu. Jde o přiřazení funkcí v rámci daného učení, nikoli o anatomické umístění nebo tvrzení o konkrétních oblastech mozku. Manas — मनस्, hindsky man, मन — zahrnuje āsvādana (आस्वादन): ochutnávání, vychutnávání, smyslové zakoušení, a cayana (चयन): vybírání, volbu. Něco zakoušíme a na tomto základě vybíráme — příkladem je výběr jídla podle zapamatované chuti. Čitta — citta, चित्त — zahrnuje cintana (चिन्तन / चिंतन): přemýšlení, rozjímání, kontemplaci, a citraṇa (चित्रण): představování, vytváření mentálních obrazů. Jde o přemýšlení o tom, co něco je a jaké to je, a o představování možností s využitím paměti, například barev místnosti. Vrtti — vṛtti, वृत्ति — zahrnuje viśleṣaṇa (विश्लेषण): analýzu, rozbor, a tulanu/tulanā (तुलन / तुलना): porovnávání, posuzování — podle určitých kritérií: preferencí a osobního prospěchu, nebo spravedlnosti, dharmy a pravdy. Buddhi — बुद्धि — zahrnuje bodha (बोध): pochopení, poznání, a saṅkalpu (संकल्प): rozhodnutí, záměr, předsevzetí. Z pochopení vychází pevné rozhodnutí: „Takto to je; takto budu jednat.“ Átman — ātman, आत्मन्, hindsky ātmā, आत्मा — zahrnuje anubhavu (अनुभव): zkušenost, přímé zakoušení či poznání, a pramāṇu (प्रमाण): potvrzení, doložení. Řečník spojuje zkušenost s jejím potvrzením; „pramána“ se zde nemá automaticky chápat jako vědecký důkaz. Pět oblastí krát dvě činnosti dává deset činností. Rozdíl mezi āsvādana na úrovni manasu a anubhava na úrovni átmanu je v tomto výkladu podstatný — přeložit obojí jednoduše jako „zkušenost“ by tento rozdíl zastřelo.
+| Oblast | První činnost | Druhá činnost | Význam v tomto rozhovoru |
+| --- | --- | --- | --- |
+| **Manas** — मनस्; hindsky man, मन | Āsvādana (आस्वादन): ochutnávání, vychutnávání, smyslové zakoušení | Cayana (चयन): vybírání, volba | Něco zakoušíme a na tomto základě vybíráme. Příkladem je výběr jídla podle zapamatované chuti. |
+| **Čitta** — citta, चित्त | Cintana (चिन्तन / चिंतन): přemýšlení, rozjímání, kontemplace | Citraṇa (चित्रण): představování, vytváření mentálních obrazů | Přemýšlení o tom, co něco je a jaké to je; představování možností s využitím paměti, například barev místnosti. |
+| **Vrtti** — vṛtti, वृत्ति | Viśleṣaṇa (विश्लेषण): analýza, rozbor | Tulana / tulanā (तुलन / तुलना): porovnávání, posuzování | Rozebírání a porovnávání podle určitých kritérií: preferencí a osobního prospěchu, nebo spravedlnosti, dharmy a pravdy. |
+| **Buddhi** — बुद्धि | Bodha (बोध): pochopení, poznání | Saṅkalpa (संकल्प): rozhodnutí, záměr, předsevzetí | Z pochopení vychází pevné rozhodnutí: „Takto to je; takto budu jednat.“ |
+| **Átman** — ātman, आत्मन्; hindsky ātmā, आत्मा | Anubhava (अनुभव): zkušenost, přímé zakoušení či poznání | Pramāṇa (प्रमाण): potvrzení, doložení | Řečník spojuje zkušenost s jejím potvrzením. „Pramána“ se zde nemá automaticky chápat jako vědecký důkaz. |
 
-**3. Jak do sebe zapadá čtyři a půl plus pět a půl.** Do čtyř a půl se počítají obě činnosti manasu (āsvādana + cayana = 2), citraṇa z čitty (= 1), viśleṣaṇa a polovina tulany z vrtti (= 1½) — celkem čtyři a půl. Do zbývajících pěti a půl se počítá cintana z čitty (= 1), druhá polovina tulany (= ½), obě činnosti buddhi (bodha + saṅkalpa = 2) a obě činnosti átmanu (anubhava + pramāṇa = 2) — celkem pět a půl. První polovina porovnávání je popisována výrazy priya–hita–lābha: to, co je příjemné či milé, co slouží určitému zájmu nebo přináší prospěch, a co přináší zisk. Druhá polovina je popisována výrazy nyāya–dharma–satya: spravedlnost, dharma a pravda. „Polovina“ je součástí vysvětlujícího schématu, nikoli změřeným rozdělením psychické schopnosti. Dřívější formulace příliš zužovala priya–hita–lābha na „lidi, kteří jsou mi blízcí“ — řečník sice uvádí jako příklady rodinu a přátele, ale samotné výrazy zahrnují také preference, prospěch a zisk.
+Pět oblastí × dvě činnosti = deset činností. Rozdíl mezi āsvādana na úrovni manasu a anubhava na úrovni átmanu je v tomto výkladu podstatný — přeložit obojí jednoduše jako „zkušenost“ by tento rozdíl zastřelo.
+
+**2. Jak do sebe zapadá čtyři a půl plus pět a půl.**
+
+| Oblast | Započítáno do 4½ | Započítáno do zbývajících 5½ |
+| --- | --- | --- |
+| Manas | Āsvādana + cayana = 2 | — |
+| Čitta | Citraṇa = 1 | Cintana = 1 |
+| Vrtti | Viśleṣaṇa + polovina tulana = 1½ | Druhá polovina tulana = ½ |
+| Buddhi | — | Bodha + saṅkalpa = 2 |
+| Átman | — | Anubhava + pramāṇa = 2 |
+| **Celkem** | **4½** | **5½** |
+
+První polovina porovnávání je popisována výrazy priya–hita–lābha: to, co je příjemné či milé, co slouží určitému zájmu nebo přináší prospěch, a co přináší zisk. Druhá polovina je popisována výrazy nyāya–dharma–satya: spravedlnost, dharma a pravda. „Polovina“ je součástí vysvětlujícího schématu, nikoli změřeným rozdělením psychické schopnosti. Dřívější formulace příliš zužovala priya–hita–lābha na „lidi, kteří jsou mi blízcí“ — řečník sice uvádí jako příklady rodinu a přátele, ale samotné výrazy zahrnují také preference, prospěch a zisk.
 
 Poznámka k nesrovnalosti v textu: původní přepis výslovně zařazuje představování do čtyř a půl a ponechává kontemplaci pro pět a půl. Nové rozpoznání řeči zachycuje *cintana* v rekapitulaci kolem 1:19:25–1:19:35. Druhý rozpoznávací model však v pozdější rekapitulaci kolem 1:19:49–1:20:07 rovněž zachycuje *citraṇa*. Může jít o přeřeknutí nebo chybu rozpoznání; nelze to jednoduše přičíst staršímu překladu. Uvedený přehled je redakčně sjednocený, založený na výslovném rozlišení a na součtu činností, a nemá být podáván tak, jako by všechna opakování v nahrávce byla zcela shodná.
 
-Rozhovor propojuje tyto činnosti s následujícími způsoby života: čtyři a půl → saṃvedanā → bhoga — smyslové pociťování a požívání, život, v němž jsou v popředí vlastní potřeby a preference. Pět a půl → saṃjñāna / saṃjñānitā → tyāga — poznávání či uvědomování, které řečník spojuje s odříkáním a širším zaměřením života. Čtyři a půl plus pět a půl (deset) → mānavīyatā → celistvost → sadupayoga — lidskost neboli plné lidské žití, které se projevuje správným využíváním. Tato propojení odrážejí řečníkovo vysvětlení a nejde o univerzální slovníkové definice těchto pojmů.
+| Rozsah | Princip | Životní způsob |
+| --- | --- | --- |
+| 4½ | saṃvedanā | bhoga — smyslové pociťování a požívání; život, v němž jsou v popředí vlastní potřeby a preference. |
+| 5½ | saṃjñāna / saṃjñānitā | tyāga — poznávání či uvědomování, které řečník spojuje s odříkáním a širším zaměřením života. |
+| 4½ + 5½ = 10 | mānavīyatā → celistvost | sadupayoga — lidskost neboli plné lidské žití, které se projevuje správným využíváním. |
 
-Cílem není odhodit prvních čtyři a půl činnosti a žít pouze prostřednictvím zbývajících pěti a půl. Řečník doporučuje žít prostřednictvím všech deseti. Takového člověka označuje jako jógina a zdůrazňuje sadupayoga — správné, prospěšné využití. Praktický smysl vysvětlují jeho příklady: nosit takové oblečení, jaké je potřeba; využít to, co je nezbytné, a podělit se o to, co zbývá; použít jehlu tam, kde je potřeba jehla, a meč tam, kde je potřeba meč; podle úkolu a okolností zvolit vrtulník, soukromé letadlo, volský povoz nebo jízdní kolo. Důraz je na správném využití, nikoli na připoutanosti výhradně k požívání nebo k odříkání. Dřívější schéma umisťovalo samyak mezi bhoga a tyāga jako správné a vyvážené využití mezi požíváním a odříkáním — to je vhodné chápat jako názornou interpretaci: samyak znamená správně, náležitě či úplně, „střed mezi požíváním a odříkáním“ není jeho jediným doslovným významem. Přesné použití tohoto slova v jiné části nahrávky nebylo při této kontrole samostatně ověřeno ze zvuku.
+Tato propojení odrážejí řečníkovo vysvětlení a nejde o univerzální slovníkové definice těchto pojmů.
 
-**4. Srovnání s klasickou jógou a védántou.** Schéma deseti činností je třeba odlišit od běžného čtyřčlenného védántského popisu antaḥkaraṇa — „vnitřního nástroje“.
+Cílem není odhodit prvních čtyři a půl činnosti a žít pouze prostřednictvím zbývajících pěti a půl. Řečník doporučuje žít prostřednictvím všech deseti. Takového člověka označuje jako jógina a zdůrazňuje sadupayoga — správné, prospěšné využití. Praktický smysl vysvětlují jeho příklady: nosit takové oblečení, jaké je potřeba; využít to, co je nezbytné, a podělit se o to, co zbývá; použít jehlu tam, kde je potřeba jehla, a meč tam, kde je potřeba meč; podle úkolu a okolností zvolit vrtulník, soukromé letadlo, volský povoz nebo jízdní kolo. Důraz je na správném využití, nikoli na připoutanosti výhradně k požívání nebo k odříkání.
+
+Dřívější schéma umisťovalo samyak mezi bhoga a tyāga jako správné a vyvážené využití mezi požíváním a odříkáním — to je vhodné chápat jako názornou interpretaci: samyak znamená správně, náležitě či úplně, „střed mezi požíváním a odříkáním“ není jeho jediným doslovným významem. Přesné použití tohoto slova v jiné části nahrávky nebylo při této kontrole samostatně ověřeno ze zvuku.
+
+**3. Srovnání s klasickou jógou a védántou.** Schéma deseti činností je třeba odlišit od běžného čtyřčlenného védántského popisu antaḥkaraṇa — „vnitřního nástroje“.
 
 Manas — věnování pozornosti informacím a jejich zvažování, uvažování o alternativách či pochybování.
 
@@ -220,116 +247,70 @@ Buddhi — rozlišování, porozumění a rozhodování.
 
 Ahaṃkāra — pocit „já“ a ztotožnění se zkušeností jako s něčím „mým“.
 
-Čitta — paměť a vzpomínání, v některých popisech i kontemplace.
+Čitta — paměť a vzpomínání; v některých popisech kontemplace.
 
-Jde o funkční aspekty vnitřního nástroje, ne nutně o čtyři oddělené orgány, a terminologie se mezi tradicemi liší — zejména čitta má v Pataňdžaliho józe širší význam než samotná „paměť“.
+Jde o funkční aspekty vnitřního nástroje, ne nutně o čtyři oddělené orgány. Terminologie se mezi tradicemi liší. Zejména *čitta* má v Pataňdžaliho józe širší význam než samotná „paměť“. [Svámí Šivánanda: Čitta a paměť](https://www.sivanandaonline.org/?cmd=displaysection&section_id=870)
 
-V Pataňdžaliho józe navíc vrtti označuje činnosti či proměny čitty a pět druhů uvedených v Jógasútře 1.6 je pramāṇa, viparyaya, vikalpa, nidrā a smṛti — platné poznání, mylné poznání, pojmová konstrukce, spánek a paměť —, což je jiné rozdělení než pět oblastí po dvou činnostech uvedené výše.
+V Pataňdžaliho józe označuje vṛtti činnosti či proměny čitty. Pět druhů uvedených v Jógasútře 1.6 je pramāṇa, viparyaya, vikalpa, nidrā a smṛti: platné poznání, mylné poznání, pojmová konstrukce, spánek a paměť. To je jiné rozdělení než pět oblastí po dvou činnostech. [Jógasútry 1.2 a 1.5–1.7](https://sanskritdocuments.org/doc_yoga/yogasuutra.html)
 
-**5. Slovníček.**
+Dřívější přehled tedy správně rozlišoval jednotlivé systémy, ale příliš rychle označil desetidílný model za osobní výtvor řečníka. Přesnější označení zní: „Model deseti činností ve výkladu Gurudeva, s blízkou doloženou paralelou v Madhyasth Darshan / Jeevan Vidya.“
 
-Átman (hindsky átmá) — Já; v tomto rozhovoru spojováno s anubhava a pramāṇa.
+**4. Slovníček.** Následující definice překládají a upřesňují pojmy použité v předchozím přehledu. Významy specifické pro tento rozhovor jsou takto označeny. Zařazení pojmu neznamená, že byl nezávisle ověřen každý jeho výskyt v celé tříhodinové nahrávce.
 
-Anubhava — zkušenost, přímé zakoušení či poznání.
+| Pojem | Dévanágarí | Český význam a poznámka ke kontextu |
+| --- | --- | --- |
+| **Átman (hindsky átmá)** | आत्मन् / आत्मा | Já; v tomto rozhovoru spojováno s anubhava a pramāṇa. |
+| **Anubhava** | अनुभव | zkušenost, přímé zakoušení či poznání. |
+| **Anubhúti** | अनुभूति | zkušenost nebo vnitřní prožitek či poznání, významově příbuzné anubhava; přesnější rozlišení závisí na tom, jak výrazy používá řečník. |
+| **Pramāṇa** | प्रमाण | důkaz, potvrzení nebo prostředek platného poznání; zde jej řečník spojuje s potvrzením zkušenosti. |
+| **Manas (hindsky man)** | मनस् / मन | mysl, v tomto modelu oblast āsvādana a cayana. |
+| **Āsvādana** | आस्वादन | ochutnávání, vychutnávání, oceňování skrze zakoušení; chybějící hindský protějšek dřívějšího „testing“. |
+| **Cayana** | चयन | výběr, vybírání. |
+| **Buddhi** | बुद्धि | porozumění nebo rozlišující inteligence, spojená s bodha a saṅkalpa. |
+| **Bodha** | बोध | pochopení, uvědomění, poznání. |
+| **Saṅkalpa** | संकल्प | záměr, předsevzetí, pevné rozhodnutí. |
+| **Ṛtambharā (pravděpodobné čtení)** | ऋतम्भरा | nesoucí pravdu nebo naplněná pravdou; pravděpodobně se skrývá za poškozenou větou u vysvětlení sankalpy — nový přepis zachycuje podobný zvuk a poté „záměr naplněný pravdou“, toto čtení zůstává předběžné a z poškozené věty se nemá vyvozovat další tvrzení o Brahmovi nebo čittě. |
+| **Vikalpa** | विकल्प | alternativa nebo pojmová konstrukce; v Jógasútře 1.9 má specifický odborný význam, samotná „pochybnost“ jej tam nevystihuje. |
+| **Čitta** | चित्त | mysl či mentální pole, v různých tradicích s různě širokým významem, zde spojena s cintana a citraṇa. |
+| **Cintana** | चिन्तन / चिंतन | přemýšlení, rozjímání, kontemplace. |
+| **Citraṇa** | चित्रण | zobrazování, představování, vytváření mentálního obrazu. |
+| **Vrtti** | वृत्ति | činnost, způsob či proměna; v tomto modelu oblast analýzy a porovnávání, toto přiřazení se liší od Pataňdžaliho klasifikace. |
+| **Viśleṣaṇa** | विश्लेषण | analýza, analytický rozbor; dříve nejasné „mislešan“. |
+| **Tulana / tulanā** | तुलन / तुलना | porovnávání, posuzování. |
+| **Priya–hita–lābha** | प्रिय–हित–लाभ | to, co je příjemné či milé, prospěch nebo zájem, zisk; kritéria jedné stránky porovnávání. |
+| **Nyāya–dharma–satya** | न्याय–धर्म–सत्य | spravedlnost, dharma neboli správný řád či jednání, pravda; kritéria druhé stránky porovnávání. |
+| **Saṃskāra** | संस्कार | otisk nebo dispozice vzniklá zkušeností. |
+| **Smṛti** | स्मृति | paměť nebo vzpomínka; nemá se běžně zaměňovat se saṃskāra, tedy „otiskem“. |
+| **Antaḥkaraṇa** | अन्तःकरण | vnitřní nástroj, v běžném čtyřčlenném védántském popisu zahrnuje manas, buddhi, ahaṃkāra a čittu. |
+| **Ahaṃkāra** | अहंकार | „tvůrce já“, ztotožnění s egem nebo přivlastnění zkušenosti jako „já“ a „moje“. |
+| **Saṃvedanā** | संवेदना | pociťování, vjem, citlivost; v tomto rozhovoru spojeno se čtyřmi a půl činnostmi. |
+| **Saṃjñāna** | संज्ञान | poznávání, uvědomování, vědomí něčeho. |
+| **Saṃjñānitā** | संज्ञानिता | příbuzný tvar použitý v dodaném přepisu, zde označující způsob spojený se zbývajícími pěti a půl činnostmi; je vhodné zachovat tento kontext a netvrdit, že jde o univerzální odbornou definici. |
+| **Mānavīyatā** | मानवीयता | lidskost, humanita; v tomto vysvětlení žití prostřednictvím všech deseti činností. |
+| **Bhoga** | भोग | požívání, užívání či prožívání světských podmínek. |
+| **Tyāga** | त्याग | odříkání, zřeknutí se, vzdání se. |
+| **Sadupayoga** | सदुपयोग | správné, vhodné nebo prospěšné využití. |
+| **Samyak** | सम्यक् | správně, náležitě, úplně; „rovnováha“ je interpretace podle kontextu. |
+| **Draṣṭā-bhāva** | द्रष्टा भाव | postoj pozorovatele či zřícího; dřívější český zápis „dráštá“ nevystihoval správně délky samohlásek. |
+| **Sākṣī-bhāva** | साक्षी भाव | postoj svědka, pozorování, při němž se člověk zcela neztotožňuje s tím, co pozoruje. |
+| **Māyā** | माया | v neduálním výkladu podaném v rozhovoru princip spojený s jevením oddělenosti či mnohosti. |
+| **Brahman** | ब्रह्मन् | nejvyšší či absolutní skutečnost, v rozhovoru stavěná do protikladu ke zdánlivé oddělenosti. |
+| **Cetanā** | चेतना | vědomí, uvědomování; řečník nepovažuje individuální a univerzální vědomí za kvalitativně odlišná. |
+| **Jñāna** | ज्ञान | poznání, porozumění. |
+| **Śravaṇa** | श्रवण | naslouchání učení. |
+| **Manana** | मनन | rozjímání nad tím, co bylo vyslechnuto. |
+| **Jñānendriya** | ज्ञानेन्द्रिय | schopnost či orgán vnímání, tradičních pět se vztahuje ke sluchu, hmatu, zraku, chuti a čichu. |
+| **Karmendriya** | कर्मेन्द्रिय | schopnost či orgán činnosti, tradičních pět se vztahuje k řeči, uchopování, pohybu z místa na místo, vylučování a rozmnožování. |
+| **Prāṇa** | प्राण | dech nebo životní síla, i název jedné z jejích pěti hlavních funkčních složek (prāṇa, apāna, vyāna, udāna, samāna) — tabulka deseti činností jejich podrobné funkce nestanovuje. |
+| **Sādhanā** | साधना | duchovní praxe nebo soustavné duchovní rozvíjení. |
+| **Dhyāna** | ध्यान | meditace. |
+| **Dhyāna-sādhanā** | ध्यान साधना | meditační duchovní praxe. |
+| **Samādhi** | समाधि | meditativní pohroužení, přesnější definice závisí na tradici. |
+| **Bhakti** | भक्ति | oddanost. |
+| **Kūṭastha** | कूटस्थ | to, co je neměnné; předchozí rozhovor spojoval tento pojem s oblastí mezi očima, tato souvislost je specifická pro dané učení a není doslovnou definicí slova. |
+| **Kāraṇa-śarīra** | कारण शरीर | kauzální tělo. |
+| **Kāraṇa-jagat** | कारण जगत् | kauzální svět či oblast. |
+| **Prakṛti** | प्रकृति | příroda nebo prvotní přirozenost, podle kontextu. |
+| **Śakti** | शक्ति | síla, schopnost nebo energie, v některých souvislostech božská moc; nemá se automaticky pokládat za osobní jméno. |
 
-Anubhúti — zkušenost nebo vnitřní prožitek či poznání, významově příbuzné anubhava; přesnější rozlišení závisí na tom, jak výrazy používá řečník.
-
-Pramāṇa — důkaz, potvrzení nebo prostředek platného poznání; zde jej řečník spojuje s potvrzením zkušenosti.
-
-Manas (hindsky man) — mysl, v tomto modelu oblast āsvādana a cayana.
-
-Āsvādana — ochutnávání, vychutnávání, oceňování skrze zakoušení; chybějící hindský protějšek dřívějšího „testing“.
-
-Cayana — výběr, vybírání.
-
-Buddhi — porozumění nebo rozlišující inteligence, spojená s bodha a saṅkalpa.
-
-Bodha — pochopení, uvědomění, poznání.
-
-Saṅkalpa — záměr, předsevzetí, pevné rozhodnutí.
-
-Ṛtambharā (pravděpodobné čtení) — nesoucí pravdu nebo naplněná pravdou; pravděpodobně se skrývá za poškozenou větou u vysvětlení sankalpy — nový přepis zachycuje podobný zvuk a poté „záměr naplněný pravdou“, toto čtení zůstává předběžné a z poškozené věty se nemá vyvozovat další tvrzení o Brahmovi nebo čittě.
-
-Vikalpa — alternativa nebo pojmová konstrukce; v Jógasútře 1.9 má specifický odborný význam, samotná „pochybnost“ jej tam nevystihuje.
-
-Čitta — mysl či mentální pole, v různých tradicích s různě širokým významem, zde spojena s cintana a citraṇa.
-
-Cintana — přemýšlení, rozjímání, kontemplace.
-
-Citraṇa — zobrazování, představování, vytváření mentálního obrazu.
-
-Vrtti — činnost, způsob či proměna; v tomto modelu oblast analýzy a porovnávání, toto přiřazení se liší od Pataňdžaliho klasifikace.
-
-Viśleṣaṇa — analýza, analytický rozbor; dříve nejasné „mislešan“.
-
-Tulana / tulanā — porovnávání, posuzování.
-
-Priya–hita–lābha — to, co je příjemné či milé, prospěch nebo zájem, zisk; kritéria jedné stránky porovnávání.
-
-Nyāya–dharma–satya — spravedlnost, dharma neboli správný řád či jednání, pravda; kritéria druhé stránky porovnávání.
-
-Saṃskāra — otisk nebo dispozice vzniklá zkušeností.
-
-Smṛti — paměť nebo vzpomínka; nemá se běžně zaměňovat se saṃskāra, tedy „otiskem“.
-
-Antaḥkaraṇa — vnitřní nástroj, v běžném čtyřčlenném védántském popisu zahrnuje manas, buddhi, ahaṃkāra a čittu.
-
-Ahaṃkāra — „tvůrce já“, ztotožnění s egem nebo přivlastnění zkušenosti jako „já“ a „moje“.
-
-Saṃvedanā — pociťování, vjem, citlivost; v tomto rozhovoru spojeno se čtyřmi a půl činnostmi.
-
-Saṃjñāna — poznávání, uvědomování, vědomí něčeho.
-
-Saṃjñānitā — příbuzný tvar použitý v dodaném přepisu, zde označující způsob spojený se zbývajícími pěti a půl činnostmi; je vhodné zachovat tento kontext a netvrdit, že jde o univerzální odbornou definici.
-
-Mānavīyatā — lidskost, humanita; v tomto vysvětlení žití prostřednictvím všech deseti činností.
-
-Bhoga — požívání, užívání či prožívání světských podmínek.
-
-Tyāga — odříkání, zřeknutí se, vzdání se.
-
-Sadupayoga — správné, vhodné nebo prospěšné využití.
-
-Samyak — správně, náležitě, úplně; „rovnováha“ je interpretace podle kontextu.
-
-Draṣṭā-bhāva — postoj pozorovatele či zřícího; dřívější český zápis „dráštá“ nevystihoval správně délky samohlásek.
-
-Sākṣī-bhāva — postoj svědka, pozorování, při němž se člověk zcela neztotožňuje s tím, co pozoruje.
-
-Māyā — v neduálním výkladu podaném v rozhovoru princip spojený s jevením oddělenosti či mnohosti.
-
-Brahman — nejvyšší či absolutní skutečnost, v rozhovoru stavěná do protikladu ke zdánlivé oddělenosti.
-
-Cetanā — vědomí, uvědomování; řečník nepovažuje individuální a univerzální vědomí za kvalitativně odlišná.
-
-Jñāna — poznání, porozumění.
-
-Śravaṇa — naslouchání učení.
-
-Manana — rozjímání nad tím, co bylo vyslechnuto.
-
-Jñānendriya — schopnost či orgán vnímání, tradičních pět se vztahuje ke sluchu, hmatu, zraku, chuti a čichu.
-
-Karmendriya — schopnost či orgán činnosti, tradičních pět se vztahuje k řeči, uchopování, pohybu z místa na místo, vylučování a rozmnožování.
-
-Prāṇa — dech nebo životní síla, i název jedné z jejích pěti hlavních funkčních složek (prāṇa, apāna, vyāna, udāna, samāna) — tabulka deseti činností jejich podrobné funkce nestanovuje.
-
-Sādhanā — duchovní praxe nebo soustavné duchovní rozvíjení.
-
-Dhyāna — meditace.
-
-Dhyāna-sādhanā — meditační duchovní praxe.
-
-Samādhi — meditativní pohroužení, přesnější definice závisí na tradici.
-
-Bhakti — oddanost.
-
-Kūṭastha — to, co je neměnné; předchozí rozhovor spojoval tento pojem s oblastí mezi očima, tato souvislost je specifická pro dané učení a není doslovnou definicí slova.
-
-Kāraṇa-śarīra — kauzální tělo.
-
-Kāraṇa-jagat — kauzální svět či oblast.
-
-Prakṛti — příroda nebo prvotní přirozenost, podle kontextu.
-
-Śakti — síla, schopnost nebo energie, v některých souvislostech božská moc; nemá se automaticky pokládat za osobní jméno.
+**5. Stručné studijní schéma.** Deset činností se dělí do pěti oblastí po dvou činnostech: manas přináší āsvādana (zakoušení) a cayana (výběr); čitta přináší cintana (kontemplaci) a citraṇa (představování); vrtti přináší viśleṣaṇa (analýzu) a tulanu (porovnávání); buddhi přináší bodhu (pochopení) a saṅkalpu (rozhodnutí); a átman přináší anubhavu (zkušenost) a pramāṇu (potvrzení). Čtyři a půl činnosti tvoří obě činnosti manasu, dále citraṇa, viśleṣaṇa a polovina tulany. Zbývajících pět a půl tvoří cintana, druhá polovina tulany, obě činnosti buddhi a obě činnosti átmanu. Dohromady deset znamená celistvé používání všech deseti — sadupayoga.

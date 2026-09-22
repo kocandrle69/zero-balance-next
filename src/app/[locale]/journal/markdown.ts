@@ -18,8 +18,11 @@
  *   ---                                vše za oddělovačem je závěrečná poznámka
  *   ***                                tenká zlatá dělicí linka mezi oddíly
  *                                      (na rozdíl od --- nic nespouští, jen odděluje)
- *   *kurzíva*  **tučně**               uvnitř odstavce
- *   [text](https://…)                  odkaz uvnitř odstavce/poznámky/calloutu
+ *   | A | B |                          tabulka (GFM styl) — hlavička, oddělovací
+ *   | --- | --- |                      řádek `---`, pak datové řádky; žádné prázdné
+ *   | x | y |                          řádky uvnitř bloku
+ *   *kurzíva*  **tučně**               uvnitř odstavce/buňky tabulky
+ *   [text](https://…)                  odkaz uvnitř odstavce/poznámky/calloutu/buňky
  *   [**tučný text**](https://…)        totéž, tučně (jen tato jedna kombinace)
  *
  * Odstavce se oddělují prázdným řádkem.
@@ -32,9 +35,18 @@ export type Block =
   | { k: 'video'; href: string; t: string }
   | { k: 'fig'; src: string; side: Side; alt: string }
   | { k: 'divider' }
+  | { k: 'table'; headers: string[]; rows: string[][] }
 
 const FIG = /^!\[([^\]]*)\]\(([^)\s]+)(?:\s+"(full|left|right|plain)")?\)$/
 const LINK = /^\[([^\]]+)\]\((https?:\/\/[^)]+)\)$/
+const TABLE_SEP_CELL = /^:?-{3,}:?$/
+
+function splitTableRow(line: string): string[] {
+  let s = line.trim()
+  if (s.startsWith('|')) s = s.slice(1)
+  if (s.endsWith('|')) s = s.slice(0, -1)
+  return s.split('|').map(c => c.trim())
+}
 
 export function parseMarkdown(md: string): Block[] {
   const blocks: Block[] = []
@@ -42,7 +54,23 @@ export function parseMarkdown(md: string): Block[] {
   let afterRule = false
 
   for (const chunk of md.split(/\n{2,}/)) {
-    const t = chunk.trim().replace(/\s*\n\s*/g, ' ')
+    const rawTrim = chunk.trim()
+    if (!rawTrim) continue
+
+    // Tabulka: hlavička + oddělovací řádek `---` + datové řádky, vše na
+    // jednotlivých (neprázdných) řádcích uvnitř jednoho bloku.
+    const rawLines = rawTrim.split('\n').map(l => l.trim()).filter(Boolean)
+    if (rawLines.length >= 2 && rawLines[0].startsWith('|')) {
+      const sepCells = splitTableRow(rawLines[1])
+      if (sepCells.length > 0 && sepCells.every(c => TABLE_SEP_CELL.test(c))) {
+        const headers = splitTableRow(rawLines[0])
+        const rows = rawLines.slice(2).map(splitTableRow)
+        blocks.push({ k: 'table', headers, rows })
+        continue
+      }
+    }
+
+    const t = rawTrim.replace(/\s*\n\s*/g, ' ')
     if (!t) continue
 
     if (t === '---') { afterRule = true; continue }
