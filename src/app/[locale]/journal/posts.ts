@@ -56,6 +56,73 @@ export interface PostMeta {
 
 export const POSTS: PostMeta[] = [
   {
+    slug: 'otazky-a-odpovedi',
+    date: '2026-09-21',
+    cover: '/images/Gurudev_call.png',
+    coverPos: 'center 20%',
+    langs: ['cs', 'en', 'hi', 'fr', 'es', 'de'],
+    meta: {
+      cs: {
+        rubric: 'Promluvy - Gurudév',
+        title: 'Gurudévovy promluvy',
+        titleEm: 'Otázky a odpovědi',
+        perex: `Přepis živého rozhovoru, ve kterém Gurudév odpovídá na otázky žáků — od
+          svobodné vůle a karmy přes kvantovou fyziku a máju až po deset lidských
+          činností a cestu k úplnému poznání. Součástí je i rozšířená příloha s
+          přehledem a slovníčkem pojmů z výkladu o deseti činnostech.`,
+      },
+      en: {
+        rubric: 'Discourses - Gurudev',
+        title: "Gurudev's Talks",
+        titleEm: 'Questions and Answers',
+        perex: `A transcript of a live call in which Gurudev answers questions from
+          students — from free will and karma through quantum physics and maya to the
+          ten activities of a human being and the path to complete knowledge. Includes
+          an extended appendix with an overview and glossary of the teaching on the
+          ten activities.`,
+      },
+      hi: {
+        rubric: 'प्रवचन - गुरुदेव',
+        title: 'गुरुदेव के प्रवचन',
+        titleEm: 'प्रश्नोत्तर',
+        perex: `एक लाइव कॉल का प्रतिलेख, जिसमें गुरुदेव शिष्यों के प्रश्नों के उत्तर देते
+          हैं — स्वतंत्र इच्छा और कर्म से लेकर क्वांटम भौतिकी और माया तक, और मनुष्य की
+          दस क्रियाओं तथा पूर्ण ज्ञान के मार्ग तक। इसमें दस क्रियाओं की शिक्षा का
+          विस्तृत अवलोकन और शब्दावली भी शामिल है।`,
+      },
+      fr: {
+        rubric: 'Discours - Gurudev',
+        title: 'Les discours de Gurudev',
+        titleEm: 'Questions et réponses',
+        perex: `Transcription d'un appel en direct dans lequel Gurudev répond aux
+          questions des élèves — du libre arbitre et du karma à la physique quantique
+          et à māyā, jusqu'aux dix activités de l'être humain et au chemin vers la
+          connaissance complète. Comprend une annexe étendue avec un aperçu et un
+          glossaire de l'enseignement sur les dix activités.`,
+      },
+      es: {
+        rubric: 'Discursos - Gurudev',
+        title: 'Discursos de Gurudev',
+        titleEm: 'Preguntas y respuestas',
+        perex: `Transcripción de una llamada en directo en la que Gurudev responde
+          preguntas de los alumnos — desde el libre albedrío y el karma hasta la
+          física cuántica y māyā, y las diez actividades del ser humano y el camino
+          hacia el conocimiento pleno. Incluye un apéndice ampliado con un panorama y
+          un glosario de la enseñanza sobre las diez actividades.`,
+      },
+      de: {
+        rubric: 'Diskurse - Gurudev',
+        title: 'Gurudevs Vorträge',
+        titleEm: 'Fragen und Antworten',
+        perex: `Mitschrift eines Live-Gesprächs, in dem Gurudev Fragen von Schülern
+          beantwortet — von freiem Willen und Karma über Quantenphysik und māyā bis zu
+          den zehn Tätigkeiten des Menschen und dem Weg zur vollständigen Erkenntnis.
+          Enthält einen erweiterten Anhang mit einem Überblick und Glossar zur Lehre
+          der zehn Tätigkeiten.`,
+      },
+    },
+  },
+  {
     slug: 'cesta-proti-proudu',
     date: '2026-09-14',
     cover: '/images/Jiri_Sensei.jpg',
