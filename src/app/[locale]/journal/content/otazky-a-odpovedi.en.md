@@ -214,7 +214,19 @@ The conversation connects these activities to the following ways of living: 4½ 
 
 The goal is not to discard the first 4½ activities and live only through the remaining 5½. The speaker recommends living through all ten. He calls such a person a yogi and emphasizes sadupayoga — proper, beneficial use. The practical meaning is explained by his examples: wear the clothing that is needed; use what is necessary and share what remains; use a needle where a needle is needed, and a sword where a sword is needed; depending on the task and circumstances, choose a helicopter, a private plane, an ox-cart, or a bicycle. The emphasis is on proper use, not on attachment exclusively to enjoyment or exclusively to renunciation. The earlier scheme placed samyak between bhoga and tyāga as proper and balanced use between enjoyment and renunciation — this should be understood as an illustrative interpretation. Samyak means correctly, properly, or fully; “the middle between enjoyment and renunciation” is not its only literal meaning. The precise use of this word elsewhere in the recording was not independently verified from the audio during this review.
 
-**4. Comparison with classical yoga and Vedānta.** The scheme of ten activities should be distinguished from the common fourfold Vedāntic description of the antaḥkaraṇa — the “inner instrument”: manas — attending to information and weighing it, considering alternatives or doubting; buddhi — discerning, understanding, and deciding; ahaṃkāra — the sense of “I,” identifying with experience as something “mine”; chitta — memory and recollection, in some descriptions contemplation. These are functional aspects of the inner instrument, not necessarily four separate organs, and terminology differs between traditions — in particular, chitta has a broader meaning in Patanjali’s yoga than mere “memory.” In Patanjali’s yoga, moreover, vritti denotes the activities or modifications of chitta, and the five kinds given in Yoga Sutra 1.6 are pramāṇa, viparyaya, vikalpa, nidrā, and smṛti — valid cognition, misconception, conceptual construction, sleep, and memory — which is a different division from the five domains with two activities each given above.
+**4. Comparison with classical yoga and Vedānta.** The scheme of ten activities should be distinguished from the common fourfold Vedāntic description of the antaḥkaraṇa — the “inner instrument”.
+
+Manas — attending to information and weighing it, considering alternatives or doubting.
+
+Buddhi — discerning, understanding, and deciding.
+
+Ahaṃkāra — the sense of “I,” identifying with experience as something “mine”.
+
+Chitta — memory and recollection, in some descriptions contemplation.
+
+These are functional aspects of the inner instrument, not necessarily four separate organs, and terminology differs between traditions — in particular, chitta has a broader meaning in Patanjali’s yoga than mere “memory.”
+
+In Patanjali’s yoga, moreover, vritti denotes the activities or modifications of chitta, and the five kinds given in Yoga Sutra 1.6 are pramāṇa, viparyaya, vikalpa, nidrā, and smṛti — valid cognition, misconception, conceptual construction, sleep, and memory — which is a different division from the five domains with two activities each given above.
 
 **5. Glossary.**
 

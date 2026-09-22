@@ -212,7 +212,19 @@ Rozhovor propojuje tyto činnosti s následujícími způsoby života: čtyři a
 
 Cílem není odhodit prvních čtyři a půl činnosti a žít pouze prostřednictvím zbývajících pěti a půl. Řečník doporučuje žít prostřednictvím všech deseti. Takového člověka označuje jako jógina a zdůrazňuje sadupayoga — správné, prospěšné využití. Praktický smysl vysvětlují jeho příklady: nosit takové oblečení, jaké je potřeba; využít to, co je nezbytné, a podělit se o to, co zbývá; použít jehlu tam, kde je potřeba jehla, a meč tam, kde je potřeba meč; podle úkolu a okolností zvolit vrtulník, soukromé letadlo, volský povoz nebo jízdní kolo. Důraz je na správném využití, nikoli na připoutanosti výhradně k požívání nebo k odříkání. Dřívější schéma umisťovalo samyak mezi bhoga a tyāga jako správné a vyvážené využití mezi požíváním a odříkáním — to je vhodné chápat jako názornou interpretaci: samyak znamená správně, náležitě či úplně, „střed mezi požíváním a odříkáním“ není jeho jediným doslovným významem. Přesné použití tohoto slova v jiné části nahrávky nebylo při této kontrole samostatně ověřeno ze zvuku.
 
-**4. Srovnání s klasickou jógou a védántou.** Schéma deseti činností je třeba odlišit od běžného čtyřčlenného védántského popisu antaḥkaraṇa — „vnitřního nástroje“: manas — věnování pozornosti informacím a jejich zvažování, uvažování o alternativách či pochybování; buddhi — rozlišování, porozumění a rozhodování; ahaṃkāra — pocit „já“ a ztotožnění se zkušeností jako s něčím „mým“; čitta — paměť a vzpomínání, v některých popisech i kontemplace. Jde o funkční aspekty vnitřního nástroje, ne nutně o čtyři oddělené orgány, a terminologie se mezi tradicemi liší — zejména čitta má v Pataňdžaliho józe širší význam než samotná „paměť“. V Pataňdžaliho józe navíc vrtti označuje činnosti či proměny čitty a pět druhů uvedených v Jógasútře 1.6 je pramāṇa, viparyaya, vikalpa, nidrā a smṛti — platné poznání, mylné poznání, pojmová konstrukce, spánek a paměť —, což je jiné rozdělení než pět oblastí po dvou činnostech uvedené výše.
+**4. Srovnání s klasickou jógou a védántou.** Schéma deseti činností je třeba odlišit od běžného čtyřčlenného védántského popisu antaḥkaraṇa — „vnitřního nástroje“.
+
+Manas — věnování pozornosti informacím a jejich zvažování, uvažování o alternativách či pochybování.
+
+Buddhi — rozlišování, porozumění a rozhodování.
+
+Ahaṃkāra — pocit „já“ a ztotožnění se zkušeností jako s něčím „mým“.
+
+Čitta — paměť a vzpomínání, v některých popisech i kontemplace.
+
+Jde o funkční aspekty vnitřního nástroje, ne nutně o čtyři oddělené orgány, a terminologie se mezi tradicemi liší — zejména čitta má v Pataňdžaliho józe širší význam než samotná „paměť“.
+
+V Pataňdžaliho józe navíc vrtti označuje činnosti či proměny čitty a pět druhů uvedených v Jógasútře 1.6 je pramāṇa, viparyaya, vikalpa, nidrā a smṛti — platné poznání, mylné poznání, pojmová konstrukce, spánek a paměť —, což je jiné rozdělení než pět oblastí po dvou činnostech uvedené výše.
 
 **5. Slovníček.**
 

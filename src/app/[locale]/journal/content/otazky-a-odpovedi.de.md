@@ -214,7 +214,19 @@ Das Gespräch verbindet diese Tätigkeiten mit folgenden Lebensweisen: 4½ → s
 
 Das Ziel ist nicht, die ersten 4½ Tätigkeiten zu verwerfen und nur durch die verbleibenden 5½ zu leben. Der Sprecher empfiehlt, durch alle zehn zu leben. Einen solchen Menschen nennt er einen Yogi und betont sadupayoga — richtige, nützliche Nutzung. Der praktische Sinn wird durch seine Beispiele erklärt: so viel Kleidung tragen, wie nötig ist; nutzen, was notwendig ist, und teilen, was übrig bleibt; eine Nadel dort verwenden, wo eine Nadel nötig ist, und ein Schwert dort, wo ein Schwert nötig ist; je nach Aufgabe und Umständen einen Hubschrauber, ein Privatflugzeug, einen Ochsenkarren oder ein Fahrrad wählen. Der Schwerpunkt liegt auf richtiger Nutzung, nicht auf ausschließlicher Bindung an Genuss oder an Entsagung. Das frühere Schema stellte samyak zwischen bhoga und tyāga, als richtige und ausgewogene Nutzung auf halbem Weg zwischen Genuss und Entsagung; dies sollte als veranschaulichende Interpretation verstanden werden. Samyak bedeutet richtig, angemessen oder vollständig; „die Mitte zwischen Genuss und Entsagung” ist nicht seine einzige wörtliche Bedeutung. Die genaue Verwendung dieses Wortes an anderer Stelle der Aufnahme wurde bei dieser Überprüfung nicht unabhängig aus dem Audio verifiziert.
 
-**4. Vergleich mit klassischem Yoga und Vedānta.** Das Schema der zehn Tätigkeiten sollte von der gängigen vierteiligen vedāntischen Beschreibung des antaḥkaraṇa — des „inneren Instruments” — unterschieden werden: manas, das der Information Aufmerksamkeit schenkt und sie abwägt, Alternativen erwägt oder zweifelt; buddhi, das unterscheidet, versteht und entscheidet; ahaṃkāra, das Gefühl des „Ich”, die Identifikation mit der Erfahrung als etwas „Meinem”; und chitta, Gedächtnis und Erinnerung, in manchen Beschreibungen auch Kontemplation. Dies sind funktionale Aspekte des inneren Instruments, nicht notwendigerweise vier getrennte Organe, und die Terminologie unterscheidet sich zwischen den Traditionen — insbesondere hat chitta im Yoga Patanjalis eine breitere Bedeutung als bloß „Gedächtnis” ([Swami Sivananda: Chitta und Gedächtnis](https://www.sivanandaonline.org/?cmd=displaysection&section_id=870)). Im Yoga Patanjalis bezeichnet vritti die Tätigkeiten oder Modifikationen der chitta. Die fünf in Yoga-Sutra 1.6 genannten Arten sind pramāṇa, viparyaya, vikalpa, nidrā und smṛti — gültige Erkenntnis, Irrtum, begriffliche Konstruktion, Schlaf und Gedächtnis —, eine andere Aufteilung als die fünf Bereiche mit je zwei Tätigkeiten ([Yoga-Sutras 1.2 und 1.5–1.7](https://sanskritdocuments.org/doc_yoga/yogasuutra.html)).
+**4. Vergleich mit klassischem Yoga und Vedānta.** Das Schema der zehn Tätigkeiten sollte von der gängigen vierteiligen vedāntischen Beschreibung des antaḥkaraṇa — des „inneren Instruments” — unterschieden werden.
+
+Manas, das der Information Aufmerksamkeit schenkt und sie abwägt, Alternativen erwägt oder zweifelt.
+
+Buddhi, das unterscheidet, versteht und entscheidet.
+
+Ahaṃkāra, das Gefühl des „Ich”, die Identifikation mit der Erfahrung als etwas „Meinem”.
+
+Chitta, Gedächtnis und Erinnerung, in manchen Beschreibungen auch Kontemplation.
+
+Dies sind funktionale Aspekte des inneren Instruments, nicht notwendigerweise vier getrennte Organe, und die Terminologie unterscheidet sich zwischen den Traditionen — insbesondere hat chitta im Yoga Patanjalis eine breitere Bedeutung als bloß „Gedächtnis” ([Swami Sivananda: Chitta und Gedächtnis](https://www.sivanandaonline.org/?cmd=displaysection&section_id=870)).
+
+Im Yoga Patanjalis bezeichnet vritti die Tätigkeiten oder Modifikationen der chitta. Die fünf in Yoga-Sutra 1.6 genannten Arten sind pramāṇa, viparyaya, vikalpa, nidrā und smṛti — gültige Erkenntnis, Irrtum, begriffliche Konstruktion, Schlaf und Gedächtnis —, eine andere Aufteilung als die fünf Bereiche mit je zwei Tätigkeiten ([Yoga-Sutras 1.2 und 1.5–1.7](https://sanskritdocuments.org/doc_yoga/yogasuutra.html)).
 
 **5. Glossar.**
 

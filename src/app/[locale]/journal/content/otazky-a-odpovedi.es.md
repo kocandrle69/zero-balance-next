@@ -214,7 +214,19 @@ La conversación conecta estas actividades con las siguientes formas de vida: 4�
 
 El objetivo no es descartar las primeras 4½ actividades y vivir solo a través de las 5½ restantes. El orador recomienda vivir a través de las diez. A tal persona la llama yogui y enfatiza sadupayoga — el uso correcto y beneficioso. El sentido práctico lo explican sus ejemplos: vestir la ropa que se necesita; usar lo necesario y compartir lo que sobra; usar una aguja donde se necesita una aguja, y una espada donde se necesita una espada; según la tarea y las circunstancias, elegir un helicóptero, un avión privado, una carreta de bueyes o una bicicleta. El énfasis está en el uso correcto, no en el apego exclusivo al disfrute o a la renuncia. El esquema anterior colocaba samyak entre bhoga y tyāga, como un uso correcto y equilibrado a medio camino entre el disfrute y la renuncia; esto conviene entenderlo como una interpretación ilustrativa. Samyak significa correctamente, adecuadamente o plenamente; «el punto medio entre el disfrute y la renuncia» no es su único significado literal. El uso preciso de esta palabra en otra parte de la grabación no se verificó de forma independiente a partir del audio durante esta revisión.
 
-**4. Comparación con el yoga clásico y el vedānta.** El esquema de las diez actividades debe distinguirse de la descripción vedántica común de cuatro partes del antaḥkaraṇa — el «instrumento interior»: manas, que atiende a la información y la sopesa, considera alternativas o duda; buddhi, que discierne, comprende y decide; ahaṃkāra, el sentido del «yo», que se identifica con la experiencia como algo «mío»; y chitta, memoria y recuerdo, y en algunas descripciones también contemplación. Se trata de aspectos funcionales del instrumento interior, no necesariamente de cuatro órganos separados, y la terminología varía entre tradiciones — en particular, chitta tiene en el yoga de Patáñjali un significado más amplio que la simple «memoria» ([Swami Sivananda: Chitta y memoria](https://www.sivanandaonline.org/?cmd=displaysection&section_id=870)). En el yoga de Patáñjali, vṛtti designa las actividades o modificaciones de chitta. Los cinco tipos indicados en el Yoga Sutra 1.6 son pramāṇa, viparyaya, vikalpa, nidrā y smṛti — conocimiento válido, conocimiento erróneo, construcción conceptual, sueño y memoria —, una división distinta de los cinco dominios con dos actividades cada uno ([Yoga Sutras 1.2 y 1.5–1.7](https://sanskritdocuments.org/doc_yoga/yogasuutra.html)).
+**4. Comparación con el yoga clásico y el vedānta.** El esquema de las diez actividades debe distinguirse de la descripción vedántica común de cuatro partes del antaḥkaraṇa — el «instrumento interior».
+
+Manas, que atiende a la información y la sopesa, considera alternativas o duda.
+
+Buddhi, que discierne, comprende y decide.
+
+Ahaṃkāra, el sentido del «yo», que se identifica con la experiencia como algo «mío».
+
+Chitta, memoria y recuerdo, y en algunas descripciones también contemplación.
+
+Se trata de aspectos funcionales del instrumento interior, no necesariamente de cuatro órganos separados, y la terminología varía entre tradiciones — en particular, chitta tiene en el yoga de Patáñjali un significado más amplio que la simple «memoria» ([Swami Sivananda: Chitta y memoria](https://www.sivanandaonline.org/?cmd=displaysection&section_id=870)).
+
+En el yoga de Patáñjali, vṛtti designa las actividades o modificaciones de chitta. Los cinco tipos indicados en el Yoga Sutra 1.6 son pramāṇa, viparyaya, vikalpa, nidrā y smṛti — conocimiento válido, conocimiento erróneo, construcción conceptual, sueño y memoria —, una división distinta de los cinco dominios con dos actividades cada uno ([Yoga Sutras 1.2 y 1.5–1.7](https://sanskritdocuments.org/doc_yoga/yogasuutra.html)).
 
 **5. Glosario.**
 
