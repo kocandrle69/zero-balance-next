@@ -60,7 +60,7 @@ export const POSTS: PostMeta[] = [
     date: '2026-10-22',
     cover: '/images/Sakti.jpg',
     coverPos: 'center 60%',
-    langs: ['cs'],
+    langs: ['cs', 'en', 'fr', 'es', 'de'],
     meta: {
       cs: {
         rubric: 'Promluvy - Gurudév',
@@ -72,6 +72,55 @@ export const POSTS: PostMeta[] = [
           z Indie a USA v den Vidžajadašamí — o energii, vědomí, karmě, službě kravám a
           vědeckém zkoumání starověkého indického poznání. Součástí je vedená meditace
           na kundaliní Šakti a tři granthi a slovníček pojmů.`,
+      },
+      en: {
+        rubric: 'Discourses - Gurudev',
+        title: "Gurudev's Talks",
+        titleEm: 'The Power of Shakti, the Secret of Meditation and the Science of Ancient India',
+        perex: `What is true spiritual power, and what role does Shakti play in our lives?
+          Why is meditative sadhana essential for purifying consciousness, and how are the
+          ancient Vedic traditions connected with modern science? An online gathering with
+          students from India and the USA on Vijayadashami — on energy, consciousness,
+          karma, serving cows and the scientific study of ancient Indian knowledge.
+          Includes a guided meditation on Kundalini Shakti and the three granthis, and a
+          glossary of terms.`,
+      },
+      fr: {
+        rubric: 'Discours - Gurudev',
+        title: 'Les discours de Gurudev',
+        titleEm: "La puissance de la Shakti, le secret de la méditation et la science de l'Inde ancienne",
+        perex: `Qu'est-ce que la véritable puissance spirituelle et quel rôle la Shakti
+          joue-t-elle dans notre vie ? Pourquoi la sadhana méditative est-elle
+          indispensable à la purification de la conscience et quel lien unit les
+          traditions védiques à la science moderne ? Une rencontre en ligne avec des
+          disciples d'Inde et des États-Unis le jour de Vijayadashami — sur l'énergie, la
+          conscience, le karma, le service aux vaches et l'étude scientifique de l'ancien
+          savoir indien. Comprend une méditation guidée sur la Kundalini Shakti et les
+          trois granthis, ainsi qu'un glossaire.`,
+      },
+      es: {
+        rubric: 'Discursos - Gurudev',
+        title: 'Discursos de Gurudev',
+        titleEm: 'El poder de Shakti, el secreto de la meditación y la ciencia de la antigua India',
+        perex: `¿Qué es el verdadero poder espiritual y qué papel desempeña Shakti en
+          nuestra vida? ¿Por qué es imprescindible la sádhana meditativa para purificar la
+          conciencia y cómo se relacionan las tradiciones védicas con la ciencia moderna?
+          Un encuentro en línea con discípulos de la India y de los Estados Unidos en el
+          día de Vijayadashami — sobre la energía, la conciencia, el karma, el servicio a
+          las vacas y el estudio científico del antiguo saber indio. Incluye una
+          meditación guiada sobre la Kundalini Shakti y los tres granthis, y un glosario.`,
+      },
+      de: {
+        rubric: 'Diskurse - Gurudev',
+        title: 'Gurudevs Vorträge',
+        titleEm: 'Die Kraft der Shakti, das Geheimnis der Meditation und die Wissenschaft des alten Indien',
+        perex: `Was ist wahre spirituelle Kraft, und welche Rolle spielt Shakti in unserem
+          Leben? Warum ist meditative Sadhana für die Reinigung des Bewusstseins
+          unerlässlich, und wie hängen die vedischen Traditionen mit moderner Wissenschaft
+          zusammen? Eine Online-Begegnung mit Schülern aus Indien und den USA am Tag von
+          Vijayadashami — über Energie, Bewusstsein, Karma, den Dienst an den Kühen und die
+          wissenschaftliche Erforschung des alten indischen Wissens. Mit einer geführten
+          Meditation zur Kundalini-Shakti und den drei Granthis sowie einem Glossar.`,
       },
     },
   },
