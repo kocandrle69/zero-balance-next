@@ -60,7 +60,7 @@ export const POSTS: PostMeta[] = [
     date: '2026-10-22',
     cover: '/images/Sakti.jpg',
     coverPos: 'center 60%',
-    langs: ['cs', 'en', 'fr', 'es', 'de'],
+    langs: ['cs', 'en', 'hi', 'fr', 'es', 'de'],
     meta: {
       cs: {
         rubric: 'Promluvy - Gurudév',
@@ -84,6 +84,17 @@ export const POSTS: PostMeta[] = [
           karma, serving cows and the scientific study of ancient Indian knowledge.
           Includes a guided meditation on Kundalini Shakti and the three granthis, and a
           glossary of terms.`,
+      },
+      hi: {
+        rubric: 'प्रवचन - गुरुदेव',
+        title: 'गुरुदेव के प्रवचन',
+        titleEm: 'शक्ति की सामर्थ्य, ध्यान का रहस्य और प्राचीन भारत का विज्ञान',
+        perex: `वास्तविक आध्यात्मिक शक्ति क्या है और हमारे जीवन में शक्ति की क्या भूमिका
+          है? चेतना की शुद्धि के लिए ध्यान साधना क्यों आवश्यक है और प्राचीन वैदिक
+          परंपराएँ आधुनिक विज्ञान से कैसे जुड़ी हैं? विजयादशमी के दिन भारत और अमेरिका के
+          शिष्यों के साथ ऑनलाइन संवाद — ऊर्जा, चेतना, कर्म, गौ सेवा और प्राचीन भारतीय
+          ज्ञान के वैज्ञानिक अध्ययन पर। इसमें कुंडलिनी शक्ति और तीन ग्रंथियों पर
+          निर्देशित ध्यान तथा शब्दावली भी शामिल है।`,
       },
       fr: {
         rubric: 'Discours - Gurudev',
