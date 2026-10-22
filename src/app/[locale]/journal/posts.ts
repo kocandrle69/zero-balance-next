@@ -56,6 +56,26 @@ export interface PostMeta {
 
 export const POSTS: PostMeta[] = [
   {
+    slug: 'sila-sakti',
+    date: '2026-10-22',
+    cover: '/images/Sakti.jpg',
+    coverPos: 'center 60%',
+    langs: ['cs'],
+    meta: {
+      cs: {
+        rubric: 'Promluvy - Gurudév',
+        title: 'Gurudévovy promluvy',
+        titleEm: 'Síla Šakti, tajemství meditace a věda starověké Indie',
+        perex: `Co je skutečná duchovní síla a jakou úlohu hraje Šakti v našem životě?
+          Proč je meditační sádhana nezbytná pro očištění vědomí a jak souvisejí
+          starověké védské tradice s moderním vědeckým poznáním? Online setkání se žáky
+          z Indie a USA v den Vidžajadašamí — o energii, vědomí, karmě, službě kravám a
+          vědeckém zkoumání starověkého indického poznání. Součástí je vedená meditace
+          na kundaliní Šakti a tři granthi a slovníček pojmů.`,
+      },
+    },
+  },
+  {
     slug: 'otazky-a-odpovedi',
     date: '2026-09-21',
     cover: '/images/Gurudev_call.png',
