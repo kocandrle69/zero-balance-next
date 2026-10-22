@@ -58,8 +58,8 @@ export const POSTS: PostMeta[] = [
   {
     slug: 'sila-sakti',
     date: '2026-10-22',
-    cover: '/images/Sakti.jpg',
-    coverPos: 'center 60%',
+    cover: '/images/Gurudev-5.jpg',
+    coverPos: 'center 20%',
     langs: ['cs', 'en', 'hi', 'fr', 'es', 'de'],
     meta: {
       cs: {
