@@ -5,7 +5,7 @@ import { useSearchParams } from 'next/navigation'
 import { useLang } from '../../../contexts/LangContext'
 import Navbar from '../../../components/Navbar'
 import Footer from '../../../components/Footer'
-import { VIDEOS, CATEGORIES, watchUrl, type VideoCategory } from '../../../components/MediaSection'
+import { VIDEOS as ALL_VIDEOS, CATEGORIES, FEATURED_VIDEO_IDS, watchUrl, type VideoCategory } from '../../../components/MediaSection'
 import styles from './media.module.css'
 
 export default function MediaContent() {
@@ -15,6 +15,11 @@ export default function MediaContent() {
   const fr = lang === 'fr'
   const es = lang === 'es'
   const de = lang === 'de'
+  // Featured Dhyan Sadhana (VIDEOS[0]) má na YouTube zvlášť nahrání pro každý
+  // jazyk — stejně jako na úvodní stránce vyměníme id podle jazyka webu.
+  const VIDEOS = ALL_VIDEOS.map((v, i) =>
+    i === 0 ? { ...v, id: FEATURED_VIDEO_IDS[lang] ?? FEATURED_VIDEO_IDS.en! } : v
+  )
   const searchParams = useSearchParams()
   const categoryParam = searchParams.get('category')
   const parsedCats = categoryParam
@@ -140,7 +145,7 @@ export default function MediaContent() {
   )
 }
 
-function VideoCard({ video, cs, hi, fr, es, de }: { video: typeof VIDEOS[0]; cs: boolean; hi: boolean; fr: boolean; es: boolean; de: boolean }) {
+function VideoCard({ video, cs, hi, fr, es, de }: { video: typeof ALL_VIDEOS[0]; cs: boolean; hi: boolean; fr: boolean; es: boolean; de: boolean }) {
   const [playing, setPlaying] = useState(false)
   const videoUrl = watchUrl(video)
   const title = hi ? video.titleHI : cs ? video.titleCS : fr ? video.titleFR : es ? video.titleES : de ? video.titleDE : video.titleEN
