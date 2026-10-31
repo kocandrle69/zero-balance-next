@@ -15,9 +15,9 @@ import type { Lang } from '../lib/translations'
  * FORM_EMBEDS na registrační stránce.
  */
 export const FEATURED_VIDEO_IDS: Partial<Record<Lang, string>> = {
-  cs: 'gqx6myXfg4E',
-  en: '1-dBIZMvcXs',
-  hi: 'iDhVyNM5hj4',
+  cs: 'ecW7BPL30eQ',
+  en: 'NRKYT71L7zs',
+  hi: 'Xa8Jqk39EGE',
 }
 
 // ─── Kategorie ────────────────────────────────────────────────────────────────
@@ -61,7 +61,7 @@ export const VIDEOS = [
   // /media). Text už neříká "s českým dabingem" — dřív to bylo jedno
   // video pro všechny, teď každý jazyk slyší svůj vlastní dabing.
   {
-    id: '1-dBIZMvcXs',
+    id: 'NRKYT71L7zs',
     titleCS: 'Dhyan Sadhana',
     titleEN: 'Dhyan Sadhana',
     descCS:  'Sadhana vedená Gurudevem v srpnu 2026.',
