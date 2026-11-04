@@ -6,7 +6,24 @@ import { useLang } from '../../../contexts/LangContext'
 import Navbar from '../../../components/Navbar'
 import Footer from '../../../components/Footer'
 import { VIDEOS as ALL_VIDEOS, CATEGORIES, FEATURED_VIDEO_IDS, watchUrl, type VideoCategory } from '../../../components/MediaSection'
+import { Link } from '../../../i18n/navigation'
+import { getPost, getMeta, toPostLang } from '../journal/posts'
+import { INDIA_2026 } from '../journal/gallery/india2026'
 import styles from './media.module.css'
+
+/**
+ * Fotogalerie z Journalu, které se v Médiích ukazují jako dlaždice vedle videí.
+ * Titulek/obálka se berou z posts.ts, počet fotek z dat galerie — nic se tu
+ * neduplikuje. `photographer` musí sedět s PUBLISHED v India2026Gallery.tsx.
+ */
+const PHOTO_GALLERIES = [
+  {
+    slug: 'bharat-2026',
+    photographer: 'Andrea',
+    count: INDIA_2026.filter(s => s.photographer === 'Andrea').flatMap(s => s.photos).length,
+    thumb: '/images/india-2026/andrea/thumb/028.webp',
+  },
+]
 
 export default function MediaContent() {
   const { lang } = useLang()
@@ -89,6 +106,21 @@ export default function MediaContent() {
             </button>
           ))}
         </div>
+
+        {/* Fotogalerie — u "Vše" a u filtru Cesty do Indie (fotky jsou z cesty) */}
+        {(!activeCats || activeCats.includes('journeys')) && (
+          <div className={styles.categorySection}>
+            <div className={styles.catLabel}>
+              {hi ? 'फोटो गैलरी' : cs ? 'Fotogalerie' : fr ? 'Galerie photo' : es ? 'Galería de fotos' : de ? 'Fotogalerie' : 'Photo gallery'}
+            </div>
+            <div className={styles.videoGrid}>
+              {PHOTO_GALLERIES.map(g => (
+                <PhotoGalleryCard key={g.slug} gallery={g} lang={lang} cs={cs} hi={hi} fr={fr} es={es} de={de} />
+              ))}
+            </div>
+            <hr className={styles.divider} />
+          </div>
+        )}
 
         {/* Sections */}
         {sections.map(cat => {
@@ -198,5 +230,68 @@ function VideoCard({ video, cs, hi, fr, es, de }: { video: typeof ALL_VIDEOS[0];
         </span>
       </div>
     </a>
+  )
+}
+/**
+ * Dlaždice fotogalerie — stejné třídy jako VideoCard, aby v mřížce vypadala
+ * jako náhled videa; místo přehrávání vede na článek v Journalu.
+ */
+function PhotoGalleryCard({ gallery, lang, cs, hi, fr, es, de }: {
+  gallery: typeof PHOTO_GALLERIES[number]; lang: string
+  cs: boolean; hi: boolean; fr: boolean; es: boolean; de: boolean
+}) {
+  const post = getPost(gallery.slug)
+  if (!post) return null
+  const meta = getMeta(post, toPostLang(lang))
+  const n = gallery.count
+  const title = meta.titleEm ? `${meta.title} — ${meta.titleEm}` : meta.title
+  const desc = hi
+    ? `${gallery.photographer} की भारत यात्रा की फोटो डायरी — ${n} तस्वीरें।`
+    : cs
+    ? `Fotografický deník Andrey z letošní cesty do Indie — ${n} fotografií.`
+    : fr
+    ? `Le journal photo d’${gallery.photographer} de son voyage en Inde — ${n} photographies.`
+    : es
+    ? `El diario fotográfico de ${gallery.photographer} de su viaje a la India — ${n} fotografías.`
+    : de
+    ? `${gallery.photographer}s Fototagebuch ihrer Indienreise — ${n} Fotografien.`
+    : `${gallery.photographer}'s photo diary from her journey to India — ${n} photographs.`
+  const tag = hi ? 'फोटो गैलरी' : cs ? 'FOTOGALERIE' : fr ? 'GALERIE PHOTO' : es ? 'GALERÍA' : de ? 'FOTOGALERIE' : 'PHOTO GALLERY'
+
+  return (
+    <Link
+      href={`/journal/${gallery.slug}`}
+      className={styles.videoCard}
+      style={{ textDecoration: 'none', display: 'block' }}
+    >
+      <div className={styles.cardPlayer}>
+        <div className={styles.cardThumb}>
+          <img
+            src={gallery.thumb}
+            alt={title}
+            className={styles.thumbImg}
+            style={post.coverPos ? { objectPosition: post.coverPos } : undefined}
+            loading="lazy"
+            decoding="async"
+          />
+          <div className={styles.thumbOverlay} />
+          <span className={styles.cardPlayBtn} aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinejoin="round" width="22" height="22">
+              <path d="M4 8h3.5l1.8-2.5h5.4L16.5 8H20v11H4z" />
+              <circle cx="12" cy="13.2" r="3.4" />
+            </svg>
+          </span>
+          <span className={styles.cardTag}>{tag}</span>
+        </div>
+      </div>
+      <div className={styles.cardMeta}>
+        <span className={styles.cardDate}>{post.date.slice(0, 4)}</span>
+        <div className={styles.cardTitle}>{title}</div>
+        <p className={styles.cardDesc}>{desc}</p>
+        <span className={styles.watchLink}>
+          {hi ? 'गैलरी देखें' : cs ? 'Prohlédnout galerii' : fr ? 'Voir la galerie' : es ? 'Ver la galería' : de ? 'Galerie ansehen' : 'View the gallery'}
+        </span>
+      </div>
+    </Link>
   )
 }
