@@ -54,6 +54,8 @@ export function watchUrl(video: { id: string; list?: string; channelUrl?: string
 
 // ─── Video data ───────────────────────────────────────────────────────────────
 // Pořadí na hlavní stránce: featured = Sadhana, preview[0] = Moudrost Indie, preview[1] = Ášrám
+// `published` = datum nahrání na YouTube (YYYY-MM-DD). Řadí videa na /media
+// od nejnovějšího; zobrazovaný rok (`date`) zůstává, jak byl zadán ručně.
 export const VIDEOS = [
   // 1. FEATURED — homepage swaps the actual video by language (viz
   // FEATURED_VIDEO_IDS výše); tenhle `id` je jen fallback/výchozí pro
@@ -62,6 +64,7 @@ export const VIDEOS = [
   // video pro všechny, teď každý jazyk slyší svůj vlastní dabing.
   {
     id: 'NRKYT71L7zs',
+    published: '2026-10-31',
     titleCS: 'Dhyan Sadhana',
     titleEN: 'Dhyan Sadhana',
     descCS:  'Sadhana vedená Gurudevem v srpnu 2026.',
@@ -88,6 +91,7 @@ export const VIDEOS = [
   // 2. PREVIEW — Moudrost Indie: Úvod (lekce 1)
   {
     id: 'rOTNqc8BbHw',
+    published: '2023-01-01',
     titleCS: 'Video lekce se Sensei Rajeev Sinhou',
     titleEN: 'Video Lessons with Sensei Rajeev Sinha',
     descCS:  'První lekce ze série Moudrost Indie. Sensei Rajeev Sinha uvádí do hloubky indické filozofie a spirituální praxe.',
@@ -114,6 +118,7 @@ export const VIDEOS = [
   // 3. PREVIEW — Ášrám
   {
     id: 'ipJoR8PvPDo',
+    published: '2026-05-18',
     titleCS: 'Týden v ášrámu Karauli Shankar Mahadev Dham',
     titleEN: 'A Week at Karauli Shankar Mahadev Dham Ashram',
     descCS:  'Pohled do každodenního rytmu ášrámu — ranní sadhana, puja, satsang a tiché chvíle.',
@@ -140,6 +145,7 @@ export const VIDEOS = [
   // Sekce: Moudrost Indie
   {
     id: 'OzXzXRVnFvc',
+    published: '2023-01-06',
     titleCS: 'Moudrost Indie — Finding a Complete Master',
     titleEN: 'Wisdom of India — Finding a Complete Master',
     descCS:  'Druhá lekce série: co to znamená najít skutečného mistra na duchovní cestě.',
@@ -165,6 +171,7 @@ export const VIDEOS = [
   },
   {
     id: 'OxrFgXqKYFg',
+    published: '2023-01-22',
     titleCS: 'Moudrost Indie — Kontrola nad prvky přírody',
     titleEN: 'Wisdom of India — Control over the Elements of Nature',
     descCS:  'Třetí lekce: jak jogíni a tantrikové pracují s přírodními silami.',
@@ -190,6 +197,7 @@ export const VIDEOS = [
   },
   {
     id: 'L17tfQvwT_I',
+    published: '2023-01-25',
     titleCS: 'Moudrost Indie — Lekce 4',
     titleEN: 'Wisdom of India — Lesson 4',
     descCS:  'Čtvrtá část série s Sensei Rajeev Sinha.',
@@ -215,6 +223,7 @@ export const VIDEOS = [
   },
   {
     id: '3zmenJyvr7o',
+    published: '2023-02-07',
     titleCS: 'Moudrost Indie — Religion is Coded Human Expression',
     titleEN: 'Wisdom of India — Religion is Coded Human Expression',
     descCS:  'Pátá lekce: náboženství jako zakódovaný lidský výraz vědomí.',
@@ -240,6 +249,7 @@ export const VIDEOS = [
   },
   {
     id: '_Yt0UzvmfG8',
+    published: '2023-04-02',
     titleCS: 'Moudrost Indie — Science is the Law of Nature',
     titleEN: 'Wisdom of India — Science is the Law of Nature',
     descCS:  'Šestá lekce: věda jako zákon přírody v pohledu indické filozofie.',
@@ -265,6 +275,7 @@ export const VIDEOS = [
   },
   {
     id: 'b4RmE7bxkJ4',
+    published: '2023-09-01',
     titleCS: 'Moudrost Indie — Jak nejlépe pokročit v sadhně?',
     titleEN: 'Wisdom of India — What are the best ways to progress in sadhna?',
     descCS:  'Sedmá lekce: praktické rady pro pokrok na cestě sadhany.',
@@ -290,6 +301,7 @@ export const VIDEOS = [
   },
   {
     id: 'x4bmLRMA1oI',
+    published: '2023-09-23',
     titleCS: 'Moudrost Indie — Unlocking the Power of YogaTantra',
     titleEN: 'Wisdom of India — Unlocking the Power of YogaTantra',
     descCS:  'Osmá lekce: síla Jógatantry a jak ji aktivovat v praxi.',
@@ -315,6 +327,7 @@ export const VIDEOS = [
   },
   {
     id: 'kg6-YHE50uQ',
+    published: '2026-08-01',
     titleCS: 'Kdo skutečně jste a kam odejdete poté, co opustíte své tělo?',
     titleEN: 'Who are you really, and where do you go after you leave your body?',
     descCS:  'Je tělo naším skutečným domovem, nebo jen dočasným místem na cestě vědomí? Jazyk titulků lze přepnout v nastavení videa.',
@@ -341,6 +354,7 @@ export const VIDEOS = [
   // Sekce: Sadhana
   {
     id: 'RWklWj6_mcY',
+    published: '2026-05-23',
     channelUrl: 'https://www.youtube.com/@PoornaGuru',
     titleCS: 'Dhyan Sadhana — pravidelná praxe v hindštině na @PoornaGuru',
     titleEN: 'Dhyan Sadhana — regular practice in Hindi on @PoornaGuru',
@@ -368,6 +382,7 @@ export const VIDEOS = [
   // Sekce: Ášrám
   {
     id: 'nqVjdWMgWbY',
+    published: '2024-06-26',
     titleCS: 'Ášrám Karauli Shankar Mahadev Dham — záznamy',
     titleEN: 'Karauli Shankar Mahadev Dham Ashram — recordings',
     descCS:  'Záznamy ze života v ášrámu — rituály, praxe a duchovní atmosféra místa.',
@@ -393,6 +408,7 @@ export const VIDEOS = [
 
   {
     id: 'Lgz_pjQ8mok',
+    published: '2023-09-18',
     titleCS: 'Udělení Deeksha v ášrámu Karauli Shankar',
     titleEN: 'Deeksha Ceremony at Karauli Shankar Ashram',
     descCS:  'Převedení do vyšší úrovně Tantra Yog — vzácný obřad v přítomnosti Gurudeva.',
@@ -418,6 +434,7 @@ export const VIDEOS = [
   // Sekce: Okolí ášrámu
   {
     id: 'DnFdardLSV8',
+    published: '2026-05-18',
     titleCS: 'Okolí ášrámu Karauli Shankar Mahadev Dham',
     titleEN: 'Around Karauli Shankar Mahadev Dham Ashram',
     descCS:  'Procházka okolím ášrámu — krajina, chrámy a každodenní život v Karauli.',
@@ -446,6 +463,7 @@ export const VIDEOS = [
   // ── Meditace žáků ─────────────────────────────────────────────────────────
   {
     id: '9CI51jXo-q4',
+    published: '2025-02-12',
     category: 'meditation' as const,
     titleCS: 'AUM Meditace — noční praxe žáků v ášrámu',
     titleEN: 'AUM Meditation — night practice of disciples at the ashram',
@@ -467,6 +485,7 @@ export const VIDEOS = [
   },
   {
     id: '882UtPlnSXE',
+    published: '2022-07-10',
     category: 'meditation' as const,
     titleCS: 'Zahraniční žáci Gurudeva — duchovní praxe v ášrámu',
     titleEN: 'Gurudev\'s foreign disciples — spiritual practice at the ashram',
@@ -489,6 +508,7 @@ export const VIDEOS = [
   // ── Rituály, havany, aarti ─────────────────────────────────────────────────
   {
     id: '0gDA7jlVYdI',
+    published: '2026-05-31',
     category: 'rituals' as const,
     titleCS: 'Rudrabhišek — védský rituál v ášrámu Karauli Shankar',
     titleEN: 'Rudrabhishek — Vedic ritual at Karauli Shankar ashram',
@@ -510,6 +530,7 @@ export const VIDEOS = [
   },
   {
     id: 'PiR2jW002dU',
+    published: '2025-02-12',
     category: 'rituals' as const,
     titleCS: 'Purnima Havan v ášrámu Karauli Sarkar',
     titleEN: 'Purnima Havan at Karauli Sarkar Ashram',
@@ -531,6 +552,7 @@ export const VIDEOS = [
   },
   {
     id: 'VqBudw3Wbts',
+    published: '2024-04-25',
     category: 'rituals' as const,
     titleCS: 'Jednodenní havan v ášrámu Karauli Shankar',
     titleEN: 'One Day Havan at Karauli Shankar Ashram',
@@ -553,6 +575,7 @@ export const VIDEOS = [
   // ── Cesty po Indii ─────────────────────────────────────────────────────────
   {
     id: 'gkmYHOGHdBg',
+    published: '2024-04-14',
     category: 'journeys' as const,
     titleCS: 'Matka Ganga v dešti',
     titleEN: 'Mother Ganga in the Rain',
@@ -574,6 +597,7 @@ export const VIDEOS = [
   },
   {
     id: 'EvGYE9Cmmvo',
+    published: '2024-02-07',
     category: 'journeys' as const,
     titleCS: 'Úchvatná, ale nevyzpytatelná: Cesta Himalájemi',
     titleEN: 'Breathtaking yet Unpredictable: Journey through the Himalayas',
@@ -596,6 +620,7 @@ export const VIDEOS = [
   // ── Deeksha ────────────────────────────────────────────────────────────────
   {
     id: 'bkt7sJPkbvs',
+    published: '2023-10-28',
     category: 'deeksha' as const,
     titleCS: 'Bhajan večer v ášrámu v Haridwaru',
     titleEN: 'Bhajan Evening at the Haridwar Ashram',
@@ -618,6 +643,7 @@ export const VIDEOS = [
   // ── Rozmluvy s Gurudevem ───────────────────────────────────────────────────
   {
     id: 'BysyWEE3TeE',
+    published: '2022-07-07',
     category: 'gurudev' as const,
     titleCS: 'Gurudev a zahraniční žáci — rozmluva a praxe',
     titleEN: 'Gurudev with foreign disciples — conversation and practice',
@@ -639,6 +665,7 @@ export const VIDEOS = [
   },
   {
     id: '2dADmQbSdYY',
+    published: '2022-07-08',
     category: 'gurudev' as const,
     titleCS: 'Duchovní rozmluva se zahraničními žáky — Den 2',
     titleEN: 'Spiritual conversation with foreign disciples — Day 2',
@@ -660,6 +687,7 @@ export const VIDEOS = [
   },
   {
     id: 'aHE-DiIeJ1g',
+    published: '2022-07-09',
     category: 'gurudev' as const,
     titleCS: 'Duchovní rozmluva se zahraničními žáky — Den 3',
     titleEN: 'Spiritual conversation with foreign disciples — Day 3',
@@ -681,6 +709,7 @@ export const VIDEOS = [
   },
   {
     id: 'Yd1BhR9PnU8',
+    published: '2022-07-16',
     category: 'gurudev' as const,
     titleCS: 'Duchovní rozmluva se zahraničními žáky — závěrečné setkání',
     titleEN: 'Spiritual conversation with foreign disciples — final gathering',
@@ -703,6 +732,7 @@ export const VIDEOS = [
   // ── Aarti s Gurudevem ──────────────────────────────────────────────────────
   {
     id: 'gluWxOF7_hE',
+    published: '2021-09-20',
     category: 'aarti' as const,
     titleCS: 'Purnima — zvláštní havan a gurudíkša',
     titleEN: 'Purnima — special havan and Gurudeeksha',
@@ -724,6 +754,7 @@ export const VIDEOS = [
   },
   {
     id: 'NIP_DO0cKe8',
+    published: '2021-04-14',
     category: 'aarti' as const,
     titleCS: 'Aarti Guru Maty — Karauli Sarkar',
     titleEN: 'Aarti of Guru Mata — Karauli Sarkar',
@@ -745,6 +776,7 @@ export const VIDEOS = [
   },
   {
     id: 'Fi2c7m264Vc',
+    published: '2021-03-24',
     category: 'aarti' as const,
     titleCS: 'Krásná aarti Babaji — Karauli Sarkar',
     titleEN: 'Beautiful Aarti of Babaji — Karauli Sarkar',
@@ -772,6 +804,7 @@ export const VIDEOS = [
   // "preview" kartičky vedle featured, a tenhle záznam by je odsunul.
   {
     id: 'hlnSuJFnywA',
+    published: '2026-03-24',
     titleCS: 'Dhyan Sadhana — s českým dabingem',
     titleEN: 'Dhyan Sadhana — with Czech dubbing',
     descCS:  'Vedená sadhana s přímým přenosem učení Gurudeva — s českým dabingem pro naši komunitu.',
@@ -800,6 +833,7 @@ export const VIDEOS = [
   // Gurudev (act2 → ?category=gurudev)
   {
     id: 'z2M949yu1Q4',
+    published: '2026-08-30',
     category: 'gurudev' as const,
     titleCS: 'Duchovní rozmluva se žáky z Ameriky, Londýna a Evropy',
     titleEN: 'Spiritual dialogue with disciples from America, London and Europe',
@@ -821,6 +855,7 @@ export const VIDEOS = [
   },
   {
     id: 'kkKh2BlEshs',
+    published: '2026-09-20',
     category: 'gurudev' as const,
     titleCS: 'Zvláštní promluva Gurudeva — otázky, odpovědi a sádhana',
     titleEN: 'A special address by Gurudev — questions, answers and sadhana',
@@ -842,6 +877,7 @@ export const VIDEOS = [
   },
   {
     id: 'ItJQuaUZ5Eg',
+    published: '2026-10-21',
     category: 'gurudev' as const,
     titleCS: 'Global Conference — rozhovor se zahraničními žáky',
     titleEN: 'Global Conference — conversation with disciples from abroad',
@@ -864,6 +900,7 @@ export const VIDEOS = [
   // Cesty do Indie (act3 → ?category=journeys,ashram)
   {
     id: 'YlaLVXS_guk',
+    published: '2026-08-04',
     category: 'journeys' as const,
     categories: ['journeys', 'ashram'] as VideoCategory[],
     titleCS: 'Život kolem ášrámu — lidé, zvířata a příroda',
@@ -886,6 +923,7 @@ export const VIDEOS = [
   },
   {
     id: 'EMScub0o_yQ',
+    published: '2026-08-04',
     category: 'journeys' as const,
     titleCS: 'Oslavili jsme 62. narozeniny našeho Gurudeva',
     titleEN: 'Celebrating our Gurudev’s 62nd birthday',
@@ -907,6 +945,7 @@ export const VIDEOS = [
   },
   {
     id: 'f31eNcYHxXA',
+    published: '2026-08-03',
     category: 'journeys' as const,
     categories: ['journeys', 'ashram'] as VideoCategory[],
     titleCS: 'Návrat do ášrámu: z ruchu Nového Dillí do ticha Karauli Sarkar Mahadev Dham',
@@ -930,6 +969,7 @@ export const VIDEOS = [
   // Obřady i Cesty do Indie (act5 → ?category=rituals, act3)
   {
     id: 'ZG_xCqQZ-Zw',
+    published: '2026-08-06',
     category: 'rituals' as const,
     categories: ['rituals', 'journeys'] as VideoCategory[],
     titleCS: 'Ártí u Mata Guru — Karauli Shankar Mahadev Dham, Kánpur 2026',
@@ -952,6 +992,7 @@ export const VIDEOS = [
   },
   {
     id: 'EeEGUTO9nxU',
+    published: '2026-08-04',
     category: 'rituals' as const,
     categories: ['rituals', 'journeys'] as VideoCategory[],
     titleCS: 'Ártí na Guru Púrnimu 2026',
@@ -974,6 +1015,7 @@ export const VIDEOS = [
   },
   {
     id: 'Z932TndtqpI',
+    published: '2026-08-02',
     category: 'rituals' as const,
     titleCS: 'Rudrabhišek v měsíci šrávan s Gurudevem',
     titleEN: 'Rudrabhishek in the month of Shravan with Gurudev',
@@ -996,6 +1038,7 @@ export const VIDEOS = [
   // Studium & diskuse (act4 → ?category=wisdom)
   {
     id: 'sA8Y9P8uGeY',
+    published: '2026-09-10',
     category: 'wisdom' as const,
     titleCS: 'Proč nestačí jen vědět? Duchovní praxe se Senseiem Rajeevem Sinhou',
     titleEN: 'Why knowing isn’t enough: spiritual practice with Sensei Rajeev Sinha',
@@ -1017,6 +1060,7 @@ export const VIDEOS = [
   },
   {
     id: 'Se28puvXIAQ',
+    published: '2026-09-10',
     category: 'wisdom' as const,
     titleCS: 'Duchovní cesta, nebo další závislost? Sensei Talks',
     titleEN: 'The spiritual path or another attachment? Sensei Talks',

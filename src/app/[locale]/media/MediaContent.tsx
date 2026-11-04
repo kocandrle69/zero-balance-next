@@ -128,6 +128,8 @@ export default function MediaContent() {
             const vc = v as VideoWithCategories
             return vc.categories ? vc.categories.includes(cat.id) : vc.category === cat.id
           })
+            // nejnovější nahoře (podle data nahrání na YouTube)
+            .sort((a, b) => b.published.localeCompare(a.published))
           if (!videos.length) return null
           return (
             <div key={cat.id} className={styles.categorySection}>
