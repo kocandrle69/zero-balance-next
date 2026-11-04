@@ -865,6 +865,7 @@ export const VIDEOS = [
   {
     id: 'YlaLVXS_guk',
     category: 'journeys' as const,
+    categories: ['journeys', 'ashram'] as VideoCategory[],
     titleCS: 'Život kolem ášrámu — lidé, zvířata a příroda',
     titleEN: 'Life around the ashram — people, animals and nature',
     descCS:  'Každodenní život v okolí ášrámu Karauli Shankar Mahadev Dham — lidé, zvířata a krajina.',
@@ -907,6 +908,7 @@ export const VIDEOS = [
   {
     id: 'f31eNcYHxXA',
     category: 'journeys' as const,
+    categories: ['journeys', 'ashram'] as VideoCategory[],
     titleCS: 'Návrat do ášrámu: z ruchu Nového Dillí do ticha Karauli Sarkar Mahadev Dham',
     titleEN: 'Back to the ashram: from the bustle of New Delhi to the silence of Karauli Sarkar Mahadev Dham',
     descCS:  'Cesta z Nového Dillí do ášrámu v Kánpuru — od ruchu velkoměsta k tichu praxe.',

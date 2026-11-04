@@ -36,7 +36,8 @@ export default function IndiaSection() {
                 <span className={styles.lbl}>{t('india_s2')}</span>
               </div>
             </Link>
-            <Link href="/media?category=journeys,place" className={styles.indiaStatLink}>
+            {/* Stejný výběr jako karta "Cesty do Indie" v ActivitiesSection (act3). */}
+            <Link href="/media?category=journeys,ashram" className={styles.indiaStatLink}>
               <div className={styles.indiaStat}>
                 <span className={styles.num}>{t('india_v3')}</span>
                 <span className={styles.lbl}>{t('india_s3')}</span>
