@@ -50,7 +50,8 @@ const EVENTS = [
     linkFR:  'Voir sur YouTube',
     linkES:  'Ver en YouTube',
     linkDE:  'Auf YouTube ansehen',
-    url:     'https://www.youtube.com/watch?v=cmcITWGTO-0',
+    // Starý záznam (cmcITWGTO-0) z YouTube zmizel (11/2026). Čas t=947s dodal klient.
+    url:     'https://www.youtube.com/watch?v=cFZFCDWLqVE&t=947s',
     // Deeksha gate — Sankalp praxi lze provádět jen po mantra/tantra dikše
     // u Karauli Shankar Mahadev Dham; bratr klienta trval na tom, že tahle
     // podmínka musí být u karty výslovně uvedená, ne jen předpokládaná.
